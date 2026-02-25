@@ -1,0 +1,134 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://github.com/HelmerLuzo/PlutoTV_HL/raw/4c9e648d2c2b070f43648ca5b231156f5858f019/epg/mx.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epg.pw/api/epg.xml?channel_id=427680" x-tvg-url="https://gist.githubusercontent.com/miece/e30ca1108c0dc027dab307cbcfeb9035/raw/2b1fcffac9549c9c01b87fdfdb386b3fada5a31d/epg.xml"
+
+#EXTINF:-1 ch-number="1" tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.imgur.com/rRxgBtI.png" group-title="MEXICO", Azteca UNO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
+
+#EXTINF:-1 ch-number="2" tvg-id="CANAL DE LAS ESTRELLAS.mx" tvg-logo="https://i.postimg.cc/BQXPGDNJ/Las-Estrellas-logo.png" group-title="MEXICO", Las Estrellas
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=latamvosliveclarovideo.akamaized.net
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+
+#EXTINF:-1 ch-number="3" tvg-id="IMAGEN TELEVISION.mx" tvg-logo="https://i.postimg.cc/wBvjhYrQ/Logo-Imagen-Television-2016.png" group-title="MEXICO", Imagen Televisión
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6149
+
+#EXTINF:-1 ch-number="4" tvg-id="FORO TV.mx" tvg-logo="https://i.postimg.cc/9QHxRWD7/n-foro-logo-png-seeklogo-606469.png" group-title="MEXICO", N+ FORO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://notusaauth.univision.com/api/v3/akamai-auth/token-auth?url=https://channel02secure-notusa.akamaized.net/hls/live/2023914/event01/index_6.m3u8&redirect=true
+
+#EXTINF:-1 ch-number="5" tvg-id="CANAL 5.mx" tvg-logo="https://i.ibb.co/V310Z0q/canal5.png" group-title="MEXICO", Canal 5
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"61qNtkyhmSOJZy7blEfHEQ", "kid":"KowtUIg3f1H4Jdhx5Wi+GQ" } ], "type":"temporary" }
+https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
+
+#EXTINF:-1 ch-number="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://imgur.com/4IGzNdq" group-title="MEXICO", Multimedios 6 CDMX
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
+
+#EXTINF:-1 ch-number="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="MEXICO", Azteca 7
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
+
+#EXTINF:-1 ch-number="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/kM1Gg4hg/adn-noticias.png" group-title="MEXICO", adn Noticias
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"VdKhXBCmAJOjUKVjiYeVQg", "kid":"e/ZXkilk6HWUiv6vhTlU+w" } ], "type":"temporary" }
+https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/ADN-40-HD/default.mpd
+
+#EXTINF:-1 ch-number="9" tvg-id="Canal.9.de.México.(XEQ-TDT).mx" tvg-logo="https://i.postimg.cc/j2sqKjRs/nueve.png" group-title="MEXICO", Canal Nueve
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jT2D+t/HaWdLnHECEJ/EZg", "kid":"C7kQpCF6GvGbgD5/EgeW+Q" } ], "type":"temporary" }
+https://nog-live1-ott.izzigo.tv/1/out/u/dash/CANAL9HD/default.mpd
+
+#EXTINF:-1 ch-number="10" tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.postimg.cc/hGvgwbcZ/Milenio-Television.png" group-title="MEXICO", Milenio Televisión
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
+
+#EXTINF:-1 ch-number="11" tvg-id="TeleplaySureste.mx@SD" tvg-logo="https://i.postimg.cc/CKqxstvV/once.png" group-title="MEXICO", Teleplay Sureste Merida
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
+
+#EXTINF:-1 ch-number="12" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="MEXICO", Tele Yucatan
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
+
+#EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="MEXICO", Canal 13 Yucatan
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/rEc2tx6cIlw/expires/1767777414/srcIp/201.148.8.15/urls/45.136.21.80/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+
+#EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://i.postimg.cc/pr2KqH51/487132275-1350451163279915-2917187620097115888-n.png" group-title="MEXICO", Sipse Merida
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+https://webprod.sipse.com.mx:8080/show/merida.m3u8
+
+#EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://i.imgur.com/uiTgClU.png" group-title="MEXICO", Sipse Cancun
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
+
+
