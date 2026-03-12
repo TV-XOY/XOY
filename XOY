@@ -574,7 +574,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsports3hd)/variant.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"9b9f674aca77e6e2d9e087d744ef9518":"9c79efe8f7510efe6a768ac4be5f93ff"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONEMX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONEMX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 1" tvg-logo="https://i.postimg.cc/Vkyf9Hx9/FOX-ONE-1-MX.png" group-title="DEPORTES", FOX ONE 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -582,7 +582,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"da13bd9d503a6d8bbe34f9b185dfe521":"787ecfe954108c152284ec89e379d7eb"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE1MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE1MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 2" tvg-logo="https://i.postimg.cc/Y05H3hsw/FOX-ONE-2-MX.png" group-title="DEPORTES", FOX ONE 2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -590,7 +590,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"cfd77a8855b7ccc941248454fc126340":"1518034ce1918f249005fb270ff9a2c9"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE2MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE2MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 3" tvg-logo="https://i.postimg.cc/BnG3PPFD/FOX-ONE-3-MX.png" group-title="DEPORTES", FOX ONE 3
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -598,7 +598,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"3bd0bc0772acc1708445948f2c7bb25f":"426afdc873d71265183d15cd7f9cb612"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE3MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE3MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 4" tvg-logo="https://i.postimg.cc/MG9JLsFM/FOX-ONE-4-MX.png" group-title="DEPORTES", FOX ONE 4
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -606,7 +606,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"08aa48fc120a9a1ab174a67529ead92c":"be211d980305712d93ff195e97f3e5b2"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE4MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE4MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 5" tvg-logo="https://i.postimg.cc/dQkD8d7c/FOX-ONE-5-MX.png" group-title="DEPORTES", FOX ONE 5
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -614,7 +614,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"69f650e8f202e290ca41f0c83ca4147b":"a17dab4751f1e9116a0417b4f4fc325d"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE5MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE5MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 6" tvg-logo="https://i.postimg.cc/X79JPbcH/FOX-ONE-6-MX.png" group-title="DEPORTES", FOX ONE 6
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -622,7 +622,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6c62498b3eaed2d4bf5aa46104409abb":"50f016b2bc9ec4d4fc607205703c2a1b"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE6MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE6MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 7" tvg-logo="https://i.postimg.cc/MGppXj2J/FOX-ONE-7-MX.png" group-title="DEPORTES", FOX ONE 7
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -630,7 +630,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"84bdbf106a7ba89a7a4e768cb65e2e57":"edac5064d8cb1600f5dd65a4945bb7ba"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE7MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE7MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE 8" tvg-logo="https://i.postimg.cc/Twy2JM3r/FOX-ONE-8-MX.png" group-title="DEPORTES", FOX ONE 8
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -638,7 +638,7 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"bc52afcf354dd1ecad24b3ec7949f154":"69d953bf75252d754bc43a493c27884a"}
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES", SKY Sports F1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -2069,6 +2069,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"f37a2c616a17358d8afda0326fbf7151":"bdaad10dbfe10b082ee61bce67787e27"}
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-IZZI-SD/default.mpd
+
 
 
 
