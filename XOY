@@ -295,6 +295,9 @@ https://live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"361d47939a32a35422d13728b7089728":"1d26ccbbc3a3b1f3e3f7e4850a54c6f2"}
 https://live1-ott.izzigo.tv/15/out/u/dash/TLNOVELAS-HD/default.mpd
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS", TLN Televisa
+https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="USBD2700004ME" tvg-logo="https://dslv9ilpbe7p1.cloudfront.net/_NjZaWcrM6Gg3bfnKcrP1A_store_logo_image.jpeg" group-title="NOVELAS",Como Dice el Dicho
 https://dcs3-live.mp.lura.live/server/play/jWKwKpTWEZGBcx2j/manifest.m3u8?encp=B2F60S9qKc0osm338Ax_wg:x_pJBu7CIYQWQ7JxgyfR4tkjdokDWup_sjIscNX7wvBJEXnY-y8AIMxs9RAUaWp-k3t15s0gi9zThRYsZg3hGk_pH5IEsrlyefemWGc6xrLlK-ET_5dmOqvLCfftoXMfWMkmV9LBKuebBfi_154qM5R1E7XZs_Rve2-7CzSs7XLjeHVIiwdYo4R_hUVpvKnAgWuY8V255j6hNgQUU3HkArpHXPtWIX_Z49Bnuw086zal8J2HR29-No1SgNuMTfOO4659BM8TRo6l9ZWvZZsSKeUSwVTZ6sPudCvyuwW0o6U2y450yZMvGcYTL9aO77Nlj6OXX6MiOGLrvpw-Rwhti2rN4AL_9c82qgsplOpnPXlG8Ueal-obvqRpYCm5tQ4ZGwcEtXic1_JlqkDzNvrQ-1IMn96IBAuS4NjBXqnF_VzQGAIKGUgtGK8Ajctl4Vv8zPmiJfsHB3n3klAm4sRLqdasXvLHAGzHzVI1eSimqed5DwtmpR-l5RWleKa1Wp1xaIUZJhISU2U64hcGLogrHBQRNP_99otmE3G-5gCo4xDHc9YcInMf08PueiuZsDZktctz7sHK2DHpfR33au9Ds_dFsONXEGR-e5-D4A3cvcue7ETYvYaadrDocy-4H1TJWR9pJM3Wga8XTNldByja9K9jfW_uoeCJCllIcAkZgBXQ0RGyKrr7xEwVaDim6QbR-S_WjOPPqTldSscEJ3hZ3A&anvauth=tb=0~te=2082758400~sgn=f5481e50993b4624e38500bf051da9d8e5773d3a5ef22903349760f9ea03e80e&t=1706655453&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=6465
 
@@ -343,9 +346,6 @@ https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 channel-id="samsung-ESBA140000504" tvg-id="ESBA140000504" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA140000504_20231011T084727SQUARE.png_20231011084728.png"  group-title="NOVELAS" , Stormcast Novelas HD
 https://stormcast-novelas-2-es.samsung.wurl.tv/3000.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS", TLN Televisa
-https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
-
 
 
 
@@ -362,17 +362,11 @@ https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"2722647f77b44824c432a3c4555830a2":"1734befb82f4b438bd84195f6c212e7b"}
 https://live1-ott.izzigo.tv/11/out/u/dash/TUDN-HD/default.mpd
 
-#EXTINF:-1 tvg-id="USBD1700016X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES" , Zona TUDN 🇺🇸 
+#EXTINF:-1 tvg-id="USBD1700016X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES" , Zona TUDN Vix 🇺🇸 
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
 #EXTINF:-1 tvg-id="I464.75176.schedulesdirect.org" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES", TUDN 🇺🇸
 https://cors-proxy.cooks.fyi/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
-
-#EXTINF:-1 tvg-id="I464.75176.schedulesdirect.org" tvg-logo="https://i.picasion.com/pic92/f4d210f979677a34da7f2dca1aa67ca0.gif" group-title="DEPORTES" , TUDN 🇺🇸 HD
-#EXTVLCOPT:http-referrer=https://roxiestreams.info
-#EXTVLCOPT:http-origin=https://roxiestreams.info
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://daffodil.xn--1000-ugoa0hsb9a0hb.com/tudn.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_%282025%29.svg/960px-FIFA%2B_%282025%29.svg.png" group-title="DEPORTES",FIFA+ LATINOAMERICA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -466,14 +460,14 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_3)/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key={"ef0779dad62e7a021ac8b82a5a8dd329":"e18c7892858eb04bf8d2dcf4f057dd77"}
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES" ,ESPN 🇨🇴
+#EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES", ESPN 🇨🇴
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0f85a4e1fc5937a827313597d04f8e27:cc1d8219be0130da85e4c4ce73a75abb
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES" ESPN 2 🇨🇴
+#EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES", ESPN 2 🇨🇴
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -515,14 +509,6 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_key=49020ffc8b5cc542c469370c40000565:8ea4292586d4df3ab4ef173453f6c555
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS2_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SDX3WH6k/Win-Sports2018.png" group-title="DEPORTES",WIN SPORTS 🇨🇴
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-http://104.194.8.54:9090/279400_.m3u8
-
 #EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES", Win Sports co
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -536,15 +522,7 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(W
 #KODIPROP:inputstream.adaptive.license_key=f6b30a661c69b70039e4eb51247c4d10:243493e4a7fac9577326e15f0169f938
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(WINPREMIUM)/manifest.mpd
 
-#EXTINF:-1 tvg-id="FOX SPORTS PREMIUM.mx" tvg-logo="https://i.postimg.cc/ZYNd3h3g/FOX-SPORTS-PREMIUM.png" group-title="DEPORTES", FOX SPORTS PREMIUM
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"6f550e21bc1518f6a9e63a3fab3edc7a":"821bbb8c41da972ab4e753e5029ffbdc"}
-https://dish.akamaized.net/Content/DASH/Live/channel(foxsportsprhd)/variant.mpd
-
-#EXTINF:-1 tvg-id="FOX SPORTS.mx" tvg-logo="https://i.postimg.cc/26KVW08S/FOX-SPORTS.png" group-title="DEPORTES", FOX SPORTS
+#EXTINF:-1 tvg-id="FOX SPORTS.mx" tvg-logo="https://i.postimg.cc/26KVW08S/FOX-SPORTS.png" group-title="DEPORTES", FOX SPORTS 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -567,6 +545,29 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsports2hd)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6ca7b84908528d1753b140faa8b72bfc":"cd93e918e5ec737d6706ad871d946fe2"}
 https://dish.akamaized.net/Content/DASH/Live/channel(foxsports3hd)/variant.mpd
+
+#EXTINF:-1 tvg-id="FOX SPORTS PREMIUM.mx" tvg-logo="https://i.postimg.cc/ZYNd3h3g/FOX-SPORTS-PREMIUM.png" group-title="DEPORTES", FOX SPORTS PREMIUM
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"6f550e21bc1518f6a9e63a3fab3edc7a":"821bbb8c41da972ab4e753e5029ffbdc"}
+https://dish.akamaized.net/Content/DASH/Live/channel(foxsportsprhd)/variant.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/fRKtFwNG/Fox-en-TUBI.png" group-title="DEPORTES", FOX en TUBI
+#EXTVLCOPT:http-referrer=https://lna.tubi.video
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://live-manifest.production-public.tubi.io/live/35557bb9-7c94-40ea-85f7-c94d852f8374/playlist.m3u8?0GKUSH_R4IN&DONTSTEAL
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/hPFXt21W/FOX-DEPORTES-SD.png" group-title="DEPORTES", FOX DEPORTES SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
+https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdeportes
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Qdt0xNqz/FOX-DEPORTES.png" group-title="DEPORTES" , FOX DEPORTES HD
+#EXTVLCOPT:http-origin=https://aesport.tv
+#EXTVLCOPT:http-referrer=https://aesport.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+https://liveua.cdnfly.click/us_foxdeport/index.m3u8
 
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES", FOX ONE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -1679,10 +1680,6 @@ https://dish.akamaized.net/Content/DASH/Live/channel(mvshd)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"3feb186d198eb79eb71ee573dc69a207":"a95015a94328221a82b199f412d81049"}
 https://dish.akamaized.net/Content/DASH/Live/channel(aztecaclichd)/variant.mpd
 
-#EXTINF:-1 tvg-id="USBC2100010OS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2100010OS_20240520T212922SQUARE.png" group-title="ENTRETENIMIENTO", ViX JaJaJa
-https://d3v3mmi4g0m0ew.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9dep4gfn1ijcp/server/distrib/0bnenbTDekmrc4k0/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqneaHlA15ODd243ofh4ow7byPiOMypU6EpNOlVXM0LAvEGO7MheGgBhEe3EcVhOZINDlQkAXpVg1LSgJfYM3Tqtf8SUzpfMDCWDBLW9si6Nzvzp4VDF9d4LVSqSz1TbNTsYH9uoxvheGk1btfcS3mSBRXX3Dg02LfpkYwW1jwdCUcYqkl9md3jIycfOMwsE6ag/manifest.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=USBC2100010OS
-
-
 #EXTINF:-1 tvg-id="COMEDY CENTRAL.mx" tvg-logo="https://i.postimg.cc/h47ZJ8x9/COMEDY-CENTRAL.png" group-title="ENTRETENIMIENTO", COMEDY CENTRAL
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1784,7 +1781,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(videorolahd)/variant.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/BANDAMAX-HD/default.mpd
 
 #EXTINF:-1 tvg-id="HITS.MEXICANOS.distro" tvg-logo="https://a.jsrdn.com/hls/23195/hits-mexicanos/thumbh_20250109_231026_270.jpg" group-title="MUSICA", HITS MEXICANOS
-https://d3s7x6kmqcnb6b.cloudfront.net/hls/7AFCFTQ/3F13C2D5DEBB/m.m3u8
+https://cors-proxy.cooks.fyi/https://d3s7x6kmqcnb6b.cloudfront.net/hls/7AFCFTQ/3F13C2D5DEBB/m.m3u8
 
 #EXTINF:-1 tvg-id="EXA TV.mx" tvg-logo="https://i.postimg.cc/z3YHcYXk/EXA-TV.png" group-title="MUSICA", EXA TV
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
