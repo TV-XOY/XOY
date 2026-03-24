@@ -307,7 +307,7 @@ https://dcs3-live.mp.lura.live/server/play/jWKwKpTWEZGBcx2j/manifest.m3u8?encp=B
 #KODIPROP:inputstream.adaptive.license_key={"ca0a4f1cc1d2740fbe0ba9af9745f10a":"21c4b13e0c9ffbae8a269e569560cf45"}
 https://dish.akamaized.net/Content/DASH/Live/channel(pasioneshd)/variant.mpd
 
-#EXTINF:-1 tvg-id="plex.tv.Novelisima.plex" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/ce/Novelisima_logo.png" group-title="NOVELAS", NOVELÍSIMA
+#EXTINF:-1 tvg-id="plex.tv.Novelisima.plex" tvg-logo="https://i.ibb.co/LxPXxZ2/NOVELISIMA.png" group-title="NOVELAS", NOVELÍSIMA
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"fce62f7383612caeea239b82c8286fbd":"bd238280cf696fe419b0e402224170dd"}
@@ -339,9 +339,6 @@ https://dish.akamaized.net/Content/DASH/Live/channel(veplus)/variant.mpd
 
 #EXTINF:-1 tvg-id="narco-drama" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS" ,Narco-Drama
 https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-narcodramaltus-canelatvinternational/playlist.m3u8
-
-#EXTINF:-1 tvg-id="fa7c1fc64ab453e28165ee3125742c67" channel-id="roku-fa7c1fc64ab453e28165ee3125742c67"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3000002OC_20230321T235909SQUARE.png_20230321235909.png" group-title="NOVELAS", Sony Novelas
-https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
 
 #EXTINF:-1 channel-id="samsung-ESBA140000504" tvg-id="ESBA140000504" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA140000504_20231011T084727SQUARE.png_20231011084728.png"  group-title="NOVELAS" , Stormcast Novelas HD
 https://stormcast-novelas-2-es.samsung.wurl.tv/3000.m3u8
@@ -1781,7 +1778,8 @@ https://dish.akamaized.net/Content/DASH/Live/channel(videorolahd)/variant.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/BANDAMAX-HD/default.mpd
 
 #EXTINF:-1 tvg-id="HITS.MEXICANOS.distro" tvg-logo="https://a.jsrdn.com/hls/23195/hits-mexicanos/thumbh_20250109_231026_270.jpg" group-title="MUSICA", HITS MEXICANOS
-https://d3s7x6kmqcnb6b.cloudfront.net/hls/AQUIJ2A/3F13C2D5DEBB/m.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+https://cors-proxy.cooks.fyi/https://d3s7x6kmqcnb6b.cloudfront.net/hls/7AFCFTQ/3F13C2D5DEBB/m.m3u8
 
 #EXTINF:-1 tvg-id="EXA TV.mx" tvg-logo="https://i.postimg.cc/z3YHcYXk/EXA-TV.png" group-title="MUSICA", EXA TV
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
