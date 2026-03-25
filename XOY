@@ -564,7 +564,8 @@ https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdepor
 #EXTVLCOPT:http-origin=https://aesport.tv
 #EXTVLCOPT:http-referrer=https://aesport.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
-https://liveua.cdnfly.click/us_foxdeport/index.m3u8
+http://kstv.us:8080/live/N427DpynGE/7049166651/23316.ts
+#https://liveua.cdnfly.click/us_foxdeport/index.m3u8
 
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES", FOX ONE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
