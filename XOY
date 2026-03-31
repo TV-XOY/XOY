@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://github.com/HelmerLuzo/PlutoTV_HL/raw/4c9e648d2c2b070f43648ca5b231156f5858f019/epg/mx.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz"
 
 
 
@@ -198,12 +198,9 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES", Canal 13 Yucatan
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/rEc2tx6cIlw/expires/9999999999999/srcIp/201.148.8.15/urls/45.136.21.80/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+#EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://ok.ru/videoembed/10849691639514?nochat=1
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES", Sipse Merida
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -287,6 +284,10 @@ https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"K7vrh4NQmk5347ec17GGnw", "kid":"hyNO+KAyiwAJQf0YvXXXjg" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd
 
+#EXTINF:-1 tvg-id="60d393e5579a420007ee553c" tvg-logo="https://images.pluto.tv/channels/60d393e5579a420007ee553c/colorLogoPNG.png"  group-title="ENTRETENIMIENTO", CASO CERRADO
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_channelId=99993041&ads.asnw=169843&ads.afid=367536734&ads.sfid=17470300&ads.csid=lgchannels_us_telemundoscripted_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=2562&ads.xumo_contentName=TelemundoScripted&ads.xumo_providerId=2562&ads.xumo_providerName=TelemundoScripted&ads.channelId=99993041&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
+
+
 #EXTINF:-1 tvg-id="TLNovelas.mx" tvg-logo="https://i.postimg.cc/zBpZ9ZyM/18_tlnovelas.png" group-title="NOVELAS",TLNOVELAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -344,6 +345,103 @@ https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/p
 https://stormcast-novelas-2-es.samsung.wurl.tv/3000.m3u8
 
 
+###########################################################################################################---E N T R E T E N I M I E N T O---#####################################################################################################
+
+
+#EXTINF:-1 tvg-id="USBB3200016HO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO" , Telemundo Al Día
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991747
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-logo="https://i.postimg.cc/FRs8R1yz/MVSTV.png" group-title="ENTRETENIMIENTO", MVSTV
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"03a6be34f620b1cbd96800a709346b23":"0ed65893fb20d712602af499878596eb"}
+https://dish.akamaized.net/Content/DASH/Live/channel(mvshd)/variant.mpd
+
+#EXTINF:-1 tvg-id="AZ CLIC.mx" tvg-logo="https://i.postimg.cc/MTL06LtB/AZ-CLIC.png" group-title="ENTRETENIMIENTO", CLIC
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3feb186d198eb79eb71ee573dc69a207":"a95015a94328221a82b199f412d81049"}
+https://dish.akamaized.net/Content/DASH/Live/channel(aztecaclichd)/variant.mpd
+
+#EXTINF:-1 tvg-id="COMEDY CENTRAL.mx" tvg-logo="https://i.postimg.cc/h47ZJ8x9/COMEDY-CENTRAL.png" group-title="ENTRETENIMIENTO", COMEDY CENTRAL
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ee3ad5fb53e7b4f65d732ce7f03d53a4":"e4a1ef4d19cbac85da7f6a29da2c5135"}
+https://dish.akamaized.net/Content/DASH/Live/channel(50dd60bc-94f1-a686-3a3f-a093154f9229)/manifest.mpd
+
+#EXTINF:-1 tvg-id="Canal.Distrito.Comedia.mx" tvg-logo="https://i.postimg.cc/pLQ00Qhq/90_distrito_comedia.png" group-title="ENTRETENIMIENTO",DISTRITO COMEDIA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"e69f7cb969df2eef1b60ddea0458bfef":"12ec40e04cf8c533cf306321052726a8"}
+https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"f49c809a99d0454981ae6700d25ba0fb":"1999b5fbfd058bc1a2acf3d3cdb7a78d"}
+https://live1-ott.izzigo.tv/12/out/u/dash/UNICABLE-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Canal.Elgourmet.mx" tvg-logo="https://i.postimg.cc/hGp2nS0j/el_Gourmet.png" group-title="ENTRETENIMIENTO",EL GOURMET
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"02eabf0cfdc063542f9983dbb2ee66d4":"53d20cd604a274dd6f35fd17b9ea2e80"}
+https://live1-ott.izzigo.tv/11/out/u/dash/GOURMET-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Canal.USA.Network.(México).mx" tvg-logo="https://i.postimg.cc/4d0wKBqZ/usa_network.png" group-title="ENTRETENIMIENTO",USA NETWORK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c760bcb13f83a8d66f4c676f04c23d81":"e024f5099f059ce93607812e5b406360"}
+https://live1-ott.izzigo.tv/15/out/u/dash/USA-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Canal.E!.Entertainment.Television.(México).mx" tvg-logo="https://i.postimg.cc/bv3mPzRw/E_entertenament.png" group-title="ENTRETENIMIENTO",E!
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"66a5d89630a3e2263f63f42221a4f3e8":"362b8d4aa289042e473ed064a722611b"}
+https://live1-ott.izzigo.tv/13/out/u/dash/E-Entertainment-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Canal.¡HOLA!.TV.mx" tvg-logo="https://i.postimg.cc/fbB8swv0/holatv.png" group-title="ENTRETENIMIENTO",HOLA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3324372c149efbd4755e94a5989f4eef":"8ed2cae763c527146b490acb667e3221"}
+https://live1-ott.izzigo.tv/11/out/u/dash/HOLA-TV-HD/default.mpd
+
+#EXTINF:-1 tvg-id="FOOD NETWORK.mx" tvg-logo="https://i.postimg.cc/q7j1rkGz/Food_network.png" group-title="ENTRETENIMIENTO",FOOD NETWORK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"346785646e762ad867fb22f6fdaacc68":"777670f96243bb2be7811505fba060f8"}
+https://live1-ott.izzigo.tv/11/out/u/dash/FOOD-NET-HD/default.mpd
+
+#EXTINF:-1 tvg-id="TVE.mx" tvg-logo="https://i.postimg.cc/pTrqXgGX/tve.png" group-title="ENTRETENIMIENTO",TVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"e9c6bff9b7141a1e289061a8334c34cb":"c644f57b253c9a81d723fe252c53079a"}
+https://live1-ott.izzigo.tv/15/out/u/dash/TVE-SD/default.mpd
+
+#EXTINF:-1 tvg-id="ANTENA 3.mx" tvg-logo="https://i.postimg.cc/bv3mPzRH/Logotipo_Antena3.png" group-title="ENTRETENIMIENTO",ANTENA 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"bcfe92161ae5c20d6ffec80cbad9f74b":"6e74e556df5223c5a5102d4846b5670a"}
+https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 
 
 ##############################################################################################################################################################--DEPORTES--############################################
@@ -556,6 +654,11 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsportsprhd)/variant.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://live-manifest.production-public.tubi.io/live/35557bb9-7c94-40ea-85f7-c94d852f8374/playlist.m3u8?0GKUSH_R4IN&DONTSTEAL
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/fRKtFwNG/Fox-en-TUBI.png" group-title="DEPORTES", FOX DEPORTES TUBI
+#EXTVLCOPT:http-referrer=https://lna.tubi.video
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/hPFXt21W/FOX-DEPORTES-SD.png" group-title="DEPORTES", FOX DEPORTES SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
 https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdeportes
@@ -709,7 +812,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-3-HD/default.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"a931b2e953695ffb0cfd38573e97ba33":"4ddd99cc4fb168d7f0e20be8a3287100"}
-https://live1-ott.izzigo.tv/12/out/u/dash/SKY-LIVE-EVENT-4-HD/default.mpd
+https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-4-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/1RC1BShP/35_sky_sports_eventos_5.png" group-title="DEPORTES",SKY SPORTS EVENTOS 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1651,112 +1754,6 @@ https://live1-ott.izzigo.tv/12/out/u/dash/GOLDEN-PREMIER-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"717324c2c4e6694baddacfd5fbd3a20f":"aacbecfb7f1da441a420a582400102da"}
 https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-PREMIER-2HR-HD/default.mpd
-
-
-
-
-###########################################################################################################---E N T R E T E N I M I E N T O---#####################################################################################################
-
-
-#EXTINF:-1 tvg-id="60d393e5579a420007ee553c" tvg-logo="https://images.pluto.tv/channels/60d393e5579a420007ee553c/colorLogoPNG.png"  group-title="ENTRETENIMIENTO", CASO CERRADO
-https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_channelId=99993041&ads.asnw=169843&ads.afid=367536734&ads.sfid=17470300&ads.csid=lgchannels_us_telemundoscripted_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=2562&ads.xumo_contentName=TelemundoScripted&ads.xumo_providerId=2562&ads.xumo_providerName=TelemundoScripted&ads.channelId=99993041&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
-
-
-#EXTINF:-1 tvg-id="USBB3200016HO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO" , Telemundo Al Día
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991747
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-logo="https://i.postimg.cc/FRs8R1yz/MVSTV.png" group-title="ENTRETENIMIENTO", MVSTV
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"03a6be34f620b1cbd96800a709346b23":"0ed65893fb20d712602af499878596eb"}
-https://dish.akamaized.net/Content/DASH/Live/channel(mvshd)/variant.mpd
-
-#EXTINF:-1 tvg-id="AZ CLIC.mx" tvg-logo="https://i.postimg.cc/MTL06LtB/AZ-CLIC.png" group-title="ENTRETENIMIENTO", CLIC
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"3feb186d198eb79eb71ee573dc69a207":"a95015a94328221a82b199f412d81049"}
-https://dish.akamaized.net/Content/DASH/Live/channel(aztecaclichd)/variant.mpd
-
-#EXTINF:-1 tvg-id="COMEDY CENTRAL.mx" tvg-logo="https://i.postimg.cc/h47ZJ8x9/COMEDY-CENTRAL.png" group-title="ENTRETENIMIENTO", COMEDY CENTRAL
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"ee3ad5fb53e7b4f65d732ce7f03d53a4":"e4a1ef4d19cbac85da7f6a29da2c5135"}
-https://dish.akamaized.net/Content/DASH/Live/channel(50dd60bc-94f1-a686-3a3f-a093154f9229)/manifest.mpd
-
-#EXTINF:-1 tvg-id="Canal.Distrito.Comedia.mx" tvg-logo="https://i.postimg.cc/pLQ00Qhq/90_distrito_comedia.png" group-title="ENTRETENIMIENTO",DISTRITO COMEDIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"e69f7cb969df2eef1b60ddea0458bfef":"12ec40e04cf8c533cf306321052726a8"}
-https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"f49c809a99d0454981ae6700d25ba0fb":"1999b5fbfd058bc1a2acf3d3cdb7a78d"}
-https://live1-ott.izzigo.tv/12/out/u/dash/UNICABLE-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.Elgourmet.mx" tvg-logo="https://i.postimg.cc/hGp2nS0j/el_Gourmet.png" group-title="ENTRETENIMIENTO",EL GOURMET
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"02eabf0cfdc063542f9983dbb2ee66d4":"53d20cd604a274dd6f35fd17b9ea2e80"}
-https://live1-ott.izzigo.tv/11/out/u/dash/GOURMET-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.USA.Network.(México).mx" tvg-logo="https://i.postimg.cc/4d0wKBqZ/usa_network.png" group-title="ENTRETENIMIENTO",USA NETWORK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"c760bcb13f83a8d66f4c676f04c23d81":"e024f5099f059ce93607812e5b406360"}
-https://live1-ott.izzigo.tv/15/out/u/dash/USA-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.E!.Entertainment.Television.(México).mx" tvg-logo="https://i.postimg.cc/bv3mPzRw/E_entertenament.png" group-title="ENTRETENIMIENTO",E!
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"66a5d89630a3e2263f63f42221a4f3e8":"362b8d4aa289042e473ed064a722611b"}
-https://live1-ott.izzigo.tv/13/out/u/dash/E-Entertainment-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.¡HOLA!.TV.mx" tvg-logo="https://i.postimg.cc/fbB8swv0/holatv.png" group-title="ENTRETENIMIENTO",HOLA TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"3324372c149efbd4755e94a5989f4eef":"8ed2cae763c527146b490acb667e3221"}
-https://live1-ott.izzigo.tv/11/out/u/dash/HOLA-TV-HD/default.mpd
-
-#EXTINF:-1 tvg-id="FOOD NETWORK.mx" tvg-logo="https://i.postimg.cc/q7j1rkGz/Food_network.png" group-title="ENTRETENIMIENTO",FOOD NETWORK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"346785646e762ad867fb22f6fdaacc68":"777670f96243bb2be7811505fba060f8"}
-https://live1-ott.izzigo.tv/11/out/u/dash/FOOD-NET-HD/default.mpd
-
-#EXTINF:-1 tvg-id="TVE.mx" tvg-logo="https://i.postimg.cc/pTrqXgGX/tve.png" group-title="ENTRETENIMIENTO",TVE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"e9c6bff9b7141a1e289061a8334c34cb":"c644f57b253c9a81d723fe252c53079a"}
-https://live1-ott.izzigo.tv/15/out/u/dash/TVE-SD/default.mpd
-
-#EXTINF:-1 tvg-id="ANTENA 3.mx" tvg-logo="https://i.postimg.cc/bv3mPzRH/Logotipo_Antena3.png" group-title="ENTRETENIMIENTO",ANTENA 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"bcfe92161ae5c20d6ffec80cbad9f74b":"6e74e556df5223c5a5102d4846b5670a"}
-https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
-
 
 
 ####################################################################################################################MUSICA###############################################################################
