@@ -4,7 +4,7 @@
 
 
 
-#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
+#EXTINF:-1 ch-number="1" tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -12,7 +12,7 @@
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"uVUET4HtQPrsl77g16IK6g", "kid":"FYsZZiWz+jpsvUXQgdKJlQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
-#EXTINF:-1 tvg-id="CANAL DE LAS ESTRELLAS.mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
+#EXTINF:-1 ch-number="2" tvg-id="CANAL DE LAS ESTRELLAS.mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -20,7 +20,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"P4CwSz4r89hUOVaILandAA", "kid":"Yswk6u3vGrMipNUv1r8prQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.de.las.Estrellas.-2.Horas.-.México.(XEW).mx" tvg-logo="https://i.postimg.cc/vmrdt6Mj/1.png" group-title="iZZi-TV",LAS ESTRELLAS -2 HORAS
+#EXTINF:-1 ch-number="2.1" tvg-id="Canal.de.las.Estrellas.-2.Horas.-.México.(XEW).mx" tvg-logo="https://i.postimg.cc/vmrdt6Mj/1.png" group-title="iZZi-TV",LAS ESTRELLAS -2 HORAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -28,7 +28,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"O9xSQWgERJHW8uUbJw9KoQ", "kid":"gg7ntufkicKFpjqaOSSaMQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/12/out/u/dash/LAS-ESTRELLAS-2HRS-HD/default.mpd
 
-#EXTINF:-1 tvg-id="IMAGEN TELEVISION.mx" tvg-logo="https://i.postimg.cc/zfC1FR8X/3_imagen_tv.png" group-title="iZZi-TV", IMAGEN TV
+#EXTINF:-1 ch-number="3" tvg-id="IMAGEN TELEVISION.mx" tvg-logo="https://i.postimg.cc/zfC1FR8X/3_imagen_tv.png" group-title="iZZi-TV", IMAGEN TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -36,7 +36,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/LAS-ESTRELLAS-2HRS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jgnaRE7kSMKoW4zSTC7r4A", "kid":"GQ4N7dXB7X9fdlFdX3IFig" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 
-#EXTINF:-1 tvg-id="FORO TV.mx" tvg-logo="https://i.postimg.cc/5tBMSFbt/4_N_Foro.png" group-title="NOTICIAS",N+ FORO
+#EXTINF:-1 ch-number="4" tvg-id="FORO TV.mx" tvg-logo="https://i.postimg.cc/5tBMSFbt/4_N_Foro.png" group-title="NOTICIAS",N+ FORO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -44,7 +44,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"nCAKKxINReYK9Qa+HXrZMg", "kid":"6jm5V19RuECli9qCnyDzjQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
 
-#EXTINF:-1 tvg-id="CANAL 5.mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
+#EXTINF:-1 ch-number="5" tvg-id="CANAL 5.mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -52,7 +52,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"61qNtkyhmSOJZy7blEfHEQ", "kid":"KowtUIg3f1H4Jdhx5Wi+GQ" } ], "type":"temporary" }
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://i.postimg.cc/NMQvJfjK/6_Canal_6.png" group-title="iZZi-TV", Canal 6 Plus Monterrey
+#EXTINF:-1 ch-number="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://i.postimg.cc/NMQvJfjK/6_Canal_6.png" group-title="iZZi-TV", Canal 6 Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -60,7 +60,7 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"V+FXvP1ZZR5kmRH1E5ZWgA", "kid":"RMx9SjGj5pbTX2tu0FYb4Q" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
-#EXTINF:-1 tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
+#EXTINF:-1 ch-number="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -68,7 +68,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"TkTfYlR6FUSkYjQYkYZY0A", "kid":"wVoQkhvtdaPsU4Xg7NtkmQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-7-HD/default.mpd
 
-#EXTINF:-1 tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS", adn Noticias
+#EXTINF:-1 ch-number="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS", adn Noticias
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #EXTVLCOPT--http-reconnect=true
@@ -79,14 +79,14 @@ https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-7-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"VdKhXBCmAJOjUKVjiYeVQg", "kid":"e/ZXkilk6HWUiv6vhTlU+w" } ], "type":"temporary" }
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/ADN-40-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.9.de.México.(XEQ-TDT).mx" tvg-logo="https://i.postimg.cc/nznfRchK/9_Canal_9.png" group-title="iZZi-TV",CANAL 9
+#EXTINF:-1 ch-number="9" tvg-id="Canal.9.de.México.(XEQ-TDT).mx" tvg-logo="https://i.postimg.cc/nznfRchK/9_Canal_9.png" group-title="iZZi-TV",CANAL 9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jT2D+t/HaWdLnHECEJ/EZg", "kid":"C7kQpCF6GvGbgD5/EgeW+Q" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.postimg.cc/ZRJz7K5j/10_milenio_television.png" group-title="NOTICIAS",MILENIO 
+#EXTINF:-1 ch-number="10" tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.postimg.cc/ZRJz7K5j/10_milenio_television.png" group-title="NOTICIAS",MILENIO 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -94,7 +94,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jL3Hngpk3Y0cO36oWDC9EA", "kid":"or/8vlnO6fECHaU7ltxuLA" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd
 
-#EXTINF:-1 tvg-id="EL HERALDO.mx" tvg-logo="https://i.postimg.cc/nzTb6bXv/11_heraldo_television.png" group-title="NOTICIAS", Heraldo Televisión
+#EXTINF:-1 ch-number="10.1" tvg-id="EL HERALDO.mx" tvg-logo="https://i.postimg.cc/nzTb6bXv/11_heraldo_television.png" group-title="NOTICIAS", Heraldo Televisión
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -102,7 +102,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"SDogSjR7xFvD86snh0vFZA", "kid":"dPy1mlw4pu5ZoTqjJYXrAg" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/12/out/u/dash/HERALDO-TV-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Excelsior.TV.mx" tvg-logo="https://i.postimg.cc/C5kWbXvW/12-excelsior-tv.png" group-title="NOTICIAS", Excelsior TV
+#EXTINF:-1 ch-number="10.2"tvg-id="Canal.Excelsior.TV.mx" tvg-logo="https://i.postimg.cc/C5kWbXvW/12-excelsior-tv.png" group-title="NOTICIAS", Excelsior TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -110,7 +110,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/HERALDO-TV-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"QC2BrJBZz96xGbRSuvuIgg", "kid":"MKdEqMnG+gD58FyDwn5LTQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/11/out/u/dash/EXCELSIOR-HD/default.mpd
 
-#EXTINF:-1 tvg-id="TELEFORMULA.mx" tvg-logo="https://i.postimg.cc/LXvKrKJV/13_teleformula.png" group-title="NOTICIAS",TELEFORMULA
+#EXTINF:-1 ch-number="10.3" tvg-id="TELEFORMULA.mx" tvg-logo="https://i.postimg.cc/LXvKrKJV/13_teleformula.png" group-title="NOTICIAS",TELEFORMULA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -118,7 +118,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/EXCELSIOR-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FmTSzGKA3Q8mjS0/KMdmZQ", "kid":"xJUBxLHO/XsKkpNc4bIL6A" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/9MBn2NmV/TELEPLAY-MERIDA.png" group-title="NACIONALES", Teleplay Merida
+#EXTINF:-1 ch-number="11" tvg-id="" tvg-logo="https://i.postimg.cc/9MBn2NmV/TELEPLAY-MERIDA.png" group-title="NACIONALES", Teleplay Merida
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #EXTVLCOPT--http-reconnect=true
@@ -126,7 +126,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES", Tele Yucatan
+#EXTINF:-1 ch-number="12" tvg-id="" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES", Tele Yucatan
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #EXTVLCOPT--http-reconnect=true
@@ -135,12 +135,12 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=5ca3e84a76d30.streamlock.net
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES", Canal 13 Yucatan
+#EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES", Canal 13 Yucatan
 #EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://ok.ru/videoembed/10849691639514?nochat=1
+https://vsd123.okcdn.ru/hls/10454955395802_12933.m3u8/sig/djC9KU3vAMM/expires/1779815286296/srcIp/201.148.8.14/urls/185.226.55.88/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES", Sipse Merida
+#EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES", Sipse Merida
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1950,7 +1950,7 @@ https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 https://s.emisoras.tv:8081/diostevetv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbFmMrTQ/tv-tiempo-con-Dios.png" group-title="CRISTIANOS",TV Timpo con DIOS
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbFmMrTQ/tv-tiempo-con-Dios.png" group-title="CRISTIANOS",TV Tiempo con DIOS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
