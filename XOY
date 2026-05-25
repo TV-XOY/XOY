@@ -12,15 +12,6 @@
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"uVUET4HtQPrsl77g16IK6g", "kid":"FYsZZiWz+jpsvUXQgdKJlQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.postimg.cc/X7wv8fVc/AZTECA-UNO-HD.png" group-title="NACIONALES", Azteca UNO CDMX
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 12; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=https://mdstrm.com
-https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
-
 #EXTINF:-1 tvg-id="CANAL DE LAS ESTRELLAS.mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -28,15 +19,6 @@ https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"P4CwSz4r89hUOVaILandAA", "kid":"Yswk6u3vGrMipNUv1r8prQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd
-
-#EXTINF:-1 tvg-id="CANAL DE LAS ESTRELLAS.mx" tvg-logo="https://i.postimg.cc/BQXPGDNJ/Las-Estrellas-logo.png" group-title="NACIONALES", Las Estrellas CDMX
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=https://channel01-onlymex.akamaized.net
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.de.las.Estrellas.-2.Horas.-.México.(XEW).mx" tvg-logo="https://i.postimg.cc/vmrdt6Mj/1.png" group-title="iZZi-TV",LAS ESTRELLAS -2 HORAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -54,15 +36,6 @@ https://live1-ott.izzigo.tv/12/out/u/dash/LAS-ESTRELLAS-2HRS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jgnaRE7kSMKoW4zSTC7r4A", "kid":"GQ4N7dXB7X9fdlFdX3IFig" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 
-#EXTINF:-1 tvg-id="IMAGEN TELEVISION.mx" tvg-logo="https://i.postimg.cc/wBvjhYrQ/Logo-Imagen-Television-2016.png" group-title="NACIONALES", Imagen TV+ CDMX
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=https://stream.ads.ottera.tv
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=6149
-
 #EXTINF:-1 tvg-id="FORO TV.mx" tvg-logo="https://i.postimg.cc/5tBMSFbt/4_N_Foro.png" group-title="NOTICIAS",N+ FORO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -70,15 +43,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6149
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"nCAKKxINReYK9Qa+HXrZMg", "kid":"6jm5V19RuECli9qCnyDzjQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
-
-#EXTINF:-1 tvg-id="FORO TV.mx" tvg-logo="https://i.postimg.cc/9QHxRWD7/n-foro-logo-png-seeklogo-606469.png" group-title="NACIONALES", N+ FORO CDMX
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=https://notusaauth.univision.com
-https://notusaauth.univision.com/api/v3/akamai-auth/token-auth?url=https://channel02secure-notusa.akamaized.net/hls/live/2023914/event01/index_6.m3u8&redirect=true
 
 #EXTINF:-1 tvg-id="CANAL 5.mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -96,15 +60,6 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"V+FXvP1ZZR5kmRH1E5ZWgA", "kid":"RMx9SjGj5pbTX2tu0FYb4Q" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Multimedios_Canal_Seis_Logo.svg/500px-Multimedios_Canal_Seis_Logo.svg.png" group-title="NACIONALES", Canal 6 CDMX
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=https://mdstrm.com
-https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
-
 #EXTINF:-1 tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -112,14 +67,6 @@ https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"TkTfYlR6FUSkYjQYkYZY0A", "kid":"wVoQkhvtdaPsU4Xg7NtkmQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-7-HD/default.mpd
-
-#EXTINF:-1 tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES", Azteca 7 CDMX
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
 
 #EXTINF:-1 tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS", adn Noticias
 #EXTVLCOPT:network-caching=1000
@@ -146,15 +93,6 @@ https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jL3Hngpk3Y0cO36oWDC9EA", "kid":"or/8vlnO6fECHaU7ltxuLA" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.postimg.cc/hGvgwbcZ/Milenio-Television.png" group-title="NACIONALES", Milenio Televisión CDMX
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
 
 #EXTINF:-1 tvg-id="EL HERALDO.mx" tvg-logo="https://i.postimg.cc/nzTb6bXv/11_heraldo_television.png" group-title="NOTICIAS", Heraldo Televisión
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1257,7 +1195,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ADULTSWIM-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"075dae7484cb440084f04913a99311e0":"3a8cfc19eb78725106c975479cd28bd6"}
 https://dish.akamaized.net/Content/DASH/Live/channel(gametoon)/variant.mpd
 
-#EXTINF:-1 tvg-id="" tvg-id="" tvg-logo="https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/6065f675b5e4ea52f80b73de_ginx.png" group-title="INFANTILES", GINX ESPORTS TV
+#EXTINF:-1 tvg-id="" tvg-id="" tvg-logo="https://cdn.prod.website-files.com/605a3cacba514a77ca2e6ab5/6065f675b5e4ea52f80b73de_ginx.png" group-title="INFANTILES", GINX SPORTS TV
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1415,7 +1353,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6126&avod=1&coppa=0&is_lat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2550&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/dtBzFpxZ/RUNTIME-A-SANGRE-FRIA.png" group-title="CINE & SERIES",RUN:TIME A SANFRE FRIA
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/dtBzFpxZ/RUNTIME-A-SANGRE-FRIA.png" group-title="CINE & SERIES",RUN:TIME A SANGRE FRIA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1645,7 +1583,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/STUDIO-UNIVERSAL-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"fa6d1b52dd986d8faab9cca6adb8874b":"6022259ba9edb1fe66b4507b51e1c12f"}
 https://live1-ott.izzigo.tv/15/out/u/dash/CINEMAX-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Multipremier.cl" tvg-shift=-3 tvg-logo="https://i.postimg.cc/x143xKRv/MULTIPREMIER.png" group-title="CINE & SERIES", MULTIPREMIER
+#EXTINF:-1 tvg-id="Canal.Multipremier.cl" tvg-shift=-3 tvg-logo="https://i.postimg.cc/x143xKRv/MULTIPREMIER.png" group-title="CINE & SERIES",MULTIPREMIER
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"55122e37d92b6b4ab03c427cd4f471b9":"0c2d5950edcafe9a2ea09098a155bdda"}
@@ -2012,7 +1950,7 @@ https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 https://s.emisoras.tv:8081/diostevetv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbFmMrTQ/tv-tiempo-con-Dios.png" group-title="CRISTIANOS",TV TIEMPO CON DIOS
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbFmMrTQ/tv-tiempo-con-Dios.png" group-title="CRISTIANOS",TV Timpo con DIOS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
