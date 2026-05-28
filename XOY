@@ -293,7 +293,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(aztecacorazon)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"201c7e7284a4ccdcea87b4a9f0185fe8":"1f308cf585997e997a3c668c822f2206"}
 https://dish.akamaized.net/Content/DASH/Live/channel(veplus)/variant.mpd
 
-#EXTINF:-1 tvg-id="narco-drama" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS" ,Narco-Drama
+#EXTINF:-1 tvg-id="narco-drama" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS", NARCO-DRAMAS
 https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-narcodramaltus-canelatvinternational/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/sDQGfqyR/images-7.jpg" group-title="NOVELAS", UNIVERSO 
