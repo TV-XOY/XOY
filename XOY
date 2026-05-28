@@ -207,12 +207,31 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(N
 #EXTINF:-1 tvg-id=""  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Noticias_Telemundo_logo_2018.png" group-title="NOTICIAS", TELEMUNDO NOTICAS
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO NOTICIAS TEXAS
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889467
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO 51 FLORIDA
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/32d83610-b3ed-4e0c-bc1a-9cf4055cc405/3.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO 52
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+https://d1rqgw5gocwo9i.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-stitched/10a44c37-f976-4d2b-ab23-8637a7a094ca/3.m3u8
+
+#EXTINF:-1 tvg-id="USBB3200016HO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO" , Telemundo Al Día
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991747
 
 ####################################################################################################################################################################--NOVELAS--############################################################################3
 
 
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOVELAS", TELEMUNDO ACCION
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889470
 
 #EXTINF:-1 tvg-id="Telemundo.mx" tvg-logo="https://i.postimg.cc/SN3nfMjX/TELEMUNDO-INTERNACIONAL.png" group-title="NOVELAS",TELEMUNDO INTERNACIONAL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -221,6 +240,7 @@ https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"K7vrh4NQmk5347ec17GGnw", "kid":"hyNO+KAyiwAJQf0YvXXXjg" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd
+
 
 #EXTINF:-1 tvg-id="60d393e5579a420007ee553c" tvg-logo="https://images.pluto.tv/channels/60d393e5579a420007ee553c/colorLogoPNG.png"  group-title="ENTRETENIMIENTO", CASO CERRADO
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_channelId=99993041&ads.asnw=169843&ads.afid=367536734&ads.sfid=17470300&ads.csid=lgchannels_us_telemundoscripted_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=2562&ads.xumo_contentName=TelemundoScripted&ads.xumo_providerId=2562&ads.xumo_providerName=TelemundoScripted&ads.channelId=99993041&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
@@ -279,15 +299,10 @@ https://dish.akamaized.net/Content/DASH/Live/channel(veplus)/variant.mpd
 #EXTINF:-1 tvg-id="narco-drama" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS" ,Narco-Drama
 https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-narcodramaltus-canelatvinternational/playlist.m3u8
 
-#EXTINF:-1 channel-id="samsung-ESBA140000504" tvg-id="ESBA140000504" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA140000504_20231011T084727SQUARE.png_20231011084728.png"  group-title="NOVELAS" , Stormcast Novelas HD
-https://stormcast-novelas-2-es.samsung.wurl.tv/3000.m3u8
 
 
 ###########################################################################################################---E N T R E T E N I M I E N T O---#####################################################################################################
 
-
-#EXTINF:-1 tvg-id="USBB3200016HO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO" , Telemundo Al Día
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991747
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-logo="https://i.postimg.cc/FRs8R1yz/MVSTV.png" group-title="ENTRETENIMIENTO", MVSTV
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
