@@ -1,9 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz"
 
 
-
-
-
 #EXTINF:-1 ch-number="1" tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -298,6 +295,11 @@ https://dish.akamaized.net/Content/DASH/Live/channel(veplus)/variant.mpd
 
 #EXTINF:-1 tvg-id="narco-drama" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS" ,Narco-Drama
 https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-narcodramaltus-canelatvinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/sDQGfqyR/images-7.jpg" group-title="NOVELAS", UNIVERSO 
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+Http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
 
 
 
