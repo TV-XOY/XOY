@@ -614,11 +614,11 @@ https://live-manifest.production-public.tubi.io/live/35557bb9-7c94-40ea-85f7-c94
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/hPFXt21W/FOX-DEPORTES-SD.png" group-title="DEPORTES", FOX DEPORTES SD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/hPFXt21W/FOX-DEPORTES-SD.png" group-title="DEPORTES", FOX DEPORTES
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
 https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdeportes
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Qdt0xNqz/FOX-DEPORTES.png" group-title="DEPORTES", FOX DEPORTES
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Qdt0xNqz/FOX-DEPORTES.png" group-title="DEPORTES", FOX DEPORTES HD
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
