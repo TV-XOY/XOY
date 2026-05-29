@@ -486,7 +486,8 @@ http://181.13.252.102:8000/play/a0bc/index.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_key={"45bbd582f220f438f896450d8306a3f2":"582c6ba7f64bbc0f2d91c6b0c265760c"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"WCxrp/ZLvA8tkcawwmV2DA", "kid":"RbvVgvIg9Dj4lkUNgwaj8g" } ], "type":"temporary" }
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/hubonmgf5k/out/v1/10560d92577e4917973aa4624124ecd6/cenc-sd.mpd
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",D SPORTS HD
@@ -495,7 +496,8 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/hubonmgf
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_key={"a7d11d37a1f7611ee88d4db880171f32":"68f96d618b0b956b008c445896a25a79"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"aPltYYsLlWsAjERYlqJaeQ", "kid":"p9EdN6H3YR7ojU24gBcfMg" } ], "type":"temporary" }
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd
 
 #EXTINF:-1 tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png" group-title="DEPORTES",D SPORTS 2
@@ -504,7 +506,8 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubehitlwzo/
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_key={"03f12d6a3dbfd3a6fa7dd7f6417e0c11":"ea07b87acdf2e45be824cde4a1cf3504"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"6ge4es3y5FvoJM3koc81BA", "kid":"A/Etaj2/06b6fdf2QX4MEQ" } ], "type":"temporary" }
 http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd
 
 #EXTINF:-1 tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png" group-title="DEPORTES",D SPORTS +
@@ -513,7 +516,8 @@ http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rgilyeubta/out/v1/09
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_key={"83f81c4cc1443991543de4e22eea7586":"ddfd7ca653d6f35543d8edb3c688e20f"}
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"3f18plPW81VD2O2zxojiDw", "kid":"g/gcTMFEOZFUPeTiLup1hg" } ], "type":"temporary" }
 http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd
 
 
