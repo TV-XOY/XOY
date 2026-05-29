@@ -618,12 +618,16 @@ https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
 https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdeportes
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Qdt0xNqz/FOX-DEPORTES.png" group-title="DEPORTES" , FOX DEPORTES HD
-#EXTVLCOPT:http-origin=https://aesport.tv
-#EXTVLCOPT:http-referrer=https://aesport.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
-http://kstv.us:8080/live/N427DpynGE/7049166651/23316.ts
-#https://liveua.cdnfly.click/us_foxdeport/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Qdt0xNqz/FOX-DEPORTES.png" group-title="DEPORTES", FOX DEPORTES
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"0aFjkU24/60sPpT5eYlqDQ","k":"lyiACjlZqv3VsLz783aIEQ"}],"type":"temporary"}"
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES", FOX ONE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
