@@ -619,12 +619,12 @@ https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1
 https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdeportes
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Qdt0xNqz/FOX-DEPORTES.png" group-title="DEPORTES", FOX DEPORTES
+#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"0aFjkU24/60sPpT5eYlqDQ","k":"lyiACjlZqv3VsLz783aIEQ"}],"type":"temporary"}"
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
