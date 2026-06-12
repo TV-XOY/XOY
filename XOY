@@ -474,7 +474,7 @@ https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-94-HD-H265/VIX-MUNDIAL-94-H
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"1fz5j87hu91EEE8YjQiDNQ", "kid":"v78n2KefdzT3IMOvamP1/g" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-95-HD-H265/VIX-MUNDIAL-95-HD-H265.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/2SRJpnZt/Telemundo-Deportes.png" group-title="DEPORTES", TELEMUNDO DEPORTES AHORA
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/2SRJpnZt/Telemundo-Deportes.png" group-title="DEPORTES", TELEMUNDO DEPORTES
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -482,7 +482,7 @@ https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-95-HD-H265/VIX-MUNDIAL-95-H
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"b8EHpvYvOdons2/wedf5Nw", "kid":"MAtY39rzXoU3ziXDnpmuxw" } ], "type":"temporary" }
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(telemundodeportes)/master.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO TEXAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -490,7 +490,7 @@ https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/chann
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FiIPCFuhgmag22VCqVEscA", "kid":"c5zUC+FHPAmukY2J0hMiAA" } ], "type":"temporary" }
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO TEXAS 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -498,7 +498,7 @@ https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/chann
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"alaKuoRBg9+xkcGrKM+2Gg", "kid":"DLtFJBw1PD2LNAPIM5T/Ew" } ], "type":"temporary" }
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(wzdc)/master.mpd
 
-#EXTINF:-1 tvg-id="TUDN.mx" tvg-logo="https://i.postimg.cc/1tMhLh8J/15_tudn.png" group-title="DEPORTES",TUDN 🇲🇽
+#EXTINF:-1 tvg-id="TUDN.mx" tvg-logo="https://i.postimg.cc/1tMhLh8J/15_tudn.png" group-title="DEPORTES",TUDN MEXICO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -520,10 +520,10 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4f
 #EXTINF:-1 tvg-id="USBD1700016X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES" , Zona TUDN Vix 🇺🇸
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
-#EXTINF:-1 tvg-id="I464.75176.schedulesdirect.org" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES", TUDN 🇺🇸
+#EXTINF:-1 tvg-id="I464.75176.schedulesdirect.org" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES", TUDN USA
 https://cors-proxy.cooks.fyi/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_%282025%29.svg/960px-FIFA%2B_%282025%29.svg.png" group-title="DEPORTES",FIFA+ LATINOAMERICA
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_%282025%29.svg/960px-FIFA%2B_%282025%29.svg.png" group-title="DEPORTES",FIFA+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
