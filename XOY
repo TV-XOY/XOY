@@ -254,7 +254,7 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_cha
 #KODIPROP:inputstream.adaptive.license_key={"361d47939a32a35422d13728b7089728":"1d26ccbbc3a3b1f3e3f7e4850a54c6f2"}
 https://live1-ott.izzigo.tv/15/out/u/dash/TLNOVELAS-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Televisa.(XHAB).mx" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS", TLN Televisa
+#EXTINF:-1 tvg-id="Televisa.(XERV).mx" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS", TLN Televisa
 https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="USBD2700004ME" tvg-logo="https://dslv9ilpbe7p1.cloudfront.net/_NjZaWcrM6Gg3bfnKcrP1A_store_logo_image.jpeg" group-title="NOVELAS",COMO DICE EL DICHO
@@ -277,7 +277,7 @@ https://d3ekb4nob8cu7j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #KODIPROP:inputstream.adaptive.license_key={"ca0a4f1cc1d2740fbe0ba9af9745f10a":"21c4b13e0c9ffbae8a269e569560cf45"}
 https://dish.akamaized.net/Content/DASH/Live/channel(pasioneshd)/variant.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/drkZ3Rc/todo-novelas-mas-pasiones.png" group-title="NOVELAS", TODO NOVELAS PASIONES
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/drkZ3Rc/todo-novelas-mas-pasiones.png" group-title="NOVELAS", TODO NOVELAS más PASIONES
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
 https://448a93b8.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fVG9kb05vdmVsYXNfSExT/playlist.m3u8
