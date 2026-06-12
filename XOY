@@ -474,7 +474,7 @@ https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-94-HD-H265/VIX-MUNDIAL-94-H
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"1fz5j87hu91EEE8YjQiDNQ", "kid":"v78n2KefdzT3IMOvamP1/g" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-95-HD-H265/VIX-MUNDIAL-95-HD-H265.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://es.wikipedia.org/wiki/Archivo:Telemundo_Deportes_Logo.png" group-title="DEPORTES", TELEMUNDO DEPORTES AHORA
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/2SRJpnZt/Telemundo-Deportes.png" group-title="DEPORTES", TELEMUNDO DEPORTES AHORA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
