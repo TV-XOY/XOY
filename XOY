@@ -253,7 +253,7 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_cha
 #KODIPROP:inputstream.adaptive.license_key={"361d47939a32a35422d13728b7089728":"1d26ccbbc3a3b1f3e3f7e4850a54c6f2"}
 https://live1-ott.izzigo.tv/15/out/u/dash/TLNOVELAS-HD/default.mpd
 
-#EXTINF:-1 tvg-id="plex.tv.Novelas.de.Siempre.plex" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS", TLN Televisa
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS", TLN Televisa
 https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="USBD2700004ME" tvg-logo="https://dslv9ilpbe7p1.cloudfront.net/_NjZaWcrM6Gg3bfnKcrP1A_store_logo_image.jpeg" group-title="NOVELAS",COMO DICE EL DICHO
@@ -315,10 +315,10 @@ https://dish.akamaized.net/Content/DASH/Live/channel(aztecacorazon)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"201c7e7284a4ccdcea87b4a9f0185fe8":"1f308cf585997e997a3c668c822f2206"}
 https://dish.akamaized.net/Content/DASH/Live/channel(veplus)/variant.mpd
 
-#EXTINF:-1 tvg-id="narco-drama" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS", NARCO-DRAMAS
+#EXTINF:-1 tvg-id="plex.tv.Canela.TV.Narco-Drama.plex" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS", NARCO-DRAMAS
 https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-narcodramaltus-canelatvinternational/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/sDQGfqyR/images-7.jpg" group-title="NOVELAS", UNIVERSO 
+#EXTINF:-1 tvg-id="Canal.Universo.sv" tvg-logo="https://i.postimg.cc/sDQGfqyR/images-7.jpg" group-title="NOVELAS", UNIVERSO 
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
 Http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
