@@ -426,7 +426,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 ##############################################################################################################################################################--DEPORTES--############################################
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 90
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -434,7 +434,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"dQdKDL2D9bcvs-XBSVJSqQ","k":"pKDfBLLSjyFgzq0uzetyAw"}]}
 https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 91
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -442,7 +442,7 @@ https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/defau
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"knFQaVAxO6ss7XUiiRqgIg", "kid":"EfSGyn3yDWP/Oq7PTYfRMg" } ], "type":"temporary" }
 https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-91-HD/default.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 92
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -450,7 +450,7 @@ https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-91-HD/defau
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"SrR8vM8eoI+j/YKXB5Wq1Q", "kid":"fs8t5y89jICkNVq+jg8tGw" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/7/out/u/dash/VIX-MUNDIAL-92-HD-H265/VIX-MUNDIAL-92-HD-H265.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 93
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -458,7 +458,7 @@ https://live1-ott.izzigo.tv/7/out/u/dash/VIX-MUNDIAL-92-HD-H265/VIX-MUNDIAL-92-H
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"r0u8AbTmwKFCeeEUUaPkdA", "kid":"aWQ1ux+bk4eGbk0Bq5aXeQ" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/7/out/u/dash/VIX-MUNDIAL-93-HD-H265/VIX-MUNDIAL-93-HD-H265.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 94
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -466,7 +466,7 @@ https://live1-ott.izzigo.tv/7/out/u/dash/VIX-MUNDIAL-93-HD-H265/VIX-MUNDIAL-93-H
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"kEIiEznSjVRCij59DDS9ZQ", "kid":"eFNeznrMWK02I0bHwvpM9Q" } ], "type":"temporary" }
 https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-94-HD-H265/VIX-MUNDIAL-94-HD-H265.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 95
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -482,7 +482,7 @@ https://live1-ott.izzigo.tv/8/out/u/dash/VIX-MUNDIAL-95-HD-H265/VIX-MUNDIAL-95-H
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"b8EHpvYvOdons2/wedf5Nw", "kid":"MAtY39rzXoU3ziXDnpmuxw" } ], "type":"temporary" }
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(telemundodeportes)/master.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO TEXAS
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO DEPORTES TEXAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -490,7 +490,7 @@ https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/chann
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FiIPCFuhgmag22VCqVEscA", "kid":"c5zUC+FHPAmukY2J0hMiAA" } ], "type":"temporary" }
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO TEXAS 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES", TELEMUNDO DEPORTES TEXAS 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -545,7 +545,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/REAL-MADRID-HD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 http://181.13.252.102:8000/play/a0bc/index.m3u8
 
-#EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",DSPORTS
+#EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",DSPORTS
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
@@ -555,7 +555,7 @@ http://181.13.252.102:8000/play/a0bc/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"WCxrp/ZLvA8tkcawwmV2DA", "kid":"RbvVgvIg9Dj4lkUNgwaj8g" } ], "type":"temporary" }
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/hubonmgf5k/out/v1/10560d92577e4917973aa4624124ecd6/cenc-sd.mpd
 
-#EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",DSPORTS HD
+#EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",DSPORTS HD
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
@@ -584,7 +584,6 @@ http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rgilyeubta/out/v1/09
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"3f18plPW81VD2O2zxojiDw", "kid":"g/gcTMFEOZFUPeTiLup1hg" } ], "type":"temporary" }
 http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd
-
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/JzqYLSGH/download-(45).png" group-title="DEPORTES",BEIN SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
