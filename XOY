@@ -205,7 +205,7 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(N
 #EXTINF:-1 tvg-id=""  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Noticias_Telemundo_logo_2018.png" group-title="NOTICIAS", TELEMUNDO NOTICAS
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO NOTICIAS TEXAS
+#EXTINF:-1 tvg-id="plex.tv.Telemundo.Texas.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO NOTICIAS TEXAS
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
 https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889467
@@ -215,12 +215,12 @@ https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
 https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/32d83610-b3ed-4e0c-bc1a-9cf4055cc405/3.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO 52
+#EXTINF:-1 tvg-id="plex.tv.Telemundo.al.Dia.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS", TELEMUNDO 52
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
 https://d1rqgw5gocwo9i.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-stitched/10a44c37-f976-4d2b-ab23-8637a7a094ca/3.m3u8
 
-#EXTINF:-1 tvg-id="USBB3200016HO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO" , Telemundo Al Día
+#EXTINF:-1 tvg-id="plex.tv.Telemundo.al.Dia.plex" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO" , Telemundo Al Día
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991747
 
 
@@ -229,7 +229,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 ####################################################################################################################################################################--NOVELAS--############################################################################3
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOVELAS", TELEMUNDO ACCION
+#EXTINF:-1 tvg-id="plex.tv.Telemundo.Acción.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOVELAS", TELEMUNDO ACCION
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
 https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889470
@@ -520,7 +520,7 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4f
 #EXTINF:-1 tvg-id="USBD1700016X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES" , Zona TUDN Vix 🇺🇸
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
-#EXTINF:-1 tvg-id="I464.75176.schedulesdirect.org" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES", TUDN USA
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES", TUDN USA
 https://cors-proxy.cooks.fyi/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_%282025%29.svg/960px-FIFA%2B_%282025%29.svg.png" group-title="DEPORTES",FIFA+
@@ -545,7 +545,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/REAL-MADRID-HD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 http://181.13.252.102:8000/play/a0bc/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",D SPORTS
+#EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",DSPORTS
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
@@ -555,7 +555,7 @@ http://181.13.252.102:8000/play/a0bc/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"WCxrp/ZLvA8tkcawwmV2DA", "kid":"RbvVgvIg9Dj4lkUNgwaj8g" } ], "type":"temporary" }
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/hubonmgf5k/out/v1/10560d92577e4917973aa4624124ecd6/cenc-sd.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",D SPORTS HD
+#EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.ibb.co/jkTvMpKH/DTV-sports-logo-white.png" group-title="DEPORTES",DSPORTS HD
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
@@ -565,7 +565,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/hubonmgf
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"aPltYYsLlWsAjERYlqJaeQ", "kid":"p9EdN6H3YR7ojU24gBcfMg" } ], "type":"temporary" }
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png" group-title="DEPORTES",D SPORTS 2
+#EXTINF:-1 tvg-id="DSPORTS.2.(DTS2).co" tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png" group-title="DEPORTES",DSPORTS 2
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
@@ -575,7 +575,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubehitlwzo/
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"6ge4es3y5FvoJM3koc81BA", "kid":"A/Etaj2/06b6fdf2QX4MEQ" } ], "type":"temporary" }
 http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png" group-title="DEPORTES",D SPORTS +
+#EXTINF:-1 tvg-id="DSPORTS.+(DTS+).co" tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png" group-title="DEPORTES",DSPORTS +
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #EXTVLCOPT--http-reconnect=true
@@ -743,7 +743,7 @@ https://live-manifest.production-public.tubi.io/live/13a764a8-a91d-4a17-a7f7-ee9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
 https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdeportes
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/G2HRcpSp/Fox-deportes-HD.png" group-title="DEPORTES", FOX DEPORTES HD
+#EXTINF:-1 tvg-id="Canal.Fox.Deportes.sv" tvg-logo="https://i.postimg.cc/G2HRcpSp/Fox-deportes-HD.png" group-title="DEPORTES", FOX DEPORTES HD
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
