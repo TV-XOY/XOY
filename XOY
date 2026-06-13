@@ -58,12 +58,11 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
 #EXTINF:-1 ch-number="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0
+#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"BCQ6LyxSN+/ZaSE+NvHsdw", "kid":"pXF+Ldp/wP6tAFBZ5VNrbA" } ], "type":"temporary" }
-https://dish.akamaized.net/Content/DASH/Live/channel(azteca7hd)/variant.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ZCdy6/GDLx8vpYy36Pz9BQ", "kid":"zo+G0vDRY4V0I3raisLoKg" } ], "type":"temporary" }
+https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/AZTECA-7-HD/default.mpd
 
 #EXTINF:-1 ch-number="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS", adn Noticias
 #EXTVLCOPT:network-caching=1000
