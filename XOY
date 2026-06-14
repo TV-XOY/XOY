@@ -433,9 +433,12 @@ https://live1-ott.izzigo.tv/15/out/u/dash/TVE-SD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 
 
-###############################################################################################--DEPORTES--############################################
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/61/2/cazetv-logo-png_seeklogo-619708.png" group-title="DEPORTES",CAZÉ TV 4K
+###############################################################################################--DEPORTES--###############################################################################
+
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/61/2/cazetv-logo-png_seeklogo-619708.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 1 FHD-60FPS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -443,7 +446,15 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"UBsgnMzTI6wAv1rBW0BstA", "kid":"NEde2rmRrV6SVIrr1xBBCg" } ], "type":"temporary" }
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/s9v0mW7j/Picsart-26-06-09-23-00-55-307.png" group-title="DEPORTES",SPORTV MUNDIAL FHD
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/2/22/Logotipo_da_Caz%C3%A9TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 2 4K
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"22Pse58RNIt8xoCKVMmUVw", "kid":"l1LvclkO9EH/o3MeBIb7wA" } ], "type":"temporary" }
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/s9v0mW7j/Picsart-26-06-09-23-00-55-307.png" group-title="DEPORTES",🇧🇷 SPORTV MUNDIAL FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
