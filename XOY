@@ -517,7 +517,7 @@ https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FiIPCFuhgmag22VCqVEscA", "kid":"c5zUC+FHPAmukY2J0hMiAA" } ], "type":"temporary" }
-https://us3.proxysite.com/process.php?d=4NSfrbgo%2FmOAmF5Nh4a%2BRIE9p0OH1eKpMneT1LOkyjPDe9lEIGtPXPqPd9uC7cUa1JB%2FaEIpACpWHzja%2FT%2BMSCHjo7%2FjCyCTOjEdSW%2BhveplEPBRmcxl2l6ZPHQj3XQ%3D&b
+https://us3.proxysite.com/process.php?d=4NSfrbgo%2FmOAmF5Nh4a%2BRIE9p0OH1eKpMneT1LOkyjPDe9lEIGtPXPqPd9uC7cUa1JB%2FaEIpACpWHzja%2FT%2BMSCHjo7%2FjCyCTOjEdSW%2BhveplEPBRmcxl2l6ZPHQj3XQ%3D&b=1&f=norefer
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/3840px-CTV_logo_2018.svg.png" group-title="DEPORTES",🇺🇸 FIFA CTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
