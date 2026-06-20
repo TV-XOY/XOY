@@ -147,7 +147,7 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/QdK-_wBr0Ro/expires/1781843460647/srcIp/201.148.8.14/urls/185.226.55.88/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/Qf82KsJlbKA/expires/1782020494323/srcIp/201.148.8.15/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -452,8 +452,8 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"22Pse58RNIt8xoCKVMmUVw", "kid":"l1LvclkO9EH/o3MeBIb7wA" } ], "type":"temporary" }
-https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key={"ac7abaa9c9481aacfbdac64fc3ec3312":"c0c504a2ed2e70b879a650b8770a38c6"}
+https://otte-azion.live.pv-cdn.net/syd-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
@@ -756,7 +756,7 @@ https://cplus.lat/Teleplay/Juridico/Listas/PHPStream/stream.php?channel=foxdepor
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"lyiACjlZqv3VsLz783aIEQ", "kid":"0aFjkU24/60sPpT5eYlqDQ",} ], "type":"temporary" }
+#KODIPROP:inputstream.adaptive.license_key={"9728800a3959aafdd5b0bcfbf3768811":"d1a163914db8ffad2c3e94f979896a0d"}
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES",FOX ONE
@@ -2277,8 +2277,4 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"f37a2c616a17358d8afda0326fbf7151":"bdaad10dbfe10b082ee61bce67787e27"}
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-IZZI-SD/default.mpd
-
-
-
-
 
