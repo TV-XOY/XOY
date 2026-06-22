@@ -529,7 +529,9 @@ https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/
 https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO ARIZONA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#EXTVLCOPT:http-user-agent=Sky+/11.5.1(18)_prd skymas ahh (Linux;Android 16) AndroidXMedia3/1.0.2
+#KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv/webclient/
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://www.izzigo.tv/webclient/
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -696,9 +698,10 @@ http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rgilyeubta/out/v1/09
 http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd
 
 #EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS
+#EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.license_type=webvideo
-https://la18hd.com/vivo/canales.php?stream=winsports
+https://cgxheq.fubo18.com/winsports/mono.m3u8?token=49d213ac2f6cd6094f5db49e15ea3cf8fab10772-58-1782172305-1782154305
 
 #EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS
 #KODIPROP:inputstream.adaptive.manifest_type=hls
