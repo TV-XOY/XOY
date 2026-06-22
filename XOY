@@ -147,7 +147,8 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/Qf82KsJlbKA/expires/1782020494323/srcIp/201.148.8.15/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/9T7mgAW_qic/expires/1782240390964/srcIp/201.148.8.15/urls/185.226.53.103/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -527,6 +528,14 @@ https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FiIPCFuhgmag22VCqVEscA", "kid":"c5zUC+FHPAmukY2J0hMiAA" } ], "type":"temporary" }
 https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO ARIZONA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"1efe4add8fdf327c5f8d2a1c195e5c71":"4f50e6f011e60ca01ee561f27187e78f"}
+http://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/3840px-CTV_logo_2018.svg.png" group-title="DEPORTES",🇺🇸 FIFA CTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -688,6 +697,11 @@ http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ud6bnhthpj/out/v1/26
 
 #EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.license_type=webvideo
+https://la18hd.com/vivo/canales.php?stream=winsports
+
+#EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="Win.Sports+.co"  tvg-logo="https://i.ibb.co/kHj0xS7/tv-station-win-sports-plus-2457.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS+
@@ -726,6 +740,17 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsports3hd)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6f550e21bc1518f6a9e63a3fab3edc7a":"821bbb8c41da972ab4e753e5029ffbdc"}
 https://dish.akamaized.net/Content/DASH/Live/channel(foxsportsprhd)/variant.mpd
+
+#EXTINF:-1 tvg-id="" tvg-shift="" tvg-logo="https://i.postimg.cc/V6TSfsh6/Fox.png" group-title="DEPORTES",🇺🇸 FOX SPORTS 
+#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"f6564ec2aee819046328a0e153be574d":"ff46a8a1031eb27ef22576a077c98ab7"}
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FS1" tvg-logo="https://i.ibb.co/vx6X9LXV/FS1.jpg" group-title="DEPORTES",🇺🇸 FS1
@@ -1154,17 +1179,6 @@ https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"b22284453c42c451bf2780193e064869":"fe1365dc80a324cf6e2ec5c137175b83"}
 https://a166aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash-sd/enc/yh2psenrh0/out/v1/544d9dc64fff4def8672c7f25e342dd6/cenc-sd.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7GVp3fW.png" group-title="DEPORTES",🇫🇷 DIRECT
-#EXTVLCOPT:http-referrer=https://www.primevideo.com/
-#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Ue3jqCEin+gecSgsjv+A4w", "kid":"Qz/7pnCWPnCFeFmp3/S+BA" } ], "type":"temporary" }
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd
-
 
 #EXTINF:-1 tvg-id="CLAROSPORTS.mx" tvg-logo="https://i.postimg.cc/SKKZNKnw/CLARO-SPORTS.png" group-title="DEPORTES",CLARO SPORTS 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -2277,4 +2291,8 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"f37a2c616a17358d8afda0326fbf7151":"bdaad10dbfe10b082ee61bce67787e27"}
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-IZZI-SD/default.mpd
+
+
+
+
 
