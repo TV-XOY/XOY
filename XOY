@@ -65,7 +65,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv/webclient
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"2cde091f1e4675c82d65498bd6ba0e65":"29f2aeb97a908466177c56fc28fe083f"}
-https://nog-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
+https://zap-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
 
 #EXTINF:-1 tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
 #EXTVLCOPT:network-caching=1000
