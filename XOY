@@ -58,7 +58,6 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
 #EXTINF:-1 ch-number="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/webclient&Origin=https://www.izzigo.tv/webclient&User-Agent=Sky+/11.5.1(18)_prd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -73,7 +72,6 @@ https://zap-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
 http://38.194.226.190:8000/play/a017/index.m3u8
 
 #EXTINF:-1 ch-number="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
@@ -471,9 +469,7 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/o
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-"$KODIPROP:inputstream.adaptive.license_key={"0a29e3b7dc26ced80114da99266ea636":"9f1e4034545fed90b5ce7a8f8925e621"}$"
 #KODIPROP:inputstream.adaptive.license_key={"ba6aca5a550163c38d06646bb50f04e7":"516c3b471fce48a5b7a2e5ee7dd505f2"}
-#https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash-sd/enc/iy79zu8tb9/out/v1/e86df8b45c0f452daf49ca6e3d27103e/cenc-sd.mpd
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 1
