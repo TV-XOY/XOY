@@ -541,10 +541,10 @@ https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/
 https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO ARIZONA
-#EXTVLCOPT:http-user-agent=Sky+/11.5.1(18)_prd skymas, (Linux;Android 16) AndroidXMedia3/1.0.2
-#KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv/webclient/
-#KODIPROP:inputstream.adaptive.stream_headers=referer=https://www.izzigo.tv/webclient/
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/webclient&Origin=https://www.izzigo.tv/webclient&User-Agent=Sky+/11.5.1(18)_prd
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv/webclient
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"1efe4add8fdf327c5f8d2a1c195e5c71":"4f50e6f011e60ca01ee561f27187e78f"}
