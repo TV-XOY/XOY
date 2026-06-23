@@ -58,15 +58,13 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
 #EXTINF:-1 ch-number="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ZCdy6/GDLx8vpYy36Pz9BQ", "kid":"zo+G0vDRY4V0I3raisLoKg" } ], "type":"temporary" }
-https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/AZTECA-7-HD/default.mpd
+#KODIPROP:inputstream.adaptive.license_key={"2cde091f1e4675c82d65498bd6ba0e65":"29f2aeb97a908466177c56fc28fe083f"}
+https://zap-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
 
 #EXTINF:-1 tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
 #EXTVLCOPT:network-caching=1000
@@ -145,10 +143,10 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
-#EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://ok.ru/videoembed/10849691639514&Origin=https://ok.ru/videoembed/10849691639514&User-Agent=Mozilla/5.0 (X11; Linux armv7l)
+#EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/9T7mgAW_qic/expires/1782240390964/srcIp/201.148.8.15/urls/185.226.53.103/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/P9Y_NR6UCnQ/expires/1782275305440/srcIp/201.148.8.14/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -441,11 +439,12 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.primevideo.com&Origin=https://www.primevideo.com&User-Agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"UBsgnMzTI6wAv1rBW0BstA", "kid":"NEde2rmRrV6SVIrr1xBBCg" } ], "type":"temporary" }
+#KODIPROP:inputstream.adaptive.license_key={"34475edab991ad5e92548aebd710410a":"501b209cccd323ac00bf5ac15b406cb4"}
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 2
@@ -456,13 +455,25 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81
 #KODIPROP:inputstream.adaptive.license_key={"ac7abaa9c9481aacfbdac64fc3ec3312":"c0c504a2ed2e70b879a650b8770a38c6"}
 https://otte-azion.live.pv-cdn.net/syd-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 2 PV
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.primevideo.com&Origin=https://www.primevideo.com&User-Agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"0a29e3b7dc26ced80114da99266ea636":"9f1e4034545fed90b5ce7a8f8925e621"}
-https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash-sd/enc/iy79zu8tb9/out/v1/e86df8b45c0f452daf49ca6e3d27103e/cenc-sd.mpd
+#KODIPROP:inputstream.adaptive.license_key={"ac7abaa9c9481aacfbdac64fc3ec3312":"c0c504a2ed2e70b879a650b8770a38c6"}
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 3
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.primevideo.com&Origin=https://www.primevideo.com&User-Agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+"$KODIPROP:inputstream.adaptive.license_key={"0a29e3b7dc26ced80114da99266ea636":"9f1e4034545fed90b5ce7a8f8925e621"}$"
+#KODIPROP:inputstream.adaptive.license_key={"ba6aca5a550163c38d06646bb50f04e7":"516c3b471fce48a5b7a2e5ee7dd505f2"}
+#https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash-sd/enc/iy79zu8tb9/out/v1/e86df8b45c0f452daf49ca6e3d27103e/cenc-sd.mpd
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -529,14 +540,14 @@ https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/
 https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO ARIZONA
-#EXTVLCOPT:http-user-agent=Sky+/11.5.1(18)_prd skymas ahh (Linux;Android 16) AndroidXMedia3/1.0.2
+#EXTVLCOPT:http-user-agent=Sky+/11.5.1(18)_prd skymas, (Linux;Android 16) AndroidXMedia3/1.0.2
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv/webclient/
 #KODIPROP:inputstream.adaptive.stream_headers=referer=https://www.izzigo.tv/webclient/
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"1efe4add8fdf327c5f8d2a1c195e5c71":"4f50e6f011e60ca01ee561f27187e78f"}
-http://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd
+https://paz-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/TELEMUNDO-ARIZONA-USA-TCS-HD.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/3840px-CTV_logo_2018.svg.png" group-title="DEPORTES",🇺🇸 FIFA CTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
