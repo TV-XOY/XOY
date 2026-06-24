@@ -147,7 +147,7 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://ok.ru/videoembed/10849691639514&Origin=https://ok.ru/videoembed/10849691639514&User-Agent=Mozilla/5.0 (X11; Linux armv7l)
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/P9Y_NR6UCnQ/expires/1782275305440/srcIp/201.148.8.14/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/-vgosbC3yl4/expires/1782428504864/srcIp/201.148.8.14/urls/185.226.53.103/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -449,14 +449,6 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"ac7abaa9c9481aacfbdac64fc3ec3312":"c0c504a2ed2e70b879a650b8770a38c6"}
-https://otte-azion.live.pv-cdn.net/syd-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 2 PV
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.primevideo.com&Origin=https://www.primevideo.com&User-Agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -546,6 +538,14 @@ https://cors-proxy.cooks.fyi/https://live-oneapp-prd-news.akamaized.net/Content/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"1efe4add8fdf327c5f8d2a1c195e5c71":"4f50e6f011e60ca01ee561f27187e78f"}
 https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd
+
+#EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO 52
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming.hostpannel.lat/hls/941e1b2f8f9ad012ff7b69a97f6f33b8/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/3840px-CTV_logo_2018.svg.png" group-title="DEPORTES",🇺🇸 FIFA CTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
@@ -715,6 +715,14 @@ http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://190.60.37.118:4000/play/a0bw
 
+#EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/tRrhMgbh/unnamed-(2).png"  group-title="DEPORTES",TIGO BOLIVIA MUNDIAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://master.tucableip.com/Amistoso/tracks-v1a1/mono.ts.m3u8
+
 #EXTINF:-1 tvg-id="FOX SPORTS.mx" tvg-logo="https://i.postimg.cc/26KVW08S/FOX-SPORTS.png" group-title="DEPORTES",FOX SPORTS 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -755,14 +763,6 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsportsprhd)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"f6564ec2aee819046328a0e153be574d":"ff46a8a1031eb27ef22576a077c98ab7"}
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
-
-#EXTINF:-1 tvg-id="scotlandvsbrazil2300daznspanish" tvg-logo="https://i.ibb.co/YFQsgMyn/1781635407452.png" group-title="DEPORTES",🇺🇸 FS1 4K HDR
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-https://cors-proxy.cooks.fyi/https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FS1" tvg-logo="https://i.ibb.co/vx6X9LXV/FS1.jpg" group-title="DEPORTES",🇺🇸 FS1
