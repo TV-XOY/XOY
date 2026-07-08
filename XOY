@@ -9,6 +9,8 @@
 # +++   NO ES PARA VENTA  +++    |
 #________________________________|
 
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 8 DE JULIO DEL 2026 A LAS 2:30-AM
+
 
 
 #=================================================================================================================|
@@ -52,6 +54,12 @@
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz"
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY ONLINE
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://s2.mexside.net:7080/stream/1/
 
 #EXTINF:-1 ch-number="1" tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -190,10 +198,10 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://ok.ru/videoembed/10849691639514&Origin=https://ok.ru/videoembed/10849691639514&User-Agent=Mozilla/5.0 (X11; Linux armv7l)
-#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/KrsJxNiNN4c/expires/1782668393984/srcIp/201.148.8.15/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/s4TVXeSML5s/expires/1783585378549/srcIp/201.148.8.14/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=3000
@@ -627,7 +635,7 @@ https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"1efe4add8fdf327c5f8d2a1c195e5c71":"4f50e6f011e60ca01ee561f27187e78f"}
-https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd
+https://paz-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/TELEMUNDO-ARIZONA-USA-TCS-HD.mpd
 
 #EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO 52
 #EXTVLCOPT:network-caching=2000
