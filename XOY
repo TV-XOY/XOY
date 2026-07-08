@@ -54,12 +54,6 @@
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz"
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY ONLINE
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://s2.mexside.net:7080/stream/1/
 
 #EXTINF:-1 ch-number="1" tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -571,14 +565,12 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/o
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 http://smarterstv99.dyndns.tv:25461/live/Gomez109/ZhUfLzANPeRe/494831.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 2
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 http://smarterstv99.dyndns.tv:25461/live/Gomez109/ZhUfLzANPeRe/494838.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 3
@@ -629,14 +621,6 @@ https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FiIPCFuhgmag22VCqVEscA", "kid":"c5zUC+FHPAmukY2J0hMiAA" } ], "type":"temporary" }
 https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO ARIZONA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"1efe4add8fdf327c5f8d2a1c195e5c71":"4f50e6f011e60ca01ee561f27187e78f"}
-https://paz-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/TELEMUNDO-ARIZONA-USA-TCS-HD.mpd
-
 #EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO 52
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
@@ -655,7 +639,13 @@ https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xcodes.aftertv.xyz:8080/live/santiago/santiago/4046.m3u8
+https://streaming.alwaysdata.net/tudn.php
+
+#EXTINF:-1 tvg-id="TUDN.mx" tvg-logo="https://i.postimg.cc/1tMhLh8J/15_tudn.png" group-title="DEPORTES",🇲🇽 TUDN 4K
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://go.iptvhn.net:25461/7619/7619/1980
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/WDt6Sc6/zona-tudn.png" group-title="DEPORTES",🇲🇽 TUDN VIX
 #EXTHTTP:{"Origin":"https://www.primevideo.com/","Referer":"https://www.primevideo.com/"}
@@ -678,13 +668,13 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4fb1073240a549479fd2f343e6cad4ba/cenc.mpd
 
 #EXTINF:-1 tvg-id="USBD1700016X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES",🇺🇸 ZONA TUDN VIX
-#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN
-#EXTVLCOPT:network-caching=3000
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN
+#EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -2331,7 +2321,7 @@ https://s.emisoras.tv:8081/diostevetv/index.m3u8
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://stmvideo1.livecastv.com/tiempo/tiempo/chunklist_w296938256.m3u8
+https://stmvideo1.livecastv.com/tiempo/tiempo/playlist.m3u8?hls_ctx=u12s54
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5N7m0TR8/Vida-Cristiana.png" group-title="CRISTIANOS",VIDA CRISTIANA
 #EXTVLCOPT:network-caching=3000
@@ -2344,6 +2334,13 @@ https://2-fss-2.streamhoster.com/pl_120/200226-1449024-1/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/085/radio-cristiana-mexico-mexico.8a590d59.jpg" group-title="RADIOS YUCATAN",RADIO CRISTIANA MEXICO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream-148.zeno.fm/d4vr1vwxcfhvv
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/qvJ6gWGt/enlace.png" group-title="CRISTIANOS",ENLACE HD
 #EXTVLCOPT:network-caching=3000
@@ -2359,21 +2356,143 @@ https://ch1-c27.duin.dev/hls/0/stream.m3u8
 
 ########################################################################################MOSAICOS###########################################################################
 
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/reverenda-merida.png" group-title="RADIOS YUCATAN",93.7 LA REVERENDA
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://s2.mexside.net:7080/stream/1/
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/676/ke-buena-merida.9c99a0fc.png" group-title="RADIOS YUCATAN",90.9 LA KE BUENA
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.zeno.fm/2pz1hwmc4p8uv
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/la-mejor-fm-merida.png" group-title="RADIOS YUCATAN",90.1 LA MEJOR FM
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://18303.live.streamtheworld.com/XHQW_SC
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/los-40-principales-merida.png" group-title="RADIOS YUCATAN",96.9 40 PRINCIPALES
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.zeno.fm/44t6wqmc4p8uv
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/candela-merida.png" group-title="RADIOS YUCATAN",95.3 CANDELA
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.zeno.fm/tbnc01hc4p8uv
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/comadre-merida.png" group-title="RADIOS YUCATAN",98.5 LA COMADRE
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cast4.my-control-panel.com/proxy/televiso/comadremid
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/exa-merida.png" group-title="RADIOS YUCATAN",99.3 EXA FM
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://playerservices.streamtheworld.com/api/livestream-redirect/XHMRA_SC
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/stereo-ticul.png" group-title="RADIOS YUCATAN",FM STEREO TICUL
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://sonic01.instainternet.com/8074/stream/1/
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/mundo-merida.png" group-title="RADIOS YUCATAN",89.3 RADIO MUNDO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cento02.mipanelradio.com/proxy/radiomu5?mp=/stream/1/
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/retro-merida.png" group-title="RADIOS YUCATAN",103.1 RETRO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.zeno.fm/4swephmc4p8uv
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/kiss-fm.png" group-title="RADIOS YUCATAN",97.7 KISS FM
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://webprod.sipse.com.mx:8080/kissfm
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/turquesa-cancun.png" group-title="RADIOS YUCATAN",105.1 RADIO TURQUESA
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.miradio.in/proxy/rt1051/live
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/la-nueva-amor-100-1.png" group-title="RADIOS YUCATAN",100.1 AMOR
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://webprod.sipse.com.mx:8080/amor
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/trc-campeche.png" group-title="RADIOS YUCATAN",89.3 TRC RADIO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streamingcwsradio30.com/8288/stream/1/
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/radios-150px/570/cumbias-inmortales-mix-radio.da3a03ec.jpg" group-title="RADIOS YUCATAN",CUMBIAS INMORTALES
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.zeno.fm/a1r491n45qzuv
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/091/889-fm-telesur-radio.f21d7885.png" group-title="RADIOS YUCATAN",88.9 TELESUR RADIO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming.shoutcast.com/telesur-radio-88-9-fm-
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/098/yucatan-fm.6e64b492.png" group-title="RADIOS YUCATAN",92.9 YUCATAN FM
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://s2.mexside.net/8054/stream
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/855/latotal-radio.995ed034.png" group-title="RADIOS YUCATAN",LA TOTAL RADIO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://totalradio.radiored.net:8026/;
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.instant.audio/images/logos/emisoras-com-mx/xepet.png" group-title="RADIOS YUCATAN",XEPET PETO
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://radios.inpi.gob.mx:8080/xepet
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="iZZi-TV",SKY ONE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"96f177548046a9f56bbb39a900a82ddd":"96aa836072fd84c9a8e6219652330272"}
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/jdNpPd0T/izzi.pngIworldtv2" group-title="iZZi-TV",IzzI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"f37a2c616a17358d8afda0326fbf7151":"bdaad10dbfe10b082ee61bce67787e27"}
-https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-IZZI-SD/default.mpd
-
-
-
-
-
