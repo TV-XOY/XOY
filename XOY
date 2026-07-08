@@ -561,14 +561,14 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/o
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 1
 #EXTVLCOPT:network-caching=2000
+#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 http://smarterstv99.dyndns.tv:25461/live/Gomez109/ZhUfLzANPeRe/494831.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 2
 #EXTVLCOPT:network-caching=2000
+#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#KODIPROP:inputstreamaddon=inputstream.adaptive
 http://smarterstv99.dyndns.tv:25461/live/Gomez109/ZhUfLzANPeRe/494838.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 3
@@ -621,7 +621,6 @@ https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO ARIZONA
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/webclient
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
