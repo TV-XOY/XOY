@@ -566,13 +566,14 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/o
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #http://smarterstv99.dyndns.tv:25461/live/Gomez109/ZhUfLzANPeRe/494831.m3u8
-http://skybeyondplus.mine.nu:25461/live/arpa26/gdnMy4ZnZUEz/494831.m3u8
+#http://skybeyondplus.mine.nu:25461/live/arpa26/gdnMy4ZnZUEz/494831.m3u8
+http://ak-47scan.dyndns.tv:25461/chestertv205/EyXv8GQkxKMy/494831
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 2
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://smarterstv99.dyndns.tv:25461/live/Gomez109/ZhUfLzANPeRe/494838.m3u8
+http://ak-47scan.dyndns.tv:25461/chestertv205/EyXv8GQkxKMy/494838
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/SRsp4V8x/VIX-PREMIUM.png" group-title="DEPORTES",VIX MUNDIAL 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -624,7 +625,6 @@ https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL
 
 #EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO 52
 #EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streaming.hostpannel.lat/hls/941e1b2f8f9ad012ff7b69a97f6f33b8/index.m3u8
 
@@ -662,7 +662,6 @@ https://streaming.alwaysdata.net/tudn.php
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 3
 #EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://go.iptvhn.net:25461/7619/7619/1980
