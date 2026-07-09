@@ -646,13 +646,13 @@ https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v
 #KODIPROP:inputstream.adaptive.license_key={"763ce1ebcaf23502c8cf357c6ef423e1":"0c5e6c0820a1ea28753721db00272411"}
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://imgur.com/R9FWr9u" group-title="DEPORTES",🇺🇸 TUDN 1
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 1
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streaming.alwaysdata.net/tudn.php
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://imgur.com/R9FWr9u" group-title="DEPORTES",🇺🇸 TUDN 2
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -675,7 +675,7 @@ https://proxy.cors.sh/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"qkXoOfFQWN9QNCrOjQQKSA", "kid":"yzCP9MTsg1uqKVYhJQfeUg" } ], "type":"temporary" }
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4fb1073240a549479fd2f343e6cad4ba/cenc.mpd
 
-#EXTINF:-1 tvg-id="USBD1700016X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES",🇺🇸 ZONA TUDN VIX
+#EXTINF:-1 tvg-id="TUDN.us2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES",🇺🇸 ZONA TUDN VIX
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
