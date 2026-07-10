@@ -194,14 +194,14 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #EXTVLCOPT:http-origin=https://ok.ru/videoembed/10849691639514
 #EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
-#EXTVLCOPT:http-header-cookies=__last_online=1783645144261; Max-Age=2147483647; Expires=Wed, 28 Jul 2094 04:13:11 GMT; Path=/; Secure
-#EXTVLCOPT:http-header=x-trace-id: TECbjvPi6R1GVTXbXb4gbwKZMmKdBg
-#EXTVLCOPT:http-header-cookies=ss_wb=YVX3cf6_PyAxAkpFllBmzv1cCD1a4olXcUC9kgOTZY79WAZxjHHI869GzzBQ3j3Z2iVUz0PP7-8ggFy9eJGnQp0cfmgNJvICNg; bci=-278067389344436951; _statid=b183d506-f2c7-4350-abc3-a45bd3352153; _touch=false; _hover=true; __dzbd=false; _breakpoint=L; JSESSIONID=a8e1d3d52919ed151c5f52327ab4faba31b93ad1e48ee73.73ded223; ss_wb=nCqjZ0BUq35iWIW_ZG7qhEJpcKcok4MvqFX60mpDRI4RqFElDitOSjtJeMZ-tOSLsXPOIT0zAB_YxgCMrq_1zRVyQnEcv84gpg; viewport=940; _userIds=; _suserIds=; __last_online=1783644744450
+#EXTVLCOPT:http-header-cookies=__last_online=1783645144261
+#EXTVLCOPT:http-header=x-trace-id:TECbjvPi6R1GVTXbXb4gbwKZMmKdBg
+#EXTVLCOPT:http-header-cookies=ss_wb=YVX3cf6_PyAxAkpFllBmzv1cCD1a4olXcUC9kgOTZY79WAZxjHHI869GzzBQ3j3Z2iVUz0PP7-8ggFy9eJGnQp0cfmgNJvICNg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1
+https://ok.ru/videoembed/10849691639514
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=3000
