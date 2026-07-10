@@ -192,10 +192,16 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
+#EXTVLCOPT:http-origin=https://ok.ru/videoembed/10849691639514
+#EXTVLCOPT:http-referrer=https://ok.ru/videoembed/10849691639514
+#EXTVLCOPT:http-header-cookies=__last_online=1783645144261; Max-Age=2147483647; Expires=Wed, 28 Jul 2094 04:13:11 GMT; Path=/; Secure
+#EXTVLCOPT:http-header=x-trace-id: TECbjvPi6R1GVTXbXb4gbwKZMmKdBg
+#EXTVLCOPT:http-header-cookies=ss_wb=YVX3cf6_PyAxAkpFllBmzv1cCD1a4olXcUC9kgOTZY79WAZxjHHI869GzzBQ3j3Z2iVUz0PP7-8ggFy9eJGnQp0cfmgNJvICNg; bci=-278067389344436951; _statid=b183d506-f2c7-4350-abc3-a45bd3352153; _touch=false; _hover=true; __dzbd=false; _breakpoint=L; JSESSIONID=a8e1d3d52919ed151c5f52327ab4faba31b93ad1e48ee73.73ded223; ss_wb=nCqjZ0BUq35iWIW_ZG7qhEJpcKcok4MvqFX60mpDRI4RqFElDitOSjtJeMZ-tOSLsXPOIT0zAB_YxgCMrq_1zRVyQnEcv84gpg; viewport=940; _userIds=; _suserIds=; __last_online=1783644744450
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd288.okcdn.ru/hls/10454955395802.m3u8/sig/s4TVXeSML5s/expires/1783585378549/srcIp/201.148.8.14/urls/185.226.52.91/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=3000
@@ -624,9 +630,10 @@ https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL
 https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
 #EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO 52
+#EXTHTTP:{"Origin":""https://vileembeds.pages.dev/","Referer":""https://vileembeds.pages.dev/"}
 #EXTVLCOPT:network-caching=2000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streaming.hostpannel.lat/hls/941e1b2f8f9ad012ff7b69a97f6f33b8/index.m3u8
+https://proxy.cors.sh/https://pacquiao.inproviszon.st/telemundo-usa.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/3840px-CTV_logo_2018.svg.png" group-title="DEPORTES",🇺🇸 FIFA CTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36
@@ -1060,6 +1067,12 @@ https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-7-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"22b844cc7ace9720731897f0713aa763":"15b3516a326dabc32807f0950c28fb76"}
 https://live1-ott.izzigo.tv/13/out/u/dash/SKY-LIVE-EVENT-8-HD/default.mpd
 
+#EXTINF:-1 tvg-id="DAZN.1.pt" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBDnPGrO_wbnXGQUOcUxVPlhmIAtx8RXTGMfSyu4whonp1RuasuRpBZX81&s=10" group-title="DEPORTES" ,🇵🇹 DAZN MUNDIAL
+#EXTVLCOPT:http-origin=https://ritzembeds.pages.dev
+#EXTVLCOPT:http-referrer=https://ritzembeds.pages.dev
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+https://pacquiao.inproviszon.st/daznmundial-es.m3u8
+
 #EXTINF:-1 tvg-id="DAZN.1.pt" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png" group-title="DEPORTES" ,🇵🇹 DAZN 1
 #EXTVLCOPT:http-origin=https://aesport.tv
 #EXTVLCOPT:http-referrer=https://aesport.tv/
@@ -1202,12 +1215,17 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"d/YpgNWC7FQSgHlqz4stGQ", "kid":"Gl31NgnryYV4mMSQ9HJJGA" } ], "type":"temporary" }
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
 
-
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.uk" tvg-logo="http://linear-poster.astro.com.my/prod/logo/PremierSports.png"  group-title="DEPORTES",🇬🇧 PREMIER SPORTS 2
 #EXTVLCOPT:http-origin=https://aesport.tv
 #EXTVLCOPT:http-referrer=https://aesport.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 https://liveua.cdnfly.click/uk_premiersports2/index.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.1.pt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="DEPORTES" ,BeIN sPORTS MAX
+#EXTVLCOPT:http-origin=https://ritzembeds.pages.dev
+#EXTVLCOPT:http-referrer=https://ritzembeds.pages.dev
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+https://pacquiao.inproviszon.st/beinsportsmax-sa.m3u8
 
 #EXTINF:-1 tvg-id="beIN.Sports.USA.HD.us2" tvg-logo="https://m.media-amazon.com/images/I/61PbxKzBagL.png" group-title="DEPORTES",🇺🇸 BeIN SPORTS
 #EXTVLCOPT:network-caching=1000
