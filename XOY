@@ -199,10 +199,8 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTVLCOPT:http-header-cookies=ss_wb=YVX3cf6_PyAxAkpFllBmzv1cCD1a4olXcUC9kgOTZY79WAZxjHHI869GzzBQ3j3Z2iVUz0PP7-8ggFy9eJGnQp0cfmgNJvICNg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:network-caching=2000
-#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1
-https://ok.ru/videoembed/10849691639514
+https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1
 
 #EXTINF:-1 ch-number="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=3000
@@ -628,7 +626,7 @@ https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"FiIPCFuhgmag22VCqVEscA", "kid":"c5zUC+FHPAmukY2J0hMiAA" } ], "type":"temporary" }
-https://proxy.cors.sh/clarovideo.com/Content/DASH
+https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
 
 #EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO USA
 #EXTVLCOPT:network-caching=2000
