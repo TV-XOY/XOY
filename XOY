@@ -689,6 +689,8 @@ https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.
 
 #EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇲🇽 ESPN 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"8d1be59dc758ccbab3b567343d5d2915":"4744fd0e2fb5aaae961f468925ac2b73"}
 https://dish.akamaized.net/Content/DASH/Live/channel(espn)/manifest.mpd
