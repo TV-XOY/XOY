@@ -2457,9 +2457,11 @@ https://s2.mexside.net/8054/stream
 https://totalradio.radiored.net:8026/;
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/665/xepet-la-voz-de-los-mayas.792e1352.jpg" group-title="RADIOS YUCATAN",XEPET PETO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-referrer=https://emisoras.com.mx
-#KODIPROP:inputstream.adaptive.manifest_type=audio/aac
+#EXTVLCOPT:http-header=Connection: keep-alive
+#EXT-X-MEDIA:TYPE=AUDIO
+#EXTVLCOPT:ice-audio-info=ice-bitrate=24;ice-channels=2;ice-samplerate=44100
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://ecos.inpi.gob.mx/
 https://radios.inpi.gob.mx:8080/xepet
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sky_One_2017.svg" group-title="iZZi-TV",SKY ONE
