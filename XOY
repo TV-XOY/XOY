@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #________________________________|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 13 DE JULIO DEL 2026 A LAS 3:00 PM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 13 DE JULIO DEL 2026 A LAS 7:00 PM
 
 
 
@@ -692,12 +692,10 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4f
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
 #EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇲🇽 ESPN 1
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"8d19eWJh8J6Mx9DrGXKEv3ojKmqw8Cv9pscK":"4744fd0e2fb5aaae961f468925ac2b73"}
-https://dish.akamaized.net/Content/DASH/Live/channel(espn)/manifest.mpd
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://186.33.40.97:8789/play/20
 
 #EXTINF:-1 tvg-id="ESPN.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇲🇽 ESPN 2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -766,6 +764,32 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_key={"49020ffc8b5cc542c469370c40000565":"8ea4292586d4df3ab4ef173453f6c555"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS2_HD)/manifest.mpd
 
+#EXTINF:-1 tvg-id="Canal.ESPN.(Argentina).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇦🇷 ESPN 1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/107.m3u8
+
+#EXTINF:-1 tvg-id="Canal.ESPN.2.(Bolivia).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇦🇷 ESPN 2
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/108.m3u8
+
+#EXTINF:-1 tvg-id="Canal.ESPN.3.(Argentina).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/85/CH_LOGO/800/542/0/0/85904894074972.png" group-title="DEPORTES",🇦🇷 ESPN 3
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/109.m3u8
+
+#EXTINF:-1 tvg-id="Canal.ESPN.3.(Bolivia).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/83/CH_LOGO/800/542/0/0/16514023071132.png" group-title="DEPORTES",🇦🇷 ESPN 4
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/110.m3u8
+
+#EXTINF:-1 tvg-id="Canal.ESPN.Deportes.sv" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/83/CH_LOGO/800/542/0/0/16514023071132.png" group-title="DEPORTES",🇦🇷 ESPN DEPORTES
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=HLS
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/112.m3u8
+
+
 #EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.postimg.cc/1tLtxCgM/DSports-1.png" group-title="DEPORTES",🇨🇴 DSPORTS
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
@@ -815,7 +839,7 @@ http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/125.m3u8
 
 #EXTINF:-1 tvg-id="Win.Sports+.co"  tvg-logo="https://i.ibb.co/kHj0xS7/tv-station-win-sports-plus-2457.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS+
 #EXTVLCOPT:network-caching=2000
