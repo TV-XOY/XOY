@@ -688,9 +688,10 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4f
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
 #EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇲🇽 ESPN 1
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#http://186.33.40.97:8789/play/20
-http://181.78.49.81:8500/play/a058/index.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"8d1be59dc758ccbab3b567343d5d2915":"4744fd0e2fb5aaae961f468925ac2b73"}
+https://dish.akamaized.net/Content/DASH/Live/channel(espn)/manifest.mpd
 
 #EXTINF:-1 tvg-id="ESPN.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇲🇽 ESPN 2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
