@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #________________________________|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 13 DE JULIO DEL 2026 A LAS 7:00 PM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 14 DE JULIO DEL 2026 A LAS 1:00 AM
 
 
 
@@ -2462,8 +2462,7 @@ https://totalradio.radiored.net:8026/;
 https://radios.inpi.gob.mx:8080/xepet
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sky_One_2017.svg" group-title="iZZi-TV",SKY ONE
-#EXTVLCOPT:http-user-agent=
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"96f177548046a9f56bbb39a900a82ddd":"96aa836072fd84c9a8e6219652330272"}
