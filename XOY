@@ -692,10 +692,9 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4f
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
 #EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇲🇽 ESPN 1
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://186.33.40.97:8789/play/20
+#http://186.33.40.97:8789/play/20
+http://181.78.49.81:8500/play/a058/index.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇲🇽 ESPN 2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -834,10 +833,10 @@ http://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ud6bnhthpj/out/v1/26
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
+#http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
+http://45.70.168.162:8466/play/a013/index.m3u8
 
 #EXTINF:-1 tvg-id="Win.Sports.co"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/250px-Win_Sports_nuevo_logo.svg.png"  group-title="DEPORTES",🇨🇴 WIN SPORTS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/125.m3u8
 
