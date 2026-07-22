@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #________________________________|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 16 DE JULIO DEL 2026 A LA 1:00 PM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION 22 DE JULIO DEL 2026 A LA 1:00 AM
 
 
 
@@ -123,11 +123,16 @@ https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 https://zap-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
 
 #EXTINF:-1 tvg-chno="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
+#EXTVLCOPT:http-origin=https://skymas.mx/webclient
+#EXTVLCOPT:http-referrer=https://skymas.mx/webclient
 #EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://38.194.226.190:8000/play/a017/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"109e7fcb4970436a9e4628090c208451":"0ab1bc308c773d627f5a511f0fffc0e4"}
+http://147.78.1.28/xview/azteca_7_hd.mpd
+
 
 #EXTINF:-1 tvg-chno="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
 #EXTVLCOPT:network-caching=1000
@@ -535,15 +540,6 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 ###############################################################################################--DEPORTES--############################################
 
 
-#EXTINF:-1 tvg-logo="https://www.magentasport.de/images/editorial/Logos/Bewerb-Logos/NEU/SDF_Logo_Hoch-02_white.png?time=1692267178717" group-title="DEPORTES",🇩🇪 FUSTBALL TV 4K HDR
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"4f558eae1b005126b2ac6e9eb1a7849e":"17aea325d91b5e66f06a8c574f2f0b03","b73f76658d1f5ce38420f380421bafe3":"9ebdbf32f90b546f66603104b2ac3c8a","e1f8fc6898fc5bf7a00b5609af23fee0":"98b7133ee006d9fae111ec0cb366641c","e511fb81360c5f14b681605d1de52046":"ec72f335d0e436ac7dc1d936aea1144a"}
-https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd
-
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 1
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.primevideo.com&Origin=https://www.primevideo.com&User-Agent=AivAndroidPlayer/1.0 (AndroidDevice)
@@ -570,27 +566,6 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/o
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"ba6aca5a550163c38d06646bb50f04e7":"516c3b471fce48a5b7a2e5ee7dd505f2"}
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/2SRJpnZt/Telemundo-Deportes.png" group-title="DEPORTES",TELEMUNDO DEPORTES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"300b58dfdaf35e8537ce25c39e99aec7":"6fc107a6f62f39da27b36ff079d7f937"}
-https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(telemundodeportes)/master.mpd
-
-#EXTINF:-1 tvg-id="plex.tv.Telemundo.Texas.plex" tvg-logo="https://i.ibb.co/8d3prMM/telemundo.png" group-title="DEPORTES",TELEMUNDO TEXAS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/130.0.6723.73 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"739cd40be1473c09ae918d89d2132200":"16220f085ba18266a0db6542a9512c70"}
-https://proxy.cors.sh/https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvda)/master.mpd
-
-#EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="DEPORTES",TELEMUNDO USA
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://132.255.210.69:9000/play/a06i/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(México).mx" tvg-logo="https://i.postimg.cc/1tMhLh8J/15_tudn.png" group-title="DEPORTES",🇲🇽 TUDN
 #EXTHTTP:{"Origin":"https://www.primevideo.com/","Referer":"https://www.primevideo.com/"}
@@ -710,32 +685,6 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"49020ffc8b5cc542c469370c40000565":"8ea4292586d4df3ab4ef173453f6c555"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS2_HD)/manifest.mpd
-
-#EXTINF:-1 tvg-id="Canal.ESPN.(Argentina).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇦🇷 ESPN 1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/107.m3u8
-
-#EXTINF:-1 tvg-id="Canal.ESPN.2.(Bolivia).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇦🇷 ESPN 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/108.m3u8
-
-#EXTINF:-1 tvg-id="Canal.ESPN.3.(Argentina).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/85/CH_LOGO/800/542/0/0/85904894074972.png" group-title="DEPORTES",🇦🇷 ESPN 3
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/109.m3u8
-
-#EXTINF:-1 tvg-id="Canal.ESPN.3.(Bolivia).ar" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/83/CH_LOGO/800/542/0/0/16514023071132.png" group-title="DEPORTES",🇦🇷 ESPN 4
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/110.m3u8
-
-#EXTINF:-1 tvg-id="Canal.ESPN.Deportes.sv" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/83/CH_LOGO/800/542/0/0/16514023071132.png" group-title="DEPORTES",🇦🇷 ESPN DEPORTES
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/112.m3u8
-
 
 #EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.postimg.cc/1tLtxCgM/DSports-1.png" group-title="DEPORTES",🇨🇴 DSPORTS
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
@@ -1039,12 +988,6 @@ https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-7-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"22b844cc7ace9720731897f0713aa763":"15b3516a326dabc32807f0950c28fb76"}
 https://live1-ott.izzigo.tv/13/out/u/dash/SKY-LIVE-EVENT-8-HD/default.mpd
-
-#EXTINF:-1 tvg-id="DAZN.1.pt" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBDnPGrO_wbnXGQUOcUxVPlhmIAtx8RXTGMfSyu4whonp1RuasuRpBZX81&s=10" group-title="DEPORTES" ,🇵🇹 DAZN MUNDIAL
-#EXTVLCOPT:http-origin=https://ritzembeds.pages.dev
-#EXTVLCOPT:http-referrer=https://ritzembeds.pages.dev
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
-https://pacquiao.inproviszon.st/daznmundial-es.m3u8
 
 #EXTINF:-1 tvg-id="DAZN.1.pt" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png" group-title="DEPORTES" ,🇵🇹 DAZN 1
 #EXTVLCOPT:http-origin=https://aesport.tv
