@@ -283,6 +283,11 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(N
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 
+#EXTINF:-1 tvg-id="tigo"  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="NOTICIAS",TELEMUNDO USA
+#EXTVLCOPT:network-caching=2000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://132.255.210.69:9000/play/a06i/index.m3u8
+
 #EXTINF:-1 tvg-id="plex.tv.Telemundo.Texas.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS",TELEMUNDO NOTICIAS TEXAS
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -819,7 +824,6 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/50
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"9b9f674aca77e6e2d9e087d744ef9518":"9c79efe8f7510efe6a768ac4be5f93ff"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONEMX_HD)/manifest.mpd
-
 
 #EXTINF:-1 tvg-id="FOX ONE 1" tvg-logo="https://i.postimg.cc/Vkyf9Hx9/FOX-ONE-1-MX.png" group-title="DEPORTES",FOX ONE 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
