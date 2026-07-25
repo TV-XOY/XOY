@@ -809,13 +809,15 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/
 https://amg00733-tubi-amg00733c2-tubi-us-8155.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Fox.Deportes.sv" tvg-shift="-1" tvg-logo="https://i.postimg.cc/G2HRcpSp/Fox-deportes-HD.png" group-title="DEPORTES",FOX DEPORTES HD
-#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
-#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"d1a163914db8ffad2c3e94f979896a0d":"9728800a3959aafdd5b0bcfbf3768811"}
-https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+#EXTVLCOPT:network-caching=2000
+-KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
+-EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#KODIPROP:inputstream.adaptive.manifest_type=HSL
+-KODIPROP:inputstreamaddon=inputstream.adaptive
+-KODIPROP:inputstream.adaptive.license_type=clearkey
+-KODIPROP:inputstream.adaptive.license_key={"d1a163914db8ffad2c3e94f979896a0d":"9728800a3959aafdd5b0bcfbf3768811"}
+#https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+https://vulpix.kouzentv.com/iptv_data/app/script/tv/5bd5f5f4e9381ac0fe3c96d5817310252e3263a7/f9b96e6c2efdfc635053125c3423b6850a9776bb/101185_30.m3u8
 
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES",FOX ONE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
