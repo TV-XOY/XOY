@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #________________________________|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION DOMINGO 28 DE JULIO DEL 2026 A LA 12:00 AM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION DOMINGO 26 DE JULIO DEL 2026 A LA 12:00 PM
 
 
 
@@ -203,7 +203,7 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd115.okcdn.ru/dash/stream_10454955395802/stream.manifest/sig/jHDEZY0tdYc/expires/1785390436180/srcIp/201.148.8.15/urls/178.237.29.15/clientType/0/srcAg/CHROME/mid/10849691639514/frag-high-5830889.dash
+https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/COB-dNfhTBI/expires/1785391483723/srcIp/201.148.8.15/urls/178.237.29.15/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 tvg-chno="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=2000
@@ -470,12 +470,13 @@ https://dish.akamaized.net/Content/DASH/Live/channel(50dd60bc-94f1-a686-3a3f-a09
 https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/38/2/el-chavo-del-8-logo-png_seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
-#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:x-playlist-cache=2
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://tv.m3uts.xyz/stream/secure/01mCt3Ft/1173.m3u8|User-Agent=Magma Player/10&X-App=di&X-Version=10/1.0.9&X-Hash=QBtFBpQfVmGm2dCLMgycIXAocNHhG-hi3u-ZzWIb6gbnyQEhVMkUw8ETmnShKVPvoD8JofyYv8sgh7OccTwsELOVZpo96uG1CTYGi_xWYpE_x7BYaf5MOFbsqPqSqG32sqA6uhl4_JVP2PtU_EYAVcGKrL-eret4XTYqxsKSgSn5iOYrFuX0enDC5N5YJ_4Ov5NKA2xB1g6boRgDhC4IPqsAoek6sRvjPm8gUWty7b_mLm3wF6DRoC2J3Ao1f06I9nTrJIRKUMO-uQ6eu1lz96DnP6vwMD809dYRa6HsFpsL8k5_e573LLCbOBrefJTM_SYFxr1vniKUCKDso-pPioLgrFN7uS_3vPwomCYS2vfysk-3AglnZjeOM5gJSvBYvfZfEv0csdSyDw5h0HWHTIul9yWnaoSCRunK126dJ2G6-gJrQp1exHe6T9KqwpetRFqaNSHLjZs5qxAuBuuZrO2CoDyt37FhhXir2UShKG1i_0yNFfHF_w0OqSQzOwqDBre-OE2tzlAVKknV8HQhTA2mT9XXRiKXphZwI2SEMkMhbkqsDmhZTLsq2vkuCt1LR9NX0is7gkqXO1T9fFbMlLmOJyvQ_Som0SbsZCNRK2_X2nfwQZOcBJC0--NZa0d2&X-Did=37ab0879dbae63a4&Connection=Keep-Alive
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/38/2/el-chavo-del-8-logo-png_seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
-#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:x-playlist-cache=2
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
 
