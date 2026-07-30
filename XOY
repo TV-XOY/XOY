@@ -203,7 +203,7 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/COB-dNfhTBI/expires/1785391483723/srcIp/201.148.8.15/urls/178.237.29.15/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/O3uSX02Gcw4/expires/1785465315613/srcIp/201.148.8.14/urls/185.180.203.58/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 tvg-chno="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=2000
@@ -1222,6 +1222,46 @@ https://dish.akamaized.net/Content/DASH/Live/channel(clarosports)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"74cdcb63ff3e4f3ce4da4243b6d1e1d8":"9b8366fa8e9ebcdf4b349d6c9d528115"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(CLARO_SPORTS_LATAM_HD)/manifest.mpd
 
+#EXTINF:-1 tvg-id="Canal.AYM.Sports.mx" tvg-logo="https://i.postimg.cc/k4MR3QPj/AYM-SPORTS-1.png" group-title="DEPORTES",AYM SPORTS 1
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"11505e498dc3571c818c350d36563dfb":"1dca1b23799ef06ce4f851a3968b73b8"}
+https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-TV-HD/default.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/PxfvsWnF/AYM-SPORTS-2.png" group-title="DEPORTES",AYM SPORTS 2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"9213bfbf7c02e1beada75dbd389608a5":"a8a48bd40a1a62e6258a85e683a7fa78"}
+https://live1-ott.izzigo.tv/14/out/u/dash/LATIN-AMERICAN-SPORTS-HD/default.mpd
+
+#EXTINF:-1 tvg-id="plex.tv.ITV.Deportes.plex" tvg-logo="https://i.postimg.cc/zBDHZCYt/AYM-SPORTS-3.png" group-title="DEPORTES",AYM SPORTS 3
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"4d05c520c40e5e40ddbbda041d1e2811":"f7e248dc1d326f172c621895c90338a0"}
+https://live1-ott.izzigo.tv/11/out/u/dash/ITV-DEPORTES-HD/default.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/RFCJ57xp/AYM-SPORTS-4.png" group-title="DEPORTES",AYM SPORTS 4
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3377df9a3e3ce7735793541deb49657a":"df55b7df0f5d3fdb34ff56977aa7339d"}
+https://live1-ott.izzigo.tv/11/out/u/dash/BASKET-AMERICAS-HD/default.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/3Rr05XQz/AYM-SPORTS-6.png" group-title="DEPORTES",AYM SPORTS 6
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"12134b1ade9e2c55be144a1216e8e5fa":"10c49aabd94518ccd4b8c3f7fd2bacdb"}
+https://live1-ott.izzigo.tv/12/out/u/dash/MEXICO-AL-AIRE-LIBRE-HD/default.mpd
+
 #EXTINF:-1 tvg-id="Canal.TyC.Sports.sv" tvg-shift=+1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/zmpjy41624030194.png" group-title="DEPORTES",TYC SPORTS
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1252,22 +1292,6 @@ https://live1-ott.izzigo.tv/11/out/u/dash/GOLF-CHANNEL-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"08f8fb6d69482c151f73dd8461dca352":"8aea016cd974cb95e8bf030b196f4818"}
 https://live1-ott.izzigo.tv/7/out/u/dash/NBA-HD-H265/default.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/WpWc8VL0/40_basket_americas.png" group-title="DEPORTES",BASKET AMERICAS
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"3377df9a3e3ce7735793541deb49657a":"df55b7df0f5d3fdb34ff56977aa7339d"}
-https://live1-ott.izzigo.tv/11/out/u/dash/BASKET-AMERICAS-HD/default.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/RVW5bY47/44_LAS.png" group-title="DEPORTES",LAS SPORTS
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"9213bfbf7c02e1beada75dbd389608a5":"a8a48bd40a1a62e6258a85e683a7fa78"}
-https://live1-ott.izzigo.tv/14/out/u/dash/LATIN-AMERICAN-SPORTS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/MZPJ5w2m/41_beisbol_latino.png" group-title="DEPORTES",BEISBOL LATINO
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1315,22 +1339,6 @@ https://dish.akamaized.net/Content/DASH/Live/channel(fastandfunhd)/variant.mpd
 #EXTINF:-1 tvg-id="99951134" tvg-logo="https://image.xumo.com/v1/channels/channel/99951134/168x168.png?type=color_onBlack"  group-title="DEPORTES",UFC XUMO
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
-#EXTINF:-1 tvg-id="plex.tv.ITV.Deportes.plex" tvg-logo="https://i.postimg.cc/RVW5bY4f/43_itc_deportes.png" group-title="DEPORTES",ITV DEPORTES
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"4d05c520c40e5e40ddbbda041d1e2811":"f7e248dc1d326f172c621895c90338a0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ITV-DEPORTES-HD/default.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/9FD5NkCp/45_mexico_al_aire_libre.png" group-title="DEPORTES",MEXICO AL AIRE LIBRE
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"12134b1ade9e2c55be144a1216e8e5fa":"10c49aabd94518ccd4b8c3f7fd2bacdb"}
-https://live1-ott.izzigo.tv/12/out/u/dash/MEXICO-AL-AIRE-LIBRE-HD/default.mpd
-
 #EXTINF:-1 tvg-id="Canal.Adrenalina.Sports.Network.mx" tvg-logo="https://i.postimg.cc/m2Pf6nBd/46_adrenalina_sports.png" group-title="DEPORTES",ADRENALINA SPORTS NETWORK
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1338,14 +1346,6 @@ https://live1-ott.izzigo.tv/12/out/u/dash/MEXICO-AL-AIRE-LIBRE-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6de0a66b528401c0378c559712f74643":"f9a240cea75f585add8405375ad1d787"}
 https://live1-ott.izzigo.tv/11/out/u/dash/ADRENALINA-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.AYM.Sports.mx" tvg-logo="https://i.postimg.cc/fW2QCsn0/39_aym_sports.png" group-title="DEPORTES",AYM SPORTS TV
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"11505e498dc3571c818c350d36563dfb":"1dca1b23799ef06ce4f851a3968b73b8"}
-https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-TV-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/wT18br9Y/47_hi_sports.png" group-title="DEPORTES",HI SPORTS
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
