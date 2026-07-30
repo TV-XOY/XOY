@@ -52,7 +52,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/argentina4.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://www.open-epg.com/files/argentina1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz" cache=5000 deinterlace=1
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz" cache=5000 deinterlace=1
 
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
@@ -699,49 +699,49 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_key={"49020ffc8b5cc542c469370c40000565":"8ea4292586d4df3ab4ef173453f6c555"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS2_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="Canal.ESPN.(Chile).sv" tvg-logo="https://i.postimg.cc/dV1tLhF9/ESPN-1-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 1
+#EXTINF:-1 tvg-id="Espn.ar" tvg-logo="https://i.postimg.cc/dV1tLhF9/ESPN-1-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"8113ca483fed6872a8db8c1e32b48cb2":"895fe3b51a531a69afcef8eb1417aed5}
 https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn_arg)/variant.mpd
 
-#EXTINF:-1 tvg-id="Canal.ESPN.2.(Sur).sv" tvg-logo="https://i.postimg.cc/SxsNJn46/ESPN-2-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 2
+#EXTINF:-1 tvg-id="Espn2.ar" tvg-logo="https://i.postimg.cc/SxsNJn46/ESPN-2-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"fd71a595f5b61225be82193536bd891b":"279d9fb593bf5b8a4b4350171f6139fa"}
 https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn2_arg)/variant.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/K8zvR1bH/ESPN-3-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 3
+#EXTINF:-1 tvg-id="Espn3.ar" tvg-logo="https://i.postimg.cc/K8zvR1bH/ESPN-3-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 3
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"56cffe75198fa81600c625883f10ede1":"87e203fb99dded387fd481126e7c5178"}
 https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn3_arg)/variant.mpd
 
-#EXTINF:-1 tvg-id="Canal.ESPN.3.(Sur).sv" tvg-logo="https://i.postimg.cc/7Z6Yf54c/ESPN-4-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 4
+#EXTINF:-1 tvg-id="Espn4.ar" tvg-logo="https://i.postimg.cc/7Z6Yf54c/ESPN-4-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 4
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"50d56945c41f3c8fc0154c414aa2f842":"572883af19d1589aec3d40af47dfd179"}
 https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn4_arg)/variant.mpd
 
-#EXTINF:-1 tvg-id="Canal.ESPN.4.(Sur).sv" tvg-logo="https://i.postimg.cc/B6r5YWSL/ESPN-PREMIUM.png" group-title="DEPORTES",🇦🇷 ESPN PREMIUM
+#EXTINF:-1 tvg-id="EspnPremium.ar" tvg-logo="https://i.postimg.cc/B6r5YWSL/ESPN-PREMIUM.png" group-title="DEPORTES",🇦🇷 ESPN PREMIUM
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"c29b4e05389dc0493aa29d0debbe5a76":"bbccac68c01477eed726fb1c11d54560"}
 https://dish-arg.akamaized.net/Content/DASH/Live/channel(espnpr_arg)/variant.mpd
 
-#EXTINF:-1 tvg-id="Canal.TyC.Sports.sv" tvg-shift=+1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/zmpjy41624030194.png" group-title="DEPORTES",TYC SPORTS
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-shift=+1 tvg-logo="https://i.postimg.cc/85Rjhs5N/Ty-C-Sports.png" group-title="DEPORTES",TYC SPORTS
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"abb4405bf296d53b612b9124b6ff9b57":"7dff5070b84e6890b35a88a86ce44f40"}
 https://dish.akamaized.net/Content/DASH/Live/channel(tycsports)/variant.mpd
 
-#EXTINF:-1 tvg-id="TNT Sports Premium.ar" tvg-shift=+1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/44/TNT_Sports_Logo_%282017%29_II.png/revision/latest?cb=20180622191427&path-prefix=es" group-title="DEPORTES",TNT SPORTS
+#EXTINF:-1 tvg-id="TNTSportsPremium.ar" tvg-shift=+1 tvg-logo="https://i.postimg.cc/TYnsM64k/TNT-Sports-Premium-(Argentina).png" group-title="DEPORTES",TNT SPORTS
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
