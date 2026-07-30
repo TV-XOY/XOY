@@ -1282,13 +1282,14 @@ https://dish.akamaized.net/Content/DASH/Live/channel(clarosports)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"74cdcb63ff3e4f3ce4da4243b6d1e1d8":"9b8366fa8e9ebcdf4b349d6c9d528115"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(CLARO_SPORTS_LATAM_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="Canal.AYM.Sports.mx" tvg-logo="https://i.postimg.cc/k4MR3QPj/AYM-SPORTS-1.png" group-title="DEPORTES",AYM SPORTS 1
+#EXTINF:-1 gpx-fallback="true" tvg-id="Canal.AYM.Sports.mx" tvg-logo="https://i.postimg.cc/k4MR3QPj/AYM-SPORTS-1.png" group-title="DEPORTES",AYM SPORTS 1
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"11505e498dc3571c818c350d36563dfb":"1dca1b23799ef06ce4f851a3968b73b8"}
 https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-TV-HD/default.mpd
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5106
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/PxfvsWnF/AYM-SPORTS-2.png" group-title="DEPORTES",AYM SPORTS 2
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
