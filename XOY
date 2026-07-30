@@ -623,7 +623,7 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4f
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
-#EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇲🇽 ESPN 1
+#EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://i.postimg.cc/fRLTJVs7/ESPN-1-MEXICO.png" group-title="DEPORTES",🇲🇽 ESPN 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -632,7 +632,7 @@ https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.
 #http://181.78.49.81:8500/play/a058/index.m3u8
 https://dish.akamaized.net/Content/DASH/Live/channel(espn)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇲🇽 ESPN 2
+#EXTINF:-1 tvg-id="ESPN.mx" tvg-logo="https://i.postimg.cc/XYJ7prWH/ESPN-2-MEXICO.png" group-title="DEPORTES",🇲🇽 ESPN 2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -640,7 +640,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn)/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key={"ae99daa35220336fe9460b9060fa65a9":"ac284e8e24296f30496d1f39a7138205"}
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_2)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN 3.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/85/CH_LOGO/800/542/0/0/85904894074972.png" group-title="DEPORTES",🇲🇽 ESPN 3
+#EXTINF:-1 tvg-id="ESPN 3.mx" tvg-logo="https://i.postimg.cc/2S68V1Yt/ESPN-3-MEXICO.png" group-title="DEPORTES",🇲🇽 ESPN 3
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -648,7 +648,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_2)/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key={"430f38110162f19a042b4dcdc2005140":"50541179fbd5750aea8767cb6e6b3a7b"}
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_3)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN 4.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/83/CH_LOGO/800/542/0/0/16514023071132.png" group-title="DEPORTES",🇲🇽 ESPN 4
+#EXTINF:-1 tvg-id="ESPN 4.mx" tvg-logo="https://i.postimg.cc/520N6XJD/ESPN-4-MEXICO.png" group-title="DEPORTES",🇲🇽 ESPN 4
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -656,48 +656,97 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_3)/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key={"ef0779dad62e7a021ac8b82a5a8dd329":"e18c7892858eb04bf8d2dcf4f057dd77"}
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/21/CH_LOGO/800/542/0/0/25899985073189.png" group-title="DEPORTES",🇨🇴 ESPN 1
+#EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://i.postimg.cc/XYJ7prWk/ESPN-1-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 http://181.118.158.103:8000/play/a038/index.m3u8?hls
 
-#EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/84/CH_LOGO/800/542/0/0/32397574073429.png" group-title="DEPORTES",🇨🇴 ESPN 2
+#EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 http://181.118.158.103:8000/play/a039/index.m3u8?hls
 
-#EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/85/CH_LOGO/800/542/0/0/85904894074972.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
+#EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://i.postimg.cc/4xdNmYGF/ESPN-3-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 http://181.118.158.103:8000/play/a03a/index.m3u8?hls
 
-#EXTINF:-1 tvg-id="ESPN.4.co" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/83/CH_LOGO/800/542/0/0/16514023071132.png" group-title="DEPORTES" ,🇨🇴 ESPN 4
+#EXTINF:-1 tvg-id="ESPN.4.co" tvg-logo="https://i.postimg.cc/FHRs7Yv8/ESPN-4-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 4
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"1edee1ef683e9518a172af824b07642a":"39371baca096e3c1c896e55bab88b564"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.5.co"  tvg-logo="https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN5.png.ea2cd93464664aceb6401ba5dcbf1f3a.png" group-title="DEPORTES" ,🇨🇴 ESPN 5
+#EXTINF:-1 tvg-id="ESPN.5.co"  tvg-logo="https://i.postimg.cc/2S68V1YP/ESPN-5-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 5
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"4509cc12887f5d8402cc9c0025ecdd52":"2344766901410ed6306e445a9c43249e"} 
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.6.HD.co" tvg-logo="https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN6.png.5952c88e89550d75dce469022802382d.png" group-title="DEPORTES" ,🇨🇴 ESPN 6
+#EXTINF:-1 tvg-id="ESPN.6.HD.co" tvg-logo="https://i.postimg.cc/T3wYpKG8/ESPN-6-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 6
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"859a7ef7e969a0ae9584005a8b642fd6":"a90ca0de14cc1ea2305bb26ce18d2abe"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS3_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="ESPN.7.HD.co" tvg-logo="https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN7.png.375178ffb0546e7726739cc46c854e09.png" group-title="DEPORTES" ,🇨🇴 ESPN 7
+#EXTINF:-1 tvg-id="ESPN.7.HD.co" tvg-logo="https://i.postimg.cc/4xS4tX4W/ESPN-7-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 7
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"49020ffc8b5cc542c469370c40000565":"8ea4292586d4df3ab4ef173453f6c555"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOX_SPORTS2_HD)/manifest.mpd
+
+#EXTINF:-1 tvg-id="Canal.ESPN.(Chile).sv" tvg-logo="https://i.postimg.cc/dV1tLhF9/ESPN-1-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"8113ca483fed6872a8db8c1e32b48cb2":"895fe3b51a531a69afcef8eb1417aed5}
+https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="Canal.ESPN.2.(Sur).sv" tvg-logo="https://i.postimg.cc/SxsNJn46/ESPN-2-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 2
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"fd71a595f5b61225be82193536bd891b":"279d9fb593bf5b8a4b4350171f6139fa"}
+https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn2_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/K8zvR1bH/ESPN-3-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 3
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"56cffe75198fa81600c625883f10ede1":"87e203fb99dded387fd481126e7c5178"}
+https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn3_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="Canal.ESPN.3.(Sur).sv" tvg-logo="https://i.postimg.cc/7Z6Yf54c/ESPN-4-ARGENTINA.png" group-title="DEPORTES",🇦🇷 ESPN 4
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"50d56945c41f3c8fc0154c414aa2f842":"572883af19d1589aec3d40af47dfd179"}
+https://dish-arg.akamaized.net/Content/DASH/Live/channel(espn4_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="Canal.ESPN.4.(Sur).sv" tvg-logo="https://i.postimg.cc/B6r5YWSL/ESPN-PREMIUM.png" group-title="DEPORTES",🇦🇷 ESPN PREMIUM
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c29b4e05389dc0493aa29d0debbe5a76":"bbccac68c01477eed726fb1c11d54560"}
+https://dish-arg.akamaized.net/Content/DASH/Live/channel(espnpr_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="Canal.TyC.Sports.sv" tvg-shift=+1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/zmpjy41624030194.png" group-title="DEPORTES",TYC SPORTS
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"abb4405bf296d53b612b9124b6ff9b57":"7dff5070b84e6890b35a88a86ce44f40"}
+https://dish.akamaized.net/Content/DASH/Live/channel(tycsports)/variant.mpd
+
+#EXTINF:-1 tvg-id="TNT Sports Premium.ar" tvg-shift=+1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/44/TNT_Sports_Logo_%282017%29_II.png/revision/latest?cb=20180622191427&path-prefix=es" group-title="DEPORTES",TNT SPORTS
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"f7d41f94c41a5943cd836a52a59b7ebc":"de0cb81e4146240f61281db5bf0d0ade"}
+https://dish-arg.akamaized.net/Content/DASH/Live/channel(tntsports_arg)/variant.mpd
 
 #EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.postimg.cc/1tLtxCgM/DSports-1.png" group-title="DEPORTES",🇨🇴 DSPORTS
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
@@ -830,6 +879,17 @@ http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"d1a163914db8ffad2c3e94f979896a0d":"9728800a3959aafdd5b0bcfbf3768811"}
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 tvg-chno="" tvg-id="" tvg-logo="https://logodix.com/logo/391442.png" group-title="DEPORTES",FOX+
+#EXTVLCOPT:http-origin=https://skymas.mx/webclient
+#EXTVLCOPT:http-referrer=https://skymas.mx/webclient
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"51710c9c227a4637991466ece1b3550e":"831bfae1e16f4cc2cda5d620e6d1e96a"}
+http://147.78.1.28/xview/fox_mas_hd.mpd
 
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES",FOX ONE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
@@ -1261,13 +1321,6 @@ https://live1-ott.izzigo.tv/11/out/u/dash/BASKET-AMERICAS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"12134b1ade9e2c55be144a1216e8e5fa":"10c49aabd94518ccd4b8c3f7fd2bacdb"}
 https://live1-ott.izzigo.tv/12/out/u/dash/MEXICO-AL-AIRE-LIBRE-HD/default.mpd
-
-#EXTINF:-1 tvg-id="Canal.TyC.Sports.sv" tvg-shift=+1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/zmpjy41624030194.png" group-title="DEPORTES",TYC SPORTS
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"abb4405bf296d53b612b9124b6ff9b57":"7dff5070b84e6890b35a88a86ce44f40"}
-https://dish.akamaized.net/Content/DASH/Live/channel(tycsports)/variant.mpd
 
 #EXTINF:-1 tvg-id="Canal.PX.Sports.mx" tvg-logo="https://i.postimg.cc/90M528TC/24_px_sports.png" group-title="DEPORTES",PX SPORTS
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1919,7 +1972,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DE-PELICULA-SD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"70a3ab1ea3c45dd570da2a660ae5eeda":"0a9db0e08d0b737e6a64ecaed525d4cb"}
 https://live1-ott.izzigo.tv/14/out/u/dash/DE-PELICULA-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Golden.(México).mx" tvg-logo="https://i.postimg.cc/pLwQddjx/golden.png" group-title="CINE & SERIES",GOLDEN
+#EXTINF:-1 tvg-aspect-ratio="16:9" tvg-id="Canal.Golden.(México).mx" tvg-logo="https://i.postimg.cc/pLwQddjx/golden.png" group-title="CINE & SERIES",GOLDEN
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
