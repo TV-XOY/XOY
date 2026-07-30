@@ -1283,13 +1283,11 @@ https://dish.akamaized.net/Content/DASH/Live/channel(clarosports)/variant.mpd
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(CLARO_SPORTS_LATAM_HD)/manifest.mpd
 
 #EXTINF:-1 gpx-fallback="true" tvg-id="Canal.AYM.Sports.mx" tvg-logo="https://i.postimg.cc/k4MR3QPj/AYM-SPORTS-1.png" group-title="DEPORTES",AYM SPORTS 1
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
--KODIPROP:inputstream.adaptive.license_type=clearkey
--KODIPROP:inputstream.adaptive.license_key={"11505e498dc3571c818c350d36563dfb":"1dca1b23799ef06ce4f851a3968b73b8"}
--https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-TV-HD/default.mpd
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5106
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"11505e498dc3571c818c350d36563dfb":"1dca1b23799ef06ce4f851a3968b73b8"}
+https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/PxfvsWnF/AYM-SPORTS-2.png" group-title="DEPORTES",AYM SPORTS 2
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1297,7 +1295,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=5106
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"9213bfbf7c02e1beada75dbd389608a5":"a8a48bd40a1a62e6258a85e683a7fa78"}
-https://live1-ott.izzigo.tv/14/out/u/dash/LATIN-AMERICAN-SPORTS-HD/default.mpd
+https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-2-HD/default.mpd
 
 #EXTINF:-1 tvg-id="plex.tv.ITV.Deportes.plex" tvg-logo="https://i.postimg.cc/zBDHZCYt/AYM-SPORTS-3.png" group-title="DEPORTES",AYM SPORTS 3
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1305,7 +1303,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/LATIN-AMERICAN-SPORTS-HD/default.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"4d05c520c40e5e40ddbbda041d1e2811":"f7e248dc1d326f172c621895c90338a0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ITV-DEPORTES-HD/default.mpd
+https://live1-ott.izzigo.tv/11/out/u/dash/AYM-SPORTS-3-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/RFCJ57xp/AYM-SPORTS-4.png" group-title="DEPORTES",AYM SPORTS 4
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1313,7 +1311,15 @@ https://live1-ott.izzigo.tv/11/out/u/dash/ITV-DEPORTES-HD/default.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"3377df9a3e3ce7735793541deb49657a":"df55b7df0f5d3fdb34ff56977aa7339d"}
-https://live1-ott.izzigo.tv/11/out/u/dash/BASKET-AMERICAS-HD/default.mpd
+https://live1-ott.izzigo.tv/11/out/u/dash/AYM-SPORTS-4-HD/default.mpd
+
+#EXTINF:-1 tvg-id="plex.tv.CombaTV.plex" tvg-logo="https://i.postimg.cc/85kfQRg9/AYM-SPORTS-5.png" group-title="DEPORTES",AYM SPORTS 5
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"d82fc67b0ad0eac6a3f5cadc6e515796":"c9bb81474744fd82c379427312895636"}
+https://live1-ott.izzigo.tv/15/out/u/dash/AYM-SPORTS-5-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/3Rr05XQz/AYM-SPORTS-6.png" group-title="DEPORTES",AYM SPORTS 6
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1321,7 +1327,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/BASKET-AMERICAS-HD/default.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"12134b1ade9e2c55be144a1216e8e5fa":"10c49aabd94518ccd4b8c3f7fd2bacdb"}
-https://live1-ott.izzigo.tv/12/out/u/dash/MEXICO-AL-AIRE-LIBRE-HD/default.mpd
+https://live1-ott.izzigo.tv/12/out/u/dash/AYM-SPORTS-6-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.PX.Sports.mx" tvg-logo="https://i.postimg.cc/90M528TC/24_px_sports.png" group-title="DEPORTES",PX SPORTS
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -1360,14 +1366,6 @@ https://live1-ott.izzigo.tv/14/out/u/dash/BEISBOL-LATINO-HD/default.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live-manifest.production-public.tubi.io/live/94ef022e-59ad-486a-81bb-f817613e3df1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="plex.tv.CombaTV.plex" tvg-logo="https://i.postimg.cc/gkxFB7mh/42-combatv.png" group-title="DEPORTES",COMBATV
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"d82fc67b0ad0eac6a3f5cadc6e515796":"c9bb81474744fd82c379427312895636"}
-https://live1-ott.izzigo.tv/15/out/u/dash/COMBATV-HD/default.mpd
 
 #EXTINF:-1 tvg-id="US4600006R8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4600006R8_20250421T234910SQUARE.png" group-title="DEPORTES",COMBATE GLOBAL
 https://d7xd1azn9o8z7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ojgeak92rsjd6/server/distrib/9ZyB2flX4brcEQ21Z/zuvPJYoOOdEMDNF2j2mvmg.u11pIHHxg4zn_J5_7NMwCvbxoAihWCJsSeWRKxhEKeoFgynWSWKVB3Jj4tTtIZWWQ272IxV1AVA7236Re_eo71eLBAnnv995vJFbZyuYPqzfE2ZlogsREQAyD12lJ_hIe5q8XoCVuB_N9PsQoRC8ZnvXlinL9_n36omWaAp4VD80AO1xTq9WXHFFvT0__3yBgz86cJg3ih5hjJHM2wsDWw/manifest.m3u8
@@ -1973,7 +1971,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DE-PELICULA-SD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"70a3ab1ea3c45dd570da2a660ae5eeda":"0a9db0e08d0b737e6a64ecaed525d4cb"}
 https://live1-ott.izzigo.tv/14/out/u/dash/DE-PELICULA-HD/default.mpd
 
-#EXTINF:-1 tvg-aspect-ratio="16:9" tvg-id="Canal.Golden.(México).mx" tvg-logo="https://i.postimg.cc/pLwQddjx/golden.png" group-title="CINE & SERIES",GOLDEN
+#EXTINF:-1  tvg-id="Canal.Golden.(México).mx" tvg-aspect-ratio="16:9" tvg-logo="https://i.postimg.cc/pLwQddjx/golden.png" group-title="CINE & SERIES",GOLDEN
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
