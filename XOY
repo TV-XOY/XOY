@@ -63,7 +63,7 @@
 #KODIPROP:inputstream.adaptive.license_key={"158b196625b3fa3a6cbd45d081d28995":"b955044f81ed40faec97bee0d7a20aea"}
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
-#EXTINF:-1 tvg-chno="2" tvg-id="CANAL DE LAS ESTRELLAS.mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
+#EXTINF:-1 tvg-chno="2" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
