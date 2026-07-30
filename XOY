@@ -95,7 +95,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"ea39b9575f51b840a58bda829f20f38d":"9c200a2b120d45e60af506be1d7ad932"}
 https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
 
-#EXTINF:-1 tvg-chno="5" tvg-id="CANAL 5.mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
+#EXTINF:-1 tvg-chno="5" tvg-id="Canal.5.de.México.(XHGC).mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -112,17 +112,14 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
-#EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
-#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"2cde091f1e4675c82d65498bd6ba0e65":"29f2aeb97a908466177c56fc28fe083f"}
 https://zap-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
 
-#EXTINF:-1 tvg-chno="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
+#EXTINF:-1 tvg-chno="7" tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
 #EXTVLCOPT:http-origin=https://skymas.mx/webclient
 #EXTVLCOPT:http-referrer=https://skymas.mx/webclient
 #EXTVLCOPT:network-caching=2000
@@ -132,7 +129,6 @@ https://zap-live-ott.izzigo.tv/out/u/dash/CDMX/AZTECA-7-HD/dash/AZTECA-7-HD.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"109e7fcb4970436a9e4628090c208451":"0ab1bc308c773d627f5a511f0fffc0e4"}
 http://147.78.1.28/xview/azteca_7_hd.mpd
-
 
 #EXTINF:-1 tvg-chno="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
 #EXTVLCOPT:network-caching=1000
@@ -338,7 +334,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_channelId=99993041&ads.asnw=169843&ads.afid=367536734&ads.sfid=17470300&ads.csid=lgchannels_us_telemundoscripted_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=2562&ads.xumo_contentName=TelemundoScripted&ads.xumo_providerId=2562&ads.xumo_providerName=TelemundoScripted&ads.channelId=99993041&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 
-#EXTINF:-1 tvg-id="TLNovelas.mx" tvg-logo="https://i.postimg.cc/zBpZ9ZyM/18_tlnovelas.png" group-title="NOVELAS",TLNOVELAS
+#EXTINF:-1 tvg-id="Canal.TLNovelas.(México).mx" tvg-logo="https://i.postimg.cc/zBpZ9ZyM/18_tlnovelas.png" group-title="NOVELAS",TLNOVELAS
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -470,13 +466,15 @@ https://dish.akamaized.net/Content/DASH/Live/channel(50dd60bc-94f1-a686-3a3f-a09
 https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/38/2/el-chavo-del-8-logo-png_seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
-#EXTVLCOPT:x-playlist-cache=2
+#EXTVLCOPT:http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://tv.m3uts.xyz/stream/secure/01mCt3Ft/1173.m3u8|User-Agent=Magma Player/10&X-App=di&X-Version=10/1.0.9&X-Hash=QBtFBpQfVmGm2dCLMgycIXAocNHhG-hi3u-ZzWIb6gbnyQEhVMkUw8ETmnShKVPvoD8JofyYv8sgh7OccTwsELOVZpo96uG1CTYGi_xWYpE_x7BYaf5MOFbsqPqSqG32sqA6uhl4_JVP2PtU_EYAVcGKrL-eret4XTYqxsKSgSn5iOYrFuX0enDC5N5YJ_4Ov5NKA2xB1g6boRgDhC4IPqsAoek6sRvjPm8gUWty7b_mLm3wF6DRoC2J3Ao1f06I9nTrJIRKUMO-uQ6eu1lz96DnP6vwMD809dYRa6HsFpsL8k5_e573LLCbOBrefJTM_SYFxr1vniKUCKDso-pPioLgrFN7uS_3vPwomCYS2vfysk-3AglnZjeOM5gJSvBYvfZfEv0csdSyDw5h0HWHTIul9yWnaoSCRunK126dJ2G6-gJrQp1exHe6T9KqwpetRFqaNSHLjZs5qxAuBuuZrO2CoDyt37FhhXir2UShKG1i_0yNFfHF_w0OqSQzOwqDBre-OE2tzlAVKknV8HQhTA2mT9XXRiKXphZwI2SEMkMhbkqsDmhZTLsq2vkuCt1LR9NX0is7gkqXO1T9fFbMlLmOJyvQ_Som0SbsZCNRK2_X2nfwQZOcBJC0--NZa0d2&X-Did=37ab0879dbae63a4&Connection=Keep-Alive
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/38/2/el-chavo-del-8-logo-png_seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:screen-fps=30
+#EXTVLCOPT:network-caching=4000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:x-playlist-cache=2
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
 
@@ -585,26 +583,27 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ui54qo0g6h/o
 #KODIPROP:inputstream.adaptive.license_key={"763ce1ebcaf23502c8cf357c6ef423e1":"0c5e6c0820a1ea28753721db00272411"}
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(México).mx" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇲🇽 TUDN 2
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 1
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Magma Player/10
 #EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
-#EXTVLCOPT:http-header=X-App: di
-#EXTVLCOPT:http-header=X-Version: 10/1.0.9
-#EXTVLCOPT:http-header=X-Hash: flb3xwKe16AGyo4Itn8JRz6_87GEGtsDLTm9HUfrXH5MDOLDAxxAvaQHsf4LFxV2UpBWOqkIDsxDSulMIZntGILL_LYAtsR4B2bJj4ZDMtJy-g-rBY2NfCbk4Dpi6MVlf3dOll5EB_hMZ3NRGSciEe4A39PPb009PZs-FyDWfbXnXgOim-jr17kZjEHyS6y077jzS_JmiH9t5zcYlhBeLzGwIpcJlA2D0zAkGmj4FW3jIJ0h8LwzurxKl-ysGd_BLyC82qPdJJehv11RwIrGM8Mjbfg3X-YuBjcxkgp1966X5z0DeYegoN5JL1wv6xjF2jxcgI1lrcStBdtwbzraCptgMubSJDIaaa2u1GaSSOwDQfRA8a97c0hal6bxklN0G_kKcmrPaHwK9XJw_xc7TPhyZZ3qTwYzEVb1hRr8lPhJtzyz6jRiLV2l0CnxE_RqA6ujMoJEzcaMfQPEk6Em7_4CaR3XS-vhs9gEPh7nXYXcWeCRApCuIs98czIghFa8RH7btHyn4L4mi1RxJ5-rDWY_bk4HqhECXcn4_sviJx_UOmJg_3hwKZsxkdEv8UqDXmEWAYZLohfXpd2GPPvgnAWGO9k6jwjGb4lNMml0Tq3Kthn8m20OXsB2fUHzszVc
-#EXTVLCOPT:http-header=X-Did: 37ab0879dbae63a4
-#EXTVLCOPT:http-header=Connection: Keep-Alive
+#EXTVLCOPT:http-header=X-App:di
+#EXTVLCOPT:http-header=X-Version:10/1.0.9
+#EXTVLCOPT:http-header=X-Hash:flb3xwKe16AGyo4Itn8JRz6_87GEGtsDLTm9HUfrXH5MDOLDAxxAvaQHsf4LFxV2UpBWOqkIDsxDSulMIZntGILL_LYAtsR4B2bJj4ZDMtJy-g-rBY2NfCbk4Dpi6MVlf3dOll5EB_hMZ3NRGSciEe4A39PPb009PZs-FyDWfbXnXgOim-jr17kZjEHyS6y077jzS_JmiH9t5zcYlhBeLzGwIpcJlA2D0zAkGmj4FW3jIJ0h8LwzurxKl-ysGd_BLyC82qPdJJehv11RwIrGM8Mjbfg3X-YuBjcxkgp1966X5z0DeYegoN5JL1wv6xjF2jxcgI1lrcStBdtwbzraCptgMubSJDIaaa2u1GaSSOwDQfRA8a97c0hal6bxklN0G_kKcmrPaHwK9XJw_xc7TPhyZZ3qTwYzEVb1hRr8lPhJtzyz6jRiLV2l0CnxE_RqA6ujMoJEzcaMfQPEk6Em7_4CaR3XS-vhs9gEPh7nXYXcWeCRApCuIs98czIghFa8RH7btHyn4L4mi1RxJ5-rDWY_bk4HqhECXcn4_sviJx_UOmJg_3hwKZsxkdEv8UqDXmEWAYZLohfXpd2GPPvgnAWGO9k6jwjGb4lNMml0Tq3Kthn8m20OXsB2fUHzszVc
+#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
+#EXTVLCOPT:http-header=Connection:Keep-Alive
 http://tv.m3uts.xyz/stream/secure/S6e_lcY_/952.m3u8
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 1
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://proxy.cors.sh/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 3
 http://go.iptvhn.net:25461/7619/7619/1980
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Centroamérica).sv" tvg-logo="https://i.ibb.co/WDt6Sc6/zona-tudn.png" group-title="DEPORTES",🇲🇽 ZONA TUDN VIX
@@ -1362,7 +1361,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/HI-SPORTS-SD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"e459142c426c37a16322969a5ddcbcab":"62b00ab99444ae566b261de1a3472700"}
 https://dish.akamaized.net/Content/DASH/Live/channel(aztecadeporteshd)/variant.mpd
 
-#EXTINF:-1 tvg-id="Canal.TVC.Deportes.mx" tvg-logo="https://i.postimg.cc/ZnZ6xyqG/TVC-DEPORTES.png" group-title="DEPORTES", TVC DEPORTES
+#EXTINF:-1 tvg-id="Canal.TVC.Deportes.mx" tvg-logo="https://i.postimg.cc/ZnZ6xyqG/TVC-DEPORTES.png" group-title="DEPORTES",TVC DEPORTES
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2092,7 +2091,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/HISTORY-2-HD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
 
-#EXTINF:-1 tvg-id=" " tvg-logo="https://www.diosteve.org/wp-content/uploads/2022/04/235403078_2666022853698120_5407670730821234601_n-PhotoRoom-150x150.png" group-title="CRISTIANOS" DIOS TV KIDS
+#EXTINF:-1 tvg-id=" " tvg-logo="https://www.diosteve.org/wp-content/uploads/2022/04/235403078_2666022853698120_5407670730821234601_n-PhotoRoom-150x150.png" group-title="CRISTIANOS",DIOS TV KIDS
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -2104,7 +2103,7 @@ https://s.emisoras.tv:8081/diostevekids/index.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.diosteve.org/wp-content/uploads/elementor/thumbs/LOGO-pndpb9vr2ioypzkmtidn6exay62ljrs0tprryxf490.png" group-title="CRISTIANOS" ,DIOS TE VE
+#EXTINF:-1 tvg-logo="https://www.diosteve.org/wp-content/uploads/elementor/thumbs/LOGO-pndpb9vr2ioypzkmtidn6exay62ljrs0tprryxf490.png" group-title="CRISTIANOS",DIOS TE VE
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -2350,6 +2349,7 @@ https://s2.mexside.net/8054/stream
 https://totalradio.radiored.net:8026/;
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/665/xepet-la-voz-de-los-mayas.792e1352.jpg" group-title="RADIOS YUCATAN",XEPET PETO
+#EXTVLCOPT:http-reconnect=true
 #EXT-X-MEDIA:TYPE=AUDIO
 #EXTVLCOPT:ice-audio-info=ice-bitrate=24;ice-channels=2;ice-samplerate=44100
 #EXTVLCOPT:http-header=Connection:Keep-Alive
@@ -2359,7 +2359,7 @@ https://totalradio.radiored.net:8026/;
 https://radios.inpi.gob.mx:8080/xepet
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sky_One_2017.svg" group-title="iZZi-TV",SKY ONE
+#EXTINF:-1 tvg-id="Canal.Sky.One.(México).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sky_One_2017.svg" group-title="iZZi-TV",SKY ONE
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
