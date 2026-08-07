@@ -56,7 +56,7 @@
 
 #EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-###https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
+https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
@@ -126,7 +126,7 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"44cc7d4a31a3e696d35f6b6ed0561be1":"57e157bcfd59651e649911f513965680"}
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
-#EXTINF:-1 tvg-chno="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Multimedios_Television.png" group-title="iZZi-TV", Canal 6 CDMX
+#EXTINF:-1 tvg-chno="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Multimedios_Television.png" group-title="iZZi-TV",Canal 6 CDMX
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -685,6 +685,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 ##http://181.118.158.103:8000/play/a038/index.m3u8?hls
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd
 
+
 #EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
@@ -693,7 +694,7 @@ http://181.118.158.103:8000/play/a039/index.m3u8?hls
 #EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://i.postimg.cc/4xdNmYGF/ESPN-3-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
+##KODIPROP:inputstream.adaptive.license_type=clearkey
 ##KODIPROP:inputstream.adaptive.license_key={"eb04e4ec7049c0712e09c57aea9c1cb7":"404636ec78dfaf363333805c9a2c3f66"}
 http://181.118.158.103:8000/play/a03a/index.m3u8?hls
 
@@ -2003,7 +2004,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/TCM-SD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"42ca82249b49382dd7156dd18a292e8c":"7c26bb855d762211182e7eac31376aee"}
 https://live1-ott.izzigo.tv/11/out/u/dash/TLC-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.DHE.sv" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png" group-title="CINE & SERIES",DHE
+#EXTINF:-1 tvg-id="Canal.DHE.sv" tvg-shift="-1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png" group-title="CINE & SERIES",DHE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"103cc11d061c3bb8aff8dbafbfc5a5a1":"e42eb93eb51e8ea78828ccfbb31f4d60"}
@@ -2105,7 +2106,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/STUDIO-UNIVERSAL-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"fa6d1b52dd986d8faab9cca6adb8874b":"6022259ba9edb1fe66b4507b51e1c12f"}
 https://live1-ott.izzigo.tv/15/out/u/dash/CINEMAX-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Multipremier.cl" tvg-shift=-3 tvg-logo="https://i.postimg.cc/x143xKRv/MULTIPREMIER.png" group-title="CINE & SERIES",MULTIPREMIER
+#EXTINF:-1 tvg-id="Canal.Multipremier.cl" tvg-shift="-3" tvg-logo="https://i.postimg.cc/x143xKRv/MULTIPREMIER.png" group-title="CINE & SERIES",MULTIPREMIER
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"55122e37d92b6b4ab03c427cd4f471b9":"0c2d5950edcafe9a2ea09098a155bdda"}
