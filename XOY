@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #================================|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION MARTES 6 DE AGOSTO DEL 2026 A LA 9:30 PM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION VIERNES 7 DE AGOSTO DEL 2026 A LA 9:30 PM
 
 
 
@@ -52,7 +52,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/TY.xml.gz"
 
 #EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -209,13 +209,13 @@ https://live1-ott.izzigo.tv/11/out/u/dash/EXCELSIOR-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd
 
 #EXTINF:-1 tvg-chno="11" tvg-id="" tvg-logo="https://i.postimg.cc/9MBn2NmV/TELEPLAY-MERIDA.png" group-title="NACIONALES",TELEPLAY MERIDA
+#EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES",TELE YUCATAN
+#EXTINF:-1 tvg-chno="4.1" tvg-id="Teleyucatán.mx" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES",TELE YUCATAN
 #EXTVLCOPT:http-referrer=https://conceptoweb-studio.com
 #EXTVLCOPT:http-origin=https://conceptoweb-studio.com
 #EXTVLCOPT:network-caching=2000
@@ -229,28 +229,28 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/O3uSX02Gcw4/expires/1785465315613/srcIp/201.148.8.14/urls/185.180.203.58/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
-#EXTINF:-1 tvg-chno="13.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
+#EXTINF:-1 tvg-chno="8.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://webprod.sipse.com.mx:8080/show/merida.m3u8
 
-#EXTINF:-1 tvg-chno="13.2" tvg-logo="https://i.postimg.cc/7ZMCQ2rb/TV-5-COZUMEL.png" group-title="NACIONALES",TV COZUMEL
+#EXTINF:-1 tvg-chno="5" tvg-logo="https://i.postimg.cc/7ZMCQ2rb/TV-5-COZUMEL.png" group-title="NACIONALES",TV COZUMEL
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 
-#EXTINF:-1 tvg-chno="13.4" tvg-id="" tvg-logo="https://i.postimg.cc/WzxMQfpb/Sipse-CANCUN.png" group-title="NACIONALES",SIPSE CANCUN
+#EXTINF:-1 tvg-chno="8.1" tvg-id="" tvg-logo="https://i.postimg.cc/WzxMQfpb/Sipse-CANCUN.png" group-title="NACIONALES",SIPSE CANCUN
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
 
-#EXTINF:-1 tvg-chno="13.5" tvg-id="" tvg-name="Canal 10 Cancún" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/Canal-10-Cancun-en-vivo-Online.png" group-title="NACIONALES",CANAL 10 CANCUN
+#EXTINF:-1 tvg-chno="10" tvg-id="" tvg-name="Canal 10 Cancún" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/Canal-10-Cancun-en-vivo-Online.png" group-title="NACIONALES",CANAL 10 CANCUN
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
@@ -1670,7 +1670,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/NICK-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"9201c07931b74c37c4e30a9e96b64c30":"8e1ce4f1b1185f64e42f9974cbad1442"}
 https://live1-ott.izzigo.tv/11/out/u/dash/DISCOVERY-KIDS-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Cartoon Network.mx" tvg-logo="https://i.postimg.cc/136xyNgW/53_cartoon_network.png" group-title="INFANTILES",CARTOON NETWORK
+#EXTINF:-1 tvg-id="Canal.Cartoon.Network.(México).mx" tvg-logo="https://i.postimg.cc/136xyNgW/53_cartoon_network.png" group-title="INFANTILES",CARTOON NETWORK
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1679,7 +1679,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/DISCOVERY-KIDS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"85d06ba283f3b18bb14f9f8d59b8fb82":"6659fed472544289adee986c1d33fa79"}
 https://live1-ott.izzigo.tv/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Cartoonito.mx" tvg-logo="https://i.postimg.cc/4y2SvpdL/Cartoonsito.png" group-title="INFANTILES",CARTOONITO
+#EXTINF:-1 tvg-id="Canal.Cartoonito.(México).mx" tvg-logo="https://i.postimg.cc/4y2SvpdL/Cartoonsito.png" group-title="INFANTILES",CARTOONITO
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1688,7 +1688,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"3fc370ab08218da5dad9b9644f1df57b":"1ddc60916c0efd29990cb1d319e7710a"}
 https://live1-ott.izzigo.tv/12/out/u/dash/CARTOONITO-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Baby.TV.(Latinoamérica).mx" tvg-logo="https://i.postimg.cc/8CV2cPWb/54_baby_firts.png" group-title="INFANTILES",BABY FIRST
+#EXTINF:-1 tvg-id="Canal.BabyFirst.TV.mx" tvg-logo="https://i.postimg.cc/8CV2cPWb/54_baby_firts.png" group-title="INFANTILES",BABY FIRST
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1712,7 +1712,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/EDYE-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"23bb4080e1fbb765a547aa17c4f29ba5":"2aab87ea531d968df28ee885c88c29cb"}
 https://dish.akamaized.net/Content/DASH/Live/channel(fixandfoxihd)/variant.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/N0w3FfT3/55_clan.png" group-title="INFANTILES",CLAN
+#EXTINF:-1 tvg-id="Canal.Clan.TVE.sv" tvg-logo="https://i.postimg.cc/N0w3FfT3/55_clan.png" group-title="INFANTILES",CLAN
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1824,7 +1824,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(d46beb3e-6178-5996-6106-413
 #KODIPROP:inputstream.adaptive.license_key={"5782156290f035ef28ae66cca252eedd":"10d8bb6d9f9852747298487ab3c4afa3"}
 https://live1-ott.izzigo.tv/15/out/u/dash/HBO-SIGNATURE-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.HBO.Xtreme.sv" tvg-logo="https://i.imgur.com/Wz3WemY.png" group-title="CINE & SERIES",HBO XTREME
+#EXTINF:-1 tvg-id="HBO.XTREME.co" tvg-logo="https://i.imgur.com/Wz3WemY.png" group-title="CINE & SERIES",HBO XTREME
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1981,7 +1981,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/ATRES-SERIES-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/AXN-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.A&E.(México).mx" tvg-logo="https://i.postimg.cc/pLKSwb7k/71_A_E.png" group-title="CINE & SERIES",A&E
-#EXTVLCOPT:http-user-agent= izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1997,20 +1997,20 @@ https://live1-ott.izzigo.tv/13/out/u/dash/AANDE-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/TCM-SD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.TLC.(México).mx" tvg-logo="https://i.postimg.cc/3xjLLj4j/89_tlc.png" group-title="CINE & SERIES",TLC
-#EXTVLCOPT:http-user-agent= izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"42ca82249b49382dd7156dd18a292e8c":"7c26bb855d762211182e7eac31376aee"}
 https://live1-ott.izzigo.tv/11/out/u/dash/TLC-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.DHE.sv" tvg-shift="-1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png" group-title="CINE & SERIES",DHE
+#EXTINF:-1 tvg-id="Canal.DHE.sv" tvg-shift="-2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png" group-title="CINE & SERIES",DHE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"103cc11d061c3bb8aff8dbafbfc5a5a1":"e42eb93eb51e8ea78828ccfbb31f4d60"}
 https://dish.akamaized.net/Content/DASH/Live/channel(dnehd)/variant.mpd
 
-#EXTINF:-1 tvg-id="Canal.Space.(México).mx" tvg-logo="https://i.postimg.cc/mg7nvfqv/72_Space.png" group-title="CINE & SERIES",SPACE
+#EXTINF:-1 tvg-id="Canal.Space.(México).mx" tvg-shift="-2" tvg-logo="https://i.postimg.cc/mg7nvfqv/72_Space.png" group-title="CINE & SERIES",SPACE
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -2256,7 +2256,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-ID-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"0765f676e30b1b98386230b52eed3518":"326266d16296e3bbe1dfcc274853dadb"}
 https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-HOME-AND-HEALTH-HD/default.mpd
 
-#EXTINF:-1 tvg-logo="https://geo.edge.pontiscloud.com:9002/images/268/CH_LOGO/160/160/0/0/28796844071531.png?worIdtv2 " group-title="", Home & Garden TV
+#EXTINF:-1 tvg-logo="https://geo.edge.pontiscloud.com:9002/images/268/CH_LOGO/160/160/0/0/28796844071531.png?worIdtv2 " group-title="CULTURALES",HOME & GARDEN TV
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
