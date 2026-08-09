@@ -52,7 +52,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/TY.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz"
 
 #EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -215,7 +215,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="4.1" tvg-id="Teleyucatán.mx" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES",TELE YUCATAN
+#EXTINF:-1 tvg-chno="4.1" tvg-id="TELEYUCATÁN.mx" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES",TELE YUCATAN
 #EXTVLCOPT:http-referrer=https://conceptoweb-studio.com
 #EXTVLCOPT:http-origin=https://conceptoweb-studio.com
 #EXTVLCOPT:network-caching=2000
