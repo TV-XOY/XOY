@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1.1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6c01435ed4e839996f40f8ee08965324":"74eb7b54510e463ea51dccff80a53f3e"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
@@ -77,7 +77,7 @@ https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="2.1" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"ddc9999541dad679f4cad78b0a7e4247":"ba9514392b590d7c1f3b0c06a10e3c88"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/LAS-ESTRELLAS-RDF-HD/default.mpd
@@ -101,7 +101,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="5" tvg-id="Canal.5.de.México.(XHGC).mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"2a8c2d5088377f51f825d871e568be19":"eb5a8db64ca1992389672edb9447c711"}
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
@@ -113,7 +113,7 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Multimedios_Television.png" group-title="iZZi-TV",Canal 6 CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"96ce45fa9e1b72ef49b8f5784b21a001":"bf9797535e629804cf48f8b6530582c1"}
@@ -138,7 +138,7 @@ http://147.78.1.28/xview/azteca_7_hd.mpd
 
 #EXTINF:-1 tvg-chno="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
 #EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.izzigo.tv
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -152,7 +152,7 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/ADN-40-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="9.1" tvg-id="Canal.9.de.México.(XEQ-TDT).mx" tvg-logo="https://i.postimg.cc/nznfRchK/9_Canal_9.png" group-title="iZZi-TV",CANAL 9 CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"a6b62517ca4bb59d9ef0b888616a765a":"f18c080bac9d074e4a5b641d5767065f"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/NUEVE-RDF-HD/default.mpd
