@@ -59,7 +59,7 @@
 https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -67,13 +67,13 @@ https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1.1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6c01435ed4e839996f40f8ee08965324":"74eb7b54510e463ea51dccff80a53f3e"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -81,13 +81,13 @@ https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="2.1" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"ddc9999541dad679f4cad78b0a7e4247":"ba9514392b590d7c1f3b0c06a10e3c88"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/LAS-ESTRELLAS-RDF-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="2.2" tvg-id="Canal.de.las.Estrellas.-2.Horas.-.México.(XEW).mx" tvg-logo="https://i.postimg.cc/vmrdt6Mj/1.png" group-title="iZZi-TV",LAS ESTRELLAS -2 HORAS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -95,7 +95,7 @@ https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/LAS-ESTRELLAS-RDF-HD/default.mp
 https://live1-ott.izzigo.tv/12/out/u/dash/LAS-ESTRELLAS-2HRS-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="3" tvg-id="IMAGEN TELEVISION.mx" tvg-logo="https://i.postimg.cc/zfC1FR8X/3_imagen_tv.png" group-title="iZZi-TV",IMAGEN TV
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -103,7 +103,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/LAS-ESTRELLAS-2HRS-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="4" tvg-id="FORO TV.mx" tvg-logo="https://i.postimg.cc/5tBMSFbt/4_N_Foro.png" group-title="NOTICIAS",N+ FORO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -111,7 +111,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/IMAGEN-TV-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="5" tvg-id="Canal.5.de.México.(XHGC).mx" tvg-logo="https://i.postimg.cc/q7sdxC4h/5_Canal_5.png" group-title="iZZi-TV",CANAL 5
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -119,7 +119,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://i.postimg.cc/NMQvJfjK/6_Canal_6.png" group-title="iZZi-TV",CANAL 6
-#EXTVLCOPT:http-user-agent= izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent= Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -127,14 +127,14 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/CANAL-6-PLUS-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Multimedios_Television.png" group-title="iZZi-TV",Canal 6 CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"96ce45fa9e1b72ef49b8f5784b21a001":"bf9797535e629804cf48f8b6530582c1"}
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/MULTIMEDIOS-RDF-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="7" tvg-shift="+1" tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://i.postimg.cc/hjKRyPtT/7_azteca_7.png" group-title="iZZi-TV",AZTECA 7
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -154,7 +154,7 @@ http://147.78.1.28/xview/azteca_7_hd.mpd
 
 #EXTINF:-1 tvg-chno="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
 #EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -164,20 +164,20 @@ http://147.78.1.28/xview/azteca_7_hd.mpd
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/ADN-40-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="9" tvg-id="Canal.9.de.México.(XEQ-TDT).mx" tvg-logo="https://i.postimg.cc/nznfRchK/9_Canal_9.png" group-title="iZZi-TV",CANAL 9
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"0bb910a4217a1af19b803e7f120796f9":"8d3d83fadfc769674b9c7102109fc466"}
 https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="9.1" tvg-id="Canal.9.de.México.(XEQ-TDT).mx" tvg-logo="https://i.postimg.cc/nznfRchK/9_Canal_9.png" group-title="iZZi-TV",CANAL 9 CDMX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"a6b62517ca4bb59d9ef0b888616a765a":"f18c080bac9d074e4a5b641d5767065f"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/NUEVE-RDF-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="10" tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.postimg.cc/ZRJz7K5j/10_milenio_television.png" group-title="NOTICIAS",MILENIO 
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -185,7 +185,7 @@ https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/NUEVE-RDF-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="10.1" tvg-id="EL HERALDO.mx" tvg-logo="https://i.postimg.cc/nzTb6bXv/11_heraldo_television.png" group-title="NOTICIAS",HERALDO TELEVISION
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -193,7 +193,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/HERALDO-TV-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="10.2" tvg-id="Canal.Excelsior.TV.mx" tvg-logo="https://i.postimg.cc/C5kWbXvW/12-excelsior-tv.png" group-title="NOTICIAS",EXCELSIOR TV
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -201,7 +201,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/HERALDO-TV-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/EXCELSIOR-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="10.3" tvg-id="TELEFORMULA.mx" tvg-logo="https://i.postimg.cc/LXvKrKJV/13_teleformula.png" group-title="NOTICIAS",TELEFORMULA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -265,7 +265,7 @@ https://s2.canal10mx.com/live/c10.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404&avod=1&coppa=0&is_lat=0
 
 #EXTINF:-1 tvg-id="Canal.CNN.en.Español.mx" tvg-logo="https://i.postimg.cc/QtSGRGFm/14-cnn-espanol.png" group-title="NOTICIAS",CNN EN ESPAÑOL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -273,14 +273,14 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404&avod=1&coppa=0&is_lat
 https://live1-ott.izzigo.tv/13/out/u/dash/CNN-EN-ESPANOL-SD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.CNN.Internacional.mx" tvg-logo="https://i.postimg.cc/mgJ4QBrr/cnn-international.png" group-title="NOTICIAS",🇺🇸 CNN INTERNATIONAL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"4514db2f0b4864f56dbf8b14bcdd4022":"6cc79244441f942839b867572702364e}
 https://live1-ott.izzigo.tv/14/out/u/dash/CNN-HD/default.mpd
 
 #EXTINF:-1 tvg-id="El Financiero Bloomberg.mx" tvg-logo="https://i.postimg.cc/qRJV31T6/BLOOMBERG.png" group-title="NOTICIAS",EL FINANCIERO BLOOMBERG
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -348,7 +348,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889470
 
 #EXTINF:-1 tvg-id="Telemundo.mx" tvg-logo="https://i.postimg.cc/SN3nfMjX/TELEMUNDO-INTERNACIONAL.png" group-title="NOVELAS",TELEMUNDO INTERNACIONAL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -363,7 +363,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_channelId=99993041&ads.asnw=169843&ads.afid=367536734&ads.sfid=17470300&ads.csid=lgchannels_us_telemundoscripted_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=2562&ads.xumo_contentName=TelemundoScripted&ads.xumo_providerId=2562&ads.xumo_providerName=TelemundoScripted&ads.channelId=99993041&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 
 #EXTINF:-1 tvg-id="Canal.TLNovelas.(México).mx" tvg-logo="https://i.postimg.cc/zBpZ9ZyM/18_tlnovelas.png" group-title="NOVELAS",TLNOVELAS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -492,7 +492,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(aztecaclichd)/variant.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(50dd60bc-94f1-a686-3a3f-a093154f9229)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Canal.Distrito.Comedia.mx" tvg-logo="https://i.postimg.cc/pLQ00Qhq/90_distrito_comedia.png" group-title="ENTRETENIMIENTO",DISTRITO COMEDIA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -516,7 +516,7 @@ http://tv.m3uts.xyz/stream/secure/T_-bCN43/344.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -524,7 +524,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
 https://live1-ott.izzigo.tv/12/out/u/dash/UNICABLE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Elgourmet.mx" tvg-logo="https://i.postimg.cc/hGp2nS0j/el_Gourmet.png" group-title="ENTRETENIMIENTO",EL GOURMET
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -532,7 +532,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/UNICABLE-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/GOURMET-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.USA.Network.(México).mx" tvg-logo="https://i.postimg.cc/4d0wKBqZ/usa_network.png" group-title="ENTRETENIMIENTO",USA NETWORK
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -540,7 +540,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/GOURMET-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/USA-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.E!.Entertainment.Television.(México).mx" tvg-logo="https://i.postimg.cc/bv3mPzRw/E_entertenament.png" group-title="ENTRETENIMIENTO",E!
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -548,7 +548,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/USA-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/E-Entertainment-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.¡HOLA!.TV.mx" tvg-logo="https://i.postimg.cc/fbB8swv0/holatv.png" group-title="ENTRETENIMIENTO",HOLA TV
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -556,7 +556,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/E-Entertainment-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/HOLA-TV-HD/default.mpd
 
 #EXTINF:-1 tvg-id="FOOD NETWORK.mx" tvg-logo="https://i.postimg.cc/q7j1rkGz/Food_network.png" group-title="ENTRETENIMIENTO",FOOD NETWORK
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -564,7 +564,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/HOLA-TV-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/FOOD-NET-HD/default.mpd
 
 #EXTINF:-1 tvg-id="TVE.mx" tvg-logo="https://i.postimg.cc/pTrqXgGX/tve.png" group-title="ENTRETENIMIENTO",TVE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -572,7 +572,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/FOOD-NET-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/TVE-SD/default.mpd
 
 #EXTINF:-1 tvg-id="ANTENA 3.mx" tvg-logo="https://i.postimg.cc/bv3mPzRH/Logotipo_Antena3.png" group-title="ENTRETENIMIENTO",ANTENA 3
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -992,7 +992,7 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sports F1
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=w3.org.clearkey
@@ -1001,7 +1001,7 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 https://aca-live4-ott.izzigo.tv/8/out/u/dash/F1-HD-H265/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Sky.Sports.1.(México).sv" tvg-logo="https://i.postimg.cc/ZnRtm73N/28_sky_sport_1.png" group-title="DEPORTES",SKY SPORTS 1
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1009,7 +1009,7 @@ https://aca-live4-ott.izzigo.tv/8/out/u/dash/F1-HD-H265/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.2.cz" tvg-logo="https://i.postimg.cc/d31PFHdr/28_sky_sports_2.png" group-title="DEPORTES",SKY SPORTS 2
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1017,7 +1017,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-21-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.16.mx" tvg-logo="https://i.postimg.cc/1Xjx3GcV/29_sky_sports_la_liga.png" group-title="DEPORTES",SKY SPORTS LA LIGA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1025,7 +1025,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-21-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.24.mx" tvg-logo="https://i.postimg.cc/KjHX8Prt/30_sky_sports_bundesliga.png" group-title="DEPORTES",SKY SPORTS BUNDESLIGA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1033,7 +1033,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/HnhGkw49/31_sky_sports_eventos_1.png" group-title="DEPORTES",SKY SPORTS EVENTOS 1
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1041,7 +1041,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
 https://aca-live4-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/brBXwxHL/32_sky_sports_eventos_2.png" group-title="DEPORTES",SKY SPORTS EVENTOS 2
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1049,7 +1049,7 @@ https://aca-live4-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-2-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/90n3QdtL/33_sky_sports_eventos_3.png" group-title="DEPORTES",SKY SPORTS EVENTOS 3
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1057,7 +1057,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-2-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-3-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/nrP8h4YP/34_sky_sports_eventos_4.png" group-title="DEPORTES",SKY SPORTS EVENTOS 4
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1065,7 +1065,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-3-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-4-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/1RC1BShP/35_sky_sports_eventos_5.png" group-title="DEPORTES",SKY SPORTS EVENTOS 5
-#EXTVLCOPT:http-user-agent= izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent= Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1073,7 +1073,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-4-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/SKY-LIVE-EVENT-5-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/xjxV5QDd/36_sky_sports_eventos_6.png" group-title="DEPORTES",SKY SPORTS EVENTOS 6
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1081,7 +1081,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/SKY-LIVE-EVENT-5-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-6-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/FFWXpv5z/37_sky_sports_eventos_7.png" group-title="DEPORTES",SKY SPORTS EVENTOS 7
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1089,7 +1089,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-6-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-7-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Dfj36hk8/38_sky_sports_eventos_8.png" group-title="DEPORTES",SKY SPORTS EVENTOS 8
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1206,19 +1206,19 @@ http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31834/index.m3u8
 #EXTVLCOPT:network-caching=2000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31831/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/J44MDjjf/DAZN-2-Logo.png" group-title="DEPORTES" ,🇪🇸 DAZN 2
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/J44MDjjf/DAZN-2-Logo.png" group-title="DEPORTES",🇪🇸 DAZN 2
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31832/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2vkThM3/dazn3.png" group-title="DEPORTES" ,🇪🇸 DAZN 3
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2vkThM3/dazn3.png" group-title="DEPORTES",🇪🇸 DAZN 3
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31861/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png", group-title="DEPORTES" 🇪🇸 DAZN 4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png", group-title="DEPORTES",🇪🇸 DAZN 4
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1309,7 +1309,7 @@ https://estreams.tv.nej.cz/dash/CH_EUROSPORT2HD_HD.ism/playlist.mpd
 https://amg17560-fcb-amg17560c2-rakuten-es-4889.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaspanish-rakutenes/playlist.m3u8?ads_amagi_channel=941&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=6347&ads_rtv_content_language=spa&ads_rtvid=271859&ads_streaming_id=244377d3-af04-45a5-b1ac-2eaeac56dbbe&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
 
 #EXTINF:-1 tvg-shift=+1 tvg-id="Real.Madrid.TV.es" tvg-logo="https://i.postimg.cc/W3SLQLd5/16_real_madrid.png" group-title="DEPORTES",🇪🇸 REAL MADRID TV
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1464,7 +1464,7 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(C
 https://dish.akamaized.net/Content/DASH/Live/channel(aymsports)/manifest.mpd
 
 #EXTINF:-1 gpx-fallback="true" tvg-id="Canal.AYM.Sports.mx" tvg-logo="https://i.postimg.cc/TYStt7Ck/AYM-SPORTS-1.png" group-title="DEPORTES",AYM SPORTS 1 iZZi
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #EXTVLCOPT:http-referrer=https://www.izzigo.tv
 #EXTVLCOPT:http-origin=https://www.izzigo.tv
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1481,7 +1481,7 @@ https://aym-as.otteravision.com/aym/as/as_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/zXMxxt0x/AYM-SPORTS-2.png" group-title="DEPORTES",AYM SPORTS 2 iZZi
 #EXTVLCOPT:http-referrer=https://www.izzigo.tv
 #EXTVLCOPT:http-origin=https://www.izzigo.tv
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1492,7 +1492,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-2-HD/default.mpd
 https://aym-laspo.otteravision.com/aym/laspo/laspo.m3u8?0GKUSH_R4IN
 
 #EXTINF:-1 tvg-id="plex.tv.ITV.Deportes.plex" tvg-logo="https://i.postimg.cc/qMY11bjQ/AYM-SPORTS-3.png" group-title="DEPORTES",AYM SPORTS 3
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1503,7 +1503,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/AYM-SPORTS-3-HD/default.mpd
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/L67xxCNC/AYM-SPORTS-4.png" group-title="DEPORTES",AYM SPORTS 4
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1511,7 +1511,7 @@ https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 https://live1-ott.izzigo.tv/11/out/u/dash/AYM-SPORTS-4-HD/default.mpd
 
 #EXTINF:-1 tvg-id="plex.tv.CombaTV.plex" tvg-logo="https://i.postimg.cc/c4jFF9Xb/AYM-SPORTS-5.png" group-title="DEPORTES",AYM SPORTS 5
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1519,7 +1519,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/AYM-SPORTS-4-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/AYM-SPORTS-5-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/dtX55H4f/AYM-SPORTS-6.png" group-title="DEPORTES",AYM SPORTS 6
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1527,7 +1527,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/AYM-SPORTS-5-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/AYM-SPORTS-6-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.PX.Sports.mx" tvg-logo="https://i.postimg.cc/90M528TC/24_px_sports.png" group-title="DEPORTES",PX SPORTS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1535,7 +1535,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/AYM-SPORTS-6-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/PX-SPORTS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Golf.Channel.(Latinoamérica).mx" tvg-logo="https://i.postimg.cc/1XthSC6m/25_golf_channel.png" group-title="DEPORTES",GOLF CHANNEL 
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1543,7 +1543,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/PX-SPORTS-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/GOLF-CHANNEL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/90M528TF/26_nba_tv.png" group-title="DEPORTES", NBA TV
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1551,7 +1551,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/GOLF-CHANNEL-HD/default.mpd
 https://live1-ott.izzigo.tv/7/out/u/dash/NBA-HD-H265/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/MZPJ5w2m/41_beisbol_latino.png" group-title="DEPORTES",BEISBOL LATINO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1589,7 +1589,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(fastandfunhd)/variant.mpd
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Adrenalina.Sports.Network.mx" tvg-logo="https://i.postimg.cc/m2Pf6nBd/46_adrenalina_sports.png" group-title="DEPORTES",ADRENALINA SPORTS NETWORK
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1597,7 +1597,7 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 https://live1-ott.izzigo.tv/11/out/u/dash/ADRENALINA-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/wT18br9Y/47_hi_sports.png" group-title="DEPORTES",HI SPORTS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1626,7 +1626,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(tvcdeportes)/variant.mpd
 
 
 #EXTINF:-1 tvg-id="Disney Junior.mx" tvg-logo="https://i.postimg.cc/Fsw5txK5/48_disney.png" group-title="INFANTILES",DISNEY JR
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1635,7 +1635,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(tvcdeportes)/variant.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/DISNEY-JR-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Disney Channel.mx" tvg-logo="https://i.postimg.cc/Pr0sGMqr/49_disney_channel.png" group-title="INFANTILES",DISNEY CHANNEL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1644,7 +1644,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/DISNEY-JR-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/DISNEY-CHANNEL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Nick Jr..mx" tvg-logo="https://i.postimg.cc/vHCFRvm6/50_nick.png" group-title="INFANTILES",NICK JR
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1653,7 +1653,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DISNEY-CHANNEL-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/NICK-JR-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Nick.mx" tvg-logo="https://i.postimg.cc/2SvpCBqL/51_nickelodeon.png" group-title="INFANTILES",NICKELODEON
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1662,7 +1662,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/NICK-JR-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/NICK-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Discovery Kids.mx" tvg-logo="https://i.postimg.cc/9QT3cq4P/52_discovery_kids.png" group-title="INFANTILES",DISCOVERY KIDS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1671,7 +1671,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/NICK-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/DISCOVERY-KIDS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Cartoon.Network.(México).mx" tvg-logo="https://i.postimg.cc/136xyNgW/53_cartoon_network.png" group-title="INFANTILES",CARTOON NETWORK
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1680,7 +1680,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/DISCOVERY-KIDS-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Cartoonito.(México).mx" tvg-logo="https://i.postimg.cc/4y2SvpdL/Cartoonsito.png" group-title="INFANTILES",CARTOONITO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1689,7 +1689,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/CARTOONITO-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.BabyFirst.TV.mx" tvg-logo="https://i.postimg.cc/8CV2cPWb/54_baby_firts.png" group-title="INFANTILES",BABY FIRST
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1698,7 +1698,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/CARTOONITO-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-BABY-FIRST-SD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/3wnthKZw/Edye_tv.png" group-title="INFANTILES",EDYE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1713,7 +1713,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/EDYE-HD/default.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(fixandfoxihd)/variant.mpd
 
 #EXTINF:-1 tvg-id="Canal.Clan.TVE.sv" tvg-logo="https://i.postimg.cc/N0w3FfT3/55_clan.png" group-title="INFANTILES",CLAN
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1722,7 +1722,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(fixandfoxihd)/variant.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/CLAN-HD/default.mpd
 
 #EXTINF:-1 tvg-id="[DREAMWS] Dreamworks" tvg-shift=-3 tvg-logo="https://i.postimg.cc/N07WHqkv/56_dreanworks.png" group-title="INFANTILES",DREAMWORKS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1731,7 +1731,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/CLAN-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/DREAM-WORKS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="BITIME.mx" tvg-logo="https://i.postimg.cc/FKg2L5VN/57_bitme.png" group-title="INFANTILES",BIT ME
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1740,7 +1740,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DREAM-WORKS-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/BIT-ME-HD/default.mpd
 
 #EXTINF:-1 tvg-id="ADULT SWIM.mx" tvg-logo="https://i.postimg.cc/HL4fyD9V/58_adult_swin.png" group-title="INFANTILES",ADULT SWIM
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -1771,7 +1771,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(ginxesportstvhd)/variant.mp
 
 #EXTINF:-1 tvg-id="Canal.HBO.(México).mx" tvg-logo="https://i.postimg.cc/0QkhGWVw/59_hbo.png" group-title="CINE & SERIES",HBO
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"e5e43e324b6cd33b92c9ac8c398bb3c8":"c8c7f804f0ecfc8fc0d53dff48d7ece1"}
@@ -1779,14 +1779,14 @@ https://live1-ott.izzigo.tv/15/out/u/dash/HBO-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.HBO.2.Latinoamérica.mx" tvg-logo="https://i.ibb.co/mRXxtcT/hbo2.png" group-title="CINE & SERIES",HBO 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"09e84fc7ecb71def143cd7e2771f3b35":"1a91f2d315fb0593321ba60aa783ec2c"}
 https://live1-ott.izzigo.tv/15/out/u/dash/HBO-2-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.HBO.Plus.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/160/160/0/0/10237380072165.png" group-title="CINE & SERIES",HBO PLUS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1794,7 +1794,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/HBO-2-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/HBO-PLUS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.HBO.Family.Latinoamérica.mx" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/800/542/0/0/7354519807335.png" group-title="CINE & SERIES",HBO FAMILY
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1802,7 +1802,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/HBO-PLUS-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/HBO-FAMILY-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.HBO.Mundi.mx" tvg-logo="https://www.codice.tv/wp-content/uploads/2022/04/hbo-mundi1.png" group-title="CINE & SERIES",HBO MUNDI
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1817,7 +1817,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/HBO-MUNDI-HD/default.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(d46beb3e-6178-5996-6106-413fbc44e12f)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Canal.HBO.Signature.Latinoamérica.mx" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_170_122" group-title="CINE & SERIES",HBO SIGNATURE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1825,7 +1825,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(d46beb3e-6178-5996-6106-413
 https://live1-ott.izzigo.tv/15/out/u/dash/HBO-SIGNATURE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="HBO.XTREME.co" tvg-logo="https://i.imgur.com/Wz3WemY.png" group-title="CINE & SERIES",HBO XTREME
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1833,7 +1833,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/HBO-SIGNATURE-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/HBO-XTREME-HD/default.mpd
 
 #EXTINF:-1 tvg-id="UNIVERSAL PREMIERE.mx" tvg-logo="https://i.postimg.cc/KzGC7q0V/60_universal_premiere.png" group-title="CINE & SERIES",UNIVERSAL PREMIERE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1841,7 +1841,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/HBO-XTREME-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-PREMIERE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="UNIVERSAL CINEMA.mx" tvg-logo="https://i.postimg.cc/nz3g345Z/61_universal_cinema.png" group-title="CINE & SERIES",UNIVERSAL CINEMA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1849,7 +1849,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-PREMIERE-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-CINEMA-HD/default.mpd
 
 #EXTINF:-1 tvg-id="UNIVERSAL COMEDY.mx" tvg-logo="https://i.postimg.cc/fykFp3nM/62_universal_comedy.png" group-title="CINE & SERIES",UNIVERSAL COMEDY
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1857,7 +1857,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-CINEMA-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-COMEDY-HD/default.mpd
 
 #EXTINF:-1 tvg-id="UNIVERSAL CRIME.mx" tvg-logo="https://i.postimg.cc/DZ6vTpj0/Universal-crime.png" group-title="CINE & SERIES",UNIVERSAL CRIME
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1865,7 +1865,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-COMEDY-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-CRIME-HD/default.mpd
 
 #EXTINF:-1 tvg-id="UNIVERSAL REALITY.mx" tvg-logo="https://i.postimg.cc/4ynMqKkb/63_universal_reality.png" group-title="CINE & SERIES",UNIVERSAL REALITY
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1873,7 +1873,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-CRIME-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-REALITY-HD/default.mpd
 
 #EXTINF:-1 tvg-id="UNIVERSAL CHANNEL.mx" tvg-logo="https://i.postimg.cc/wMPPp6gF/64_universal_channel.png" group-title="CINE & SERIES",UNIVERSAL CHANNEL 
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1941,7 +1941,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6119&avod=1&coppa=0&is_lat
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6118&avod=1&coppa=0&is_lat=0
 
 #EXTINF:-1 tvg-id="STAR CHANNEL.mx" tvg-logo="https://i.postimg.cc/brMMhzqf/65_star_channel.png" group-title="CINE & SERIES",STAR CHANNEL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1949,7 +1949,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6118&avod=1&coppa=0&is_lat
 https://live1-ott.izzigo.tv/12/out/u/dash/STAR-CHANNEL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.AMC.(México).mx" tvg-logo="https://i.postimg.cc/HscRt794/67_amc.png" group-title="CINE & SERIES",AMC
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1957,7 +1957,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/STAR-CHANNEL-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/AMC-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/RVk8pVPV/68_a3_cine.png" group-title="CINE & SERIES",A3 CINE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1965,7 +1965,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/AMC-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/A3-CINE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Atreseries.(Internacional).mx" tvg-logo="https://i.postimg.cc/sDk8HDnv/69_a3_series.png" group-title="CINE & SERIES",A3 SERIES
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1973,7 +1973,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/A3-CINE-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/ATRES-SERIES-HD/default.mpd
 
 #EXTINF:-1 tvg-id="AXN.mx" tvg-logo="https://i.postimg.cc/fRYPGnFt/70_AXN.png" group-title="CINE & SERIES",AXN
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1981,7 +1981,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/ATRES-SERIES-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/AXN-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.A&E.(México).mx" tvg-logo="https://i.postimg.cc/pLKSwb7k/71_A_E.png" group-title="CINE & SERIES",A&E
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1989,7 +1989,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/AXN-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/AANDE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.TCM.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGF/88_tcm.png" group-title="CINE & SERIES",TCM
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1997,7 +1997,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/AANDE-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/TCM-SD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.TLC.(México).mx" tvg-logo="https://i.postimg.cc/3xjLLj4j/89_tlc.png" group-title="CINE & SERIES",TLC
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2011,7 +2011,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/TLC-HD/default.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(dnehd)/variant.mpd
 
 #EXTINF:-1 tvg-id="Canal.Space.(México).mx" tvg-shift="-2" tvg-logo="https://i.postimg.cc/mg7nvfqv/72_Space.png" group-title="CINE & SERIES",SPACE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2019,7 +2019,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(dnehd)/variant.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/SPACE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Warner.TV.(México).mx" tvg-logo="https://i.postimg.cc/wBHrH4Yp/73_warner_channel.png" group-title="CINE & SERIES",WARNER CHANNEL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2027,7 +2027,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SPACE-HD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/WARNER-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Sony.(México).mx" tvg-logo="https://i.postimg.cc/xdR4dG98/74_sony_channel.png" group-title="CINE & SERIES",SONY CHANNEL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2035,7 +2035,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/WARNER-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/SONY-HD/default.mpd
 
 #EXTINF:-1 tvg-id="SONY MOVIES.mx" tvg-logo="https://i.postimg.cc/g0DT0yGK/75_sony_movies.png" group-title="CINE & SERIES",SONY MOVIES
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2043,7 +2043,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/SONY-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/SONY-MOVIES-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.FX.(México).mx" tvg-logo="https://i.postimg.cc/DZwY4Wz6/76_fx.png" group-title="CINE & SERIES",FX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2051,7 +2051,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/SONY-MOVIES-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/FX-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.TNT.Novelas.(México).mx" tvg-logo="https://i.postimg.cc/4d226JK0/77_tnt_novelas.png" group-title="CINE & SERIES",TNT NOVELAS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2059,7 +2059,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/FX-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/TNT-NOVELAS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.TNT.Series.(México).mx" tvg-logo="https://i.postimg.cc/mDppYbzL/78_tnt_series.png" group-title="CINE & SERIES",TNT SERIES
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2067,7 +2067,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/TNT-NOVELAS-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/TNT-SERIES-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.TNT.(México).mx" tvg-logo="https://i.postimg.cc/MHcPthVT/79_tnt.png" group-title="CINE & SERIES",TNT
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2075,7 +2075,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/TNT-SERIES-HD/default.mpd
 https://live1-ott.izzigo.tv/6/out/u/dash/TNT-HD-H265/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Film.&.Arts.mx" tvg-logo="https://i.postimg.cc/j2WgvGPN/80_film_arts.png" group-title="CINE & SERIES",FILM&ARTS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2083,7 +2083,7 @@ https://live1-ott.izzigo.tv/6/out/u/dash/TNT-HD-H265/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/FILM-AND-ARTS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Lifetime.(México).mx" tvg-logo="https://i.postimg.cc/mr8m4bSC/lifetime.png" group-title="CINE & SERIES",LIFETIME
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2091,7 +2091,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/FILM-AND-ARTS-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/LIFETIME-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Studio.Universal.(México).mx" tvg-logo="https://i.postimg.cc/90vxkJYJ/80_studio_universal.png" group-title="CINE & SERIES",STUDIO UNIVERSAL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2099,7 +2099,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/LIFETIME-HD/default.mpd
 https://live1-ott.izzigo.tv/11/out/u/dash/STUDIO-UNIVERSAL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Cinemax.(México).mx" tvg-logo="https://i.postimg.cc/PJB672Qc/81_cinemax.png" group-title="CINE & SERIES",CINEMAX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2119,7 +2119,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(526dd1aa-3af4-bca0-f021-f48
 https://dish.akamaized.net/Content/DASH/Live/channel(6f29f4bb-a84c-6924-9782-a5647d2146a0)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Canal.Cinecanal.(México).mx" tvg-logo="https://i.postimg.cc/h4w3htR9/82_cinecanal.png" group-title="CINE & SERIES",CINECANAL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2127,7 +2127,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(6f29f4bb-a84c-6924-9782-a56
 https://live1-ott.izzigo.tv/14/out/u/dash/CINECANAL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Europa.Europa.mx" tvg-logo="https://i.postimg.cc/8k3nszg3/83_europa_europa.png" group-title="CINE & SERIES",EUROPA EUROPA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2153,7 +2153,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(aztecacinemahd)/variant.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(b4540d49-0e51-9219-ced1-8624e83e6bf3)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Canal.De.Película.mx" tvg-logo="https://i.postimg.cc/ncDSmfnw/84_D_pelicula.png" group-title="CINE & SERIES",DE PELICULA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2161,7 +2161,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(b4540d49-0e51-9219-ced1-862
 https://live1-ott.izzigo.tv/12/out/u/dash/DE-PELICULA-SD/default.mpd
 
 #EXTINF:-1 tvg-id="De Película HD.mx" tvg-logo="https://i.postimg.cc/X7C156VW/84_D_pelicula_plus.png" group-title="CINE & SERIES",DE PELICULA PLUS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2169,7 +2169,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DE-PELICULA-SD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/DE-PELICULA-HD/default.mpd
 
 #EXTINF:-1  tvg-id="Canal.Golden.(México).mx" tvg-aspect-ratio="16:9" tvg-logo="https://i.postimg.cc/pLwQddjx/golden.png" group-title="CINE & SERIES",GOLDEN
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2177,7 +2177,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DE-PELICULA-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-SD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Golden.Multiplex.sv" tvg-aspect-ratio="16:9" tvg-logo="https://i.ibb.co/BTjfF3p/golden-multiplex.png" group-title="CINE & SERIES",GOLDEN MULTIPLEX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2185,7 +2185,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-SD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-MULTIPLEX/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Golden.Edge.mx" tvg-logo="https://i.postimg.cc/FsLCSX97/85_golden_edge.png" group-title="CINE & SERIES",GOLDEN EDGE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2193,7 +2193,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-MULTIPLEX/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-EDGE-SD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Golden.Plus.mx" tvg-logo="https://i.postimg.cc/mgWXNpDr/86_golden_plus.png" group-title="CINE & SERIES",GOLDEN PLUS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2208,7 +2208,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-PLUS-HD/default.mpd
 ###https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(GOLDEN_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Canal.Golden.Premier.mx" tvg-logo="https://i.ibb.co/6D60Brn/golden-premier.png" group-title="CINE & SERIES",GOLDEN PREMIER
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2216,7 +2216,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-PLUS-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/GOLDEN-PREMIER-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Golden.Premier.2.mx" tvg-logo="https://i.postimg.cc/T3v7qNwn/87_golden_premiere2.png" group-title="CINE & SERIES",GOLDEN PREMIER -2HORAS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2233,7 +2233,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-PREMIER-2HR-HD/default.mpd
 
 
 #EXTINF:-1 tvg-id="DISCOVERY CHANNEL HD.mx" tvg-logo="https://i.postimg.cc/bvzm4GkK/Discovery.png" group-title="CULTURALES",DISCOVERY CHANNEL
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2241,7 +2241,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-PREMIER-2HR-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-CHANNEL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="DISCOVERY ID.mx" tvg-logo="https://i.postimg.cc/nLH3NsqZ/Discovery_ID.png" group-title="CULTURALES",DISCOVERY ID
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2249,7 +2249,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-CHANNEL-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-ID-HD/default.mpd
 
 #EXTINF:-1 tvg-id="DISCOVERY HOME AND HEALTH.mx" tvg-logo="https://i.postimg.cc/PqtS0L1j/Discovery_H_H.png" group-title="CULTURALES",DISCOVERY h&h
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2257,7 +2257,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-ID-HD/default.mpd
 https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-HOME-AND-HEALTH-HD/default.mpd
 
 #EXTINF:-1 tvg-logo="https://geo.edge.pontiscloud.com:9002/images/268/CH_LOGO/160/160/0/0/28796844071531.png?worIdtv2 " group-title="CULTURALES",HOME & GARDEN TV
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2265,7 +2265,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-HOME-AND-HEALTH-HD/default.m
 https://nog-live1-ott.izzigo.tv/6/out/u/dash/DISCOVERY-HOME-AND-GARDEN-HD-H265/default.mpd
 
 #EXTINF:-1 tvg-id="DISCOVERY TURBO.mx" tvg-logo="https://i.postimg.cc/SKygHXcX/Discovery_turbo.png" group-title="CULTURALES",DISCOVERY TURBO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2273,7 +2273,7 @@ https://nog-live1-ott.izzigo.tv/6/out/u/dash/DISCOVERY-HOME-AND-GARDEN-HD-H265/d
 https://live1-ott.izzigo.tv/14/out/u/dash/DISCOVERY-TURBO-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Discovery World.mx" tvg-logo="https://i.postimg.cc/VNYK2SXb/Discovery_World.png" group-title="CULTURALES",DISCOVERY WORLD
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2281,7 +2281,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DISCOVERY-TURBO-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/DISCOVERY-WORLD-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Discovery Theater.mx" tvg-logo="https://i.postimg.cc/5txsDH86/Discovery_theater.png" group-title="CULTURALES",DISCOVERY THEATER
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2289,7 +2289,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DISCOVERY-WORLD-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/DISCOVERY-THEATER-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Discovery.Science.(Latinoamérica).mx" tvg-logo="https://i.postimg.cc/tgXB81FT/Discovery_Science.png" group-title="CULTURALES",DISCOVERY SCIENCE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2297,7 +2297,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/DISCOVERY-THEATER-HD/default.mpd
 https://live1-ott.izzigo.tv/14/out/u/dash/DISCOVERY-SCIENCE-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Animal.Planet.(México).mx" tvg-logo="https://i.postimg.cc/Nj8NN89Z/Animal_Planet.png" group-title="CULTURALES",ANIMAL PLANET
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2305,7 +2305,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DISCOVERY-SCIENCE-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/ANIMAL-PLANET-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Curiosity.Channel.ch" tvg-shift=-3 tvg-logo="https://i.postimg.cc/fbw813mp/Curiosity.png" group-title="CULTURALES",CURIOSITY
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2313,7 +2313,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/ANIMAL-PLANET-HD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/CURIOSITY-HD/default.mpd
 
 #EXTINF:-1 tvg-id="NATIONAL GEOGRAPHIC.mx" tvg-logo="https://i.postimg.cc/q7j1rkGm/Nat_geo.png" group-title="CULTURALES",NAT GEO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2328,7 +2328,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/NAT-GEO-HD/default.mpd
 https://cache07.zapitv.com/live/eds_c2/nat_geo_wild_hd/dash_live_ez/nat_geo_wild_hd.mpd
 
 #EXTINF:-1 tvg-id="Canal.History.(México).mx" tvg-logo="https://i.postimg.cc/QM0fDXq9/History.png" group-title="CULTURALES",HISTORY
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2336,7 +2336,7 @@ https://cache07.zapitv.com/live/eds_c2/nat_geo_wild_hd/dash_live_ez/nat_geo_wild
 https://live1-ott.izzigo.tv/15/out/u/dash/HISTORY-CHANNEL-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.History.2.(México).mx" tvg-shift=-1 tvg-logo="https://i.postimg.cc/SKDg4yGY/History2.png" group-title="CULTURALES",HISTORY 2
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2427,7 +2427,7 @@ https://ch1-c27.duin.dev/hls/0/stream.m3u8
 https://dish.akamaized.net/Content/DASH/Live/channel(videorolahd)/variant.mpd
 
 #EXTINF:-1 tvg-id="Canal.Bandamax.mx" tvg-logo="https://i.postimg.cc/t4drrdnG/Bandamax.png" group-title="MUSICA",BANDAMAX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2442,7 +2442,7 @@ https://live1-ott.izzigo.tv/12/out/u/dash/BANDAMAX-HD/default.mpd
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevolatinoes-rakutenes/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TELERITMO.mx" tvg-logo="https://i.postimg.cc/j52ZdGgK/teleritmo.png" group-title="MUSICA",TELERITMO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2450,7 +2450,7 @@ https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist/amg0
 https://live1-ott.izzigo.tv/11/out/u/dash/TELERITMO-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/FKJJxCff/Stingray-Regionales.png" group-title="MUSICA",¡VIVA MEXICO!
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2458,7 +2458,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/TELERITMO-HD/default.mpd
 https://nog-live1-ott.izzigo.tv/13/out/u/dash/MUSIC-VIVA-MEXICO/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/zfRRk2Lb/Stingray-Rancheras.png" group-title="MUSICA",MARIACHI PARA SIEMPRE
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2522,7 +2522,7 @@ https://d3e900fnvjyq99.cloudfront.net/d/BKFNLVLBL20NVRK6FYE0/hls3/now_-1m_15s/m.
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Telehit.mx" tvg-logo="https://i.postimg.cc/d134tzWX/telehit.png" group-title="MUSICA",TELEHIT
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2530,7 +2530,7 @@ https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 https://live1-ott.izzigo.tv/15/out/u/dash/TELEHIT-SD/default.mpd
 
 #EXTINF:-1 tvg-id="TELEHIT MUSICA.mx" tvg-logo="https://i.postimg.cc/SsRDNwZw/telehit_musica.png" group-title="MUSICA",TELEHIT MUSICA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2538,7 +2538,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/TELEHIT-SD/default.mpd
 https://live1-ott.izzigo.tv/12/out/u/dash/TELEHIT-MUSICA-SD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Telehit.Música.Plus.mx" tvg-logo="https://i.postimg.cc/FRzDs2Wt/telehit_musica_plus.png" group-title="MUSICA",TELEHIT MUSICA PLUS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2588,7 +2588,7 @@ https://d3sp12rkfenklh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/0Qjc2Ltn/Stingray_hits.png" group-title="MUSICA",STINGRAY HITS
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2596,7 +2596,7 @@ https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u
 https://live1-ott.izzigo.tv/14/out/u/dash/SKY-STINGRAY-HITS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://spng.pngfind.com/pngs/s/370-3705291_stingray-retro-logo-stingray-music-hd-png-download.png" group-title="MUSICA",STINGRAY RETRO
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2625,7 +2625,7 @@ https://3ff10b5c36cb4729a63d9a2eb5e629f7.mediatailor.us-east-1.amazonaws.com/v1/
 https://9ea6ba0f84904cf4b17433f6a489638b.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-it_HipHopTV/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/G2tqhZMx/Stingray_Concert.png" group-title="MUSICA",STINGRAY CONCERT
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2633,7 +2633,7 @@ https://9ea6ba0f84904cf4b17433f6a489638b.mediatailor.us-east-1.amazonaws.com/v1/
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-STINGRAY-CONCERT-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Stingray.Juicebox.HD.pl" tvg-logo="https://i.postimg.cc/zBv0X9d2/Stingray_Juicebox.png" group-title="MUSICA",STINGRAY JUICEBOX
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2653,7 +2653,7 @@ https://jmp2.uk/plu-5f85cf621d6d2200079f1de0.m3u8
 https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
 
 #EXTINF:-1 tvg-id="plex.tv.Stingray.Classica.Stream.plex" tvg-logo="https://i.postimg.cc/cJXFWscb/Stingray_clasica.png" group-title="MUSICA",STINGRAY CLASSICA
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2746,7 +2746,7 @@ https://radios.inpi.gob.mx:8080/xepet
 
 
 #EXTINF:-1 tvg-id="Canal.Sky.One.(México).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/Sky_One_2017.svg" group-title="iZZi-TV",SKY ONE
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#EXTVLCOPT:http-user-agent=Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"96f177548046a9f56bbb39a900a82ddd":"96aa836072fd84c9a8e6219652330272"}
