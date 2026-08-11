@@ -52,7 +52,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz"
 
 #EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1.1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO CDMX
-#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6c01435ed4e839996f40f8ee08965324":"74eb7b54510e463ea51dccff80a53f3e"}
 https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
@@ -136,7 +136,7 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA7-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"109e7fcb4970436a9e4628090c208451":"0ab1bc308c773d627f5a511f0fffc0e4"}
 http://147.78.1.28/xview/azteca_7_hd.mpd
 
-#EXTINF:-1 tvg-chno="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
+#EXTINF:-1 tvg-chno="40" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #EXTVLCOPT--http-reconnect=true
@@ -163,7 +163,7 @@ https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/NUEVE-RDF-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"a2bffcbe59cee9f1021da53b96dc6e2c":"8cbdc79e0a64dd8d1c3b7ea85830bd10"}
 https://live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd
 
-#EXTINF:-1 tvg-chno="10.1" tvg-id="EL HERALDO.mx" tvg-logo="https://i.postimg.cc/nzTb6bXv/11_heraldo_television.png" group-title="NOTICIAS",HERALDO TELEVISION
+#EXTINF:-1 tvg-chno="8" tvg-id="Canal.El.Heraldo.TV.(México).mx" tvg-logo="https://i.postimg.cc/nzTb6bXv/11_heraldo_television.png" group-title="NOTICIAS",HERALDO TELEVISION
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"74fcb59a5c38a6ee59a13aa32585eb02":"483a204a347bc45bc3f3ab27874bc564"}
@@ -181,7 +181,7 @@ https://live1-ott.izzigo.tv/11/out/u/dash/EXCELSIOR-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"c49501c4b1cefd7b0a92935ce1b20be8":"1664d2cc6280dd0f268d2d3f28c76665"}
 https://live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd
 
-#EXTINF:-1 tvg-chno="11" tvg-id="" tvg-logo="https://i.postimg.cc/9MBn2NmV/TELEPLAY-MERIDA.png" group-title="NACIONALES",TELEPLAY MERIDA
+#EXTINF:-1 tvg-chno="11" tvg-id="TELEPLAYMERIDA.mx" tvg-logo="https://i.postimg.cc/9MBn2NmV/TELEPLAY-MERIDA.png" group-title="NACIONALES",TELEPLAY MERIDA
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
@@ -202,33 +202,33 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/O3uSX02Gcw4/expires/1785465315613/srcIp/201.148.8.14/urls/185.180.203.58/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
-#EXTINF:-1 tvg-chno="8.1" tvg-id="" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
+#EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVYUC.mx" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://webprod.sipse.com.mx:8080/show/merida.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-logo="https://i.postimg.cc/7ZMCQ2rb/TV-5-COZUMEL.png" group-title="NACIONALES",TV COZUMEL
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
-
-#EXTINF:-1 tvg-chno="8.1" tvg-id="" tvg-logo="https://i.postimg.cc/WzxMQfpb/Sipse-CANCUN.png" group-title="NACIONALES",SIPSE CANCUN
+#EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVCUN.mx" tvg-logo="https://i.postimg.cc/WzxMQfpb/Sipse-CANCUN.png" group-title="NACIONALES",SIPSE CANCUN
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="" tvg-name="Canal 10 Cancún" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/Canal-10-Cancun-en-vivo-Online.png" group-title="NACIONALES",CANAL 10 CANCUN
+#EXTINF:-1 tvg-chno="10" tvg-id="CANAL10CANCUN.mx" tvg-name="" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/Canal-10-Cancun-en-vivo-Online.png" group-title="NACIONALES",CANAL 10 CANCUN
+#EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
-#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://s2.canal10mx.com/live/c10.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="CANAL5COZUMEL.mx" tvg-logo="https://i.postimg.cc/7ZMCQ2rb/TV-5-COZUMEL.png" group-title="NACIONALES",TV COZUMEL
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/TY4pt7JW/C4-EN-ALERTA.png" group-title="NOTICIAS",C4 ALERTA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
@@ -429,10 +429,10 @@ Http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/R0GPvsVN/aprende-mas-ingles.png" group-title="ENTRETENIMIENTO",APRENDE INGLES TV 1
+#EXTINF:-1 tvg-id="" tvg-logo="https://english-tv.com/img/english-tv-logo.png" group-title="ENTRETENIMIENTO",APRENDE INGLES TV 1
 https://streams2.sofast.tv/ptnr-hispasat/title-ENGLISH-TV-SPA/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18a85327-6b17-4d41-8c2f-41ff8511c1dd/sofastplayout/64ab4516-1355-4656-a3ff-dc0509a24ebd_0_HLS/manifest.m3u8?ads.channel_name=english-tv-spa&ads.distribution_platform_code=125&ads.coppa=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/R0GPvsVN/aprende-mas-ingles.png" group-title="ENTRETENIMIENTO",APRENDE INGLES TV 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://english-tv.com/img/english-tv-logo.png" group-title="ENTRETENIMIENTO",APRENDE INGLES TV 2
 https://streams2.sofast.tv/ptnr-hispasat/title-INGLES-TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18a85327-6b17-4d41-8c2f-41ff8511c1dd/sofastplayout/24606112-c203-3b51-e617-eb98df72a5f3_0_HLS/manifest.m3u8?ads.channel_name=ingles-tv&ads.distribution_platform_code=125&ads.coppa=0
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/FRs8R1yz/MVSTV.png" group-title="ENTRETENIMIENTO",MVSTV
@@ -2106,68 +2106,90 @@ https://live1-ott.izzigo.tv/13/out/u/dash/HISTORY-2-HD/default.mpd
 
 
 #EXTINF:-1 tvg-id=" " tvg-logo="https://cdn-profiles.tunein.com/s281345/images/logoq.png" group-title="CRISTIANOS", EXTREMA KIDS
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
 
 #EXTINF:-1 tvg-id=" " tvg-logo="https://www.diosteve.org/wp-content/uploads/2022/04/235403078_2666022853698120_5407670730821234601_n-PhotoRoom-150x150.png" group-title="CRISTIANOS",DIOS TV KIDS
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SQctcwdJ/extrema-tv.png" group-title="CRISTIANOS",EXTREMA TV
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.diosteve.org/wp-content/uploads/elementor/thumbs/LOGO-pndpb9vr2ioypzkmtidn6exay62ljrs0tprryxf490.png" group-title="CRISTIANOS",DIOS TE VE
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://s.emisoras.tv:8081/diostevetv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/WbFmMrTQ/tv-tiempo-con-Dios.png" group-title="CRISTIANOS",TV TIEMPO CON DIOS
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stmvideo1.livecastv.com/tiempo/tiempo/playlist.m3u8?hls_ctx=u12s54
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/S4xqZgV.png" group-title="CRISTIANOS",CANAL CINE DIOS
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 https://canal.mediaserver.com.co/live/cinedios.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5N7m0TR8/Vida-Cristiana.png" group-title="CRISTIANOS",VIDA CRISTIANA
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://2-fss-2.streamhoster.com/pl_120/200226-1449024-1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/hj07zQpc/Enlace-Juvenil.png" group-title="CRISTIANOS",ENLACE JUVENIL TV
-#EXTVLCOPT:network-caching=2000
+#EXTINF:-1 tvg-id="EJTV.us" tvg-logo="https://i.postimg.cc/hj07zQpc/Enlace-Juvenil.png" group-title="CRISTIANOS",ENLACE JUVENIL TV
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://livecdnusa.enlace.plus/ejtv/0/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/085/radio-cristiana-mexico-mexico.8a590d59.jpg" group-title="RADIOS YUCATAN",RADIO CRISTIANA YUCATAN
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://stream-148.zeno.fm/d4vr1vwxcfhvv
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/qvJ6gWGt/enlace.png" group-title="CRISTIANOS",ENLACE
+#EXTINF:-1 tvg-id="Canal.Enlace.(TBN).mx" tvg-logo="https://i.postimg.cc/qvJ6gWGt/enlace.png" group-title="CRISTIANOS",ENLACE
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5ao-5Fl4SpavJ0UMg7jaypY4B0r7p2NgqMvPLSyuPXjkVJ3vk0Dkg_r4v7prxTTE1KSMx4PbjT_iC0bwkefYpNh-bf59IidSs55B9vKggvjiyie9B_DXCL6TE-8ELPLse1IAnk50zXeDQu-yfpjkimH2Vgk9mHdz_FBcd8SKDHp_hQ8-AKKZ6fP6BN6m1/s600/canal-27.png" group-title="CRISTIANOS",CANAL DE LA ESPERANZA
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=HLS
 https://ch1-c27.duin.dev/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/085/radio-cristiana-mexico-mexico.8a590d59.jpg" group-title="CRISTIANOS",RADIO CRISTIANA YUCATAN
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream-148.zeno.fm/d4vr1vwxcfhvv
 
 
 ################################################################################################### M U S I C A ###############################################################################
