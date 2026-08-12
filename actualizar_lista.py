@@ -1,13 +1,68 @@
 import os
+import subprocess
 import re
+import json
 
+URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
 
-# CONFIGURACIÓN: Reemplaza con tus datos exactos de GitHub Pages obtenidos en el paso 1
-USUARIO_GITHUB = "TV-XOY"       # <-- Pon tu nombre de usuario de GitHub aquí
-REPOSITORIO_GITHUB = "XOY" # <-- Pon el nombre de tu repositorio aquí
+def obtener_m3u8():
+    try:
+        print("Iniciando extracción a través de la Red Tor (Túnel Regional México)...")
+        
+        proxy_tor = "socks5://127.0.0.1:9050"
+        
+        comando = [
+            "yt-dlp",
+            URL_OK_RU,
+            "--dump-json",
+            "--no-warnings",
+            "--no-check-certificates",
+            "--impersonate", "chrome",  
+            "--proxy", proxy_tor,       
+            "--extractor-args", "okru:player_type=modern"
+        ]
+        
+        resultado = subprocess.run(
+            comando,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=True,
+            timeout=120  # Aumentamos a 2 minutos para asegurar la conexión del nodo MX
+        )
+        
+        datos_video = json.loads(resultado.stdout)
+        
+        # Intento 1: Buscar URL directa
+        url_extraida = datos_video.get("url")
+        if url_extraida and ".m3u8" in url_extraida:
+            print(f"¡Éxito Absoluto! URL obtenida mediante Tor-MX: {url_extraida}")
+            return url_extraida
+        
+        # Intento 2: Buscar en formatos internos
+        formats = datos_video.get("formats", [])
+        for f in reversed(formats):
+            url_formato = f.get("url", "")
+            if ".m3u8" in url_formato:
+                print(f"¡Éxito Absoluto! URL localizada en formatos: {url_formato}")
+                return url_formato
+                
+        print("yt-dlp leyó la respuesta pero el stream no contenía un manifiesto HLS (.m3u8).")
+        return None
+            
+    except subprocess.CalledProcessError as e:
+        print(f"\n[ERROR] Error crítico en la ejecución de yt-dlp sobre la red Tor.")
+        print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
+        return None
+    except subprocess.TimeoutExpired:
+        print("\n[ERROR] La conexión regional a través de Tor excedió el tiempo límite (Timeout).\n")
+        return None
+    except Exception as e:
+        print(f"Error inesperado en el script: {e}")
+        return None
 
-def generar_lista_estatica():
+def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
         print(f"Error: El archivo '{ARCHIVO_M3U}' no se encuentra en la raíz.")
         return
@@ -15,38 +70,31 @@ def generar_lista_estatica():
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         contenido = f.read()
 
-    # URL definitiva que procesará la redirección en tiempo real usando la IP del reproductor
-    url_redireccion_permanente = f"https://{USUARIO_GITHUB}.github.io/{REPOSITORIO_GITHUB}/canal13merida.m3u8"
-
-    # Estructura limpia M3U sin duplicados de User-Agent ni parámetros incompatibles
     parametros_fijos = (
         '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" '
-        'tvg-logo="https://canal13mexico.com" '
+        'tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" '
         'group-title="NACIONALES",CANAL 13 MERIDA\n'
         '#EXTVLCOPT:network-caching=2000\n'
-        '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36\n'
-        '#EXTVLCOPT--http-reconnect=true'
+        '#EXTVLCOPT--http-reconnect=true\n'
+        '#KODIPROP:inputstream.adaptive.manifest_type=hls'
     )
 
-    # Expresión regular mejorada para detectar cualquier variante previa del Canal 13 Mérida y evitar duplicados
-    patron = r'(#EXTINF:-1.*?CANAL 13 MERIDA\n.*?)(https?://[^\s]+)'
+    patron = r'(#EXTINF:-1.*?CANAL 13 MERIDA\n.*?(?:#EXTVLCOPT.*?)\n(?:#KODIPROP.*?)\n)(https?://[^\s]+)'
     
     if re.search(patron, contenido):
-        # Reemplaza de forma limpia el bloque antiguo eliminando las cabeceras extras del intento anterior
-        nuevo_contenido = re.sub(patron, f"{parametros_fijos}\n{url_redireccion_permanente}", contenido)
-        print("Estructura localizada. Canal 13 Mérida actualizado con éxito y sin duplicados.")
+        nuevo_contenido = re.sub(patron, f"\\1{nueva_url}", contenido)
+        print("Estructura localizada. URL actualizada correctamente en el bloque.")
     else:
-        print("Bloque previo no detectado en XOY. Añadiendo canal de forma limpia al final.")
-        nuevo_contenido = contenido.rstrip() + f"\n\n{parametros_fijos}\n{url_redireccion_permanente}\n"
+        print("No se encontró el bloque exacto. Añadiendo canal al final del archivo.")
+        nuevo_contenido = contenido.rstrip() + f"\n\n{parametros_fijos}\n{nueva_url}\n"
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
         f.write(nuevo_contenido)
-    
-    # Creamos el archivo de enlace de reproducción automática (Play-List indexada)
-    # Esto le dice al reproductor que cargue el script de procesamiento dinámico directo
-    with open("canal13merida.m3u8", "w", encoding="utf-8") as f:
-        f.write(f"#EXTM3U\n{parametros_fijos}\nhttps://ok.ru")
-    print("Archivo de redirección indexado correctamente.")
+    print("Cambios guardados con éxito en el archivo XOY.")
 
 if __name__ == "__main__":
-    generar_lista_estatica()
+    url_m3u8 = obtener_m3u8()
+    if url_m3u8:
+        actualizar_archivo_m3u(url_m3u8)
+    else:
+        print("No se modificó el archivo debido a las restricciones de la conexión.")
