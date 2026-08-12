@@ -68,6 +68,7 @@ def actualizar_archivo_m3u(nueva_url):
     bloque_nuevo = [
         '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA\n',
         '#EXTVLCOPT:network-caching=2000\n',
+        '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\n',
          f'#EXTVLCOPT:http-x-forwarded-for={ip_autorizada}\n',
         '#EXTVLCOPT--http-reconnect=true\n',
         '#KODIPROP:inputstream.adaptive.manifest_type=hls\n',
