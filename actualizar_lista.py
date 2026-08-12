@@ -1,48 +1,23 @@
 import os
 import subprocess
 import re
-import urllib.request
+import json
 
 URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
 
-def obtener_proxy_mexico():
-    """Busca una lista de proxies públicos e intenta extraer uno de México o LATAM"""
-    try:
-        print("Obteniendo lista de proxies públicos...")
-        url = "https://proxyscrape.com"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=8) as response:
-            proxies = response.read().decode('utf-8').strip().split('\n')
-            if proxies and len(proxies[0]) > 5:
-                proxy_valido = proxies[0].strip()
-                print(f"Proxy de México encontrado: http://{proxy_valido}")
-                return f"http://{proxy_valido}"
-    except Exception as e:
-        print(f"No se pudo obtener proxy específico de México: {e}")
-    
-    # Fallback: Si falla el de México, intenta uno global rápido
-    print("Usando proxy alternativo global...")
-    return "http://45.70.198.81:8080" # Proxy LATAM genérico de respaldo
-
 def obtener_m3u8():
-    proxy = obtener_proxy_mexico()
-    user_agent = (
-        "Mozilla/5.0 (Linux; Android 10; Mi 9T) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
-    )
-    
     try:
-        print("Intentando extraer la URL con Streamlink a través del Proxy...")
+        print("Iniciando extracción con yt-dlp...")
         
-        # Comando estructurado con Proxy y User Agent móviles para romper el bloqueo regional
+        # Comando avanzado para extraer metadatos simulando un navegador Chrome real
         comando = [
-            "streamlink", 
-            URL_OK_RU, 
-            "best", 
-            "--stream-url",
-            f"--http-header=User-Agent={user_agent}",
-            f"--http-proxy={proxy}"
+            "yt-dlp",
+            URL_OK_RU,
+            "--dump-json",
+            "--no-warnings",
+            "--impersonate", "chrome",  # Hace que la huella TLS sea idéntica a la de Chrome para saltar bloqueos de bots
+            "--extractor-args", "okru:player_type=modern"
         ]
         
         resultado = subprocess.run(
@@ -50,27 +25,36 @@ def obtener_m3u8():
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            check=True,
-            timeout=25 # Evita que GitHub se quede congelado si el proxy es lento
+            check=True
         )
         
-        url_extraida = resultado.stdout.strip()
-        if ".m3u8" in url_extraida:
-            print(f"¡Éxito Absoluto! URL extraída: {url_extraida}")
+        # Parseamos el JSON devuelto por yt-dlp
+        datos_video = json.loads(resultado.stdout)
+        
+        # Buscamos la URL con formato m3u8 (HLS) de mejor calidad
+        url_extraida = datos_video.get("url")
+        
+        if url_extraida and ".m3u8" in url_extraida:
+            print(f"¡Éxito Absoluto! URL encontrada de forma nativa: {url_extraida}")
             return url_extraida
-        else:
-            print("Streamlink no devolvió un enlace .m3u8 válido.")
-            return None
+        
+        # Fallback por si la URL principal no es m3u8
+        formats = datos_video.get("formats", [])
+        for f in reversed(formats): # Revisamos de mejor a menor calidad
+            url_formato = f.get("url", "")
+            if ".m3u8" in url_formato:
+                print(f"¡Éxito Absoluto! URL encontrada en formatos: {url_formato}")
+                return url_formato
+                
+        print("yt-dlp leyó la página pero no se localizó ningún enlace .m3u8.")
+        return None
             
     except subprocess.CalledProcessError as e:
-        print(f"\n[ERROR] Streamlink falló usando el proxy {proxy}.")
-        print(f"Detalle técnico de la plataforma: {e.stderr.strip()}\n")
-        return None
-    except subprocess.TimeoutExpired:
-        print("\n[ERROR] El proxy asignado tardó demasiado en responder (Timeout).\n")
+        print(f"\n[ERROR] yt-dlp no pudo procesar la página de OK.ru.")
+        print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
         return None
     except Exception as e:
-        print(f"Error inesperado: {e}")
+        print(f"Error inesperado en el script: {e}")
         return None
 
 def actualizar_archivo_m3u(nueva_url):
@@ -109,4 +93,4 @@ if __name__ == "__main__":
     if url_m3u8:
         actualizar_archivo_m3u(url_m3u8)
     else:
-        print("No se modificó el archivo porque falló la evasión del bloqueo regional.")
+        print("No se modificó el archivo debido a las restricciones de la plataforma.")
