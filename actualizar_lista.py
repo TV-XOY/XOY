@@ -8,15 +8,18 @@ ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción con yt-dlp...")
+        print("Iniciando extracción avanzada con yt-dlp y simulación de entorno...")
         
-        # Comando avanzado para extraer metadatos simulando un navegador Chrome real
+        # Usamos un proxy HTTPS confiable para asegurar que la petición se procese desde la región correcta
+        proxy_mexico = "http://45.70.198.81:8080" 
+        
         comando = [
             "yt-dlp",
             URL_OK_RU,
             "--dump-json",
             "--no-warnings",
-            "--impersonate", "chrome",  # Hace que la huella TLS sea idéntica a la de Chrome para saltar bloqueos de bots
+            "--impersonate", "chrome",  # Ahora funcionará gracias a curl_cffi en las dependencias
+            "--proxy", proxy_mexico,    # Elimina el geobloqueo simulando tráfico de la región
             "--extractor-args", "okru:player_type=modern"
         ]
         
@@ -25,33 +28,35 @@ def obtener_m3u8():
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            check=True
+            check=True,
+            timeout=40
         )
         
-        # Parseamos el JSON devuelto por yt-dlp
         datos_video = json.loads(resultado.stdout)
         
-        # Buscamos la URL con formato m3u8 (HLS) de mejor calidad
+        # Intento 1: Buscar URL directa en la raíz del JSON
         url_extraida = datos_video.get("url")
-        
         if url_extraida and ".m3u8" in url_extraida:
-            print(f"¡Éxito Absoluto! URL encontrada de forma nativa: {url_extraida}")
+            print(f"¡Éxito! URL obtenida: {url_extraida}")
             return url_extraida
         
-        # Fallback por si la URL principal no es m3u8
+        # Intento 2: Buscar en la lista interna de formatos disponibles
         formats = datos_video.get("formats", [])
-        for f in reversed(formats): # Revisamos de mejor a menor calidad
+        for f in reversed(formats):
             url_formato = f.get("url", "")
             if ".m3u8" in url_formato:
-                print(f"¡Éxito Absoluto! URL encontrada en formatos: {url_formato}")
+                print(f"¡Éxito! URL localizada en formatos de vídeo: {url_formato}")
                 return url_formato
                 
-        print("yt-dlp leyó la página pero no se localizó ningún enlace .m3u8.")
+        print("yt-dlp leyó la respuesta pero no encontró un manifiesto HLS (.m3u8).")
         return None
             
     except subprocess.CalledProcessError as e:
-        print(f"\n[ERROR] yt-dlp no pudo procesar la página de OK.ru.")
+        print(f"\n[ERROR] Error en la ejecución de yt-dlp.")
         print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
+        return None
+    except subprocess.TimeoutExpired:
+        print("\n[ERROR] La consulta tardó demasiado debido a la latencia del nodo de red.\n")
         return None
     except Exception as e:
         print(f"Error inesperado en el script: {e}")
@@ -59,7 +64,7 @@ def obtener_m3u8():
 
 def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
-        print(f"Error: El archivo '{ARCHIVO_M3U}' no existe.")
+        print(f"Error: El archivo '{ARCHIVO_M3U}' no se encuentra en la raíz.")
         return
 
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
@@ -93,4 +98,4 @@ if __name__ == "__main__":
     if url_m3u8:
         actualizar_archivo_m3u(url_m3u8)
     else:
-        print("No se modificó el archivo debido a las restricciones de la plataforma.")
+        print("No se modificó el archivo debido a las restricciones físicas de la conexión.")
