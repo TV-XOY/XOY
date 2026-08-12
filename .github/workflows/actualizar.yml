@@ -1,64 +1,51 @@
-import os
-import subprocess
+name: Actualizar Enlace OKRU en Archivo XOY
 
-# CONFIGURACIÓN GENERAL
-URL_OKRU = "https://ok.ru/live/10849691639514"
-ARCHIVO_M3U = "TV-XOY/XOY/"  # Nombre de tu lista sin extensión dentro del repositorio clonado
-IDENTIFICADOR = 'tvg-name="CANAL13.mx"'  # Identificador clave de tu canal
+on:
+  schedule:
+    # Corre automáticamente cada 24 horas (00:00 hora UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Activa el botón gris en GitHub para que pruebes el proceso manualmente
 
-def obtener_enlace_m3u8():
-    try:
-        print("Iniciando extracción del enlace dinámico desde OK.ru...")
-        # Usa Streamlink para simular el reproductor y obtener la URL .m3u8 directa de 24 horas
-        resultado = subprocess.run(
-            ["streamlink", URL_OKRU, "best", "--stream-url"],
-            capture_output=True, text=True, check=True
-        )
-        url_extraida = resultado.stdout.strip()
-        if "m3u8" in url_extraida:
-            print("¡Enlace m3u8 extraído con éxito!")
-            return url_extraida
-        print("Error: No se encontró un enlace m3u8 válido en la extracción.")
-        return None
-    except Exception as e:
-        print(f"Error crítico durante la extracción con Streamlink: {e}")
-        return None
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-def actualizar_linea_m3u(nueva_url):
-    if not os.path.exists(ARCHIVO_M3U):
-        print(f"Error crítico: El archivo '{ARCHIVO_M3U}' no existe. Verifica la ruta.")
-        return
+    steps:
+    # 1. Copia los archivos del repositorio donde tienes este script de Python
+    - name: Clonar repositorio principal
+      uses: actions/checkout@v4
 
-    with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
-        lineas = f.readlines()
+    # 2. Copia tu lista de canales (El repositorio XOY) en una carpeta interna llamada 'otro-repo'
+    - name: Clonar tu repositorio XOY
+      uses: actions/checkout@v4
+      with:
+        # 🔴 REEMPLAZA 'TU_PROPIO_USUARIO' POR TU NOMBRE DE USUARIO REAL DE GITHUB (EJEMPLO: 'juanperez/XOY')
+        repository: 'TV-XOY/XOY'
+        path: 'otro-repo'
+        # Utiliza la clave secreta que configuraste previamente en Settings del repositorio
+        token: ${{ secrets.PAT_OTRO_REPO }}
 
-    nuevas_lineas = []
-    modificado = False
-    encontrado_canal = False
+    # 3. Prepara el entorno del servidor virtual instalando Python
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-    print(f"Procesando el archivo XOY para localizar {IDENTIFICADOR}...")
+    # 4. Instala la herramienta Streamlink encargada de reproducir y extraer el m3u8 oculto de OK.ru
+    - name: Instalar Streamlink
+      run: |
+        python -m pip install --upgrade pip
+        pip install streamlink
 
-    for linea in lineas:
-        # Si ya pasamos por el #EXTINF del canal y encontramos la línea de la URL (que empieza con http)
-        if encontrado_canal and (linea.strip().startswith("http://") or linea.strip().startswith("https://")):
-            nuevas_lineas.append(nueva_url + "\n")
-            encontrado_canal = False  # Desactivamos la alerta ya que cumplió su objetivo
-            modificado = True
-            print("-> Se localizó la URL vieja y se reemplazó correctamente.")
-        else:
-            nuevas_lineas.append(linea)
-            # Si el script lee la línea de cabecera de tu canal, se activa la alerta para buscar la URL más abajo
-            if "#EXTINF" in linea and IDENTIFICADOR in linea:
-                encontrado_canal = True
+    # 5. Corre el archivo de Python que edita el texto y actualiza el enlace en XOY
+    - name: Ejecutar Script de Actualización
+      run: python actualizar_m3u.py
 
-    if modificado:
-        with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
-            f.writelines(nuevas_lineas)
-        print("¡Proceso terminado con éxito! El archivo XOY ha sido actualizado.")
-    else:
-        print(f"⚠️ Error: No se pudo realizar el cambio. Comprueba que tu canal contenga {IDENTIFICADOR}.")
-
-if __name__ == "__main__":
-    enlace = obtener_enlace_m3u8()
-    if enlace:
-        actualizar_linea_m3u(enlace)
+    # 6. Guarda de forma automática el archivo XOY modificado y lo sube de vuelta a tu GitHub
+    - name: Guardar y subir cambios a tu repositorio XOY
+      run: |
+        cd otro-repo
+        git config --local user.email "github-actions[bot]@://github.com"
+        git config --local user.name "github-actions[bot]"
+        git add XOY
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización enlace CANAL 13 [Bot]" && git push)
