@@ -1,49 +1,40 @@
-name: Actualizar Enlace OKRU en Archivo XOY
+name: Actualizar URL M3U8 de OK.ru
 
 on:
   schedule:
-    # Se ejecuta de manera automática cada 24 horas (00:00 UTC)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Activa el botón gris para probarlo de manera manual
+    # Se ejecuta de manera automática cada 12 horas para evitar la expiración del enlace
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Te permite activar el script manualmente desde la pestaña "Actions"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write # Permiso crucial para que el bot pueda guardar los cambios en tu lista de GitHub
+
     steps:
-    # 1. Clonar el repositorio donde acabas de guardar el script de Python
-    - name: Clonar repositorio principal
+    - name: Clonar repositorio
       uses: actions/checkout@v4
 
-    # 2. Clonar tu repositorio de canales (TV-XOY/XOY) en la carpeta 'otro-repo'
-    - name: Clonar tu repositorio XOY
-      uses: actions/checkout@v4
-      with:
-        repository: 'TV-XOY/XOY'
-        path: 'otro-repo'
-        token: ${{ secrets.PAT_OTRO_REPO }}
-
-    # 3. Levantar entorno Python
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.x'
 
-    # 4. Instalar Streamlink (simulador de reproducción)
-    - name: Instalar Streamlink
+    - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
         pip install streamlink
 
-    # 5. Ejecutar el script que lee XOY, ignora la línea de Kodi y cambia el enlace
-    - name: Ejecutar Script de Actualización
-      run: python actualizar_m3u.py
+    - name: Ejecutar script de actualización
+      run: python actualizar_lista.py
 
-    # 6. Guardar el archivo XOY modificado y subirlo a tu cuenta de GitHub
-    - name: Guardar y subir cambios a tu repositorio XOY
+    - name: Subir cambios al repositorio
       run: |
-        cd otro-repo
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add XOY
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización enlace CANAL 13 [Bot]" && git push)
+        # Solo hace el commit si el archivo sufrió cambios en la URL
+        git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
+        git push
