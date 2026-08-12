@@ -200,9 +200,11 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-x-forwarded-for=190.103.179.98
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/O3uSX02Gcw4/expires/1785465315613/srcIp/201.148.8.14/urls/185.180.203.58/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For=190.103.179.98
+https://vsd174.okcdn.ru/hls/10454955395802.m3u8/sig/SDBmUW00syo/expires/1786600039264/srcIp/190.103.179.98/urls/185.226.55.87/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVYUC.mx" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT:network-caching=2000
