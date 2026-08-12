@@ -2,50 +2,48 @@ name: Actualizar Enlace OKRU en Archivo XOY
 
 on:
   schedule:
-    # Corre automáticamente cada 24 horas (00:00 hora UTC)
+    # Se ejecuta de manera automática cada 24 horas (00:00 UTC)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Activa el botón gris en GitHub para que pruebes el proceso manualmente
+  workflow_dispatch: # Activa el botón gris para probarlo de manera manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Copia los archivos del repositorio donde tienes este script de Python
+    # 1. Clonar el repositorio donde acabas de guardar el script de Python
     - name: Clonar repositorio principal
       uses: actions/checkout@v4
 
-    # 2. Copia tu lista de canales (El repositorio XOY) en una carpeta interna llamada 'otro-repo'
+    # 2. Clonar tu repositorio de canales (TV-XOY/XOY) en la carpeta 'otro-repo'
     - name: Clonar tu repositorio XOY
       uses: actions/checkout@v4
       with:
-        # 🔴 REEMPLAZA 'TU_PROPIO_USUARIO' POR TU NOMBRE DE USUARIO REAL DE GITHUB (EJEMPLO: 'juanperez/XOY')
         repository: 'TV-XOY/XOY'
         path: 'otro-repo'
-        # Utiliza la clave secreta que configuraste previamente en Settings del repositorio
         token: ${{ secrets.PAT_OTRO_REPO }}
 
-    # 3. Prepara el entorno del servidor virtual instalando Python
+    # 3. Levantar entorno Python
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
-    # 4. Instala la herramienta Streamlink encargada de reproducir y extraer el m3u8 oculto de OK.ru
+    # 4. Instalar Streamlink (simulador de reproducción)
     - name: Instalar Streamlink
       run: |
         python -m pip install --upgrade pip
         pip install streamlink
 
-    # 5. Corre el archivo de Python que edita el texto y actualiza el enlace en XOY
+    # 5. Ejecutar el script que lee XOY, ignora la línea de Kodi y cambia el enlace
     - name: Ejecutar Script de Actualización
       run: python actualizar_m3u.py
 
-    # 6. Guarda de forma automática el archivo XOY modificado y lo sube de vuelta a tu GitHub
+    # 6. Guardar el archivo XOY modificado y subirlo a tu cuenta de GitHub
     - name: Guardar y subir cambios a tu repositorio XOY
       run: |
         cd otro-repo
-        git config --local user.email "github-actions[bot]@://github.com"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add XOY
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización enlace CANAL 13 [Bot]" && git push)
