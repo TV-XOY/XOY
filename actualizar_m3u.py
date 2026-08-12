@@ -2,15 +2,13 @@ import os
 import subprocess
 
 # Configuración
-# Usamos la estructura de live interna porque streamlink la procesa de forma nativa
 URL_OKRU = "https://ok.ru/live/10849691639514"  
-ARCHIVO_M3U = "XOY"  
-IDENTIFICADOR = 'tvg-name="CANAL13.mx"'  # Buscamos solo este parámetro para evitar fallas
+ARCHIVO_M3U = "otro-repo/XOY"  
+IDENTIFICADOR = 'tvg-name="CANAL13.mx"'  
 
 def obtener_enlace_m3u8():
     try:
         print("Extrayendo URL dinámica de OK.ru...")
-        # Streamlink genera el enlace index.m3u8 de forma automática
         resultado = subprocess.run(
             ["streamlink", URL_OKRU, "best", "--stream-url"],
             capture_output=True, text=True, check=True
@@ -35,26 +33,29 @@ def actualizar_linea_m3u(nueva_url):
 
     nuevas_lineas = []
     modificado = False
-    buscar_url = False
+    encontrado_canal = False
+
+    print(f"Buscando el bloque de CANAL13.mx dentro de XOY...")
 
     for linea in lineas:
-        if buscar_url:
-            # Reemplaza la URL caducada vieja por la nueva generada
+        # Si ya encontramos el #EXTINF del canal y vemos una línea que empieza con http, la cambiamos
+        if encontrado_canal and (linea.strip().startswith("http://") or linea.strip().startswith("https://")):
             nuevas_lineas.append(nueva_url + "\n")
-            buscar_url = False
+            encontrado_canal = False  # Terminamos el reemplazo para este canal
             modificado = True
+            print("¡Línea de URL localizada y reemplazada con éxito!")
         else:
             nuevas_lineas.append(linea)
-            # Busca si la línea actual del #EXTINF tiene el identificador del canal
+            # Detecta el inicio de tu canal
             if "#EXTINF" in linea and IDENTIFICADOR in linea:
-                buscar_url = True
+                encontrado_canal = True
 
     if modificado:
         with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
             f.writelines(nuevas_lineas)
-        print(f"¡Éxito! El archivo XOY ha sido actualizado debajo de CANAL13.mx.")
+        print(f"¡Éxito total! Tu archivo XOY ha sido actualizado respetando las propiedades de Kodi.")
     else:
-        print(f"⚠️ Error: No se encontró la etiqueta {IDENTIFICADOR} dentro de tu archivo XOY.")
+        print(f"⚠️ Error: No se pudo realizar el reemplazo. Verifica el formato de la URL vieja.")
 
 if __name__ == "__main__":
     enlace = obtener_enlace_m3u8()
