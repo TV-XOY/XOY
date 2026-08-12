@@ -4,7 +4,7 @@ import subprocess
 # Configuración
 URL_OKRU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 # Aponta a la subcarpeta 'otro-repo' y al archivo 'XOY' sin extensión
-ARCHIVO_M3U = "TV-XOY/XOY/XOY"  
+ARCHIVO_M3U = "XOY"  
 # Ajusta esto al valor exacto de tvg-name que tenga tu canal en la lista
 NOMBRE_TVG = "OK Live"  
 
