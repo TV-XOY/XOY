@@ -3,25 +3,24 @@ import subprocess
 import re
 import json
 
-URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
+URL_OK_RU = "https://ok.ru/videoembed/10849691639514"
 ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción avanzada con yt-dlp, Proxy y Omisión SSL...")
+        print("Iniciando extracción ultra-segura a través de la Red Tor nativa...")
         
-        # Proxy que estabas usando (configurado como http plano para evitar el choque de SSL)
-        proxy_mexico = "http://187.102.204.30:8080" 
+        # Apuntamos al tunel SOCKS5 local de Tor que abrimos en GitHub Actions
+        proxy_tor = "socks5://127.0.0.1:9050"
         
         comando = [
             "yt-dlp",
             URL_OK_RU,
             "--dump-json",
             "--no-warnings",
-            "--no-check-certificates", # CRUCIAL: Fuerza a yt-dlp a ignorar el error de certificado del proxy (Error 60)
-            "--prefer-insecure",       # Permite conexiones HTTP/HTTPS cruzadas a través del proxy sin certificar
-            "--impersonate", "chrome",  # Mantiene la simulación de navegador Chrome
-            "--proxy", proxy_mexico,    # Tu proxy para saltar el geobloqueo
+            "--no-check-certificates",
+            "--impersonate", "chrome",  # Suplantación TLS de navegador Chrome
+            "--proxy", proxy_tor,       # Tráfico anonimizado y protegido contra bloqueos de centros de datos
             "--extractor-args", "okru:player_type=modern"
         ]
         
@@ -31,34 +30,34 @@ def obtener_m3u8():
             stderr=subprocess.PIPE,
             text=True,
             check=True,
-            timeout=50
+            timeout=90  # Damos 1 minuto y medio ya que la red Tor cifra el tráfico y puede ser un poco más lenta
         )
         
         datos_video = json.loads(resultado.stdout)
         
-        # Intento 1: URL directa
+        # Intento 1: Buscar URL directa en la raíz
         url_extraida = datos_video.get("url")
         if url_extraida and ".m3u8" in url_extraida:
-            print(f"¡Éxito! URL obtenida: {url_extraida}")
+            print(f"¡Éxito Absoluto! URL obtenida mediante Tor: {url_extraida}")
             return url_extraida
         
-        # Intento 2: Formatos internos
+        # Intento 2: Buscar en formatos internos alternativos
         formats = datos_video.get("formats", [])
         for f in reversed(formats):
             url_formato = f.get("url", "")
             if ".m3u8" in url_formato:
-                print(f"¡Éxito! URL localizada en formatos: {url_formato}")
+                print(f"¡Éxito Absoluto! URL localizada en formatos: {url_formato}")
                 return url_formato
                 
-        print("yt-dlp leyó la respuesta pero no encontró un manifiesto HLS (.m3u8).")
+        print("yt-dlp leyó la respuesta de OK.ru pero el stream no contenía un manifiesto HLS (.m3u8).")
         return None
             
     except subprocess.CalledProcessError as e:
-        print(f"\n[ERROR] Error en la ejecución de yt-dlp.")
+        print(f"\n[ERROR] Error crítico en la ejecución de yt-dlp sobre la red Tor.")
         print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
         return None
     except subprocess.TimeoutExpired:
-        print("\n[ERROR] El proxy asignado tardó demasiado en responder (Timeout).\n")
+        print("\n[ERROR] La conexión a través de Tor excedió el tiempo límite (Timeout).\n")
         return None
     except Exception as e:
         print(f"Error inesperado en el script: {e}")
