@@ -2507,4 +2507,9 @@ https://radios.inpi.gob.mx:8080/xepet
 #KODIPROP:inputstream.adaptive.license_key={"96f177548046a9f56bbb39a900a82ddd":"96aa836072fd84c9a8e6219652330272"}
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
 
-
+#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com" group-title="NACIONALES",CANAL 13 MERIDA
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vsd259.okcdn.ru/hls/10454955395802.m3u8/sig/A4TC9kkgRa8/expires/1786593680875/srcIp/190.103.179.98/urls/178.237.23.46/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
