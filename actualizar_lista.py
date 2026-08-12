@@ -8,9 +8,8 @@ ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción ultra-segura a través de la Red Tor nativa...")
+        print("Iniciando extracción a través de la Red Tor (Túnel Regional México)...")
         
-        # Apuntamos al tunel SOCKS5 local de Tor que abrimos en GitHub Actions
         proxy_tor = "socks5://127.0.0.1:9050"
         
         comando = [
@@ -19,8 +18,8 @@ def obtener_m3u8():
             "--dump-json",
             "--no-warnings",
             "--no-check-certificates",
-            "--impersonate", "chrome",  # Suplantación TLS de navegador Chrome
-            "--proxy", proxy_tor,       # Tráfico anonimizado y protegido contra bloqueos de centros de datos
+            "--impersonate", "chrome",  
+            "--proxy", proxy_tor,       
             "--extractor-args", "okru:player_type=modern"
         ]
         
@@ -30,18 +29,18 @@ def obtener_m3u8():
             stderr=subprocess.PIPE,
             text=True,
             check=True,
-            timeout=90  # Damos 1 minuto y medio ya que la red Tor cifra el tráfico y puede ser un poco más lenta
+            timeout=120  # Aumentamos a 2 minutos para asegurar la conexión del nodo MX
         )
         
         datos_video = json.loads(resultado.stdout)
         
-        # Intento 1: Buscar URL directa en la raíz
+        # Intento 1: Buscar URL directa
         url_extraida = datos_video.get("url")
         if url_extraida and ".m3u8" in url_extraida:
-            print(f"¡Éxito Absoluto! URL obtenida mediante Tor: {url_extraida}")
+            print(f"¡Éxito Absoluto! URL obtenida mediante Tor-MX: {url_extraida}")
             return url_extraida
         
-        # Intento 2: Buscar en formatos internos alternativos
+        # Intento 2: Buscar en formatos internos
         formats = datos_video.get("formats", [])
         for f in reversed(formats):
             url_formato = f.get("url", "")
@@ -49,7 +48,7 @@ def obtener_m3u8():
                 print(f"¡Éxito Absoluto! URL localizada en formatos: {url_formato}")
                 return url_formato
                 
-        print("yt-dlp leyó la respuesta de OK.ru pero el stream no contenía un manifiesto HLS (.m3u8).")
+        print("yt-dlp leyó la respuesta pero el stream no contenía un manifiesto HLS (.m3u8).")
         return None
             
     except subprocess.CalledProcessError as e:
@@ -57,7 +56,7 @@ def obtener_m3u8():
         print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
         return None
     except subprocess.TimeoutExpired:
-        print("\n[ERROR] La conexión a través de Tor excedió el tiempo límite (Timeout).\n")
+        print("\n[ERROR] La conexión regional a través de Tor excedió el tiempo límite (Timeout).\n")
         return None
     except Exception as e:
         print(f"Error inesperado en el script: {e}")
