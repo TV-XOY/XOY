@@ -2,8 +2,8 @@ import os
 import subprocess
 
 # Configuración basada en tu línea real
-URL_OKRU = "https://ok.ru"
-ARCHIVO_M3U = "otro-repo/XOY"  
+URL_OKRU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
+ARCHIVO_M3U = "XOY"  
 NOMBRE_TVG = "OK Live"  # Coincide exactamente con tvg-name="OK Live"
 
 def obtener_enlace_m3u8():
@@ -63,4 +63,3 @@ if __name__ == "__main__":
     enlace = obtener_enlace_m3u8()
     if enlace:
         actualizar_linea_m3u(enlace)
-
