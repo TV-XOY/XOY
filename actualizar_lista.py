@@ -3,7 +3,7 @@ import subprocess
 import re
 import urllib.request
 
-URL_OK_RU = "https://ok.ru/live/10849691639514"
+URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
 
 def obtener_proxy_mexico():
