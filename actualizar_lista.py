@@ -55,48 +55,63 @@ def actualizar_archivo_m3u(nueva_url):
         return
 
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
-        contenido = f.read()
+        lineas = f.readlines()
 
-    # Extraemos la IP exacta que usó Tor
+    # Extraemos de forma dinámica la IP que usó Tor en esta vuelta
     ip_autorizada = "190.103.179.98"
     match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
     if match_ip:
         ip_autorizada = match_ip.group(1)
-        print(f"IP de extracción detectada y autorizada: {ip_autorizada}")
+        print(f"IP de extracción detectada automáticamente: {ip_autorizada}")
 
-    # Estructura limpia que SÍ te funcionó para reproducir
-    parametros_fijos = (
-        '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" '
-        'tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" '
-        'group-title="NACIONALES",CANAL 13 MERIDA\n'
-        '#EXTVLCOPT:network-caching=2000\n'
-        f'#EXTVLCOPT:http-x-forwarded-for={ip_autorizada}\n'
-        '#EXTVLCOPT--http-reconnect=true\n'
-        '#KODIPROP:inputstream.adaptive.manifest_type=hls\n'
-        f'#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For={ip_autorizada}'
-    )
+    # Bloque limpio con las cabeceras que te funcionaron
+    bloque_nuevo = [
+        '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA\n',
+        '#EXTVLCOPT:network-caching=2000\n',
+         f'#EXTVLCOPT:http-x-forwarded-for={ip_autorizada}\n',
+        '#EXTVLCOPT--http-reconnect=true\n',
+        '#KODIPROP:inputstream.adaptive.manifest_type=hls\n',
+        f'#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For={ip_autorizada}\n',
+        f'{nueva_url}\n'
+    ]
 
-    # NUEVO BUSCADOR RADICAL: Busca desde el inicio del #EXTINF de CANAL 13 MERIDA 
-    # hasta encontrar la siguiente URL (http...index.m3u8), sin importar qué haya en medio.
-    patron_radical = r'(#EXTINF:-1[^#\n]*?CANAL 13 MERIDA.*?\n)(?:#EXTVLCOPT.*?\n|#KODIPROP.*?\n|https?://.*?\n)*(https?://[^\s]+)'
-    
-    if re.search(patron_radical, contenido, re.DOTALL):
-        # Si encuentra cualquier bloque viejo o duplicado que diga CANAL 13 MERIDA, lo sobrescribe por completo
-        nuevo_contenido = re.sub(patron_radical, f"{parametros_fijos}\n{nueva_url}", contenido, flags=re.DOTALL)
-        print("¡Éxito! Bloque previo localizado. Se reemplazó la URL vieja de forma limpia.")
+    indice_inicio = -1
+    indice_fin = -1
+
+    # Buscamos la línea exacta donde está el Canal 13 Mérida
+    for i, linea in enumerate(lineas):
+        if "CANAL 13 MERIDA" in linea and "#EXTINF" in linea:
+            indice_inicio = i
+            break
+
+    if indice_inicio != -1:
+        # Si lo encuentra, buscamos dónde termina su bloque (la línea de la URL http...)
+        for j in range(indice_inicio + 1, len(lineas)):
+            if lineas[j].startswith("http://") or lineas[j].startswith("https://"):
+                indice_fin = j
+                break
+            # Si topa con otro canal antes de una URL (por error de formato anterior), frena ahí
+            if lineas[j].startswith("#EXTINF"):
+                indice_fin = j - 1
+                break
+
+    if indice_inicio != -1 and indice_fin != -1:
+        # Reemplaza UNICAMENTE el rango del Canal 13 sin tocar lo que está antes ni después
+        lineas_finales = lineas[:indice_inicio] + bloque_nuevo + lineas[indice_fin + 1:]
+        print("¡Éxito! Bloque previo localizado. Se reemplazó la URL vieja protegiendo el resto de canales.")
     else:
-        # Solo si borraste el canal por completo, lo añadirá al final por primera vez
-        print("Bloque previo no detectado. Añadiendo canal de forma limpia al final.")
-        nuevo_contenido = contenido.rstrip() + f"\n\n{parametros_fijos}\n{nueva_url}\n"
+        # Si es un archivo nuevo o borraste el canal, lo añade limpiamente al final sin romper nada
+        print("Canal no encontrado previamente. Añadiendo al final de la lista XOY de forma segura.")
+        lineas_finales = lineas + ['\n'] + bloque_nuevo
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
-        f.write(nuevo_contenido)
-    print("Cambios guardados con éxito en el archivo XOY.")
+        f.writelines(lineas_finales)
+    print("Cambios guardados con éxito en tu archivo XOY.")
 
 if __name__ == "__main__":
     url_m3u8 = obtener_m3u8()
     if url_m3u8:
-        print(f"URL obtenida: {url_m3u8}")
+        print(f"URL obtenida con éxito.")
         actualizar_archivo_m3u(url_m3u8)
     else:
         print("No se modificó el archivo debido a las restricciones de la conexión.")
