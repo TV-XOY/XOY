@@ -9,7 +9,6 @@ ARCHIVO_M3U = "XOY"
 def obtener_m3u8():
     try:
         print("Iniciando extracción a través de la Red Tor (Túnel Regional México)...")
-        
         proxy_tor = "socks5://127.0.0.1:9050"
         
         comando = [
@@ -29,37 +28,25 @@ def obtener_m3u8():
             stderr=subprocess.PIPE,
             text=True,
             check=True,
-            timeout=120  # Aumentamos a 2 minutos para asegurar la conexión del nodo MX
+            timeout=120
         )
         
         datos_video = json.loads(resultado.stdout)
         
-        # Intento 1: Buscar URL directa
         url_extraida = datos_video.get("url")
         if url_extraida and ".m3u8" in url_extraida:
-            print(f"¡Éxito Absoluto! URL obtenida mediante Tor-MX: {url_extraida}")
             return url_extraida
         
-        # Intento 2: Buscar en formatos internos
         formats = datos_video.get("formats", [])
         for f in reversed(formats):
             url_formato = f.get("url", "")
             if ".m3u8" in url_formato:
-                print(f"¡Éxito Absoluto! URL localizada en formatos: {url_formato}")
                 return url_formato
                 
-        print("yt-dlp leyó la respuesta pero el stream no contenía un manifiesto HLS (.m3u8).")
         return None
             
-    except subprocess.CalledProcessError as e:
-        print(f"\n[ERROR] Error crítico en la ejecución de yt-dlp sobre la red Tor.")
-        print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
-        return None
-    except subprocess.TimeoutExpired:
-        print("\n[ERROR] La conexión regional a través de Tor excedió el tiempo límite (Timeout).\n")
-        return None
     except Exception as e:
-        print(f"Error inesperado en el script: {e}")
+        print(f"Error al extraer: {e}")
         return None
 
 def actualizar_archivo_m3u(nueva_url):
@@ -70,32 +57,47 @@ def actualizar_archivo_m3u(nueva_url):
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         contenido = f.read()
 
+    # Extraemos de la URL la IP exacta que usó Tor para generar el token de OK.ru
+    ip_autorizada = "190.103.179.98" # IP de respaldo por si falla la extracción
+    match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
+    if match_ip:
+        ip_autorizada = match_ip.group(1)
+        print(f"IP de extracción detectada y autorizada: {ip_autorizada}")
+
+    # Modificamos los parámetros fijos e inyectamos la directiva http-x-forwarded-for con la IP del token.
+    # También fijamos el User-Agent para que coincida con el validador de OK.ru.
     parametros_fijos = (
-        '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" '
-        'tvg-logo="https://canal13mexico.com" '
-        'group-title="NACIONALES",CANAL 13 MERIDA\n'
-        '#EXTVLCOPT:network-caching=2000\n'
-        '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36\n'
-        '#EXTVLCOPT--http-reconnect=true\n'
-        '#KODIPROP:inputstream.adaptive.manifest_type=hls'
+        f'#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" '
+        f'tvg-logo="https://canal13mexico.com" '
+        f'group-title="NACIONALES",CANAL 13 MERIDA\n'
+        f'#EXTVLCOPT:network-caching=2000\n'
+        f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\n'
+        f'#EXTVLCOPT:http-x-forwarded-for={ip_autorizada}\n'
+        f'#EXTVLCOPT--http-reconnect=true\n'
+        f'#KODIPROP:inputstream.adaptive.manifest_type=hls\n'
+        f'#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For={ip_autorizada}'
     )
 
-    patron = r'(#EXTINF:-1.*?CANAL 13 MERIDA\n.*?(?:#EXTVLCOPT.*?)\n(?:#KODIPROP.*?)\n)(https?://[^\s]+)'
+    # Buscamos si ya existía el bloque (corregido para que identifique tanto el formato viejo como el nuevo)
+    patron = r'(#EXTINF:-1.*?CANAL 13 MERIDA\n.*?)(https?://[^\s]+)'
     
     if re.search(patron, contenido):
-        nuevo_contenido = re.sub(patron, f"\\1{nueva_url}", contenido)
-        print("Estructura localizada. URL actualizada correctamente en el bloque.")
+        # Si ya existe el canal en el archivo, reemplaza todo el bloque de parámetros y la URL vieja
+        nuevo_contenido = re.sub(patron, f"{parametros_fijos}\n{nueva_url}", contenido)
+        print("Estructura localizada. Canal 13 Mérida actualizado con éxito.")
     else:
-        print("No se encontró el bloque exacto. Añadiendo canal al final del archivo.")
+        # Si es la primera vez o no se encuentra el formato exacto, lo añade al final
+        print("Bloque previo no detectado. Añadiendo canal al final de XOY.")
         nuevo_contenido = contenido.rstrip() + f"\n\n{parametros_fijos}\n{nueva_url}\n"
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
         f.write(nuevo_contenido)
-    print("Cambios guardados con éxito en el archivo XOY.")
+    print("Cambios guardados con éxito.")
 
 if __name__ == "__main__":
     url_m3u8 = obtener_m3u8()
     if url_m3u8:
+        print(f"¡Éxito Absoluto! URL obtenida: {url_m3u8}")
         actualizar_archivo_m3u(url_m3u8)
     else:
         print("No se modificó el archivo debido a las restricciones de la conexión.")
