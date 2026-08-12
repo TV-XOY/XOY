@@ -19,13 +19,13 @@ jobs:
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '3.11' # Usamos una versión estable de Python
 
-    - name: Instalar yt-dlp y dependencias
+    - name: Instalar yt-dlp con soporte de simulación completo
       run: |
         python -m pip install --upgrade pip
-        # Instalamos yt-dlp que maneja mucho mejor las cookies y tokens de OK.ru
-        pip install yt-dlp
+        # Instalamos yt-dlp junto con curl_cffi para habilitar --impersonate sin errores
+        pip install "yt-dlp[default,curl_cffi]"
 
     - name: Ejecutar script de actualización
       run: python actualizar_lista.py
@@ -33,7 +33,7 @@ jobs:
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "github-actions[bot]@://github.com"
         git add XOY
         git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
         git push
