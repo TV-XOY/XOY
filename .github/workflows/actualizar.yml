@@ -4,49 +4,47 @@ on:
   schedule:
     # Se ejecuta automáticamente todos los días a las 00:00 UTC
     - cron: '0 0 * * *'
-  workflow_dispatch: # Permite activarlo manualmente desde la pestaña Actions
+  workflow_dispatch: # Permite forzar la ejecución manual desde la pestaña Actions
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Clonar el repositorio principal (Donde tienes la Action corriendo)
+    # 1. Clonar el repositorio donde guardaste el script de Python
     - name: Clonar repositorio principal
       uses: actions/checkout@v4
 
-    # 2. Clonar tu repositorio XOY (Que pertenece a tu propio usuario)
+    # 2. Clonar tu repositorio XOY donde tienes la lista m3u
     - name: Clonar tu repositorio XOY
       uses: actions/checkout@v4
       with:
-        # 🔴 REEMPLAZA 'TU_PROPIO_USUARIO' CON TU NOMBRE DE USUARIO REAL
+        # 🔴 REEMPLAZA 'TU_PROPIO_USUARIO' CON TU NOMBRE DE USUARIO REAL DE GITHUB
         repository: 'TV-XOY/XOY'
-        # Se descarga dentro de esta subcarpeta para que el script de Python lo encuentre
         path: 'otro-repo'
-        # Tu token secreto para que la Action pueda guardar los cambios en tu repo XOY
         token: ${{ secrets.PAT_OTRO_REPO }}
 
-    # 3. Configurar Python
+    # 3. Preparar Python en el servidor
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
-    # 4. Instalar Streamlink para extraer el enlace de OK.ru
+    # 4. Instalar la herramienta Streamlink
     - name: Instalar Streamlink
       run: |
         python -m pip install --upgrade pip
         pip install streamlink
 
-    # 5. Ejecutar el script que busca y modifica el archivo XOY
+    # 5. Ejecutar el script modificador de texto
     - name: Ejecutar Script de Actualización
       run: python actualizar_m3u.py
 
-    # 6. Entrar a la carpeta de tu repo XOY y subir los cambios a tu cuenta
+    # 6. Guardar cambios y enviarlos automáticamente a tu repositorio XOY
     - name: Guardar y subir cambios a tu repositorio XOY
       run: |
         cd otro-repo
         git config --local user.email "github-actions[bot]@://github.com"
         git config --local user.name "github-actions[bot]"
         git add XOY
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización enlace OK.ru en archivo XOY [Bot]" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización enlace CANAL 13 [Bot]" && git push)
