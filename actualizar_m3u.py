@@ -3,7 +3,7 @@ import subprocess
 
 # Configuración
 # Usamos la estructura de live interna porque streamlink la procesa de forma nativa
-URL_OKRU = "https://ok.ru/videoembed/10849691639514"  
+URL_OKRU = "https://ok.ru/live/10849691639514"  
 ARCHIVO_M3U = "XOY"  
 IDENTIFICADOR = 'tvg-name="CANAL13.mx"'  # Buscamos solo este parámetro para evitar fallas
 
