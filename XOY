@@ -199,6 +199,9 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/O3uSX02Gcw4/expires/1785465315613/srcIp/201.148.8.14/urls/185.180.203.58/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
