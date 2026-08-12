@@ -1,31 +1,33 @@
 import os
 import subprocess
 
-# Configuración basada en tu línea real
-URL_OKRU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
+# Configuración
+# Usamos la estructura de live interna porque streamlink la procesa de forma nativa
+URL_OKRU = "https://ok.ru/videoembed/10849691639514"  
 ARCHIVO_M3U = "XOY"  
-NOMBRE_TVG = "OK Live"  # Coincide exactamente con tvg-name="OK Live"
+IDENTIFICADOR = 'tvg-name="CANAL13.mx"'  # Buscamos solo este parámetro para evitar fallas
 
 def obtener_enlace_m3u8():
     try:
-        print("Extrayendo nueva URL desde OK.ru con Streamlink...")
+        print("Extrayendo URL dinámica de OK.ru...")
+        # Streamlink genera el enlace index.m3u8 de forma automática
         resultado = subprocess.run(
             ["streamlink", URL_OKRU, "best", "--stream-url"],
             capture_output=True, text=True, check=True
         )
         url_extraida = resultado.stdout.strip()
         if "m3u8" in url_extraida:
-            print(f"URL extraída con éxito: {url_extraida[:30]}...")
+            print("URL dinámica m3u8 obtenida con éxito.")
             return url_extraida
-        print("Error: El enlace obtenido no contiene 'm3u8'.")
+        print("Error: No se obtuvo un formato m3u8 válido.")
         return None
     except Exception as e:
-        print(f"Error crítico al usar Streamlink: {e}")
+        print(f"Error en la extracción con Streamlink: {e}")
         return None
 
 def actualizar_linea_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
-        print(f"Error crítico: El archivo {ARCHIVO_M3U} no existe en la ruta de trabajo.")
+        print(f"Error: El archivo {ARCHIVO_M3U} no existe.")
         return
 
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
@@ -34,30 +36,25 @@ def actualizar_linea_m3u(nueva_url):
     nuevas_lineas = []
     modificado = False
     buscar_url = False
-    contador_lineas = 0
-
-    print(f"Buscando el canal con tvg-name=\"{NOMBRE_TVG}\" dentro del archivo XOY...")
 
     for linea in lineas:
         if buscar_url:
-            # Reemplazamos la línea de la URL caducada por la nueva m3u8
+            # Reemplaza la URL caducada vieja por la nueva generada
             nuevas_lineas.append(nueva_url + "\n")
             buscar_url = False
             modificado = True
         else:
             nuevas_lineas.append(linea)
-            # Validación exacta buscando la coincidencia del tvg-name
-            if "#EXTINF" in linea and f'tvg-name="{NOMBRE_TVG}"' in linea:
+            # Busca si la línea actual del #EXTINF tiene el identificador del canal
+            if "#EXTINF" in linea and IDENTIFICADOR in linea:
                 buscar_url = True
-                contador_lineas += 1
 
     if modificado:
         with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
             f.writelines(nuevas_lineas)
-        print(f"¡Éxito total! Se localizó tu canal y se actualizó la URL en '{ARCHIVO_M3U}'.")
+        print(f"¡Éxito! El archivo XOY ha sido actualizado debajo de CANAL13.mx.")
     else:
-        print(f"⚠️ Error de coincidencia: No se encontró la etiqueta tvg-name=\"{NOMBRE_TVG}\".")
-        print("Revisa que no existan problemas de codificación o espacios raros en tu archivo XOY.")
+        print(f"⚠️ Error: No se encontró la etiqueta {IDENTIFICADOR} dentro de tu archivo XOY.")
 
 if __name__ == "__main__":
     enlace = obtener_enlace_m3u8()
