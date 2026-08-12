@@ -11,7 +11,7 @@ def obtener_m3u8():
         print("Iniciando extracción avanzada con yt-dlp y simulación de entorno...")
         
         # Usamos un proxy HTTPS confiable para asegurar que la petición se procese desde la región correcta
-        proxy_mexico = "http://45.70.198.81:8080" 
+        proxy_mexico = "187.251.222.69:8080" 
         
         comando = [
             "yt-dlp",
