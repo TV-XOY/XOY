@@ -1,0 +1,52 @@
+name: Actualizar Enlace OKRU en Archivo XOY
+
+on:
+  schedule:
+    # Se ejecuta de forma automática todos los días a las 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Te permite activar el proceso de forma manual cuando quieras
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Clonar el repositorio actual donde guardaste el script de Python
+    - name: Clonar repositorio principal
+      uses: actions/checkout@v4
+
+    # 2. Clonar tu otro repositorio llamado XOY (donde está tu lista de canales)
+    - name: Clonar repositorio de la lista XOY
+      uses: actions/checkout@v4
+      with:
+        # Reemplaza 'TU_USUARIO_DE_GITHUB' por tu nombre real de usuario de GitHub
+        repository: 'XOY'
+        # Lo descarga dentro de una carpeta temporal llamada otro-repo para que Python lo encuentre
+        path: 'otro-repo'
+        # Utiliza el token de acceso secreto que guardaste en la configuración del repositorio
+        token: ${{ secrets.PAT_OTRO_REPO }}
+
+    # 3. Preparar el entorno con Python
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    # 4. Instalar la herramienta para extraer el stream del directo de OK.ru
+    - name: Instalar Streamlink
+      run: |
+        python -m pip install --upgrade pip
+        pip install streamlink
+
+    # 5. Ejecutar el script que lee, edita la URL y guarda el archivo XOY
+    - name: Ejecutar Script de Actualización
+      run: python actualizar_m3u.py
+
+    # 6. Entrar a la carpeta del otro repositorio y subir los cambios de vuelta a GitHub
+    - name: Guardar y subir cambios al repositorio XOY
+      run: |
+        cd otro-repo
+        git config --local user.email "github-actions[bot]@://github.com"
+        git config --local user.name "github-actions[bot]"
+        git add XOY
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización enlace OK.ru en archivo XOY [Bot]" && git push)
