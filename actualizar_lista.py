@@ -8,18 +8,20 @@ ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción avanzada con yt-dlp y simulación de entorno...")
+        print("Iniciando extracción avanzada con yt-dlp, Proxy y Omisión SSL...")
         
-        # Usamos un proxy HTTPS confiable para asegurar que la petición se procese desde la región correcta
-        proxy_mexico = "https://187.102.204.30:8080" 
+        # Proxy que estabas usando (configurado como http plano para evitar el choque de SSL)
+        proxy_mexico = "http://187.102.204.30:8080" 
         
         comando = [
             "yt-dlp",
             URL_OK_RU,
             "--dump-json",
             "--no-warnings",
-            "--impersonate", "chrome",  # Ahora funcionará gracias a curl_cffi en las dependencias
-            "--proxy", proxy_mexico,    # Elimina el geobloqueo simulando tráfico de la región
+            "--no-check-certificates", # CRUCIAL: Fuerza a yt-dlp a ignorar el error de certificado del proxy (Error 60)
+            "--prefer-insecure",       # Permite conexiones HTTP/HTTPS cruzadas a través del proxy sin certificar
+            "--impersonate", "chrome",  # Mantiene la simulación de navegador Chrome
+            "--proxy", proxy_mexico,    # Tu proxy para saltar el geobloqueo
             "--extractor-args", "okru:player_type=modern"
         ]
         
@@ -29,23 +31,23 @@ def obtener_m3u8():
             stderr=subprocess.PIPE,
             text=True,
             check=True,
-            timeout=40
+            timeout=50
         )
         
         datos_video = json.loads(resultado.stdout)
         
-        # Intento 1: Buscar URL directa en la raíz del JSON
+        # Intento 1: URL directa
         url_extraida = datos_video.get("url")
         if url_extraida and ".m3u8" in url_extraida:
             print(f"¡Éxito! URL obtenida: {url_extraida}")
             return url_extraida
         
-        # Intento 2: Buscar en la lista interna de formatos disponibles
+        # Intento 2: Formatos internos
         formats = datos_video.get("formats", [])
         for f in reversed(formats):
             url_formato = f.get("url", "")
             if ".m3u8" in url_formato:
-                print(f"¡Éxito! URL localizada en formatos de vídeo: {url_formato}")
+                print(f"¡Éxito! URL localizada en formatos: {url_formato}")
                 return url_formato
                 
         print("yt-dlp leyó la respuesta pero no encontró un manifiesto HLS (.m3u8).")
@@ -56,7 +58,7 @@ def obtener_m3u8():
         print(f"Detalle técnico de la consola: {e.stderr.strip()}\n")
         return None
     except subprocess.TimeoutExpired:
-        print("\n[ERROR] La consulta tardó demasiado debido a la latencia del nodo de red.\n")
+        print("\n[ERROR] El proxy asignado tardó demasiado en responder (Timeout).\n")
         return None
     except Exception as e:
         print(f"Error inesperado en el script: {e}")
@@ -98,4 +100,4 @@ if __name__ == "__main__":
     if url_m3u8:
         actualizar_archivo_m3u(url_m3u8)
     else:
-        print("No se modificó el archivo debido a las restricciones físicas de la conexión.")
+        print("No se modificó el archivo debido a las restricciones de la conexión.")
