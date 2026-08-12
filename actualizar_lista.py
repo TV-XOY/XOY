@@ -3,7 +3,7 @@ import subprocess
 import re
 
 # Configuración de variables
-URL_OK_RU = "https://ok.ru/live/10849691639514"
+URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
