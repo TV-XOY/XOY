@@ -2,16 +2,15 @@ name: Actualizar URL M3U8 de OK.ru
 
 on:
   schedule:
-    # Se ejecuta de manera automática cada 12 horas para evitar la expiración del enlace
     - cron: '0 */12 * * *'
-  workflow_dispatch: # Te permite activar el script manualmente desde la pestaña "Actions"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write # Permiso crucial para que el bot pueda guardar los cambios en tu lista de GitHub
+      contents: write
 
     steps:
     - name: Clonar repositorio
@@ -22,10 +21,11 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Instalar dependencias
+    - name: Instalar yt-dlp y dependencias
       run: |
         python -m pip install --upgrade pip
-        pip install streamlink
+        # Instalamos yt-dlp que maneja mucho mejor las cookies y tokens de OK.ru
+        pip install yt-dlp
 
     - name: Ejecutar script de actualización
       run: python actualizar_lista.py
@@ -35,6 +35,5 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add XOY
-        # Solo hace el commit si el archivo sufrió cambios en la URL
         git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
         git push
