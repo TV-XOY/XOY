@@ -2515,3 +2515,9 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For=190.103.179.98
 https://vsd259.okcdn.ru/hls/10454955395802.m3u8/sig/vklugcjg0to/expires/1786594612558/srcIp/190.103.179.98/urls/95.163.35.75/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
+
+#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com" group-title="NACIONALES",CANAL 13 MERIDA
+#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT--http-reconnect=true
+https://TV-XOY.github.io/XOY/canal13merida.m3u8
