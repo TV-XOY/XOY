@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         # 🔴 REEMPLAZA 'TU_PROPIO_USUARIO' CON TU NOMBRE DE USUARIO REAL DE GITHUB
-        repository: 'XOY'
+        repository: 'TV-XOY/XOY'
         path: 'otro-repo'
         token: ${{ secrets.PAT_OTRO_REPO }}
 
