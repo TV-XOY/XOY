@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #================================|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION JUEVES 13 DE AGOSTO DEL 2026 A LA 9:30 AM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION VIERNES 10 DE AGOSTO DEL 2026 A LA 9:30 AM
 
 
 
@@ -673,6 +673,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key={"6d243ebd7a57bea4b4b052ae13f4c051":"5c1925879de873d43b7c25925902539b"}
 https://cdn.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd
 
+
 #EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
@@ -981,13 +982,24 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_key={"bc52afcf354dd1ecad24b3ec7949f154":"69d953bf75252d754bc43a493c27884a"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
 
+#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Amazon
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9dc12b57addecba1a491e81edcbaad57:9fcf7fef82dcc6399cafdb6a96809310
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/lnnce28adq/out/v1/47847083b5fc4ccbb01871ee331ad8f7/cenc.mpd
+
+#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8aa58ee631635ae0a524ec754417e40b:c802e3077a3ee0c44b86eade5541a468
+https://at-live-4.tentcdn.eu/bpk-tv/Sky_Sport_F1_HD/default/index.mpd
+
 #EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Itália
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://7nyaler.streamhostingcdn.top/stream/8/index.m3u8
-
 
 #EXTINF:-1 tvg-id="Canal.Sky.Sports.1.(México).sv" tvg-logo="https://i.postimg.cc/ZnRtm73N/28_sky_sport_1.png" group-title="DEPORTES",SKY SPORTS 1
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
@@ -1017,17 +1029,17 @@ https://live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=5LlUxq3ewzUV_yK91LBcqg&e=2082157058&scheme=https
 
-#EXTINF:-1 tvg-name="Sky Sports Action FHD" tvg-id="SkySp.Action.uk" tvg-logo="https://object-streamo.emonaja.com/img/skysports.png" group-title="DEPORTES",🇬🇧 Sky Sports Action
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8?token=MjMycGc1aVhyS2pJc01iYWhhdUxscE9zcU1hdG5LMkEyN21YazZpcW5JSERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
-
 #EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-logo="https://i.ibb.co/rcSRMh9/sky-sports-pl.png" group-title="DEPORTES",🇬🇧 Sky Sports Premier League
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8?token=cm4rdGlKbkpxcVdhZlpuYXJxKzN4NWZYcU1aOXlOeCtxYlNjeDZ5bG1vUERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
+
+#EXTINF:-1 tvg-name="Sky Sports Action FHD" tvg-id="SkySp.Action.uk" tvg-logo="https://object-streamo.emonaja.com/img/skysports.png" group-title="DEPORTES",🇬🇧 Sky Sports Action
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8?token=MjMycGc1aVhyS2pJc01iYWhhdUxscE9zcU1hdG5LMkEyN21YazZpcW5JSERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
 
 #EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-logo="https://i.postimg.cc/Pr0Vyx1R/sky-sport-uk.png" group-title="DEPORTES",🇬🇧 Sky Sports+ HD
 #EXTVLCOPT:http-origin=https://aesport.tv
@@ -2417,6 +2429,12 @@ https://585b674743bbb.streamlock.net/9050/9050/chunklist_w2077975936.m3u8
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://3ff10b5c36cb4729a63d9a2eb5e629f7.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-it_RockTV/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://mx.radio.net/300/rockenespanol.png" group-title="MUSICA",MUSIC-ROCK-ESPANOL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ee8e5b2d5c8f8a9ec24fecd3714e8f7a:aca39cd46661574413361cbb52f2c1a5
+https://tij-live1-ott.izzigo.tv/13/out/u/dash/MUSIC-ROCK-ESPANOL/default.mpd
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JrGSVR4/hip-hop-tv.png" group-title="MUSICA",🇮🇹 HIP HOP TV
 #EXTVLCOPT:http-header=Connection:Keep-Alive
