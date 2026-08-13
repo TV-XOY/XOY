@@ -667,10 +667,10 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_3)/manifest.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 
 #EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://i.postimg.cc/XYJ7prWk/ESPN-1-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"6d243ebd7a57bea4b4b052ae13f4c051":"5c1925879de873d43b7c25925902539b"}
+#KODIPROP:inputstream.adaptive.license_key=https://delgadolife.net/mundo/api/results.php?keyid=6d243ebd7a57bea4b4b052ae13f4c051&key=5c1925879de873d43b7c25925902539b
 https://cdn.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd
 
 #EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
