@@ -2431,7 +2431,7 @@ https://585b674743bbb.streamlock.net/9050/9050/chunklist_w2077975936.m3u8
 https://3ff10b5c36cb4729a63d9a2eb5e629f7.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-it_RockTV/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://mx.radio.net/300/rockenespanol.png" group-title="MUSICA",MUSIC-ROCK-ESPANOL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ee8e5b2d5c8f8a9ec24fecd3714e8f7a:aca39cd46661574413361cbb52f2c1a5
 https://tij-live1-ott.izzigo.tv/13/out/u/dash/MUSIC-ROCK-ESPANOL/default.mpd
