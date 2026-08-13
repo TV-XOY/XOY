@@ -3,13 +3,13 @@
 # GitHub XOY                     |
 # Telegram Channels I-P-T-V      |
 #                                |
-# ESTA HERRAMIEBTA ES GRATUITA   |
+# ESTA HERRAMIENTA ES GRATUITA   |
 # SOLO ANDROID Y GOOGLE TV       |
 #                                |
 # +++   NO ES PARA VENTA  +++    |
 #================================|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION VIERNES 10 DE AGOSTO DEL 2026 A LA 9:30 AM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION JUEVES 13 DE AGOSTO DEL 2026 A LA 9:30 AM
 
 
 
@@ -52,7 +52,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz,"
 
 #EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -696,13 +696,15 @@ http://tv.m3uts.xyz/stream/secure/jg7AfesI/372.m3u8
 #EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://i.postimg.cc/4xdNmYGF/ESPN-3-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=widevine
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.pt.verspective.net/?deviceId=MDE3NGZjMWQtNmRmNy00ZjNlLTliYWYtZDQxNzAyZDFmNjZk
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Magma Player/10
+#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
+#EXTVLCOPT:http-header=X-App:di
+#EXTVLCOPT:http-header=X-Version:10/1.0.9
+#EXTVLCOPT:http-header=X-Hash:2LU9Q1mf3IS5mvE-1BNHLZj_lHwvMrQvG-WCPdOVumfwr1FVVhvimjCnnhLw-ECWht45wKriXhfqOH9hIrB7ryKJlDQlLd5oZIGLoefDgVnn1Y6vUUok14Q9q5WcKqWcZpIJDoazYAMry-YEBBFBu1W5Wc9VXp2mgTdExdmzTRjO3dn9zDkKiYwS1s65oXSCyQB0S2vaskSS4iS7NPmunIzXa_VJTbju5ZL6ZvgqOevf-fik44DU8Lo53I0In6FgujpeqAG-oowhXo68ZqddSWYatNbf225y1EjZCntIGrXngsmh04df-DBUBgak9uAgQqW6cpmxhlpkyIxeUnY5eK4TLbInxM1CnKWOivO93AosQXfSs3dfMPVX0yYnIuBsDke3exYr_NBzYY4BOo6lvXiAGxoCsjIHaz5JaQX8UIY6E1s0pzVNO4awP0BVbRzFTKrsnr-4haVBbFRXBKcuC9HG4xf_T-I8lO7pbg4R9h1I70XUogi5GZHA65OLYsv_7ZqBOizpJENQqHOee5jPPs9hozYaCoJAiqInThf-DPhs5P9mpAMZreHF8wn781a-r6bf1dnIlht7-R3uYUneD1Dsbp8tTmW_wwlS6pJgjddKACGrZrw_4bOL9eFKbPLW
+#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
 #EXTVLCOPT:http-header=Connection:Keep-Alive
-https://cdn.sensa.com.ar/live/eds/ESPN3/live_dash_cld/ESPN3.mpd
+http://tv.m3uts.xyz/stream/secure/0raWSibw/1127.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.4.co" tvg-logo="https://i.postimg.cc/FHRs7Yv8/ESPN-4-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 4
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1014,6 +1016,22 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://7nyaler.streamhostingcdn.top/stream/8/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 USA
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=303265&extension=m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Alemania
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"6695688f79dc36f7a41f7db13bff5aca":"22ef689af2162aefbf745cba2adb4fe9"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://proxy.cors.sh/https://simplitv-live.mdn.ors.at/live/eds/sky_sport_f1_hd/dash/sky_sport_f1_hd.mpd
 
 #EXTINF:-1 tvg-name="CBS Gozalo Network" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFyVzPIUSut7pDnruwXMyE8vrpjA8KoxIuNgiV7nZaRRN6IYX2h5vsIqEHW1q5liXdiGI4rzIEjeDZCr77bHwImhyWq7Qdm7vKzJxcifrxLLsVvG6PhtS5DqlIG2rRs3WrDB9mtGOe3CQm-P_gY-W4cAYy0tnfazYMazEB2VRdIKOz1sOfzkOxjrPYmODa/s320/Screenshot_5.jpg" group-title="DEPORTES" server="test" event-duration="4",SKY SPORTS CALCIO (italia)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
