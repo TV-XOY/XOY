@@ -52,7 +52,7 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz,"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz, https://github.com/davidmuma/EPG_dobleM/raw/refs/heads/master/guiatv.xml.gz,"
 
 #EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -68,7 +68,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6c01435ed4e839996f40f8ee08965324":"74eb7b54510e463ea51dccff80a53f3e"}
-https://aca-live4-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
+https://live1-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-UNO-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://i.postimg.cc/bvxj9284/1_Las_Estrellas.png" group-title="iZZi-TV",LAS ESTRELLAS
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
@@ -123,7 +123,7 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/MULTIMEDIOS-RDF-HD/default.mpd
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"69f23f4b39f66cc51d742f7ec6bcf7a3":"33bedb2dad1c4402abf96090d4ec0b63"}
-https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA7-HD/default.mpd
+https://live2-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA7-HD/default.mpd
 
 #EXTINF:-1 tvg-chno="7" tvg-shift="+1" tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
 #EXTVLCOPT:http-origin=https://skymas.mx/webclient
@@ -581,7 +581,7 @@ http://tv.m3uts.xyz/stream/secure/S6e_lcY_/952.m3u8
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://proxy.cors.sh/https://bantel-cdn4.iptvperu.tv:1935/rawlight3/espn.stream/playlist.m3u8
+https://proxy.cors.sh/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 3
 #EXTVLCOPT--http-reconnect=true
@@ -1841,13 +1841,13 @@ https://streams2.sofast.tv/ptnr-stirr/genre-Movies/lang-Spanish/ctgr-Movies/titl
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streams2.sofast.tv/ptnr-stirr/genre-Movies/lang-Spanish/ctgr-Movies/title-TRINIAN-GRITOS-TV-SPA/vglive-sk-187404/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/rmVffwqH/RUNTIME-CINESPANTO.png" group-title="CINE & SERIES",RUNTIME: CINESPANTO
+#EXTINF:-1 tvg-id="Runtime Thriller-Terror" tvg-logo="https://i.postimg.cc/rmVffwqH/RUNTIME-CINESPANTO.png" group-title="CINE & SERIES",RUNTIME: CINESPANTO
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6126&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/bNMGNCMg/RUNTIME-ACCION.png" group-title="CINE & SERIES",RUNTIME: ACCION
+#EXTINF:-1 tvg-id="Runtime Acción" tvg-logo="https://i.postimg.cc/bNMGNCMg/RUNTIME-ACCION.png" group-title="CINE & SERIES",RUNTIME: ACCION
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1859,31 +1859,31 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=2550&avod=1&coppa=0&is_lat
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6130&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/hPyppBwF/RUNTIME-TV-PELICULAS.png" group-title="CINE & SERIES",RUNTIME: PELICULAS
+#EXTINF:-1 tvg-id="Runtime Cine y Series" tvg-logo="https://i.postimg.cc/hPyppBwF/RUNTIME-TV-PELICULAS.png" group-title="CINE & SERIES",RUNTIME: PELICULAS
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2154&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/W43D8BQg/RUNTIME-COMEDIA.png" group-title="CINE & SERIES",RUNTIME: COMEDIA
+#EXTINF:-1 tvg-id="Runtime Comedia" tvg-logo="https://i.postimg.cc/W43D8BQg/RUNTIME-COMEDIA.png" group-title="CINE & SERIES",RUNTIME: COMEDIA
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6127&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/4dgDsGst/RUNTIME-CRIMEN.png" group-title="CINE & SERIES",RUNTIME: CRIMEN
+#EXTINF:-1 tvg-id="Runtime Crimen" tvg-logo="https://i.postimg.cc/4dgDsGst/RUNTIME-CRIMEN.png" group-title="CINE & SERIES",RUNTIME: CRIMEN
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6129&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/vT3T5X3h/RUNTIME-ROMANCE.png" group-title="CINE & SERIES",RUNTIME: ROMANCE
+#EXTINF:-1 tvg-id="Runtime Romance" tvg-logo="https://i.postimg.cc/vT3T5X3h/RUNTIME-ROMANCE.png" group-title="CINE & SERIES",RUNTIME: ROMANCE
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6119&avod=1&coppa=0&is_lat=0
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/t4VRgXQd/RUNTIME-FAMILIA.png" group-title="CINE & SERIES",RUNTIME: FAMILIA
+#EXTINF:-1 tvg-id="RunTime Familia" tvg-logo="https://i.postimg.cc/t4VRgXQd/RUNTIME-FAMILIA.png" group-title="CINE & SERIES",RUNTIME: FAMILIA
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
