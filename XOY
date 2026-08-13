@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #================================|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION VIERNES 10 DE AGOSTO DEL 2026 A LA 9:30 AM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION JUEVES 13 DE AGOSTO DEL 2026 A LA 9:30 AM
 
 
 
@@ -183,18 +183,18 @@ https://live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd
 
 #EXTINF:-1 tvg-chno="11" tvg-id="TELEPLAYMERIDA.mx" tvg-logo="https://i.postimg.cc/9MBn2NmV/TELEPLAY-MERIDA.png" group-title="NACIONALES",TELEPLAY MERIDA
 #EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="4.1" tvg-id="TELEYUCATÁN.mx" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="NACIONALES",TELE YUCATAN
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://conceptoweb-studio.com
 #EXTVLCOPT:http-origin=https://conceptoweb-studio.com
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstream.adaptive.manifest_type=hls
 #KODIPROP:inputstream.adaptive.stream_headers=https://conceptoweb-studio.com
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
@@ -208,38 +208,38 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 https://vsd259.okcdn.ru/hls/10454955395802.m3u8/sig/1RkiqbPFAq0/expires/1786713900192/srcIp/190.103.179.98/urls/176.112.172.73/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVYUC.mx" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://webprod.sipse.com.mx:8080/show/merida.m3u8
 
 #EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVCUN.mx" tvg-logo="https://i.postimg.cc/WzxMQfpb/Sipse-CANCUN.png" group-title="NACIONALES",SIPSE CANCUN
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="CANAL10CANCUN.mx" tvg-name="" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/Canal-10-Cancun-en-vivo-Online.png" group-title="NACIONALES",CANAL 10 CANCUN
 #EXTVLCOPT--http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://s2.canal10mx.com/live/c10.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="CANAL5COZUMEL.mx" tvg-logo="https://i.postimg.cc/7ZMCQ2rb/TV-5-COZUMEL.png" group-title="NACIONALES",TV COZUMEL
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/TY4pt7JW/C4-EN-ALERTA.png" group-title="NOTICIAS",C4 ALERTA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404&avod=1&coppa=0&is_lat=0
 
 #EXTINF:-1 tvg-id="Canal.CNN.en.Español.mx" tvg-logo="https://i.postimg.cc/QtSGRGFm/14-cnn-espanol.png" group-title="NOTICIAS",CNN EN ESPAÑOL
@@ -266,43 +266,45 @@ https://live1-ott.izzigo.tv/11/out/u/dash/EL-FINANCIERO-HD/default.mpd
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(NOTICIAS_UNOTV_HD_MX)/manifest.mpd?ip=201.150.35.76&exp=1768079312&hmac=81afdbba67da056105830f1d18070bd1aad0c2ac
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Noticias_Telemundo_logo_2018.png" group-title="NOTICIAS",TELEMUNDO NOTICAS
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"  group-title="NOTICIAS",TELEMUNDO USA
-#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://132.255.210.69:9000/play/a06i/index.m3u8
 
 #EXTINF:-1 tvg-id="plex.tv.Telemundo.Texas.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS",TELEMUNDO NOTICIAS TEXAS
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889467
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS",TELEMUNDO 51 FLORIDA
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/32d83610-b3ed-4e0c-bc1a-9cf4055cc405/3.m3u8
 
 #EXTINF:-1 tvg-id="plex.tv.Telemundo.al.Dia.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOTICIAS",TELEMUNDO 52
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d1rqgw5gocwo9i.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-stitched/10a44c37-f976-4d2b-ab23-8637a7a094ca/3.m3u8
 
 #EXTINF:-1 tvg-id="plex.tv.Telemundo.al.Dia.plex" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200016HO_20230321T235911SQUARE.png_20230321235912.png"  group-title="ENTRETENIMIENTO",TELEMUNDO AL DIA
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991747
 
 
@@ -314,10 +316,10 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 
 
 #EXTINF:-1 tvg-id="plex.tv.Telemundo.Acción.plex" tvg-logo="https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png" group-title="NOVELAS",TELEMUNDO ACCION
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889470
 
 #EXTINF:-1 tvg-id="Telemundo.mx" tvg-logo="https://i.postimg.cc/SN3nfMjX/TELEMUNDO-INTERNACIONAL.png" group-title="NOVELAS",TELEMUNDO INTERNACIONAL
@@ -327,10 +329,10 @@ https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 https://live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd
 
 #EXTINF:-1 tvg-id="60d393e5579a420007ee553c" tvg-logo="https://images.pluto.tv/channels/60d393e5579a420007ee553c/colorLogoPNG.png"  group-title="NOVELAS",CASO CERRADO
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_channelId=99993041&ads.asnw=169843&ads.afid=367536734&ads.sfid=17470300&ads.csid=lgchannels_us_telemundoscripted_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=2562&ads.xumo_contentName=TelemundoScripted&ads.xumo_providerId=2562&ads.xumo_providerName=TelemundoScripted&ads.channelId=99993041&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 
 #EXTINF:-1 tvg-id="Canal.TLNovelas.(México).mx" tvg-logo="https://i.postimg.cc/zBpZ9ZyM/18_tlnovelas.png" group-title="NOVELAS",TLNOVELAS
@@ -340,31 +342,31 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993041/hls/master.m3u8?ads.xumo_cha
 https://live1-ott.izzigo.tv/15/out/u/dash/TLNOVELAS-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/4x7jGdXX/tln2.jpg" group-title="NOVELAS",TLN TELEVISA
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="USBD2700004ME" tvg-logo="https://dslv9ilpbe7p1.cloudfront.net/_NjZaWcrM6Gg3bfnKcrP1A_store_logo_image.jpeg" group-title="NOVELAS",COMO DICE EL DICHO
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://dcs3-live.mp.lura.live/server/play/jWKwKpTWEZGBcx2j/manifest.m3u8?encp=B2F60S9qKc0osm338Ax_wg:x_pJBu7CIYQWQ7JxgyfR4tkjdokDWup_sjIscNX7wvBJEXnY-y8AIMxs9RAUaWp-k3t15s0gi9zThRYsZg3hGk_pH5IEsrlyefemWGc6xrLlK-ET_5dmOqvLCfftoXMfWMkmV9LBKuebBfi_154qM5R1E7XZs_Rve2-7CzSs7XLjeHVIiwdYo4R_hUVpvKnAgWuY8V255j6hNgQUU3HkArpHXPtWIX_Z49Bnuw086zal8J2HR29-No1SgNuMTfOO4659BM8TRo6l9ZWvZZsSKeUSwVTZ6sPudCvyuwW0o6U2y450yZMvGcYTL9aO77Nlj6OXX6MiOGLrvpw-Rwhti2rN4AL_9c82qgsplOpnPXlG8Ueal-obvqRpYCm5tQ4ZGwcEtXic1_JlqkDzNvrQ-1IMn96IBAuS4NjBXqnF_VzQGAIKGUgtGK8Ajctl4Vv8zPmiJfsHB3n3klAm4sRLqdasXvLHAGzHzVI1eSimqed5DwtmpR-l5RWleKa1Wp1xaIUZJhISU2U64hcGLogrHBQRNP_99otmE3G-5gCo4xDHc9YcInMf08PueiuZsDZktctz7sHK2DHpfR33au9Ds_dFsONXEGR-e5-D4A3cvcue7ETYvYaadrDocy-4H1TJWR9pJM3Wga8XTNldByja9K9jfW_uoeCJCllIcAkZgBXQ0RGyKrr7xEwVaDim6QbR-S_WjOPPqTldSscEJ3hZ3A&anvauth=tb=0~te=2082758400~sgn=f5481e50993b4624e38500bf051da9d8e5773d3a5ef22903349760f9ea03e80e&t=1706655453&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=6465
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ee/REBELDE.png/revision/latest?cb=20210828010452" group-title="NOVELAS",REBELDE
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d1g1ht9t48jsre.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bijuom88e2pwr/server/distrib/095g5bF4ZDmOi210/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqiS9HICoI9C-OpcX3AESJI45YBgdGvUDTKLV7OAKQkExUMHDTzb46u-4DPDOJ8m8CB14VS_0C5MyMAoLpN3GpRBVp5RXYAEzNlFh53KotWHvY8ABd7kkbFKKX-NHbi5Epg8dXtPE4himx5Dym9Q7b9sfI7BTmpICYX6JA6IMxW6r0nA7m_eWuLNznQdj74PCZA/manifest.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://d21tucfpen3j82.cloudfront.net/wp-content/uploads/2025/12/10113024/La-batalla-de-Las-3-Marias-llega-a-canal-6-%C2%A1vota-por-tu-favorita-696x385.webp" group-title="NOVELAS",LAS 3 MARIAS
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d3ekb4nob8cu7j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n77lc2vjw29h0/server/distrib/Aazyz4fOD2Pgsymj/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqh_HOl8d0hbLtujV9vK61GdGVYf2C6MhqnnPa20cAtvJ6LVvm65_40kT67fwKzGadsWKNFo_6M_vh0u7b5w1PXogpD0O2AZh70sV29bhkrhmojeOpEFR3lkXvqvTgvOB_PUbDDBmU2t-7DZy0FLuR_ny7T0LwsM2nqXRADiWvoEo-_xAeWe-Z_EPhpcrjev0GQ/manifest.m3u8
 
 #EXTINF:-1 tvg-id="PASIONES.co" tvg-logo="https://i.postimg.cc/T3sDvHG5/pasiones.png" group-title="NOVELAS",PASIONES
@@ -374,8 +376,10 @@ https://d3ekb4nob8cu7j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://dish.akamaized.net/Content/DASH/Live/channel(pasioneshd)/variant.mpd
 
 #EXTINF:-1 tvg-id="plex.tv.Todo.Novelas,.más.Pasiones.plex" tvg-logo="https://i.ibb.co/drkZ3Rc/todo-novelas-mas-pasiones.png" group-title="NOVELAS",TODO NOVELAS más PASIONES
-#KODIPROP:inputstream.adaptive.manifest_type=HLS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://448a93b8.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fVG9kb05vdmVsYXNfSExT/playlist.m3u8
 
 #EXTINF:-1 tvg-id="plex.tv.Novelisima.plex" tvg-logo="https://i.ibb.co/LxPXxZ2/NOVELISIMA.png" group-title="NOVELAS",NOVELISIMA
@@ -397,10 +401,10 @@ https://dish.akamaized.net/Content/DASH/Live/channel(tntnovelashd)/variant.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(kanalddrama)/variant.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/BZCZh5g9/VIVEKANALDRAMA.png" group-title="NOVELAS",VIVE KANAL D DRAMA
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Az Corazon.mx" tvg-logo="https://i.ibb.co/8xN76pJ/TV-Azteca-Corazn.png" group-title="NOVELAS",CORAZON
@@ -416,16 +420,17 @@ https://dish.akamaized.net/Content/DASH/Live/channel(aztecacorazon)/variant.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(veplus)/variant.mpd
 
 #EXTINF:-1 tvg-id="plex.tv.Canela.TV.Narco-Drama.plex" tvg-name="narco-drama" tvg-logo="https://image-resizer-cloud-cdn.cms.api.canela.tv/image/3052A289-026D-43E2-A4E5-577140AAA876/0-16x9.jpg?width=160&updatedTime=0&dt=Web" group-title="NOVELAS",NARCO-DRAMAS
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://amg00658-amg00658c13-canelatv-international-7229.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-narcodramaltus-canelatvinternational/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Universo.sv" tvg-logo="https://i.postimg.cc/sDQGfqyR/images-7.jpg" group-title="NOVELAS",UNIVERSO 
-#EXTVLCOPT:network-caching=2000
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 Http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
 
 
@@ -435,9 +440,17 @@ Http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://english-tv.com/img/english-tv-logo.png" group-title="ENTRETENIMIENTO",APRENDE INGLES TV 1
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://streams2.sofast.tv/ptnr-hispasat/title-ENGLISH-TV-SPA/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18a85327-6b17-4d41-8c2f-41ff8511c1dd/sofastplayout/64ab4516-1355-4656-a3ff-dc0509a24ebd_0_HLS/manifest.m3u8?ads.channel_name=english-tv-spa&ads.distribution_platform_code=125&ads.coppa=0
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://english-tv.com/img/english-tv-logo.png" group-title="ENTRETENIMIENTO",APRENDE INGLES TV 2
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://streams2.sofast.tv/ptnr-hispasat/title-INGLES-TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18a85327-6b17-4d41-8c2f-41ff8511c1dd/sofastplayout/24606112-c203-3b51-e617-eb98df72a5f3_0_HLS/manifest.m3u8?ads.channel_name=ingles-tv&ads.distribution_platform_code=125&ads.coppa=0
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/FRs8R1yz/MVSTV.png" group-title="ENTRETENIMIENTO",MVSTV
@@ -480,6 +493,10 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 http://tv.m3uts.xyz/stream/secure/T_-bCN43/344.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/5yB6Lfqv/el-chavo-del-8-logo-png-seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
@@ -560,13 +577,17 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/
 http://tv.m3uts.xyz/stream/secure/S6e_lcY_/952.m3u8
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
 #EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://proxy.cors.sh/https://bantel-cdn4.iptvperu.tv:1935/rawlight3/espn.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 3
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://go.iptvhn.net:25461/7619/7619/1980
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Centroamérica).sv" tvg-logo="https://i.ibb.co/WDt6Sc6/zona-tudn.png" group-title="DEPORTES",🇺🇸 ZONA TUDN VIX
@@ -580,21 +601,38 @@ http://go.iptvhn.net:25461/7619/7619/1980
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4fb1073240a549479fd2f343e6cad4ba/cenc.mpd
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Centroamérica).sv" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20230912T232525SQUARE.png_20230912232526.png"  group-title="DEPORTES",🇲🇽 ZONA TUDN VIX
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://linear-357.frequency.stream/dist/vizio/357/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQzNTg0MzY2ODB9
 
 #EXTINF:-1 tvg-chno="" channel-id="35633f08c98857cb9e85c91eae17c0d5" tvg-id="35633f08c98857cb9e85c91eae17c0d5" tvg-logo="https://images.vix.com/prd/channel/61b520dadf627aa84bbf2500/67ccdc39989cef73134b31df1eb03c0f?tr=q-80&w=1920" group-title="DEPORTES",ViX Lo Mejor de Liga MX
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live1009.delivery.roku.com/025088b2-d7e3-4803-9e66-a2a0eac3c39a/t2-origin/out/v1/live.m3u8
 
 #EXTINF:-1 tvg-chno="" tvg-id="" tvg-logo="https://www.concacafgo.com/assets/images/tv_noise.gif"  group-title="DEPORTES" ,Concacaf GO 1
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://dto4p9su9kcif.cloudfront.net/out/v1/45b4d7be5ac64a83bdfdca7b683b40b5/index.m3u8
 
 #EXTINF:-1 tvg-chno="" tvg-logo="https://www.concacafgo.com/assets/images/tv_noise.gif"  group-title="DEPORTES",Concacaf GO 2
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d29uu6lcvq8u18.cloudfront.net/out/v1/0fc428527c0b4981900340462bc9e390/index.m3u8
 
 #EXTINF:-1 tvg-chno="" tvg-logo="https://www.concacafgo.com/assets/images/tv_noise.gif"  group-title="DEPORTES",Concacaf GO 3
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d2cozakhtdw466.cloudfront.net/out/v1/0310eeeafd9a491796b23aec39fad1c4/index.m3u8
 
 #EXTINF:-1 tvg-id="ESPN 2.mx" tvg-logo="https://i.postimg.cc/fRLTJVs7/ESPN-1-MEXICO.png" group-title="DEPORTES",🇲🇽 ESPN 1
@@ -629,39 +667,25 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_3)/manifest.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 
 #EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://i.postimg.cc/XYJ7prWk/ESPN-1-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 1
-###KODIPROP:inputstreamaddon=inputstream.adaptive
-###KODIPROP:inputstream.adaptive.manifest_type=dash
-###KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-###KODIPROP:inputstream.adaptive.license_key={"0f85a4e1fc5937a827313597d04f8e27":"cc1d8219be0130da85e4c4ce73a75abb"}
-###https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://187.245.231.226:8000/play/a0o6/index.m3u8
-
-#EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://i.postimg.cc/XYJ7prWk/ESPN-1-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 1
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://181.205.130.194:4000/play/a08n
-
+#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"6d243ebd7a57bea4b4b052ae13f4c051":"5c1925879de873d43b7c25925902539b"}
+https://cdn.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd
 
 #EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://181.176.155.7:8090/play/a1vv/index.m3u8
+#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=widevine
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.pt.verspective.net/?deviceId=MDE3NGZjMWQtNmRmNy00ZjNlLTliYWYtZDQxNzAyZDFmNjZk
+https://cdn.sensa.com.ar/live/eds/ESPN2/live_dash_cld/ESPN2.mpd
 
 #EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://i.postimg.cc/4xdNmYGF/ESPN-3-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
-###KODIPROP:inputstreamaddon=inputstream.adaptive
-###KODIPROP:inputstream.adaptive.manifest_type=dash
-###KODIPROP:inputstream.adaptive.license_type=clearkey
-###KODIPROP:inputstream.adaptive.license_key={"eb04e4ec7049c0712e09c57aea9c1cb7":"404636ec78dfaf363333805c9a2c3f66"}
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://45.167.1.136:8000/play/a02k
-
+#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=widevine
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.pt.verspective.net/?deviceId=MDE3NGZjMWQtNmRmNy00ZjNlLTliYWYtZDQxNzAyZDFmNjZk
+https://cdn.sensa.com.ar/live/eds/ESPN3/live_dash_cld/ESPN3.mpd
 
 #EXTINF:-1 tvg-id="ESPN.4.co" tvg-logo="https://i.postimg.cc/FHRs7Yv8/ESPN-4-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 4
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -852,16 +876,18 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tmpzbbdj9y/
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/fRKtFwNG/Fox-en-TUBI.png" group-title="DEPORTES",FOX en TUBI
-#EXTVLCOPT:network-caching=2000
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://lna.tubi.video
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://amg00733-tubi-amg00733c2-tubi-us-8155.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Fox.Deportes.sv" tvg-shift="-1" tvg-logo="https://i.postimg.cc/G2HRcpSp/Fox-deportes-HD.png"  group-title="DEPORTES",FOX DEPORTES
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Fox.Deportes.sv" tvg-shift="-1" tvg-logo="https://i.postimg.cc/G2HRcpSp/Fox-deportes-HD.png" group-title="DEPORTES",FOX DEPORTES HD
@@ -876,9 +902,8 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/50
 #EXTINF:-1 tvg-chno="" tvg-id="" tvg-logo="https://logodix.com/logo/391442.png" group-title="DEPORTES",FOX+
 #EXTVLCOPT:http-origin=https://skymas.mx/webclient
 #EXTVLCOPT:http-referrer=https://skymas.mx/webclient
-#EXTVLCOPT:network-caching=2000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
-#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"51710c9c227a4637991466ece1b3550e":"831bfae1e16f4cc2cda5d620e6d1e96a"}
@@ -956,13 +981,12 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_key={"bc52afcf354dd1ecad24b3ec7949f154":"69d953bf75252d754bc43a493c27884a"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
 
-#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sports F1
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=w3.org.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"ae7f16191e2adfaacd9b536ed58a298a":"3319b3ca5cd6f0af2f3d4bd9a7630a8b"}
-https://live1-ott.izzigo.tv/8/out/u/dash/F1-HD-H265/default.mpd
+#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Itália
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://7nyaler.streamhostingcdn.top/stream/8/index.m3u8
 
 
 #EXTINF:-1 tvg-id="Canal.Sky.Sports.1.(México).sv" tvg-logo="https://i.postimg.cc/ZnRtm73N/28_sky_sport_1.png" group-title="DEPORTES",SKY SPORTS 1
@@ -989,11 +1013,100 @@ https://live1-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"d8d5823d92a9ef9306a4cc4bd634b4b4":"df9fbdaa0ef9e905b75f4692f213af19"}
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
 
+#EXTINF:1 tvg-id="" tvg-logo="" group-title="DEPORTES",Sky Sports Premier League
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=5LlUxq3ewzUV_yK91LBcqg&e=2082157058&scheme=https
+
+#EXTINF:-1 tvg-name="Sky Sports Action FHD" tvg-id="SkySp.Action.uk" tvg-logo="https://object-streamo.emonaja.com/img/skysports.png" group-title="DEPORTES",🇬🇧 Sky Sports Action
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8?token=MjMycGc1aVhyS2pJc01iYWhhdUxscE9zcU1hdG5LMkEyN21YazZpcW5JSERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
+
+#EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-logo="https://i.ibb.co/rcSRMh9/sky-sports-pl.png" group-title="DEPORTES",🇬🇧 Sky Sports Premier League
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8?token=cm4rdGlKbkpxcVdhZlpuYXJxKzN4NWZYcU1aOXlOeCtxYlNjeDZ5bG1vUERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
+
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-logo="https://i.postimg.cc/Pr0Vyx1R/sky-sport-uk.png" group-title="DEPORTES",🇬🇧 Sky Sports+ HD
+#EXTVLCOPT:http-origin=https://aesport.tv
+#EXTVLCOPT:http-referrer=https://aesport.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+https://liveua.cdnfly.click/uk_ssplus/index.m3u8
+
+#EXTINF:1 group-title="DEPORTES",🇬🇧 Sky Sports Football
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://themyst.icu:826/SourPatchKid/nlnE4DVQUs/109040
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport (Itália)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/1/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport (Austria)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/31/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport Mix (Itália)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/4/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport Top Event (Itália)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/6/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport Top Event (Alemania)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/6/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport Arena (Itália)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/7/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport Max (Itália)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://7nyaler.streamhostingcdn.top/stream/9/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sport Cricket (UK)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://7nyaler.streamhostingcdn.top/stream/10/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sports + (UK)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://7nyaler.streamhostingcdn.top/stream/11/index.m3u8
+
+#EXTINF:-1 group-title="DEPORTES", SKY Sports action (UK)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://7nyaler.streamhostingcdn.top/stream/12/index.m3u8
+
+
+@---------------------------------------------------------------------------------------------------------------------------------------❌​❓​CAMBIO DE KEYS
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/HnhGkw49/31_sky_sports_eventos_1.png" group-title="DEPORTES",SKY SPORTS EVENTOS 1
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"7fc815c6d02a6b643a33bc4a5da2774e":"1444ee3c4d08bf39454b914f797968eb"}
 https://aca-live4-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
+-------------------------------------------------------------------------------@
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/brBXwxHL/32_sky_sports_eventos_2.png" group-title="DEPORTES",SKY SPORTS EVENTOS 2
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
@@ -1001,11 +1114,14 @@ https://aca-live4-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"7239a58fb7388b222a834d549bf18d8f":"8b04a883e88dbdebc43673d998ea1cb2"}
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-2-HD/default.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/90n3QdtL/33_sky_sports_eventos_3.png" group-title="DEPORTES",SKY SPORTS EVENTOS 3
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"561a21ad50f806b77d328dedbe59f93e":"edf3e70cc9de81a73e2a00fe9c0611a8"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-3-HD/default.mpd
+
+@###------------------------------------------------------------------------------------------------------------------------------------|❌​ELIMINADO
+###EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/90n3QdtL/33_sky_sports_eventos_3.png" group-title="DEPORTES",SKY SPORTS EVENTOS 3|
+###EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2                                    |
+###KODIPROP:inputstream.adaptive.license_type=clearkey                                                                                 |
+###KODIPROP:inputstream.adaptive.license_key={"561a21ad50f806b77d328dedbe59f93e":"edf3e70cc9de81a73e2a00fe9c0611a8"}                   |
+###https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-3-HD/default.mpd                                                           |
+###------------------------------------------------------------------------------------------------------------------------------------|@
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/nrP8h4YP/34_sky_sports_eventos_4.png" group-title="DEPORTES",SKY SPORTS EVENTOS 4
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
@@ -1019,23 +1135,30 @@ https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-4-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"6c89e84c52eae0428b7d2c8e887a48ec":"758a1484f920a0f1aa73e95d5f2be225"}
 https://live1-ott.izzigo.tv/12/out/u/dash/SKY-LIVE-EVENT-5-HD/default.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/xjxV5QDd/36_sky_sports_eventos_6.png" group-title="DEPORTES",SKY SPORTS EVENTOS 6
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"ec7229067cde06e0bedaa0d71ec0c974":"da03b65d333e74aaae446211a83c7595"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-6-HD/default.mpd
 
+@###---------------------------------------------------------------------------------------------------------------------------------------❌​ELIMINADO
+###EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/xjxV5QDd/36_sky_sports_eventos_6.png" group-title="DEPORTES",SKY SPORTS EVENTOS 6  |
+###EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2                                      |
+###KODIPROP:inputstream.adaptive.license_type=clearkey                                                                                   |
+###KODIPROP:inputstream.adaptive.license_key={"ec7229067cde06e0bedaa0d71ec0c974":"da03b65d333e74aaae446211a83c7595"}                     |
+###https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-6-HD/default.mpd                                                             |
+###--------------------------------------------------------------------------------------------------------------------------------------|
+
+###---------------------------------------------------------------------------------------------------------------------------------------❌​ELIMINADO
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/FFWXpv5z/37_sky_sports_eventos_7.png" group-title="DEPORTES",SKY SPORTS EVENTOS 7
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"d9e3024854648dd01714f781c1492c4c":"9404541975d298f6787c591d2cc871b1"}
-https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-7-HD/default.mpd
+###EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+###KODIPROP:inputstream.adaptive.license_type=clearkey
+###KODIPROP:inputstream.adaptive.license_key={"d9e3024854648dd01714f781c1492c4c":"9404541975d298f6787c591d2cc871b1"}
+###https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-7-HD/default.mpd
+###----------------------------------------------------------------------------------------------------------------------------------------
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Dfj36hk8/38_sky_sports_eventos_8.png" group-title="DEPORTES",SKY SPORTS EVENTOS 8
-#EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"22b844cc7ace9720731897f0713aa763":"15b3516a326dabc32807f0950c28fb76"}
-https://live1-ott.izzigo.tv/13/out/u/dash/SKY-LIVE-EVENT-8-HD/default.mpd
+###---------------------------------------------------------------------------------------------------------------------------------------❌​ELIMINADO
+###EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/Dfj36hk8/38_sky_sports_eventos_8.png" group-title="DEPORTES",SKY SPORTS EVENTOS 8
+###EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
+###KODIPROP:inputstream.adaptive.license_type=clearkey
+###KODIPROP:inputstream.adaptive.license_key={"22b844cc7ace9720731897f0713aa763":"15b3516a326dabc32807f0950c28fb76"}
+###https://live1-ott.izzigo.tv/13/out/u/dash/SKY-LIVE-EVENT-8-HD/default.mpd
+###---------------------------------------------------------------------------------------------------------------------------------------@
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/mD7jMqGQ/CAZE-TV.png" group-title="DEPORTES",🇧🇷 CAZÉ TV 1
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
@@ -1136,88 +1259,6 @@ https://liveua.cdnfly.click/pt_sporttv5/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 https://liveua.cdnfly.click/pt_sporttvnba/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="DEPORTES",🇪🇸 DAZN F1
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31834/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nVs7ttQ9/DAZN-1-Logo.png" group-title="DEPORTES" ,🇪🇸 DAZN 1
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31831/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/J44MDjjf/DAZN-2-Logo.png" group-title="DEPORTES",🇪🇸 DAZN 2
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31832/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2vkThM3/dazn3.png" group-title="DEPORTES",🇪🇸 DAZN 3
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31861/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png" group-title="DEPORTES",🇪🇸 DAZN 4
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31862/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20LaLiga.png" group-title="DEPORTES" ,🇪🇸 M+ LALIGA
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31853/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20LaLiga.png" group-title="DEPORTES" ,🇪🇸 M+ LALIGA
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/6073/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20LaLiga%202.png" group-title="DEPORTES" ,🇪🇸 M+ LALIGA 2
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31854/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20LaLiga%203.png" group-title="DEPORTES" ,🇪🇸 M+ LALIGA 3
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31858/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20LaLiga%204.png" group-title="DEPORTES" ,🇪🇸 M+ LALIGA 4
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31822/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion.png" group-title="DEPORTES" ,🇪🇸 LALIGA HYPERMOTION
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31823/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%202.png" group-title="DEPORTES" ,🇪🇸 LALIGA HYPERMOTION 2
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31859/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%203.png" group-title="DEPORTES" ,🇪🇸 LALIGA HYPERMOTION 3
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31865/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="DEPORTES" ,🇪🇸 M+ LIGA CAMPEONES
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://xtef2r1k.russtv.net/iptv/N9HD5PAR5NG9FK/31842/index.m3u8
 
 #EXTINF:-1 tvg-id="LALIGA.TV.BAR.es" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20BAR.png" group-title="DEPORTES",🇪🇸 LaLiga TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1272,24 +1313,6 @@ https://a166aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash-sd/enc/
 
 #EXTINF:-1 tvg-chno="" tvg-id="65ea8b928145cb0008509426"  tvg-logo="https://images.pluto.tv/channels/65ea8b928145cb0008509426/colorLogoPNG.png" group-title="DEPORTES" ,UEFA Champions League
 https://jmp2.uk/plu-65ea8b928145cb0008509426.m3u8
-
-#EXTINF:-1 tvg-name="Sky Sports Action FHD" tvg-id="SkySp.Action.uk" tvg-logo="https://object-streamo.emonaja.com/img/skysports.png" group-title="DEPORTES",🇬🇧 Sky Sports Action
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8?token=MjMycGc1aVhyS2pJc01iYWhhdUxscE9zcU1hdG5LMkEyN21YazZpcW5JSERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
-
-#EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-logo="https://i.ibb.co/rcSRMh9/sky-sports-pl.png" group-title="DEPORTES",🇬🇧 Sky Sports Premier League
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8?token=cm4rdGlKbkpxcVdhZlpuYXJxKzN4NWZYcU1aOXlOeCtxYlNjeDZ5bG1vUERxNEduaVp1UnBxU2VlWmF0ZnRlRGxaMm0wNStDbnJOOXJJM0puSytpbkE9PQ==
-
-#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-logo="https://i.postimg.cc/Pr0Vyx1R/sky-sport-uk.png" group-title="DEPORTES",🇬🇧 Sky Sports+ HD
-#EXTVLCOPT:http-origin=https://aesport.tv
-#EXTVLCOPT:http-referrer=https://aesport.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
-https://liveua.cdnfly.click/uk_ssplus/index.m3u8
 
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.uk" tvg-logo="https://i.postimg.cc/mDQw1YnV/Premier-Sports-1.png" group-title="DEPORTES",🇬🇧 PREMIER SPORTS 1
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
