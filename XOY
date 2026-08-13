@@ -910,6 +910,16 @@ https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/50
 #KODIPROP:inputstream.adaptive.license_key={"51710c9c227a4637991466ece1b3550e":"831bfae1e16f4cc2cda5d620e6d1e96a"}
 http://147.78.1.28/xview/fox_mas_hd.mpd
 
+#EXTINF:-1 tvg-name="CBS Gozalo Network" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFyVzPIUSut7pDnruwXMyE8vrpjA8KoxIuNgiV7nZaRRN6IYX2h5vsIqEHW1q5liXdiGI4rzIEjeDZCr77bHwImhyWq7Qdm7vKzJxcifrxLLsVvG6PhtS5DqlIG2rRs3WrDB9mtGOe3CQm-P_gY-W4cAYy0tnfazYMazEB2VRdIKOz1sOfzkOxjrPYmODa/s320/Screenshot_5.jpg" group-title="DEPORTES" server="cbs 1" event-duration="4",GOLAZO! Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
+
+#EXTINF:-1 tvg-name="CBS Gozalo Network" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFyVzPIUSut7pDnruwXMyE8vrpjA8KoxIuNgiV7nZaRRN6IYX2h5vsIqEHW1q5liXdiGI4rzIEjeDZCr77bHwImhyWq7Qdm7vKzJxcifrxLLsVvG6PhtS5DqlIG2rRs3WrDB9mtGOe3CQm-P_gY-W4cAYy0tnfazYMazEB2VRdIKOz1sOfzkOxjrPYmODa/s320/Screenshot_5.jpg" group-title="DEPORTES" server="cbs 2" event-duration="4",GOLAZO! Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://otte.live.fly.ww.aiv-cdn.net/PDX/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
 #EXTINF:-1 tvg-id="FOX ONE" tvg-logo="https://i.postimg.cc/287cT1Jd/FOX-ONE-MX.png" group-title="DEPORTES",FOX ONE
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -983,16 +993,12 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Amazon
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9dc12b57addecba1a491e81edcbaad57:9fcf7fef82dcc6399cafdb6a96809310
 https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/lnnce28adq/out/v1/47847083b5fc4ccbb01871ee331ad8f7/cenc.mpd
-
-#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8aa58ee631635ae0a524ec754417e40b:c802e3077a3ee0c44b86eade5541a468
-https://at-live-4.tentcdn.eu/bpk-tv/Sky_Sport_F1_HD/default/index.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Itália
 #EXTVLCOPT--http-reconnect=true
@@ -1000,6 +1006,12 @@ https://at-live-4.tentcdn.eu/bpk-tv/Sky_Sport_F1_HD/default/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://7nyaler.streamhostingcdn.top/stream/8/index.m3u8
+
+#EXTINF:-1 tvg-name="CBS Gozalo Network" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFyVzPIUSut7pDnruwXMyE8vrpjA8KoxIuNgiV7nZaRRN6IYX2h5vsIqEHW1q5liXdiGI4rzIEjeDZCr77bHwImhyWq7Qdm7vKzJxcifrxLLsVvG6PhtS5DqlIG2rRs3WrDB9mtGOe3CQm-P_gY-W4cAYy0tnfazYMazEB2VRdIKOz1sOfzkOxjrPYmODa/s320/Screenshot_5.jpg" group-title="DEPORTES" server="test" event-duration="4",SKY SPORTS CALCIO (italia)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+#EXTVLCOPT:http-cookie=mac=00:1A:79:B7:B5:7F; stb_lang=en; timezone=GMT
+#EXTVLCOPT:http-header=Authorization: Bearer 4D309E72A6F91909D49A7B9EC685C359
+http://a47.streamtrx.xyz:80/play/live.php?mac=00:1A:79:B7:B5:7F&stream=691261&extension=ts&play_token=39hgHIbaCG
 
 #EXTINF:-1 tvg-id="Canal.Sky.Sports.1.(México).sv" tvg-logo="https://i.postimg.cc/ZnRtm73N/28_sky_sport_1.png" group-title="DEPORTES",SKY SPORTS 1
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
@@ -1373,6 +1385,22 @@ https://liveua.cdnfly.click/uk_bts3/index.m3u8
 #EXTVLCOPT:http-referrer=https://aesport.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
 https://liveua.cdnfly.click/uk_bts4/index.m3u8
+
+#EXTINF:-1 tvg-name="MUTV" tvg-logo="https://m.media-amazon.com/images/I/611NwkDJjOL.png" group-title="DEPORTES" event-duration="4",MUTV
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://get.perfecttv.net/mutv.mpd
+
+#EXTINF:-1 tvg-name="LFCTV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNOAtyR1N2n_LWpjDmUNUO5X9iz6XXd1cS5Fg_XfEe2fde8-CQTPaD6qoMGh0jVhOry6c69qcuI9fBZvNdjwzRVnczI64pxNbWBvF5YJUYuSS_UI97aRj_4jgL9OYEzYLwsUfWB4Q3sIES4AbChQIpEgYocPp3434X6nkV-YhgPisDGy0qQc3YBfGYoLVP/s320/images.png" group-title="DEPORTES" event-duration="4",LFCTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+#EXTVLCOPT:http-cookie=mac=00:1A:79:B7:B5:7F; stb_lang=en; timezone=GMT
+#EXTVLCOPT:http-header=Authorization: Bearer EEB2D8F75D6A0DC0486171E9BC7A1553
+http://a47.streamtrx.xyz:80/play/live.php?mac=00:1A:79:B7:B5:7F&stream=910647&extension=ts&play_token=pM9AdKTMoJ
+
+#EXTINF:-1 tvg-name="fubo SPORT" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHe7px0IhRVHfJsGVd-mYd7FHKe0r2IcuSU66J89k2YwP0n9nOSCK5vQrPsDXJTXWshQHq4W8mCeoni7SiHCAyw2Nx3KT9qRaEwxk85eSdz5XnDTCpLWiBxOv4BlaotQwoU8ACypYLP3qq4_pX8tQciw2JDEdOaOelf7hTZPS5VOCBjrCZDDsfJVIp4bG/s320/images%20(1).jfif" group-title="DEPORTES" event-duration="4",fubo SPORT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 
 #EXTINF:-1 tvg-id="beIN.Sports.USA.HD.us2" tvg-logo="https://m.media-amazon.com/images/I/61PbxKzBagL.png" group-title="DEPORTES",🇺🇸 BeIN SPORTS
 #EXTVLCOPT:network-caching=1000
