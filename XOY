@@ -667,25 +667,41 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_3)/manifest.mpd
 https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 
 #EXTINF:-1 tvg-id="ESPN.co" tvg-logo="https://i.postimg.cc/XYJ7prWk/ESPN-1-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"6d243ebd7a57bea4b4b052ae13f4c051":"5c1925879de873d43b7c25925902539b"}
-https://cdn.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Magma Player/10
+#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
+#EXTVLCOPT:http-header=X-App:di
+#EXTVLCOPT:http-header=X-Version:10/1.0.9
+#EXTVLCOPT:http-header=X-Hash:2LU9Q1mf3IS5mvE-1BNHLZj_lHwvMrQvG-WCPdOVumfwr1FVVhvimjCnnhLw-ECWht45wKriXhfqOH9hIrB7ryKJlDQlLd5oZIGLoefDgVnn1Y6vUUok14Q9q5WcKqWcZpIJDoazYAMry-YEBBFBu1W5Wc9VXp2mgTdExdmzTRjO3dn9zDkKiYwS1s65oXSCyQB0S2vaskSS4iS7NPmunIzXa_VJTbju5ZL6ZvgqOevf-fik44DU8Lo53I0In6FgujpeqAG-oowhXo68ZqddSWYatNbf225y1EjZCntIGrXngsmh04df-DBUBgak9uAgQqW6cpmxhlpkyIxeUnY5eK4TLbInxM1CnKWOivO93AosQXfSs3dfMPVX0yYnIuBsDke3exYr_NBzYY4BOo6lvXiAGxoCsjIHaz5JaQX8UIY6E1s0pzVNO4awP0BVbRzFTKrsnr-4haVBbFRXBKcuC9HG4xf_T-I8lO7pbg4R9h1I70XUogi5GZHA65OLYsv_7ZqBOizpJENQqHOee5jPPs9hozYaCoJAiqInThf-DPhs5P9mpAMZreHF8wn781a-r6bf1dnIlht7-R3uYUneD1Dsbp8tTmW_wwlS6pJgjddKACGrZrw_4bOL9eFKbPLW
+#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+http://tv.m3uts.xyz/stream/secure/65zrjEza/1107.m3u8
 
 
 #EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
-#EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=widevine
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.pt.verspective.net/?deviceId=MDE3NGZjMWQtNmRmNy00ZjNlLTliYWYtZDQxNzAyZDFmNjZk
-https://cdn.sensa.com.ar/live/eds/ESPN2/live_dash_cld/ESPN2.mpd
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Magma Player/10
+#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
+#EXTVLCOPT:http-header=X-App:di
+#EXTVLCOPT:http-header=X-Version:10/1.0.9
+#EXTVLCOPT:http-header=X-Hash:2LU9Q1mf3IS5mvE-1BNHLZj_lHwvMrQvG-WCPdOVumfwr1FVVhvimjCnnhLw-ECWht45wKriXhfqOH9hIrB7ryKJlDQlLd5oZIGLoefDgVnn1Y6vUUok14Q9q5WcKqWcZpIJDoazYAMry-YEBBFBu1W5Wc9VXp2mgTdExdmzTRjO3dn9zDkKiYwS1s65oXSCyQB0S2vaskSS4iS7NPmunIzXa_VJTbju5ZL6ZvgqOevf-fik44DU8Lo53I0In6FgujpeqAG-oowhXo68ZqddSWYatNbf225y1EjZCntIGrXngsmh04df-DBUBgak9uAgQqW6cpmxhlpkyIxeUnY5eK4TLbInxM1CnKWOivO93AosQXfSs3dfMPVX0yYnIuBsDke3exYr_NBzYY4BOo6lvXiAGxoCsjIHaz5JaQX8UIY6E1s0pzVNO4awP0BVbRzFTKrsnr-4haVBbFRXBKcuC9HG4xf_T-I8lO7pbg4R9h1I70XUogi5GZHA65OLYsv_7ZqBOizpJENQqHOee5jPPs9hozYaCoJAiqInThf-DPhs5P9mpAMZreHF8wn781a-r6bf1dnIlht7-R3uYUneD1Dsbp8tTmW_wwlS6pJgjddKACGrZrw_4bOL9eFKbPLW
+#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
+#EXTVLCOPT:http-header=Connection:Keep-Alive
+http://tv.m3uts.xyz/stream/secure/jg7AfesI/372.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://i.postimg.cc/4xdNmYGF/ESPN-3-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #EXTVLCOPT:http-referrer=https://webclient.ctcplus.com.ar/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.pt.verspective.net/?deviceId=MDE3NGZjMWQtNmRmNy00ZjNlLTliYWYtZDQxNzAyZDFmNjZk
+#EXTVLCOPT:http-header=Connection:Keep-Alive
 https://cdn.sensa.com.ar/live/eds/ESPN3/live_dash_cld/ESPN3.mpd
 
 #EXTINF:-1 tvg-id="ESPN.4.co" tvg-logo="https://i.postimg.cc/FHRs7Yv8/ESPN-4-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 4
@@ -991,14 +1007,6 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"bc52afcf354dd1ecad24b3ec7949f154":"69d953bf75252d754bc43a493c27884a"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
-
-#EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Amazon
-#KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
-#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9dc12b57addecba1a491e81edcbaad57:9fcf7fef82dcc6399cafdb6a96809310
-https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/lnnce28adq/out/v1/47847083b5fc4ccbb01871ee331ad8f7/cenc.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sports.F1.HD.ie" tvg-logo="https://i.postimg.cc/hvjWnyxX/27_sky_sports_f1.png" group-title="DEPORTES",SKY Sport F1 Itália
 #EXTVLCOPT--http-reconnect=true
@@ -2174,7 +2182,7 @@ https://cache07.zapitv.com/live/eds_c2/nat_geo_wild_hd/dash_live_ez/nat_geo_wild
 #KODIPROP:inputstream.adaptive.license_key={"1264e3667616b52060028be25404d6a4":"470720a6152157a5d3c5de89de1b909c"}
 https://live1-ott.izzigo.tv/15/out/u/dash/HISTORY-CHANNEL-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.History.2.(México).mx" tvg-shift=-1 tvg-logo="https://i.postimg.cc/SKDg4yGY/History2.png" group-title="CULTURALES",HISTORY 2
+#EXTINF:-1 tvg-id="Canal.History.2.(México).mx" tvg-shift="" tvg-logo="https://i.postimg.cc/SKDg4yGY/History2.png" group-title="CULTURALES",HISTORY 2
 #EXTVLCOPT:http-user-agent=izzigo/11.6.5(4)_prd izzigo ahh (Linux;Android 16) ExoPlayerLib/2.14.2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"14402e6154aafa2b79408ea5c1651b1c":"6a38619d21191891d09b357a6b1cabd1"}
