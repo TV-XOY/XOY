@@ -108,12 +108,10 @@ def actualizar_archivo_m3u(nueva_url):
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
         f.writelines(lineas_finales)
-        print("Cambios guardados con éxito en tu archivo XOY.")
 
 if __name__ == "__main__":
     url_m3u8 = obtener_m3u8()
     if url_m3u8:
-        print(f"URL obtenida con éxito.")
         actualizar_archivo_m3u(url_m3u8)
     else:
         print("No se pudo obtener la URL en 480p.")
