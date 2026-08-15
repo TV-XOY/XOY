@@ -21,6 +21,20 @@ jobs:
       with:
         python-version: '3.11'
 
+    - name: Instalar y Configurar Tor para México
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y tor
+        
+        # Configuramos Tor para que use EXCLUSIVAMENTE nodos de salida de México ({mx})
+        # StrictNodes 1 obliga a cumplir la regla estrictamente sin excepciones
+        echo "ExitNodes {mx}" | sudo tee -a /etc/tor/torrc
+        echo "StrictNodes 1" | sudo tee -a /etc/tor/torrc
+        
+        # Reiniciamos el servicio de Tor para aplicar los cambios de región
+        sudo service tor restart
+        sleep 5 # Damos un margen de tiempo para que conecte al circuito mexicano
+
     - name: Instalar yt-dlp con soporte de simulación completo
       run: |
         python -m pip install --upgrade pip
@@ -32,7 +46,7 @@ jobs:
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "github-actions[bot]@://github.com"
         git add XOY
-        git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada (480p Dinámico)"
+        git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
         git push
