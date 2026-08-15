@@ -9,8 +9,11 @@ ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción a través de la Red Tor...")
-        proxy_tor = "socks5://127.0.0.1:9050"
+        print("Iniciando extracción a través de Proxy de México público...")
+        
+        # Usamos un proxy público de México (puedes cambiarlo si se cae)
+        # Nota: Los proxies gratuitos fallan a veces, si pasa, prueba otra IP de 'free-proxy-list.net'
+        proxy_mexico = "http://187.188.167.161:8080" 
         
         comando = [
             "yt-dlp",
@@ -19,8 +22,9 @@ def obtener_m3u8():
             "--no-warnings",
             "--no-check-certificates",
             "--impersonate", "chrome",  
-            "--proxy", proxy_tor,       
-            "--extractor-args", "okru:player_type=modern"
+            "--proxy", proxy_mexico,       
+            "--extractor-args", "okru:player_type=modern",
+            "--socket-timeout", "30" # Damos más tiempo de respuesta
         ]
         
         resultado = subprocess.run(
@@ -45,6 +49,7 @@ def obtener_m3u8():
                 return url_formato
                 
         return None
+
             
     except subprocess.CalledProcessError as e:
         print(f"Error de yt-dlp (Código {e.returncode}): {e.stderr}")
