@@ -21,19 +21,28 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Instalar y Configurar Tor para México
+    - name: Instalar y Configurar Tor
       run: |
         sudo apt-get update
-        sudo apt-get install -y tor
+        sudo apt-get install -y tor curl
         
-        # Configuramos Tor para que use EXCLUSIVAMENTE nodos de salida de México ({mx})
-        # StrictNodes 1 obliga a cumplir la regla estrictamente sin excepciones
+        # NOTA: Si el circuito falla, considera comentar estas dos líneas 
+        # debido a la escasez de nodos de salida en México ({mx})
         echo "ExitNodes {mx}" | sudo tee -a /etc/tor/torrc
         echo "StrictNodes 1" | sudo tee -a /etc/tor/torrc
         
-        # Reiniciamos el servicio de Tor para aplicar los cambios de región
         sudo service tor restart
-        sleep 5 # Damos un margen de tiempo para que conecte al circuito mexicano
+        
+        # Bucle de espera inteligente: Verifica que Tor esté realmente listo y navegando
+        echo "Esperando a que el circuito de Tor se estabilice..."
+        for i in {1..10}; do
+          if curl --socks5-hostname 127.0.0.1:9050 -s https://torproject.org | grep -q "Congratulations"; then
+            echo "¡Conexión a Tor establecida con éxito!"
+            break
+          fi
+          echo "Intento $i: Tor aún no está listo, esperando 3 segundos..."
+          sleep 3
+        done
 
     - name: Instalar yt-dlp con soporte de simulación completo
       run: |
@@ -46,7 +55,12 @@ jobs:
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@://github.com"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add XOY
-        git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
-        git push
+        # Commitea solo si hay cambios reales en el archivo XOY
+        if ! git diff --cached --quiet; then
+          git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
+          git push
+        else
+          echo "No se detectaron cambios en el archivo XOY. Saltando commit."
+        fi
