@@ -100,7 +100,7 @@ def actualizar_archivo_m3u(nueva_url):
                 break
 
     if indice_inicio != -1 and indice_fin != -1:
-        lineas_finales = lineas[:indice_inicio] + bloque_nuevo + lineas[indice_fin + :]
+        lineas_finales = lineas[:indice_inicio] + bloque_nuevo + lineas[indice_fin + 1:]
         print("¡Éxito! Se actualizó el canal a calidad 480p.")
     else:
         print("Añadiendo nuevo canal 480p al final.")
