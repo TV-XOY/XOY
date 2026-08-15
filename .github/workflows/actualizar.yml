@@ -21,27 +21,39 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Instalar y Configurar Tor
+    - name: Instalar y Conectar VPN de México
       run: |
         sudo apt-get update
-        sudo apt-get install -y tor curl
+        sudo apt-get install -y openvpn curl jq
         
-        # NOTA: Si el circuito falla, considera comentar estas dos líneas 
-        # debido a la escasez de nodos de salida en México ({mx})
-        echo "ExitNodes {mx}" | sudo tee -a /etc/tor/torrc
-        echo "StrictNodes 1" | sudo tee -a /etc/tor/torrc
+        echo "Obteniendo lista de servidores VPN públicos de México..."
+        # Descargamos la lista oficial de VPN Gate y filtramos por servidores en México (MX)
+        curl -s http://vpngate.net | grep -E ",MX," | head -n 1 | awk -F, '{print $15}' | base64 -d > mexico.ovpn
         
-        sudo service tor restart
+        # Validamos si encontramos un servidor disponible
+        if [ ! -s mexico.ovpn ]; then
+          echo "⚠️ No se encontraron servidores de VPN Gate en México en este momento. Usando respaldo..."
+          # Respaldo alternativo si la API falla
+          curl -s "https://githubusercontent.com" -o mexico.ovpn || exit 1
+        fi
+
+        echo "Iniciando OpenVPN con nodo de México..."
+        # Iniciamos OpenVPN en segundo plano
+        sudo openvpn --config mexico.ovpn --daemon
         
-        # Bucle de espera inteligente: Verifica que Tor esté realmente listo y navegando
-        echo "Esperando a que el circuito de Tor se estabilice..."
-        for i in {1..10}; do
-          if curl --socks5-hostname 127.0.0.1:9050 -s https://torproject.org | grep -q "Congratulations"; then
-            echo "¡Conexión a Tor establecida con éxito!"
+        echo "Esperando a que la VPN se conecte y asigne IP de México..."
+        for i in {1..15}; do
+          sleep 4
+          # Consultamos nuestra IP y país actual
+          INFO_IP=$(curl -s https://ipapi.co)
+          PAIS=$(echo "$INFO_IP" | jq -r '.country_code')
+          IP_ACTUAL=$(echo "$INFO_IP" | jq -r '.ip')
+          
+          if [ "$PAIS" = "MX" ]; then
+            echo "✅ ¡Éxito! Conectado a VPN en México. Nueva IP: $IP_ACTUAL"
             break
           fi
-          echo "Intento $i: Tor aún no está listo, esperando 3 segundos..."
-          sleep 3
+          echo "Intento $i: País detectado '$PAIS' (IP: $IP_ACTUAL). Esperando túnel..."
         done
 
     - name: Instalar yt-dlp con soporte de simulación completo
@@ -55,12 +67,9 @@ jobs:
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "41898282+github-actions[bot]@://github.com"
         git add XOY
-        # Commitea solo si hay cambios reales en el archivo XOY
         if ! git diff --cached --quiet; then
           git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
           git push
-        else
-          echo "No se detectaron cambios en el archivo XOY. Saltando commit."
         fi
