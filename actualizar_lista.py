@@ -8,15 +8,12 @@ ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción a 480p a través de la Red Tor (México)...")
+        print("Iniciando extracción a través de la Red Tor (Túnel Regional México)...")
         proxy_tor = "socks5://127.0.0.1:9050"
         
-        # Selector de formato más tolerante: busca 480p o lo más cercano hacia abajo
-        # bv*[height<=] selecciona el mejor video de 480p o menos
         comando = [
             "yt-dlp",
             URL_OK_RU,
-            "-f", "bv*[height<=]+ba/b[height<=] / best[height<=]", 
             "--dump-json",
             "--no-warnings",
             "--no-check-certificates",
@@ -35,32 +32,22 @@ def obtener_m3u8():
         )
         
         datos_video = json.loads(resultado.stdout)
-        formats = datos_video.get("formats",)
         
-        # Estrategia de búsqueda manual para asegurar 480p o "medium"
-        url_final = None
+        url_extraida = datos_video.get("url")
+        if url_extraida and ".m3u8" in url_extraida:
+            return url_extraida
         
-        # 1. Intentamos buscar el formato que diga "medium" o tenga height 480
-        for f in formats:
-            url_f = f.get("url", "")
-            height = f.get("height", 0)
-            if ".m3u8" in url_f:
-                if height == 480 or "_medium" in url_f:
-                    print(f"Calidad ideal encontrada: {height}p / medium")
-                    return url_f
-        
-        # 2. Si no encontró el exacto, devolvemos el que yt-dlp consideró mejor bajo nuestra regla
-        url_final = datos_video.get("url")
-        if url_final and ".m3u8" in url_final:
-            return url_final
-            
+        formats = datos_video.get("formats", [])
+        for f in reversed(formats):
+            url_formato = f.get("url", "")
+            if ".m3u8" in url_formato:
+                return url_formato
+                
         return None
             
     except Exception as e:
         print(f"Error al extraer: {e}")
-        # Si falla el comando complejo, podrías intentar uno más simple como último recurso
         return None
-
 
 def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
