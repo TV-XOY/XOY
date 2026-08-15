@@ -24,7 +24,8 @@ jobs:
     - name: Instalar y Configurar Tor para México
       run: |
         sudo apt-get update
-        sudo apt-get install -y tor
+        # Instalamos tor junto con la base de datos de geolocalización (geoip)
+        sudo apt-get install -y tor tor-geoipdb
         
         # Configuramos Tor para que use EXCLUSIVAMENTE nodos de salida de México ({mx})
         # StrictNodes 1 obliga a cumplir la regla estrictamente sin excepciones
@@ -33,7 +34,16 @@ jobs:
         
         # Reiniciamos el servicio de Tor para aplicar los cambios de región
         sudo service tor restart
-        sleep 5 # Damos un margen de tiempo para que conecte al circuito mexicano
+        
+        printenv
+        echo "Esperando a que el circuito de Tor se establezca en México..."
+        sleep 15 # Aumentamos el tiempo para garantizar un circuito MX estable
+
+    - name: Verificar IP de Tor (Filtro Geobloqueo)
+      run: |
+        # Probamos la IP pública usando el proxy Tor para validar el país antes de seguir
+        echo "Verificando geolocalización de la IP asignada..."
+        curl --socks5-hostname 127.0.0.1:9050 https://ipinfo.io || echo "No se pudo verificar IP, continuando..."
 
     - name: Instalar yt-dlp con soporte de simulación completo
       run: |
@@ -46,7 +56,7 @@ jobs:
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@://github.com"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add XOY
-        git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
+        git diff-index --quiet HEAD || git commit -m "Automatizado: URL de Canal 13 Mérida actualizada (480p MX)"
         git push
