@@ -11,12 +11,12 @@ def obtener_m3u8():
         print("Iniciando extracción a 480p a través de la Red Tor (México)...")
         proxy_tor = "socks5://127.0.0.1:9050"
         
-        # Modificamos el comando para pedir específicamente calidad 480p
-        # Usamos format selector: bestvideo[height<=]+bestaudio/best[height<=]
+        # Selector de formato más tolerante: busca 480p o lo más cercano hacia abajo
+        # bv*[height<=] selecciona el mejor video de 480p o menos
         comando = [
             "yt-dlp",
             URL_OK_RU,
-            "-f", "best[height<=][ext=mp]/best[height<=]", # Prioriza 480p estable
+            "-f", "bv*[height<=]+ba/b[height<=] / best[height<=]", 
             "--dump-json",
             "--no-warnings",
             "--no-check-certificates",
@@ -35,26 +35,32 @@ def obtener_m3u8():
         )
         
         datos_video = json.loads(resultado.stdout)
+        formats = datos_video.get("formats",)
         
-        # Intentamos obtener la URL del formato seleccionado por yt-dlp
-        url_extraida = datos_video.get("url")
+        # Estrategia de búsqueda manual para asegurar 480p o "medium"
+        url_final = None
         
-        # Si yt-dlp no devolvió una m3u8 directa en el campo principal, buscamos en los formatos
-        if not url_extraida or ".m3u8" not in url_extraida:
-            formats = datos_video.get("formats",)
-            # Buscamos de forma inversa el mejor formato que cumpla con ser m3u8 y <= 480p
-            for f in reversed(formats):
-                height = f.get("height", 0)
-                url_formato = f.get("url", "")
-                if ".m3u8" in url_formato and height <= 480:
-                    print(f"Calidad encontrada: {height}p")
-                    return url_formato
+        # 1. Intentamos buscar el formato que diga "medium" o tenga height 480
+        for f in formats:
+            url_f = f.get("url", "")
+            height = f.get("height", 0)
+            if ".m3u8" in url_f:
+                if height == 480 or "_medium" in url_f:
+                    print(f"Calidad ideal encontrada: {height}p / medium")
+                    return url_f
         
-        return url_extraida if url_extraida and ".m3u8" in url_extraida else None
+        # 2. Si no encontró el exacto, devolvemos el que yt-dlp consideró mejor bajo nuestra regla
+        url_final = datos_video.get("url")
+        if url_final and ".m3u8" in url_final:
+            return url_final
+            
+        return None
             
     except Exception as e:
         print(f"Error al extraer: {e}")
+        # Si falla el comando complejo, podrías intentar uno más simple como último recurso
         return None
+
 
 def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
@@ -64,13 +70,14 @@ def actualizar_archivo_m3u(nueva_url):
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         lineas = f.readlines()
 
-    # Extraemos de forma dinámica la IP que usó Tor
+    # Extraemos de forma dinámica la IP que usó Tor en esta vuelta
     ip_autorizada = "190.103.179.98"
     match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
     if match_ip:
         ip_autorizada = match_ip.group(1)
-        print(f"IP detectada para 480p: {ip_autorizada}")
+        print(f"IP de extracción detectada automáticamente: {ip_autorizada}")
 
+    # Bloque limpio con las cabeceras que te funcionaron
     bloque_nuevo = [
         '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA\n',
 		'#EXTVLCOPT--http-reconnect=true\n',
@@ -85,33 +92,40 @@ def actualizar_archivo_m3u(nueva_url):
     indice_inicio = -1
     indice_fin = -1
 
+    # Buscamos la línea exacta donde está el Canal 13 Mérida
     for i, linea in enumerate(lineas):
         if "CANAL 13 MERIDA" in linea and "#EXTINF" in linea:
             indice_inicio = i
             break
 
     if indice_inicio != -1:
+        # Si lo encuentra, buscamos dónde termina su bloque (la línea de la URL http...)
         for j in range(indice_inicio + 1, len(lineas)):
             if lineas[j].startswith("http://") or lineas[j].startswith("https://"):
                 indice_fin = j
                 break
+            # Si topa con otro canal antes de una URL (por error de formato anterior), frena ahí
             if lineas[j].startswith("#EXTINF"):
                 indice_fin = j - 1
                 break
 
     if indice_inicio != -1 and indice_fin != -1:
+        # Reemplaza UNICAMENTE el rango del Canal 13 sin tocar lo que está antes ni después
         lineas_finales = lineas[:indice_inicio] + bloque_nuevo + lineas[indice_fin + 1:]
-        print("¡Éxito! Se actualizó el canal a calidad 480p.")
+        print("¡Éxito! Bloque previo localizado. Se reemplazó la URL vieja protegiendo el resto de canales.")
     else:
-        print("Añadiendo nuevo canal 480p al final.")
+        # Si es un archivo nuevo o borraste el canal, lo añade limpiamente al final sin romper nada
+        print("Canal no encontrado previamente. Añadiendo al final de la lista XOY de forma segura.")
         lineas_finales = lineas + ['\n'] + bloque_nuevo
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
         f.writelines(lineas_finales)
+    print("Cambios guardados con éxito en tu archivo XOY.")
 
 if __name__ == "__main__":
     url_m3u8 = obtener_m3u8()
     if url_m3u8:
+        print(f"URL obtenida con éxito.")
         actualizar_archivo_m3u(url_m3u8)
     else:
-        print("No se pudo obtener la URL en 480p.")
+        print("No se modificó el archivo debido a las restricciones de la conexión.")
