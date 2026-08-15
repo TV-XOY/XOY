@@ -9,11 +9,7 @@ ARCHIVO_M3U = "XOY"
 
 def obtener_m3u8():
     try:
-        print("Iniciando extracción a través de Proxy de México público...")
-        
-        # Usamos un proxy público de México (puedes cambiarlo si se cae)
-        # Nota: Los proxies gratuitos fallan a veces, si pasa, prueba otra IP de 'free-proxy-list.net'
-        proxy_mexico = "http://187.188.167.161:8080" 
+        print("Iniciando extracción segura a través del túnel VPN de México...")
         
         comando = [
             "yt-dlp",
@@ -22,9 +18,9 @@ def obtener_m3u8():
             "--no-warnings",
             "--no-check-certificates",
             "--impersonate", "chrome",  
-            "--proxy", proxy_mexico,       
+            # Se elimina el proxy de Tor ya que la VPN maneja todo el tráfico
             "--extractor-args", "okru:player_type=modern",
-            "--socket-timeout", "30" # Damos más tiempo de respuesta
+            "--socket-timeout", "30"
         ]
         
         resultado = subprocess.run(
@@ -49,7 +45,6 @@ def obtener_m3u8():
                 return url_formato
                 
         return None
-
             
     except subprocess.CalledProcessError as e:
         print(f"Error de yt-dlp (Código {e.returncode}): {e.stderr}")
@@ -60,18 +55,17 @@ def obtener_m3u8():
 
 def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
-        print(f"Error crítico: El archivo '{ARCHIVO_M3U}' no existe. Deteniendo ejecución.")
-        sys.exit(1) # Forzar fallo en GitHub Actions para enterarte del problema
+        print(f"Error crítico: El archivo '{ARCHIVO_M3U}' no existe.")
+        sys.exit(1)
 
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         lineas = f.readlines()
 
-    # IP por defecto si falla el Regex
     ip_autorizada = "190.103.179.109"
     match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
     if match_ip:
         ip_autorizada = match_ip.group(1)
-        print(f"IP de extracción detectada automáticamente: {ip_autorizada}")
+        print(f"IP de extracción detectada automáticamente desde VPN: {ip_autorizada}")
 
     bloque_nuevo = [
         '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com" group-title="NACIONALES",CANAL 13 MERIDA\n',
@@ -103,14 +97,14 @@ def actualizar_archivo_m3u(nueva_url):
 
     if indice_inicio != -1 and indice_fin != -1:
         lineas_finales = lineas[:indice_inicio] + bloque_nuevo + lineas[indice_fin + 1:]
-        print("¡Éxito! Bloque previo localizado y reemplazado de manera segura.")
+        print("¡Éxito! URL vieja reemplazada protegiendo la lista XOY.")
     else:
-        print("Canal no encontrado previamente. Añadiendo al final de la lista XOY.")
+        print("Canal nuevo añadido al final de la lista XOY.")
         lineas_finales = lineas + ['\n'] + bloque_nuevo
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
         f.writelines(lineas_finales)
-    print("Cambios guardados con éxito en tu archivo XOY.")
+    print("Cambios guardados con éxito.")
 
 if __name__ == "__main__":
     url_m3u8 = obtener_m3u8()
@@ -118,5 +112,5 @@ if __name__ == "__main__":
         print(f"URL obtenida con éxito.")
         actualizar_archivo_m3u(url_m3u8)
     else:
-        print("Error: No se pudo extraer la URL. Abortando actualización.")
-        sys.exit(1) # Informa a GitHub Actions que el workflow falló
+        print("Error: No se pudo extraer la URL bajo la VPN.")
+        sys.exit(1)
