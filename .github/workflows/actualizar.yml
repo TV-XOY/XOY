@@ -21,17 +21,19 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Instalar y Configurar Tor (Prioridad México)
+    - name: Instalar y Configurar Tor (Prioridad México con Puerto de Control)
       run: |
         sudo apt-get update
         sudo apt-get install -y tor tor-geoipdb
         
-        # Preferimos México {mx} como primera opción de salida
+        # Configuramos la salida en México y habilitamos el puerto de control sin contraseña para el script
         echo "ExitNodes {mx}" | sudo tee -a /etc/tor/torrc
+        echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
+        echo "CookieAuthentication 0" | sudo tee -a /etc/tor/torrc
         
         # Reiniciamos el servicio
         sudo service tor restart
-        echo "Esperando estabilización del túnel..."
+        echo "Esperando inicialización de Tor..."
         sleep 10
 
     - name: Instalar yt-dlp con soporte de simulación completo
