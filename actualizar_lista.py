@@ -2,24 +2,38 @@ import os
 import subprocess
 import re
 import json
+import time
+import socket
 
 URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
 
+def cambiar_identidad_tor():
+    """Envía una señal al puerto de control de Tor para forzar un cambio de nodo mexicano."""
+    try:
+        print("Solicitando cambio de nodo Tor (buscando otra IP de México)...")
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect(("127.0.0.1", 9051))
+        s.send(b'AUTHENTICATE ""\r\n')
+        respuesta = s.recv(1024)
+        if b"250" in respuesta:
+            s.send(b'SIGNAL NEWNYM\r\n')
+            respuesta2 = s.recv(1024)
+            if b"250" in respuesta2:
+                print("Señal de nueva identidad enviada con éxito.")
+        s.close()
+        time.sleep(8) # Esperamos a que el circuito se estabilice
+    except Exception as e:
+        print(f"No se pudo contactar con el puerto de control de Tor: {e}")
+
 def obtener_m3u8():
     proxy_tor = "socks5://127.0.0.1:9050"
+    intentos_maximos = 5
     
-    # Intentos dinámicos: si Tor falla o da error de conexión, usamos la IP limpia de la Action
-    estrategias = [
-        {"name": "Tor Proxy (Región MX)", "args": ["--proxy", proxy_tor]},
-        {"name": "Conexión Directa Actions (Respaldo)", "args": []}
-    ]
-    
-    for est in estrategias:
+    for intento in range(1, intentos_maximos + 1):
+        print(f"\n--- Intento {intento} de {intentos_maximos} usando Tor (México) ---")
         try:
-            print(f"Intentando extracción mediante: {est['name']}...")
-            
-            # Buscamos el formato que no exceda los 480p
+            # Comando optimizado para extraer el formato 480p directo
             comando = [
                 "yt-dlp",
                 URL_OK_RU,
@@ -28,8 +42,9 @@ def obtener_m3u8():
                 "--no-warnings",
                 "--no-check-certificates",
                 "--impersonate", "chrome",  
+                "--proxy", proxy_tor,
                 "--extractor-args", "okru:player_type=modern"
-            ] + est["args"]
+            ]
             
             resultado = subprocess.run(
                 comando,
@@ -37,31 +52,34 @@ def obtener_m3u8():
                 stderr=subprocess.PIPE,
                 text=True,
                 check=True,
-                timeout=90
+                timeout=70
             )
             
             datos_video = json.loads(resultado.stdout)
             formats = datos_video.get("formats", [])
             
-            # 1. Buscador manual en la lista de formatos devueltos
+            # 1. Buscador manual de calidad en los formatos devueltos
             for f in reversed(formats):
                 url_f = f.get("url", "")
                 height = f.get("height", 0)
                 if ".m3u8" in url_f:
                     if height == 480 or "_medium" in url_f:
-                        print(f"¡Éxito! Enlace 480p verificado obtenido por {est['name']}.")
+                        print(f"¡Éxito en intento {intento}! Enlace 480p/Medium obtenido correctamente.")
                         return url_f
             
-            # 2. Forzado de string si yt-dlp entrega la URL principal en alta definición
+            # 2. Forzado dinámico si yt-dlp entrega la master link en alta definición
             url_base = datos_video.get("url")
             if url_base and ".m3u8" in url_base:
                 if "_highest" in url_base:
                     url_base = url_base.replace("_highest", "_medium")
-                    print("URL Master reescrita internamente a formato estable (480p/Medium).")
+                    print("URL Master adaptada internamente a formato estable (480p).")
                 return url_base
                 
         except Exception as e:
-            print(f"Aviso: La estrategia '{est['name']}' falló o el nodo no respondió. Buscando alternativa...")
+            print(f"El intento {intento} falló o el nodo mexicano actual está caído.")
+            # Si no es el último intento, rotamos la IP de Tor para probar con otro nodo de México
+            if intento < intentos_maximos:
+                cambiar_identidad_tor()
             continue
             
     return None
@@ -74,11 +92,11 @@ def actualizar_archivo_m3u(nueva_url):
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         lineas = f.readlines()
 
-    ip_autorizada = "190.103.179.109"
+    ip_autorizada = "190.103.179.98"
     match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
     if match_ip:
         ip_autorizada = match_ip.group(1)
-        print(f"IP enlazada al Token: {ip_autorizada}")
+        print(f"IP Mexicana vinculada al Token: {ip_autorizada}")
 
     bloque_nuevo = [
         '#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com" group-title="NACIONALES",CANAL 13 MERIDA (480p)\n',
@@ -110,7 +128,7 @@ def actualizar_archivo_m3u(nueva_url):
 
     if indice_inicio != -1 and indice_fin != -1:
         lineas_finales = lineas[:indice_inicio] + bloque_nuevo + lineas[indice_fin + 1:]
-        print("¡Lista XOY actualizada correctamente!")
+        print("¡Lista XOY actualizada con éxito a 480p!")
     else:
         lineas_finales = lineas + ['\n'] + bloque_nuevo
 
@@ -122,4 +140,4 @@ if __name__ == "__main__":
     if url_m3u8:
         actualizar_archivo_m3u(url_m3u8)
     else:
-        print("No se pudo escribir en el archivo M3U; todos los intentos de extracción fueron bloqueados.")
+        print("No se pudo extraer la URL; la red Tor no ofreció nodos mexicanos estables en esta vuelta.")
