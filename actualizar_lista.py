@@ -74,7 +74,7 @@ def actualizar_archivo_m3u(nueva_url):
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         lineas = f.readlines()
 
-    ip_autorizada = "190.103.179.98"
+    ip_autorizada = "190.103.179.109"
     match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
     if match_ip:
         ip_autorizada = match_ip.group(1)
