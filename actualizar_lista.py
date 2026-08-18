@@ -30,10 +30,15 @@ def obtener_m3u8():
             "--dump-json",
             "--no-warnings",
             "--no-check-certificates",
-            "--force-ipv4",             # CORREGIDO: Argumento oficial de yt-dlp para forzar IPv4
-            "--impersonate", "chrome",
+            "--force-ipv4",
             "--proxy", proxy_url,
-            "--extractor-args", "okru:player_type=modern"
+            # AGREGADO: Reintentos en caso de micro-cortes o 'Connection reset'
+            "--retries", "5",
+            "--extractor-retries", "5",
+            "--socket-timeout", "30",
+            # AGREGADO: Forzar el extractor modern pero con cabeceras limpias estándar
+            "--extractor-args", "okru:player_type=modern",
+            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         ]
         
         # Ejecutamos el subproceso capturando la salida
