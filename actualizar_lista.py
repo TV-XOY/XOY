@@ -2,6 +2,7 @@ import os
 import subprocess
 import re
 import json
+import urllib.parse  # Requerido para limpiar caracteres especiales en el login
 
 URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
@@ -9,19 +10,24 @@ ARCHIVO_M3U = "XOY"
 def obtener_m3u8():
     try:
         # Extraer credenciales de los Secrets de GitHub
-        user = os.environ.get("PROXY_USER")
-        pw = os.environ.get("PROXY_PASS")
-        host = os.environ.get("PROXY_HOST")
-        port = os.environ.get("PROXY_PORT")
+        user = os.environ.get("PROXY_USER", "")
+        pw = os.environ.get("PROXY_PASS", "")
+        host = os.environ.get("PROXY_HOST", "")
+        port = os.environ.get("PROXY_PORT", "")
 
         if not all([user, pw, host, port]):
             print("Error: Credenciales de proxy incompletas en variables de entorno.")
             return None
 
-        # Formato de proxy estándar con autenticación
-        proxy_url = f"http://{user}:{pw}@{host}:{port}"
+        # Codificar de forma segura el usuario y contraseña para que caracteres como @ o : no rompan la URL
+        user_encoded = urllib.parse.quote(user, safe='')
+        pw_encoded = urllib.parse.quote(pw, safe='')
+
+        # CAMBIO CLAVE: Usamos protocolo socks5h para ocultar el origen y resolver DNS remotamente.
+        # Si tu proveedor de proxy solo soporta HTTP, cambia "socks5h" por "http"
+        proxy_url = f"socks5h://{user_encoded}:{pw_encoded}@{host}:{port}"
         
-        print(f"Iniciando extracción con Proxy México: {host}")
+        print(f"Iniciando extracción mediante túnel seguro con Proxy México: {host}")
         
         comando = [
             "yt-dlp",
@@ -32,13 +38,10 @@ def obtener_m3u8():
             "--no-check-certificates",
             "--force-ipv4",
             "--proxy", proxy_url,
-            # AGREGADO: Reintentos en caso de micro-cortes o 'Connection reset'
-            "--retries", "5",
-            "--extractor-retries", "5",
-            "--socket-timeout", "30",
-            # AGREGADO: Forzar el extractor modern pero con cabeceras limpias estándar
+            "--retries", "3",
+            "--socket-timeout", "20",
             "--extractor-args", "okru:player_type=modern",
-            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         ]
         
         # Ejecutamos el subproceso capturando la salida
@@ -60,7 +63,7 @@ def obtener_m3u8():
         return None
 
     except subprocess.CalledProcessError as e:
-        print(f"\n--- ERROR DE YT-DLP ---")
+        print(f"\n--- ERROR DE ENLACE / YT-DLP ---")
         print(f"Código de salida: {e.returncode}")
         print(f"Detalle del error (stderr):\n{e.stderr}")
         return None
@@ -89,8 +92,8 @@ def actualizar_archivo_m3u(nueva_url):
         '#EXTVLCOPT:network-caching=3000\n',
         '#KODIPROP:inputstream.adaptive.manifest_type=hls\n',
         f'#EXTVLCOPT:http-x-forwarded-for={ip_autorizada}\n',
-        '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\n',
-        f'#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For={ip_autorizada}\n',
+        '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\n',
+        f'#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&X-Forwarded-For={ip_autorizada}\n',
         f'{nueva_url}\n'
     ]
 
