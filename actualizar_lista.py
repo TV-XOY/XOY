@@ -19,14 +19,13 @@ def obtener_m3u8():
             print("Error: Credenciales de proxy incompletas en variables de entorno.")
             return None
 
-        # Codificar de forma segura el usuario y contraseña
+        # Codificación limpia para evitar rotura de URL por caracteres especiales
         user_encoded = urllib.parse.quote(user, safe='')
         pw_encoded = urllib.parse.quote(pw, safe='')
 
-        # CORREGIDO: Forzamos el protocolo HTTP estándar (compatible con el 99% de proveedores)
         proxy_url = f"http://{user_encoded}:{pw_encoded}@{host}:{port}"
         
-        print(f"Iniciando extracción mediante túnel estándar con Proxy México: {host}")
+        print(f"Iniciando extracción mediante túnel limpio con Proxy México: {host}")
         
         comando = [
             "yt-dlp",
@@ -37,17 +36,25 @@ def obtener_m3u8():
             "--no-check-certificates",
             "--force-ipv4",
             "--proxy", proxy_url,
-            "--retries", "5",               # Más reintentos si la IP se satura
-            "--socket-timeout", "60",       # CORREGIDO: Aumentamos a 60 segundos para evitar el 'timed out'
+            
+            # --- PARÁMETROS ANTIBLOQUEO REMOTO ---
+            "--http-chunk-size", "10M",             # Divide la petición para engañar al firewall
+            "--legacy-server-connect",              # Forzar negociación TLS clásica compatible
+            "--socket-timeout", "45",
+            "--retries", "3",
             "--extractor-args", "okru:player_type=modern",
-            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            
+            # Cabecera simulada idéntica a un navegador real sin rastro de scripts
+            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "--add-header", "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "--add-header", "Accept-Language:es-MX,es;q=0.9,en;q=0.8"
         ]
         
-        # Ejecutamos el subproceso capturando la salida
+        # Ejecutamos el subproceso capturando la salida limpia
         resultado = subprocess.run(comando, capture_output=True, text=True, check=True)
         datos_video = json.loads(resultado.stdout)
         
-        # Búsqueda flexible de la URL .m3u8
+        # Búsqueda flexible de la URL .m3u8 en la respuesta limpia
         url_directa = datos_video.get("url", "")
         if ".m3u8" in url_directa:
             return url_directa
