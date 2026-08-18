@@ -1,4 +1,4 @@
-name: Actualizar URL M3U8 con Proxy
+name: Actualizar URL M3U8 con Proxy Automático Gratis
 
 on:
   schedule:
@@ -25,20 +25,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install "yt-dlp[default,curl_cffi]"
 
-    - name: Ejecutar script de actualización
-      env:
-        # Mapeo de los Secrets de GitHub a variables de entorno para Python
-        PROXY_USER: ${{ secrets.PROXY_USER }}
-        PROXY_PASS: ${{ secrets.PROXY_PASS }}
-        PROXY_HOST: ${{ secrets.PROXY_HOST }}
-        PROXY_PORT: ${{ secrets.PROXY_PORT }}
+    - name: Ejecutar script de actualización inteligente
       run: python actualizar_lista.py
-
 
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add XOY
-        git diff-index --quiet HEAD || git commit -m "Automatizado: Canal 13 Mérida a 480p"
+        git diff-index --quiet HEAD || git commit -m "Automatizado: Canal 13 Mérida via Free Proxy"
         git push
