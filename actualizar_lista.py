@@ -10,7 +10,7 @@ ARCHIVO_M3U = "XOY"
 def obtener_lista_proxies_mexico():
     """Descarga automáticamente los proxies gratuitos activos de México en formato texto"""
     print("Obteniendo lista de proxies gratuitos de México en tiempo real...")
-    url_api = "https://es.proxyscrape.com/lista-proxy-gratuita/méxico#free-proxy-table"
+    url_api = "https://es.proxyscrape.com/lista-proxy-gratuita/m%C3%A9xico#free-proxy-table"
     try:
         req = urllib.request.Request(url_api, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=15) as response:
