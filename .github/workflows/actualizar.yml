@@ -1,4 +1,4 @@
-name: Actualizar URL M3U8 de OK.ru
+name: Actualizar URL M3U8 con Proxy
 
 on:
   schedule:
@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -21,55 +20,23 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Instalar y Conectar VPN de México
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y openvpn curl jq
-        
-        echo "Obteniendo lista de servidores VPN públicos de México..."
-        # Descargamos la lista oficial de VPN Gate y filtramos por servidores en México (MX)
-        curl -s http://vpngate.net | grep -E ",MX," | head -n 1 | awk -F, '{print $15}' | base64 -d > mexico.ovpn
-        
-        # Validamos si encontramos un servidor disponible
-        if [ ! -s mexico.ovpn ]; then
-          echo "⚠️ No se encontraron servidores de VPN Gate en México en este momento. Usando respaldo..."
-          # Respaldo alternativo si la API falla
-          curl -s "https://githubusercontent.com" -o mexico.ovpn || exit 1
-        fi
-
-        echo "Iniciando OpenVPN con nodo de México..."
-        # Iniciamos OpenVPN en segundo plano
-        sudo openvpn --config mexico.ovpn --daemon
-        
-        echo "Esperando a que la VPN se conecte y asigne IP de México..."
-        for i in {1..15}; do
-          sleep 4
-          # Consultamos nuestra IP y país actual
-          INFO_IP=$(curl -s https://ipapi.co)
-          PAIS=$(echo "$INFO_IP" | jq -r '.country_code')
-          IP_ACTUAL=$(echo "$INFO_IP" | jq -r '.ip')
-          
-          if [ "$PAIS" = "MX" ]; then
-            echo "✅ ¡Éxito! Conectado a VPN en México. Nueva IP: $IP_ACTUAL"
-            break
-          fi
-          echo "Intento $i: País detectado '$PAIS' (IP: $IP_ACTUAL). Esperando túnel..."
-        done
-
-    - name: Instalar yt-dlp con soporte de simulación completo
+    - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
         pip install "yt-dlp[default,curl_cffi]"
 
     - name: Ejecutar script de actualización
+      env:
+        PROXY_USER: ${{ secrets.PROXY_USER }}
+        PROXY_PASS: ${{ secrets.PROXY_PASS }}
+        PROXY_HOST: ${{ secrets.PROXY_HOST }}
+        PROXY_PORT: ${{ secrets.PROXY_PORT }}
       run: python actualizar_lista.py
 
     - name: Subir cambios al repositorio
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add XOY
-        if ! git diff --cached --quiet; then
-          git commit -m "Automatizado: URL de Canal 13 Mérida actualizada"
-          git push
-        fi
+        git diff-index --quiet HEAD || git commit -m "Automatizado: Canal 13 Mérida a 480p"
+        git push
