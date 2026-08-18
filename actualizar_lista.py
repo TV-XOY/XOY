@@ -2,59 +2,47 @@ import os
 import subprocess
 import re
 import json
-import urllib.parse
+import urllib.request
 
 URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
 
-def obtener_m3u8():
+def obtener_lista_proxies_mexico():
+    """Descarga automáticamente los proxies gratuitos activos de México en formato texto"""
+    print("Obteniendo lista de proxies gratuitos de México en tiempo real...")
+    url_api = "https://es.proxyscrape.com/lista-proxy-gratuita/méxico#free-proxy-table"
     try:
-        # Extraer credenciales de los Secrets de GitHub
-        user = os.environ.get("PROXY_USER", "")
-        pw = os.environ.get("PROXY_PASS", "")
-        host = os.environ.get("PROXY_HOST", "")
-        port = os.environ.get("PROXY_PORT", "")
+        req = urllib.request.Request(url_api, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=15) as response:
+            contenido = response.read().decode('utf-8').strip()
+            if contenido:
+                proxies = [linea.strip() for linea in contenido.split('\n') if linea.strip()]
+                print(f"Se encontraron {len(proxies)} proxies de México disponibles.")
+                return proxies
+    except Exception as e:
+        print(f"Error al conectar con la API de proxies: {e}")
+    return []
 
-        if not all([user, pw, host, port]):
-            print("Error: Credenciales de proxy incompletas en variables de entorno.")
-            return None
-
-        # Codificación limpia para evitar rotura de URL por caracteres especiales
-        user_encoded = urllib.parse.quote(user, safe='')
-        pw_encoded = urllib.parse.quote(pw, safe='')
-
-        proxy_url = f"http://{user_encoded}:{pw_encoded}@{host}:{port}"
-        
-        print(f"Iniciando extracción mediante túnel limpio con Proxy México: {host}")
-        
-        comando = [
-            "yt-dlp",
-            URL_OK_RU,
-            "-f", "best[height<=480]",
-            "--dump-json",
-            "--no-warnings",
-            "--no-check-certificates",
-            "--force-ipv4",
-            "--proxy", proxy_url,
-            
-            # --- PARÁMETROS ANTIBLOQUEO REMOTO ---
-            "--http-chunk-size", "10M",             # Divide la petición para engañar al firewall
-            "--legacy-server-connect",              # Forzar negociación TLS clásica compatible
-            "--socket-timeout", "45",
-            "--retries", "3",
-            "--extractor-args", "okru:player_type=modern",
-            
-            # Cabecera simulada idéntica a un navegador real sin rastro de scripts
-            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            "--add-header", "Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-            "--add-header", "Accept-Language:es-MX,es;q=0.9,en;q=0.8"
-        ]
-        
-        # Ejecutamos el subproceso capturando la salida limpia
+def extraer_con_proxy(proxy_ip_port):
+    """Prueba extraer el m3u8 usando un proxy específico"""
+    proxy_url = f"http://{proxy_ip_port}"
+    comando = [
+        "yt-dlp",
+        URL_OK_RU,
+        "-f", "best[height<=480]",
+        "--dump-json",
+        "--no-warnings",
+        "--no-check-certificates",
+        "--force-ipv4",
+        "--proxy", proxy_url,
+        "--socket-timeout", "15", # Timeout bajo para descartar proxies lentos rápido
+        "--extractor-args", "okru:player_type=modern",
+        "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ]
+    try:
         resultado = subprocess.run(comando, capture_output=True, text=True, check=True)
         datos_video = json.loads(resultado.stdout)
         
-        # Búsqueda flexible de la URL .m3u8 en la respuesta limpia
         url_directa = datos_video.get("url", "")
         if ".m3u8" in url_directa:
             return url_directa
@@ -64,29 +52,37 @@ def obtener_m3u8():
             url_f = f.get("url", "")
             if ".m3u8" in url_f:
                 return url_f
-        
-        print("Error: No se encontró ningún formato .m3u8 en la respuesta.")
+    except Exception:
+        # Falla silenciosa para avanzar rápido en la lista si el proxy está muerto o bloqueado
+        return None
+    return None
+
+def obtener_m3u8():
+    lista_proxies = obtener_lista_proxies_mexico()
+    if not lista_proxies:
+        print("No se pudieron obtener proxies gratuitos. Abortando.")
         return None
 
-    except subprocess.CalledProcessError as e:
-        print(f"\n--- ERROR DE ENLACE / YT-DLP ---")
-        print(f"Código de salida: {e.returncode}")
-        print(f"Detalle del error (stderr):\n{e.stderr}")
-        return None
-    except Exception as e:
-        print(f"Error inesperado: {e}")
-        return None
+    # Recorremos la lista probando uno por uno
+    for i, proxy in enumerate(lista_proxies, 1):
+        print(f"[{i}/{len(lista_proxies)}] Probando proxy libre: {proxy}...")
+        url_final = extraer_con_proxy(proxy)
+        if url_final:
+            print(f"¡Éxito absoluto! Conectado mediante el proxy funcional: {proxy}")
+            return url_final
+            
+    print("Error: Se probaron todos los proxies de la lista y ninguno logró saltar el bloqueo.")
+    return None
 
 def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
-        print(f"Error: El archivo '{ARCHIVO_M3U}' no existe en la raíz.")
+        print(f"Error: El archivo '{ARCHIVO_M3U}' no existe.")
         return
 
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
         lineas = f.readlines()
 
-    # Intentar extraer la IP real de transmisión que asignó el proxy
-    ip_autorizada = os.environ.get("PROXY_HOST", "127.0.0.1")
+    ip_autorizada = "127.0.0.1"
     match_ip = re.search(r'/srcIp/([^/]+)/', nueva_url)
     if match_ip:
         ip_autorizada = match_ip.group(1)
