@@ -2,7 +2,7 @@ import os
 import subprocess
 import re
 import json
-import urllib.parse  # Requerido para limpiar caracteres especiales en el login
+import urllib.parse
 
 URL_OK_RU = "https://ok.ru/videoembed/10849691639514?nochat=1&autoplay=1"
 ARCHIVO_M3U = "XOY"
@@ -19,15 +19,14 @@ def obtener_m3u8():
             print("Error: Credenciales de proxy incompletas en variables de entorno.")
             return None
 
-        # Codificar de forma segura el usuario y contraseña para que caracteres como @ o : no rompan la URL
+        # Codificar de forma segura el usuario y contraseña
         user_encoded = urllib.parse.quote(user, safe='')
         pw_encoded = urllib.parse.quote(pw, safe='')
 
-        # CAMBIO CLAVE: Usamos protocolo socks5h para ocultar el origen y resolver DNS remotamente.
-        # Si tu proveedor de proxy solo soporta HTTP, cambia "socks5h" por "http"
-        proxy_url = f"socks5h://{user_encoded}:{pw_encoded}@{host}:{port}"
+        # CORREGIDO: Forzamos el protocolo HTTP estándar (compatible con el 99% de proveedores)
+        proxy_url = f"http://{user_encoded}:{pw_encoded}@{host}:{port}"
         
-        print(f"Iniciando extracción mediante túnel seguro con Proxy México: {host}")
+        print(f"Iniciando extracción mediante túnel estándar con Proxy México: {host}")
         
         comando = [
             "yt-dlp",
@@ -38,8 +37,8 @@ def obtener_m3u8():
             "--no-check-certificates",
             "--force-ipv4",
             "--proxy", proxy_url,
-            "--retries", "3",
-            "--socket-timeout", "20",
+            "--retries", "5",               # Más reintentos si la IP se satura
+            "--socket-timeout", "60",       # CORREGIDO: Aumentamos a 60 segundos para evitar el 'timed out'
             "--extractor-args", "okru:player_type=modern",
             "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         ]
