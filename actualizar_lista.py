@@ -18,7 +18,7 @@ def obtener_m3u8():
             print("Error: Credenciales de proxy incompletas en variables de entorno.")
             return None
 
-        # Formato de proxy con autenticación estándar
+        # Formato de proxy estándar con autenticación
         proxy_url = f"http://{user}:{pw}@{host}:{port}"
         
         print(f"Iniciando extracción con Proxy México: {host}")
@@ -26,17 +26,17 @@ def obtener_m3u8():
         comando = [
             "yt-dlp",
             URL_OK_RU,
-            "-f", "best[height<=480]", # CORREGIDO: Se añade el 480 que faltaba
+            "-f", "best[height<=480]",
             "--dump-json",
             "--no-warnings",
             "--no-check-certificates",
-            "--prefer-ipv4",            # Fuerza a usar IPv4 (evita fugas por IPv6 del servidor de GitHub)
+            "--force-ipv4",             # CORREGIDO: Argumento oficial de yt-dlp para forzar IPv4
             "--impersonate", "chrome",
             "--proxy", proxy_url,
             "--extractor-args", "okru:player_type=modern"
         ]
         
-        # Ejecutamos capturando errores detallados
+        # Ejecutamos el subproceso capturando la salida
         resultado = subprocess.run(comando, capture_output=True, text=True, check=True)
         datos_video = json.loads(resultado.stdout)
         
@@ -65,7 +65,7 @@ def obtener_m3u8():
 
 def actualizar_archivo_m3u(nueva_url):
     if not os.path.exists(ARCHIVO_M3U):
-        print(f"Error: El archivo '{ARCHIVO_M3U}' no existe.")
+        print(f"Error: El archivo '{ARCHIVO_M3U}' no existe en la raíz.")
         return
 
     with open(ARCHIVO_M3U, "r", encoding="utf-8") as f:
@@ -111,7 +111,7 @@ def actualizar_archivo_m3u(nueva_url):
 
     with open(ARCHIVO_M3U, "w", encoding="utf-8") as f:
         f.writelines(lineas_finales)
-    print("Archivo XOY actualizado con éxito.")
+    print("Cambios guardados con éxito en tu archivo XOY.")
 
 if __name__ == "__main__":
     url_final = obtener_m3u8()
