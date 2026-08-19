@@ -484,8 +484,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-###https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
-https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
