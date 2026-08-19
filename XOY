@@ -205,7 +205,7 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTVLCOPT:http-x-forwarded-for=190.103.179.98
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For=190.103.179.98
-https://vsd129.okcdn.ru/hls/10454955395802.m3u8/sig/3k2HpLs84fc/expires/1786844262485/srcIp/190.103.179.98/urls/185.226.55.87/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd259.okcdn.ru/hls/10454955395802.m3u8/sig/1RkiqbPFAq0/expires/1786713900192/srcIp/190.103.179.98/urls/176.112.172.73/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVYUC.mx" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT--http-reconnect=true
@@ -480,19 +480,6 @@ https://dish.akamaized.net/Content/DASH/Live/channel(50dd60bc-94f1-a686-3a3f-a09
 https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/5yB6Lfqv/el-chavo-del-8-logo-png-seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Magma Player/10
-#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
-#EXTVLCOPT:http-header=X-App:di
-#EXTVLCOPT:http-header=X-Version:10/1.0.9
-#EXTVLCOPT:http-header=X-Hash:LCanxF9D42z-2eRKFLlFkH5_mGs6KZiI2kXm-2rFJJ6j1dU6nAxaGhg9B5w-8bs3LpFlEfynRAa7trY_msvJ9A-Pw-gTu72dZZ-VXnzpZ3ipV8VxM_7rOCduL6qMf_bHoEqu-aAbQmKwMIWY4TqpMneEaL1wqiSw4lO424WdcCqn__wRG3-TVwZBuXAaew-NtidiJBxUPQ-35BZMfGv9pAsAZB9AUjZugPFJfLdb_hrbPBW0umRZGorAPSce57PKz6xCLCKqkjhHNzA_AQeuoWkiFViOVcRvDIUiX_tirmm3NHSrM6RPdpyjZVMOLQaUHBAakCg_9bUvm-OvmPLzYCZqRvJq0L6WECwUg-2ESGPyJ6fCk1r_N-b2t7zMZgz8rbXt-F5vi31dX0UibpFZfmbZMEdPtmuYR0ibUh0Lf325fhv-SxXuF1z2V94VM1SsCigEgQuL8kubHCZ3CcdoYdtQsaLB9tdHj8BIJ9hTwYN4WTm5HYG8_ARWaT1MU17jGk1EDFR4J8UAlSpeeLPSu0auBhFI_qeEvyHpUkPQvDyuiysY_9jpbyCXCpGJkt3PyQuyhvm_fy-910hF9bRmXFVHXP7nG7RI-7qck1t63JepBgKRRylke9ieDN_NyotF
-#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
-#EXTVLCOPT:http-header=Connection:Keep-Alive
-http://tv.m3uts.xyz/stream/secure/T_-bCN43/344.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/5yB6Lfqv/el-chavo-del-8-logo-png-seeklogo-389658.png" group-title="ENTRETENIMIENTO",EL CHAVO DEL 8
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -563,27 +550,15 @@ https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"763ce1ebcaf23502c8cf357c6ef423e1":"0c5e6c0820a1ea28753721db00272411"}
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 1
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:network-caching=2000
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Magma Player/10
-#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
-#EXTVLCOPT:http-header=X-App:di
-#EXTVLCOPT:http-header=X-Version:10/1.0.9
-#EXTVLCOPT:http-header=X-Hash:flb3xwKe16AGyo4Itn8JRz6_87GEGtsDLTm9HUfrXH5MDOLDAxxAvaQHsf4LFxV2UpBWOqkIDsxDSulMIZntGILL_LYAtsR4B2bJj4ZDMtJy-g-rBY2NfCbk4Dpi6MVlf3dOll5EB_hMZ3NRGSciEe4A39PPb009PZs-FyDWfbXnXgOim-jr17kZjEHyS6y077jzS_JmiH9t5zcYlhBeLzGwIpcJlA2D0zAkGmj4FW3jIJ0h8LwzurxKl-ysGd_BLyC82qPdJJehv11RwIrGM8Mjbfg3X-YuBjcxkgp1966X5z0DeYegoN5JL1wv6xjF2jxcgI1lrcStBdtwbzraCptgMubSJDIaaa2u1GaSSOwDQfRA8a97c0hal6bxklN0G_kKcmrPaHwK9XJw_xc7TPhyZZ3qTwYzEVb1hRr8lPhJtzyz6jRiLV2l0CnxE_RqA6ujMoJEzcaMfQPEk6Em7_4CaR3XS-vhs9gEPh7nXYXcWeCRApCuIs98czIghFa8RH7btHyn4L4mi1RxJ5-rDWY_bk4HqhECXcn4_sviJx_UOmJg_3hwKZsxkdEv8UqDXmEWAYZLohfXpd2GPPvgnAWGO9k6jwjGb4lNMml0Tq3Kthn8m20OXsB2fUHzszVc
-#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
-#EXTVLCOPT:http-header=Connection:Keep-Alive
-http://tv.m3uts.xyz/stream/secure/S6e_lcY_/952.m3u8
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 1
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://proxy.cors.sh/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
 
-#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 3
+#EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -670,41 +645,23 @@ https://dish.akamaized.net/Content/DASH/Live/channel(espn_extra)/manifest.mpd
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Magma Player/10
-#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
-#EXTVLCOPT:http-header=X-App:di
-#EXTVLCOPT:http-header=X-Version:10/1.0.9
-#EXTVLCOPT:http-header=X-Hash:2LU9Q1mf3IS5mvE-1BNHLZj_lHwvMrQvG-WCPdOVumfwr1FVVhvimjCnnhLw-ECWht45wKriXhfqOH9hIrB7ryKJlDQlLd5oZIGLoefDgVnn1Y6vUUok14Q9q5WcKqWcZpIJDoazYAMry-YEBBFBu1W5Wc9VXp2mgTdExdmzTRjO3dn9zDkKiYwS1s65oXSCyQB0S2vaskSS4iS7NPmunIzXa_VJTbju5ZL6ZvgqOevf-fik44DU8Lo53I0In6FgujpeqAG-oowhXo68ZqddSWYatNbf225y1EjZCntIGrXngsmh04df-DBUBgak9uAgQqW6cpmxhlpkyIxeUnY5eK4TLbInxM1CnKWOivO93AosQXfSs3dfMPVX0yYnIuBsDke3exYr_NBzYY4BOo6lvXiAGxoCsjIHaz5JaQX8UIY6E1s0pzVNO4awP0BVbRzFTKrsnr-4haVBbFRXBKcuC9HG4xf_T-I8lO7pbg4R9h1I70XUogi5GZHA65OLYsv_7ZqBOizpJENQqHOee5jPPs9hozYaCoJAiqInThf-DPhs5P9mpAMZreHF8wn781a-r6bf1dnIlht7-R3uYUneD1Dsbp8tTmW_wwlS6pJgjddKACGrZrw_4bOL9eFKbPLW
-#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
 #EXTVLCOPT:http-header=Connection:Keep-Alive
-http://tv.m3uts.xyz/stream/secure/65zrjEza/1107.m3u8
+http://45.188.229.33:8000/play/a1jj/index.m3u8?hls
 
 
 #EXTINF:-1 tvg-id="ESPN.2.co" tvg-logo="https://i.postimg.cc/XYJ7prWs/ESPN-2-COLOMBIA.png" group-title="DEPORTES",🇨🇴 ESPN 2
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Magma Player/10
-#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
-#EXTVLCOPT:http-header=X-App:di
-#EXTVLCOPT:http-header=X-Version:10/1.0.9
-#EXTVLCOPT:http-header=X-Hash:2LU9Q1mf3IS5mvE-1BNHLZj_lHwvMrQvG-WCPdOVumfwr1FVVhvimjCnnhLw-ECWht45wKriXhfqOH9hIrB7ryKJlDQlLd5oZIGLoefDgVnn1Y6vUUok14Q9q5WcKqWcZpIJDoazYAMry-YEBBFBu1W5Wc9VXp2mgTdExdmzTRjO3dn9zDkKiYwS1s65oXSCyQB0S2vaskSS4iS7NPmunIzXa_VJTbju5ZL6ZvgqOevf-fik44DU8Lo53I0In6FgujpeqAG-oowhXo68ZqddSWYatNbf225y1EjZCntIGrXngsmh04df-DBUBgak9uAgQqW6cpmxhlpkyIxeUnY5eK4TLbInxM1CnKWOivO93AosQXfSs3dfMPVX0yYnIuBsDke3exYr_NBzYY4BOo6lvXiAGxoCsjIHaz5JaQX8UIY6E1s0pzVNO4awP0BVbRzFTKrsnr-4haVBbFRXBKcuC9HG4xf_T-I8lO7pbg4R9h1I70XUogi5GZHA65OLYsv_7ZqBOizpJENQqHOee5jPPs9hozYaCoJAiqInThf-DPhs5P9mpAMZreHF8wn781a-r6bf1dnIlht7-R3uYUneD1Dsbp8tTmW_wwlS6pJgjddKACGrZrw_4bOL9eFKbPLW
-#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
 #EXTVLCOPT:http-header=Connection:Keep-Alive
-http://tv.m3uts.xyz/stream/secure/jg7AfesI/372.m3u8
+http://45.188.229.33:8000/play/a1ke/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="ESPN.3.co" tvg-logo="https://i.postimg.cc/4xdNmYGF/ESPN-3-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 3
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Magma Player/10
-#EXTVLCOPT:http-referrer=http://ts1.tvcluboficial.com
-#EXTVLCOPT:http-header=X-App:di
-#EXTVLCOPT:http-header=X-Version:10/1.0.9
-#EXTVLCOPT:http-header=X-Hash:2LU9Q1mf3IS5mvE-1BNHLZj_lHwvMrQvG-WCPdOVumfwr1FVVhvimjCnnhLw-ECWht45wKriXhfqOH9hIrB7ryKJlDQlLd5oZIGLoefDgVnn1Y6vUUok14Q9q5WcKqWcZpIJDoazYAMry-YEBBFBu1W5Wc9VXp2mgTdExdmzTRjO3dn9zDkKiYwS1s65oXSCyQB0S2vaskSS4iS7NPmunIzXa_VJTbju5ZL6ZvgqOevf-fik44DU8Lo53I0In6FgujpeqAG-oowhXo68ZqddSWYatNbf225y1EjZCntIGrXngsmh04df-DBUBgak9uAgQqW6cpmxhlpkyIxeUnY5eK4TLbInxM1CnKWOivO93AosQXfSs3dfMPVX0yYnIuBsDke3exYr_NBzYY4BOo6lvXiAGxoCsjIHaz5JaQX8UIY6E1s0pzVNO4awP0BVbRzFTKrsnr-4haVBbFRXBKcuC9HG4xf_T-I8lO7pbg4R9h1I70XUogi5GZHA65OLYsv_7ZqBOizpJENQqHOee5jPPs9hozYaCoJAiqInThf-DPhs5P9mpAMZreHF8wn781a-r6bf1dnIlht7-R3uYUneD1Dsbp8tTmW_wwlS6pJgjddKACGrZrw_4bOL9eFKbPLW
-#EXTVLCOPT:http-header=X-Did:37ab0879dbae63a4
 #EXTVLCOPT:http-header=Connection:Keep-Alive
-http://tv.m3uts.xyz/stream/secure/0raWSibw/1127.m3u8
+http://45.188.229.33:8000/play/a1ad/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="ESPN.4.co" tvg-logo="https://i.postimg.cc/FHRs7Yv8/ESPN-4-COLOMBIA.png" group-title="DEPORTES" ,🇨🇴 ESPN 4
 #KODIPROP:inputstreamaddon=inputstream.adaptive
