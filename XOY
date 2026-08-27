@@ -202,10 +202,10 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-x-forwarded-for=38.19.44.229
+#EXTVLCOPT:http-x-forwarded-for=89.213.106.98
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&X-Forwarded-For=38.19.44.229
-https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/C_2ww7JxrG4/expires/1787275721620/srcIp/38.19.44.229/urls/176.112.172.110/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_medium/index.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&X-Forwarded-For=89.213.106.98
+https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/WxfYcgi0Wes/expires/1787906216984/srcIp/89.213.106.98/urls/176.112.172.113/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_medium/index.m3u8
 
 #EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVYUC.mx" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT--http-reconnect=true
