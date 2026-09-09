@@ -1180,7 +1180,7 @@ http://7nyaler.streamhostingcdn.top/stream/12/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/HnhGkw49/31_sky_sports_eventos_1.png" group-title="DEPORTES",SKY SPORTS EVENTOS 1
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"f599d8e0ccc31ef38946156f796c0afb":"efb2b1fd2e3f99dbe0a0f27f0e089467"}
+#KODIPROP:inputstream.adaptive.license_key={"f599d8e0ccc31ef38946156f796c0afb":"c46c2c9dd5d36e2b09e4c74b30d942b0"}
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/brBXwxHL/32_sky_sports_eventos_2.png" group-title="DEPORTES",SKY SPORTS EVENTOS 2
