@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #================================|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION JUEVES 13 DE AGOSTO DEL 2026 A LA 9:30 AM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION MARTES 8 DE SEPTIEMBRE DEL 2026 A LA 9:00 PM
 
 
 
@@ -52,11 +52,11 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz, https://github.com/davidmuma/EPG_dobleM/raw/refs/heads/master/guiafanart_sincolor.xml.gz,"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://www.open-epg.com/files/mexico1.xml.gz, https://www.open-epg.com/files/mexico2.xml.gz, https://www.open-epg.com/files/uruguay2.xml.gz, https://albaforge.com/bin-cas6u/epg/an/EPG/ARGENTINA.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://iptv-epg.org/files/epg-mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://www.open-epg.com/files/argentina.xml.gz, https://github.com/TV-XOY/tv/raw/refs/heads/main/mx.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz"
 
-#EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
+##EXTINF:-1 tvg-id="" tvg-chno="0" tvg-logo="https://i.postimg.cc/C1D4Pghn/XOY.png" group-title="",TV XOY
+##KODIPROP:inputstream.adaptive.manifest_type=hls
+##https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -198,14 +198,14 @@ https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=https://conceptoweb-studio.com
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
-#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com" group-title="NACIONALES",CANAL 13 MERIDA
+#EXTINF:-1 tvg-name="CANAL13.mx" tvg-chno="13" tvg-id="CANAL13.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="NACIONALES",CANAL 13 MERIDA
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-x-forwarded-for=89.213.106.98
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&X-Forwarded-For=89.213.106.98
-https://vsd123.okcdn.ru/hls/10454955395802.m3u8/sig/WxfYcgi0Wes/expires/1787906216984/srcIp/89.213.106.98/urls/176.112.172.113/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_medium/index.m3u8
+#EXTVLCOPT:http-x-forwarded-for=190.103.179.98
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&X-Forwarded-For=190.103.179.98
+https://vsd259.okcdn.ru/hls/10454955395802.m3u8/sig/1RkiqbPFAq0/expires/1786713900192/srcIp/190.103.179.98/urls/176.112.172.73/clientType/0/srcAg/CHROME_MAC/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 tvg-chno="8.1" tvg-id="SIPSETVYUC.mx" tvg-logo="https://i.postimg.cc/28qG2nj6/Sipse-MERIDA.png" group-title="NACIONALES",SIPSE MERIDA
 #EXTVLCOPT--http-reconnect=true
@@ -484,7 +484,9 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
+###https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -740,6 +742,17 @@ https://dish.akamaized.net/Content/DASH/Live/channel(tycsports)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"f7d41f94c41a5943cd836a52a59b7ebc":"de0cb81e4146240f61281db5bf0d0ade"}
 https://dish.akamaized.net/Content/DASH/Live/channel(tntsports_arg)/variant.mpd
 
+#EXTINF:-1 group-title="DEPORTES",Tnt sports 2
+#EXTVLCOPT:http-referrer=https://www.primevideo.com/
+#EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
+#EXTVLCOPT--http-reconnect=true
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+
+
 #EXTINF:-1 tvg-id="DSPORTS.HD.(COL)(DTSCHD).co" tvg-logo="https://i.postimg.cc/1tLtxCgM/DSports-1.png" group-title="DEPORTES",🇦🇷 DSPORTS
 #EXTVLCOPT:http-referrer=https://www.primevideo.com/
 #EXTVLCOPT:http-user-agent=AivAndroidPlayer/1.0 (AndroidDevice)
@@ -798,7 +811,7 @@ http://190.60.37.118:4000/play/a0bw
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="FOX SPORTS.mx" tvg-logo="https://i.postimg.cc/26KVW08S/FOX-SPORTS.png" group-title="DEPORTES",FOX SPORTS 1
+#EXTINF:-1 tvg-id="FOX SPORTS.mx" tvg-logo="https://i.postimg.cc/26KVW08S/FOX-SPORTS.png" group-title="DEPORTES",🇲🇽 FOX SPORTS 1
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -806,7 +819,7 @@ http://45.134.141.161:2200/ARG/Win_Sports_Plus_HD/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"a5410bf674794451dd631a5b970b76a6":"c7a174308083f0edc8be1908dc9cfa6c"}
 https://dish.akamaized.net/Content/DASH/Live/channel(foxsportshd)/variant.mpd
 
-#EXTINF:-1 tvg-id="FOX SPORTS 2.mx" tvg-logo="https://i.postimg.cc/JhTbTc46/FOX-SPORTS-2.png" group-title="DEPORTES",FOX SPORTS 2
+#EXTINF:-1 tvg-id="FOX SPORTS 2.mx" tvg-logo="https://i.postimg.cc/JhTbTc46/FOX-SPORTS-2.png" group-title="DEPORTES",🇲🇽 FOX SPORTS 2
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -814,7 +827,7 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsportshd)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"15670c1e2f22f9d2ccf408ec0f5ea58b":"6f0ac30857b531398af4a939c507b934"}
 https://dish.akamaized.net/Content/DASH/Live/channel(foxsports2hd)/variant.mpd
 
-#EXTINF:-1 tvg-id="FOX SPORTS 3.mx" tvg-logo="https://i.postimg.cc/qRP6YmVH/FOX-SPORTS-3.png" group-title="DEPORTES",FOX SPORTS 3
+#EXTINF:-1 tvg-id="FOX SPORTS 3.mx" tvg-logo="https://i.postimg.cc/qRP6YmVH/FOX-SPORTS-3.png" group-title="DEPORTES",🇲🇽 FOX SPORTS 3
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
@@ -822,13 +835,37 @@ https://dish.akamaized.net/Content/DASH/Live/channel(foxsports2hd)/variant.mpd
 #KODIPROP:inputstream.adaptive.license_key={"6ca7b84908528d1753b140faa8b72bfc":"cd93e918e5ec737d6706ad871d946fe2"}
 https://dish.akamaized.net/Content/DASH/Live/channel(foxsports3hd)/variant.mpd
 
-#EXTINF:-1 tvg-id="FOX SPORTS PREMIUM.mx" tvg-logo="https://i.postimg.cc/ZYNd3h3g/FOX-SPORTS-PREMIUM.png" group-title="DEPORTES",FOX SPORTS PREMIUM
+#EXTINF:-1 tvg-id="FOX SPORTS PREMIUM.mx" tvg-logo="https://i.postimg.cc/ZYNd3h3g/FOX-SPORTS-PREMIUM.png" group-title="DEPORTES",🇲🇽 FOX SPORTS PREMIUM
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6f550e21bc1518f6a9e63a3fab3edc7a":"821bbb8c41da972ab4e753e5029ffbdc"}
 https://dish.akamaized.net/Content/DASH/Live/channel(foxsportsprhd)/variant.mpd
+
+#EXTINF:-1 tvg-id="FOX.SPORTS.HD.(FoxSportsHD).pe" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/93/CH_LOGO/320/320/0/0/1455190607979.png" group-title="DEPORTES",🇦🇷 FOX SPORTS 1
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ce5f0570b7f89e2efe19c7bf3c77dae7":"d17fdbc7f72e68adf298b71d935864ba"}
+https://dish.akamaized.net/Content/DASH/Live/channel(foxsports_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="FOX.SPORTS.2.(FoxSports2).pe" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/94/CH_LOGO/320/320/0/0/61150555072785.png" group-title="DEPORTES",🇦🇷 FOX SPORTS 2
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"922eaebf57397ebf2656cbf71ae4775f":"3014cf17de69d8f916a83cbf6b4aec94"}
+https://dish.akamaized.net/Content/DASH/Live/channel(foxsports2_arg)/variant.mpd
+
+#EXTINF:-1 tvg-id="FOX.SPORTS.3.(FoxSports3).pe" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/95/CH_LOGO/320/320/0/0/42712843072366.png" group-title="DEPORTES",🇦🇷 FOX SPORTS 3
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ee0ff8714c8f96a448eae5c9b796c889":"d7c1e6b0d11ba5051096bb34779c6efb"}
+https://dish.akamaized.net/Content/DASH/Live/channel(foxsports3_arg)/variant.mpd
 
 #EXTINF:-1 tvg-id="" tvg-shift="" tvg-logo="https://i.postimg.cc/V6TSfsh6/Fox.png" group-title="DEPORTES",🇺🇸 FOX SPORTS 
 #KODIPROP:inputstream.adaptive.stream_headers=https://www.primevideo.com/
@@ -967,6 +1004,15 @@ https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(F
 #KODIPROP:inputstream.adaptive.license_key={"bc52afcf354dd1ecad24b3ec7949f154":"69d953bf75252d754bc43a493c27884a"}
 https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(FOXONE8MX_HD)/manifest.mpd
 
+#EXTINF:-1 tvg-id="FOX ONE +" tvg-logo="https://i.postimg.cc/J4sjd5Bs/fox-one-plus.png" group-title="DEPORTES",FOX ONE +
+#EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=DASH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"fa2333198b068c64561263fb7264d74c":"a9b9fce5b9cc409d925250484f7dde90"}
+https://live1-ott.izzigo.tv/14/out/u/dash/FOX-ONE-PLUS-HD/default.mpd
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="DEPORTES",SKY Sport F1 Itália
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
@@ -1014,11 +1060,34 @@ https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-21-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"cb80e1e7d7598eaf98b1dbbe6dc14ee9":"103ae55c7948ca1d159d6743619d26c4"}
 https://live1-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd
 
+#EXTINF:-1 group-title="DEPORTES",LIGA DE CAMPEONES 4K (R)
+http://go.iptvhn.net:25461/7619/7619/1947
+#EXTINF:-1 group-title="DEPORTES",SKY SPORT  LA LIGA
+http://go.iptvhn.net:25461/7619/7619/1983
+#EXTINF:-1 group-title="DEPORTES",SKY LA LIGA
+http://190.92.10.66:4000/play/a001/index.m3u8
+#EXTINF:-1 group-title="DEPORTES",SKY BUNDESLIGA
+http://190.92.10.66:4000/play/a006/index.m3u8
+
 #EXTINF:-1 tvg-id="Sky.Sports.24.mx" tvg-logo="https://i.postimg.cc/KjHX8Prt/30_sky_sports_bundesliga.png" group-title="DEPORTES",SKY SPORTS BUNDESLIGA
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"d8d5823d92a9ef9306a4cc4bd634b4b4":"df9fbdaa0ef9e905b75f4692f213af19"}
 https://live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Sky.Sports.24.mx" tvg-logo="https://i.postimg.cc/KjHX8Prt/30_sky_sports_bundesliga.png" group-title="DEPORTES",SKY SPORTS BUNDESLIGA
+#EXTVLCOPT--http-reconnect=true
+#EXTVLCOPT:network-caching=3000
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://go.iptvhn.net:25461/7619/7619/2504
+
+#EXTINF:-1 group-title="DEPORTES",Sky Bundesliga 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"43b45dd48dfb51ad88b9c8370aa8a8f0":"30fae3093a8053d16eef4641a7a9c335", "a19e093a75f75a2f9cc4b93df23026e4":"9ce155ddddb95d32b1a295fc62967f5d"}
+https://at-live-4.tentcdn.eu/bpk-tv/Sky_Bundesliga_HD_1/default/index.mpd
+
 
 #EXTINF:1 tvg-id="" tvg-logo="" group-title="DEPORTES",Sky Sports Premier League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -1107,13 +1176,12 @@ http://7nyaler.streamhostingcdn.top/stream/11/index.m3u8
 http://7nyaler.streamhostingcdn.top/stream/12/index.m3u8
 
 
-@---------------------------------------------------------------------------------------------------------------------------------------❌​❓​CAMBIO DE KEYS
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/HnhGkw49/31_sky_sports_eventos_1.png" group-title="DEPORTES",SKY SPORTS EVENTOS 1
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"7fc815c6d02a6b643a33bc4a5da2774e":"1444ee3c4d08bf39454b914f797968eb"}
-https://aca-live4-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
--------------------------------------------------------------------------------@
+#KODIPROP:inputstream.adaptive.license_key={"c46c2c9dd5d36e2b09e4c74b30d942b0":"efb2b1fd2e3f99dbe0a0f27f0e089467"}
+https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/brBXwxHL/32_sky_sports_eventos_2.png" group-title="DEPORTES",SKY SPORTS EVENTOS 2
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
