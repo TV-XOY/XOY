@@ -9,7 +9,7 @@
 # +++   NO ES PARA VENTA  +++    |
 #================================|
 
-#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION MARTES 8 DE SEPTIEMBRE DEL 2026 A LA 9:00 PM
+#------------------------------>>>>>>>>>>>>ULTIMA ACTUALIZACION MARTES 7 DE OCTUBRE DEL 2026 A LA 4:00 PM
 
 
 
@@ -58,13 +58,20 @@
 ##KODIPROP:inputstream.adaptive.manifest_type=hls
 ##https://raw.githubusercontent.com/TV-XOY/tv/refs/heads/main/canal.m3u8
 
-#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO
+#EXTINF:-1 tvg-chno="1" tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://i.imgur.com/rRxgBtI.png" group-title="NACIONALES", XHDF Azteca Uno DISH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a4b731bb5402a533d2fcacdd54363b79:ebc6a45a44642f2d6661c9470d09aced
+https://dish.akamaized.net/Content/DASH/Live/channel(aztecaunohd)/variant.mpd
+
+#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO IZZI
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"158b196625b3fa3a6cbd45d081d28995":"b955044f81ed40faec97bee0d7a20aea"}
 https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1.1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO CDMX
+#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-chno="1.1" tvg-logo="https://i.postimg.cc/9fdjYqC2/2_Azteca_uno.png" group-title="iZZi-TV",AZTECA UNO CDMX IZZI
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6c01435ed4e839996f40f8ee08965324":"74eb7b54510e463ea51dccff80a53f3e"}
@@ -125,16 +132,14 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/MULTIMEDIOS-RDF-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"69f23f4b39f66cc51d742f7ec6bcf7a3":"33bedb2dad1c4402abf96090d4ec0b63"}
 https://live2-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA7-HD/default.mpd
 
-#EXTINF:-1 tvg-chno="7" tvg-shift="+1" tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 HD
-#EXTVLCOPT:http-origin=https://skymas.mx/webclient
-#EXTVLCOPT:http-referrer=https://skymas.mx/webclient
+#EXTINF:-1 tvg-chno="7" tvg-shift="+1" tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="NACIONALES",AZTECA 7 DISH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
-#EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.manifest_type=DASH
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"109e7fcb4970436a9e4628090c208451":"0ab1bc308c773d627f5a511f0fffc0e4"}
-http://147.78.1.28/xview/azteca_7_hd.mpd
+#KODIPROP:inputstream.adaptive.license_key={"a5717e2dda7fc0fead005059e5536b6c":"04243a2f2c5237efd969213e36f1ec77"}
+https://dish.akamaized.net/Content/DASH/Live/channel(azteca7hd)/variant.mpd
 
 #EXTINF:-1 tvg-chno="40" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/ZRJz7K56/8_adn_noticias.png" group-title="NOTICIAS",adn NOTICIAS
 #EXTVLCOPT:network-caching=1000
@@ -247,6 +252,9 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404&avod=1&coppa=0&is_lat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"f3a704793810e4848980bf8ebe11ba72":"8a761310bfa7436136729b23ea590185"}
 https://live1-ott.izzigo.tv/13/out/u/dash/CNN-EN-ESPANOL-SD/default.mpd
+
+#EXTINF:-1 tvg-id="Canal.CNN.en.Español.mx" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/cnnus/CNN_Espanol_LG_LOGO_1X1.png" group-title="NOTICIAS" ,CNN EN ESPAÑOL HD
+https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist/amg00803-cnnfastinternational-cnnesponal-lges/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]&ads_google_ad_manager_nonce=google_ad_manager_nonce
 
 #EXTINF:-1 tvg-id="Canal.CNN.Internacional.mx" tvg-logo="https://i.postimg.cc/mgJ4QBrr/cnn-international.png" group-title="NOTICIAS",🇺🇸 CNN INTERNATIONAL
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
@@ -483,9 +491,10 @@ https://live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd
 #EXTVLCOPT--http-reconnect=true
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-###https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
-https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+###https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
+
 
 
 #EXTINF:-1 tvg-id="Canal.Unicable.(México).mx" tvg-logo="https://i.postimg.cc/YCNXXNGD/91_unicable.png" group-title="ENTRETENIMIENTO",UNICABLE
@@ -537,7 +546,7 @@ https://live1-ott.izzigo.tv/15/out/u/dash/TVE-SD/default.mpd
 https://live1-ott.izzigo.tv/15/out/u/dash/ANTENA-3-HD/default.mpd
 
 
-############################################################################################### D E P O R T E S ############################################
+############################################################################################### D E P O R T E S ####################################################################################################
 
 
 
@@ -558,7 +567,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/
 #EXTVLCOPT:network-caching=3000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://proxy.cors.sh/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
+https://my-cors-proxy.olutuna.workers.dev/https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8?0GKUSH_R4IN&DONTSTEAL
 
 #EXTINF:-1 tvg-id="Canal.TUDN.(Estados.Unidos).sv" tvg-shift="-1" tvg-logo="https://i.imgur.com/R9FWr9u.png" group-title="DEPORTES",🇺🇸 TUDN 2
 #EXTVLCOPT--http-reconnect=true
@@ -912,15 +921,6 @@ http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"d1a163914db8ffad2c3e94f979896a0d":"9728800a3959aafdd5b0bcfbf3768811"}
 https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
-#EXTINF:-1 tvg-chno="" tvg-id="" tvg-logo="https://logodix.com/logo/391442.png" group-title="DEPORTES",FOX+
-#EXTVLCOPT:http-origin=https://skymas.mx/webclient
-#EXTVLCOPT:http-referrer=https://skymas.mx/webclient
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=DASH
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"51710c9c227a4637991466ece1b3550e":"831bfae1e16f4cc2cda5d620e6d1e96a"}
-http://147.78.1.28/xview/fox_mas_hd.mpd
 
 #EXTINF:-1 tvg-name="CBS Gozalo Network" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFyVzPIUSut7pDnruwXMyE8vrpjA8KoxIuNgiV7nZaRRN6IYX2h5vsIqEHW1q5liXdiGI4rzIEjeDZCr77bHwImhyWq7Qdm7vKzJxcifrxLLsVvG6PhtS5DqlIG2rRs3WrDB9mtGOe3CQm-P_gY-W4cAYy0tnfazYMazEB2VRdIKOz1sOfzkOxjrPYmODa/s320/Screenshot_5.jpg" group-title="DEPORTES" server="cbs 1" event-duration="4",GOLAZO! Network
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1034,7 +1034,7 @@ http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=303265&extension=m3u
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6695688f79dc36f7a41f7db13bff5aca:22ef689af2162aefbf745cba2adb4fe9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy.cors.sh/https://simplitv-live.mdn.ors.at/live/eds/sky_sport_f1_hd/dash/sky_sport_f1_hd.mpd
+https://my-cors-proxy.olutuna.workers.dev/https://simplitv-live.mdn.ors.at/live/eds/sky_sport_f1_hd/dash/sky_sport_f1_hd.mpd
 
 #EXTINF:-1 tvg-name="CBS Gozalo Network" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFyVzPIUSut7pDnruwXMyE8vrpjA8KoxIuNgiV7nZaRRN6IYX2h5vsIqEHW1q5liXdiGI4rzIEjeDZCr77bHwImhyWq7Qdm7vKzJxcifrxLLsVvG6PhtS5DqlIG2rRs3WrDB9mtGOe3CQm-P_gY-W4cAYy0tnfazYMazEB2VRdIKOz1sOfzkOxjrPYmODa/s320/Screenshot_5.jpg" group-title="DEPORTES" server="test" event-duration="4",SKY SPORTS CALCIO (italia)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
@@ -1054,7 +1054,7 @@ https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={"99909032389c6ee41c3d2f3ec829f804":"41fbc575c8ef1cdac1dca990c9a0df9d"}
 https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-21-HD/default.mpd
 
-#EXTINF:-1 tvg-id="Sky.Sports.16.mx" tvg-logo="https://i.postimg.cc/1Xjx3GcV/29_sky_sports_la_liga.png" group-title="DEPORTES",SKY SPORTS LA LIGA
+#EXTINF:-1 tvg-id="Sky.Sports.16.mx" tvg-logo="https://i.postimg.cc/1Xjx3GcV/29_sky_sports_la_liga.png" group-title="DEPORTES",SKY SPORTS LA LIGA iZZi
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"cb80e1e7d7598eaf98b1dbbe6dc14ee9":"103ae55c7948ca1d159d6743619d26c4"}
@@ -1069,7 +1069,7 @@ http://190.92.10.66:4000/play/a001/index.m3u8
 #EXTINF:-1 group-title="DEPORTES",SKY BUNDESLIGA
 http://190.92.10.66:4000/play/a006/index.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sports.24.mx" tvg-logo="https://i.postimg.cc/KjHX8Prt/30_sky_sports_bundesliga.png" group-title="DEPORTES",SKY SPORTS BUNDESLIGA
+#EXTINF:-1 tvg-id="Sky.Sports.24.mx" tvg-logo="https://i.postimg.cc/KjHX8Prt/30_sky_sports_bundesliga.png" group-title="DEPORTES",SKY SPORTS BUNDESLIGA iZZi
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"d8d5823d92a9ef9306a4cc4bd634b4b4":"df9fbdaa0ef9e905b75f4692f213af19"}
@@ -1180,7 +1180,7 @@ http://7nyaler.streamhostingcdn.top/stream/12/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/HnhGkw49/31_sky_sports_eventos_1.png" group-title="DEPORTES",SKY SPORTS EVENTOS 1
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"f599d8e0ccc31ef38946156f796c0afb":"c46c2c9dd5d36e2b09e4c74b30d942b0"}
+#KODIPROP:inputstream.adaptive.license_key={"f599d8e0ccc31ef38946156f796c0afb":"efb2b1fd2e3f99dbe0a0f27f0e089467"}
 https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/brBXwxHL/32_sky_sports_eventos_2.png" group-title="DEPORTES",SKY SPORTS EVENTOS 2
@@ -1692,6 +1692,13 @@ https://live1-ott.izzigo.tv/11/out/u/dash/DISCOVERY-KIDS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"85d06ba283f3b18bb14f9f8d59b8fb82":"6659fed472544289adee986c1d33fa79"}
 https://live1-ott.izzigo.tv/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd
+
+#EXTINF:-1 tvg-id="Cartoon.Network.co" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="INFANTILES",CARTOON NETWORK (claro)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3a827f7fede44d8d973cbbaab0c089c0:f91eeb3c7c12d9391434dc79a872c0b9
+https://mxlivechannelsvosdash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(CARTOON_NETWORK_HD)/manifest.mpd
 
 #EXTINF:-1 tvg-id="Canal.Cartoonito.(México).mx" tvg-logo="https://i.postimg.cc/4y2SvpdL/Cartoonsito.png" group-title="INFANTILES",CARTOONITO
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
