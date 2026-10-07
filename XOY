@@ -2224,7 +2224,7 @@ https://live1-ott.izzigo.tv/14/out/u/dash/NAT-GEO-HD/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"76f4714902e048e481eb4224d1cf0e66":"ea1d9b76cf4425d20513f8d660ee69e4"}
-https://cache07.zapitv.com/live/eds_c2/nat_geo_wild_hd/dash_live_ez/nat_geo_wild_hd.mpd
+https://cache02.zapitv.com/live/eds_c2/nat_geo_wild_hd/dash_live_ez/nat_geo_wild_hd.mpd
 
 #EXTINF:-1 tvg-id="Canal.History.(México).mx" tvg-logo="https://i.postimg.cc/QM0fDXq9/History.png" group-title="CULTURALES",HISTORY
 #EXTVLCOPT:http-user-agent=Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )
